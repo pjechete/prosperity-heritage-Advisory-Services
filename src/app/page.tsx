@@ -64,7 +64,23 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section section-light">
+      <section className="section <section className="credibility-strip">
+  <div className="container credibility-inner">
+
+    <div className="credibility-text">
+      Supporting leadership teams navigating revenue complexity
+    </div>
+
+    <div className="credibility-items">
+      <span>Revenue Control</span>
+      <span>Billing Discipline</span>
+      <span>Collections Performance</span>
+      <span>Financial Visibility</span>
+      <span>Cash Stabilization</span>
+    </div>
+
+  </div>
+</section> section-light">        
         <div className="container">
           <h2 className="section-title">Our advisory focus</h2>
           <p className="section-subtitle">
