@@ -141,7 +141,58 @@ export default function HomePage() {
 
         </div>
       </section>
+{/* WHO WE WORK WITH */}
 
+<section className="section section-light">
+  <div className="container">
+
+    <h2 className="section-title">
+      Who We Work With
+    </h2>
+
+    <p className="section-subtitle">
+      Our advisory services support organizations experiencing growth,
+      operational complexity, and increasing financial discipline needs.
+    </p>
+
+    <div className="grid-4">
+
+      <div className="card">
+        <h3>Growth-Stage Companies</h3>
+        <p>
+          Organizations scaling revenue that need stronger billing
+          and collections discipline.
+        </p>
+      </div>
+
+      <div className="card">
+        <h3>Professional Services Firms</h3>
+        <p>
+          Firms where revenue recognition, invoicing, and collections
+          timing directly impact cash performance.
+        </p>
+      </div>
+
+      <div className="card">
+        <h3>Healthcare Organizations</h3>
+        <p>
+          Practices and service providers navigating billing complexity
+          and reimbursement cycles.
+        </p>
+      </div>
+
+      <div className="card">
+        <h3>Multi-Location Businesses</h3>
+        <p>
+          Organizations where operational handoffs and billing ownership
+          create revenue leakage.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
       {/* PROBLEM SECTION */}
 
