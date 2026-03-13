@@ -21,7 +21,11 @@ export default function ContactPage() {
       <section className="section">
         <div className="container narrow">
           <div className="form-wrap">
-            <form className="form-grid">
+            <form
+  action="https://formspree.io/f/xzdjgopr"
+  method="POST"
+  className="form-grid"
+>
               <div className="form-field">
                 <label htmlFor="name">Name</label>
                 <input id="name" type="text" placeholder="Your name" />
