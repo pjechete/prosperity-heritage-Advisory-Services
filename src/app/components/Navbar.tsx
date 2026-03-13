@@ -1,11 +1,18 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Navbar() {
   return (
     <header className="navbar">
       <div className="container navbar-inner">
-        <Link href="/" className="brand">
-          Prosperity Heritage Advisory
+        <Link href="/" className="brand brand-logo">
+          <Image
+            src="/logo.png"
+            alt="Prosperity Heritage Advisory"
+            width={220}
+            height={72}
+            priority
+          />
         </Link>
 
         <nav className="nav-links">
