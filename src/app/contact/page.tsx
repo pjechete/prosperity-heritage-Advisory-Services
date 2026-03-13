@@ -26,6 +26,7 @@ export default function ContactPage() {
   method="POST"
   className="form-grid"
 >
+              <input type="hidden" name="_subject" value="New PHS Website Inquiry" />
               <div className="form-field">
                 <label htmlFor="name">Name</label>
                 <input id="name" type="text" placeholder="Your name" />
