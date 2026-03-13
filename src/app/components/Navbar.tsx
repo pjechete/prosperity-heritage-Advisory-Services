@@ -1,14 +1,24 @@
+import Link from 'next/link'
+
 export default function Navbar() {
   return (
-    <header
-      style={{
-        padding: '20px 32px',
-        borderBottom: '1px solid #e5e7eb',
-        fontWeight: 700,
-        fontSize: '18px',
-      }}
-    >
-      Prosperity Heritage Advisory
+    <header className="navbar">
+      <div className="container navbar-inner">
+        <Link href="/" className="brand">
+          Prosperity Heritage Advisory
+        </Link>
+
+        <nav className="nav-links">
+          <Link href="/">Home</Link>
+          <Link href="/services">Services</Link>
+          <Link href="/about">About</Link>
+          <Link href="/contact">Contact</Link>
+        </nav>
+
+        <Link href="/contact" className="btn-primary nav-cta">
+          Book a Consultation
+        </Link>
+      </div>
     </header>
   )
 }
