@@ -61,7 +61,15 @@ textarea {
   min-height: 76px;
   gap: 24px;
 }
+.brand-logo {
+  display: flex;
+  align-items: center;
+}
 
+.brand-logo img {
+  height: auto;
+  display: block;
+}
 .brand {
   font-size: 28px;
   font-weight: 700;
