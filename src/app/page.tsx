@@ -11,7 +11,7 @@ export default function HomePage() {
         <div className="container hero-grid">
           <div>
             <div className="eyebrow">
-              Revenue Control & Cash Stabilization Advisory
+              Turn Revenue Growth Into Predictable Cash Performance
             </div>
 
             <h1>
