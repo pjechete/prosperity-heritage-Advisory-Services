@@ -5,29 +5,33 @@ import Footer from './components/Footer'
 export default function HomePage() {
   return (
     <main>
+
       <Navbar />
 
-      <section className="hero">
+      {/* HERO SECTION */}
+
+      <section className="hero hero-watermark">
         <div className="container hero-grid">
+
           <div>
             <div className="eyebrow">
-              Turn Revenue Growth Into Predictable Cash Performance
+              Revenue Control & Cash Stabilization Advisory
             </div>
 
             <h1>
-              Revenue growth should lead to stronger cash performance — not more uncertainty.
+              Turn Revenue Growth Into Predictable Cash Performance
             </h1>
 
             <p>
               Prosperity Heritage Advisory helps leadership teams strengthen
-              billing discipline, collections performance, revenue control, and
-              financial visibility so revenue consistently converts into more
-              predictable cash.
+              billing discipline, collections performance, revenue control,
+              and financial visibility so revenue consistently converts
+              into predictable cash.
             </p>
 
             <div className="button-row">
               <Link href="/contact" className="btn-primary">
-                Book a Consultation
+                Schedule Consultation
               </Link>
 
               <Link href="/services" className="btn-secondary">
@@ -37,114 +41,161 @@ export default function HomePage() {
           </div>
 
           <div className="hero-card">
-            <h3>Common challenges we help address</h3>
+            <h3>Common executive concerns we help address</h3>
 
             <div className="metric-list">
+
               <div className="metric">
-                <strong>Delayed or inconsistent invoicing</strong>
-                <span>Invoices go out late or without enough discipline.</span>
+                <strong>Delayed invoicing</strong>
+                <span>Invoices go out late or inconsistently.</span>
               </div>
 
               <div className="metric">
-                <strong>Weak collections follow-through</strong>
-                <span>Collections are reactive instead of structured and managed.</span>
+                <strong>Weak collections discipline</strong>
+                <span>Follow-up processes lack structure.</span>
               </div>
 
               <div className="metric">
-                <strong>Revenue leakage across workflows</strong>
-                <span>Breakdowns in handoffs quietly weaken cash conversion.</span>
+                <strong>Revenue leakage</strong>
+                <span>Breakdowns across teams reduce cash conversion.</span>
               </div>
 
               <div className="metric">
-                <strong>Limited visibility for leadership</strong>
-                <span>Revenue looks healthy, but cash performance still feels unstable.</span>
+                <strong>Limited visibility</strong>
+                <span>Leadership lacks clear insight into cash performance.</span>
               </div>
+
             </div>
           </div>
+
         </div>
       </section>
 
-      <section className="section <section className="credibility-strip">
-  <div className="container credibility-inner">
 
-    <div className="credibility-text">
-      Supporting leadership teams navigating revenue complexity
-    </div>
+      {/* CREDIBILITY STRIP */}
 
-    <div className="credibility-items">
-      <span>Revenue Control</span>
-      <span>Billing Discipline</span>
-      <span>Collections Performance</span>
-      <span>Financial Visibility</span>
-      <span>Cash Stabilization</span>
-    </div>
+      <section className="credibility-strip">
+        <div className="container credibility-inner">
 
-  </div>
-</section> section-light">        
+          <div className="credibility-text">
+            Supporting leadership teams navigating revenue complexity
+          </div>
+
+          <div className="credibility-items">
+            <span>Revenue Control</span>
+            <span>Billing Discipline</span>
+            <span>Collections Performance</span>
+            <span>Financial Visibility</span>
+            <span>Cash Stabilization</span>
+          </div>
+
+        </div>
+      </section>
+
+
+      {/* ADVISORY FOCUS */}
+
+      <section className="section section-light">
         <div className="container">
-          <h2 className="section-title">Our advisory focus</h2>
+
+          <h2 className="section-title">
+            Our Advisory Focus
+          </h2>
+
           <p className="section-subtitle">
             We help organizations improve the disciplines that protect revenue
-            quality and strengthen the consistency of cash outcomes.
+            quality and strengthen consistent cash outcomes.
           </p>
 
           <div className="grid-4">
+
             <div className="card-highlight">
               <h3>Billing Discipline</h3>
-              <p>Improve invoice timing, structure, ownership, and operational triggers.</p>
+              <p>
+                Improve invoice timing, ownership, and operational triggers.
+              </p>
             </div>
 
             <div className="card">
               <h3>Collections Performance</h3>
-              <p>Build stronger follow-up, accountability, and aging visibility.</p>
+              <p>
+                Build stronger follow-up, accountability, and aging visibility.
+              </p>
             </div>
 
             <div className="card">
               <h3>Revenue Control</h3>
-              <p>Strengthen the workflows that ensure revenue is properly protected.</p>
+              <p>
+                Strengthen workflows that protect revenue integrity.
+              </p>
             </div>
 
             <div className="card">
               <h3>Financial Visibility</h3>
-              <p>Give leadership clearer insight into where cash conversion slows down.</p>
+              <p>
+                Give leadership clearer insight into cash conversion.
+              </p>
             </div>
+
           </div>
+
         </div>
       </section>
+
+
+      {/* PROBLEM SECTION */}
 
       <section className="section">
         <div className="container">
-          <h2 className="section-title">Why revenue still fails to convert into predictable cash</h2>
+
+          <h2 className="section-title">
+            Why revenue growth still fails to convert into predictable cash
+          </h2>
+
           <p className="section-subtitle">
-            The problem is often not sales alone. It is what happens after the sale.
+            The problem is often not sales — it is what happens after the sale.
           </p>
 
           <div className="problem-list">
+
             <div className="problem-item">
-              Invoices are delayed, inconsistent, or not triggered at the right time.
+              Invoices are delayed or inconsistent.
             </div>
+
             <div className="problem-item">
-              Payment terms do not align with how the business actually operates.
+              Payment terms do not match operational reality.
             </div>
+
             <div className="problem-item">
-              Collections are reactive instead of structured and monitored.
+              Collections processes lack ownership and discipline.
             </div>
+
             <div className="problem-item">
-              Handoffs between sales, operations, and finance create leakage.
+              Sales, operations, and finance handoffs break down.
             </div>
+
             <div className="problem-item">
-              Leadership lacks enough visibility into what is slowing cash conversion.
+              Leadership lacks visibility into revenue conversion.
             </div>
+
           </div>
+
         </div>
       </section>
 
+
+      {/* FINAL CTA */}
+
       <section className="cta-band">
         <div className="container">
-          <h2>Request a Revenue Control Assessment</h2>
+
+          <h2>
+            Request a Revenue Control Assessment
+          </h2>
+
           <p>
-            See how Prosperity Heritage Advisory can help strengthen the systems
-            behind your cash performance.
+            See how Prosperity Heritage Advisory can strengthen
+            the systems behind your cash performance.
           </p>
 
           <div className="button-row center-buttons">
@@ -152,10 +203,12 @@ export default function HomePage() {
               Schedule Consultation
             </Link>
           </div>
+
         </div>
       </section>
 
       <Footer />
+
     </main>
   )
 }
