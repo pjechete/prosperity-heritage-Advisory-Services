@@ -1,5 +1,5 @@
 {
-  "name": "ph-advisory",
+  "name": "ph-advisory-test",
   "private": true,
   "scripts": {
     "dev": "next dev",
