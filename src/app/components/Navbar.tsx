@@ -5,6 +5,7 @@ export default function Navbar() {
         padding: '20px 32px',
         borderBottom: '1px solid #e5e7eb',
         fontWeight: 700,
+        fontSize: '18px',
       }}
     >
       Prosperity Heritage Advisory
