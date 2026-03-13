@@ -471,3 +471,37 @@ textarea {
     text-align: center;
   }
 }
+.credibility-strip {
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: #ffffff;
+  padding: 22px 0;
+}
+
+.credibility-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.credibility-text {
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.credibility-items {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.credibility-items span {
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: var(--primary-soft);
+  border: 1px solid #bceff1;
+}
