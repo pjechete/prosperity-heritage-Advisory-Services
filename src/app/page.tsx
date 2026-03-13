@@ -4,19 +4,19 @@ import Footer from './components/Footer'
 export default function HomePage() {
   return (
     <main>
-      <Navbar/>
+      <Navbar />
 
-      <section style={{padding:"80px"}}>
+      <section style={{ padding: '80px 32px' }}>
         <h1>Turn Revenue Into Predictable Cash</h1>
 
         <p>
-          Prosperity Heritage Advisory helps companies strengthen
-          billing discipline, collections performance, and revenue
-          control so revenue consistently converts into reliable cash.
+          Prosperity Heritage Advisory helps companies strengthen billing,
+          collections, and revenue control so revenue converts into more
+          predictable cash performance.
         </p>
       </section>
 
-      <Footer/>
+      <Footer />
     </main>
   )
 }
