@@ -13,11 +13,20 @@ export default function ServicesPage() {
             <div>
               <div className="eyebrow">Advisory Services</div>
 
-              <h1>Revenue Control &amp; Cash Stabilization Advisory</h1>
+              <h1>Revenue Stability & Operational Finance Advisory</h1>
 
               <p>
-                Strengthen billing, collections, and financial controls so
-                revenue converts into more predictable cash performance.
+                Prosperity Heritage Advisory helps organizations strengthen the
+                systems that connect revenue activity to billing execution,
+                collections performance, reconciliation accuracy, financial
+                visibility, and operational stability.
+              </p>
+
+              <p>
+                Our work focuses on practical improvements that help leadership
+                teams convert revenue into more predictable cash outcomes,
+                especially during periods of growth, transition, or operational
+                strain.
               </p>
 
               <div className="button-row">
@@ -34,11 +43,12 @@ export default function ServicesPage() {
             <div className="services-hero-panel">
               <h3>Built for organizations facing issues such as:</h3>
               <ul className="services-checklist">
-                <li>Delayed invoicing</li>
-                <li>Unclear payment terms</li>
-                <li>Weak collections discipline</li>
+                <li>Delayed or inconsistent invoicing</li>
+                <li>Weak collections follow-through</li>
+                <li>Unapplied or misapplied payments</li>
                 <li>Broken handoffs across teams</li>
-                <li>Limited visibility into cash conversion</li>
+                <li>Limited visibility into revenue conversion</li>
+                <li>Post-acquisition operational disruption</li>
               </ul>
             </div>
           </div>
@@ -50,8 +60,9 @@ export default function ServicesPage() {
           <div className="services-jump-links">
             <a href="#overview">Overview</a>
             <a href="#challenges">Common Challenges</a>
+            <a href="#services">Service Areas</a>
             <a href="#approach">Our Approach</a>
-            <a href="#focus-areas">Areas of Focus</a>
+            <a href="#assessment">Assessment</a>
             <a href="#contact-cta">Contact</a>
           </div>
         </div>
@@ -72,8 +83,15 @@ export default function ServicesPage() {
 
             <p className="section-copy">
               Prosperity Heritage Advisory works with leadership teams to identify
-              where billing, collections, ownership, handoffs, and financial
-              visibility begin to weaken cash performance.
+              where billing, collections, payment application, financial ownership,
+              operational handoffs, and reporting visibility begin to weaken
+              performance.
+            </p>
+
+            <p className="section-copy">
+              We help organizations stabilize these areas through practical,
+              operational finance support that strengthens execution and improves
+              leadership visibility.
             </p>
           </div>
 
@@ -83,7 +101,7 @@ export default function ServicesPage() {
               <li>Faster invoicing cycles</li>
               <li>Reduced receivable aging</li>
               <li>Better collections accountability</li>
-              <li>Cleaner handoffs across teams</li>
+              <li>Cleaner payment application and reconciliation</li>
               <li>Stronger revenue visibility</li>
               <li>More consistent cash conversion</li>
             </ul>
@@ -112,70 +130,172 @@ export default function ServicesPage() {
               Collections are reactive instead of structured and managed.
             </div>
             <div className="problem-item">
+              Unapplied or misapplied cash distorts receivables visibility and aging.
+            </div>
+            <div className="problem-item">
               Revenue leakage builds through weak ownership and poor handoffs.
             </div>
             <div className="problem-item">
               Finance ends up dealing with issues created upstream in the process.
             </div>
+            <div className="problem-item">
+              Acquisitions and business transitions expose process gaps that were previously hidden.
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="approach" className="section">
+      <section id="services" className="section">
         <div className="container">
-          <h2 className="section-title">We help leadership teams improve</h2>
+          <h2 className="section-title">Core service areas</h2>
 
           <div className="grid-4">
             <div className="card-highlight">
-              <h3>Improve billing discipline</h3>
-              <p>Strengthen invoice timing, process ownership, and execution.</p>
+              <h3>Revenue Control & Cash Stabilization</h3>
+              <p>
+                Strengthen the processes that help revenue convert into dependable
+                cash outcomes through better discipline, ownership, and execution.
+              </p>
             </div>
 
             <div className="card">
-              <h3>Reduce collection delays</h3>
-              <p>Build stronger follow-up rhythms and clearer accountability.</p>
+              <h3>Billing & Collections Optimization</h3>
+              <p>
+                Improve invoice timing, collections structure, follow-up rhythm,
+                and accountability across finance and operations.
+              </p>
             </div>
 
             <div className="card">
-              <h3>Strengthen revenue controls</h3>
-              <p>Protect revenue quality through better workflows and checkpoints.</p>
+              <h3>Revenue Integrity & Reconciliation Support</h3>
+              <p>
+                Resolve unapplied or misapplied payments, improve reconciliation
+                discipline, and restore more reliable receivables visibility.
+              </p>
             </div>
 
             <div className="card">
-              <h3>Increase leadership visibility</h3>
-              <p>Provide clearer insight into where revenue conversion slows down.</p>
+              <h3>Financial Controls & Revenue Visibility</h3>
+              <p>
+                Strengthen reporting clarity and control points so leadership teams
+                can see where revenue conversion is slowing down.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid-4" style={{ marginTop: '2rem' }}>
+            <div className="card">
+              <h3>M&A Transition & Operational Stabilization</h3>
+              <p>
+                Provide hands-on support during acquisitions, ownership changes,
+                and transition periods where billing, reporting, and finance
+                operations need to stabilize quickly.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Revenue Operations Alignment</h3>
+              <p>
+                Reduce breakdowns between sales, operations, and finance so
+                revenue activity flows more cleanly into invoicing and collections.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Collections Performance Improvement</h3>
+              <p>
+                Build stronger collection workflows, escalation paths, aging
+                visibility, and team accountability.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Operational Finance Support</h3>
+              <p>
+                Support leadership teams that need practical, boots-on-the-ground
+                help to improve execution during high-pressure periods.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="focus-areas" className="section section-light">
+      <section id="approach" className="section section-light">
+        <div className="container">
+          <h2 className="section-title">How we help leadership teams improve</h2>
+
+          <div className="grid-4">
+            <div className="card-highlight">
+              <h3>Assess the current process</h3>
+              <p>
+                Review the existing workflow across billing, collections,
+                reconciliation, and reporting.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Identify operational gaps</h3>
+              <p>
+                Pinpoint where ownership, timing, handoffs, and financial controls
+                are breaking down.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Implement practical improvements</h3>
+              <p>
+                Strengthen invoicing discipline, collections execution, payment
+                application processes, and reporting clarity.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Stabilize financial operations</h3>
+              <p>
+                Help leadership teams establish more reliable systems for revenue
+                conversion and operational visibility.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="assessment" className="section">
         <div className="container services-two-col">
           <div>
             <h2 className="section-title left-align">
-              Start with a Revenue Control Assessment
+              Start with a Revenue Stability Assessment
             </h2>
 
             <p className="section-copy">
               We assess the current process from contract execution through
-              invoicing, collections, and reporting to identify where revenue
-              discipline is breaking down.
+              invoicing, collections, payment application, reconciliation, and
+              reporting to identify where revenue discipline is breaking down.
             </p>
 
             <p className="section-copy">
               This gives leadership a clearer view of priority gaps, improvement
-              opportunities, and the steps needed to create more consistent cash outcomes.
+              opportunities, and the steps needed to create more consistent cash
+              outcomes.
+            </p>
+
+            <p className="section-copy">
+              For organizations going through acquisitions or periods of change,
+              the assessment can also highlight transition risks and operational
+              stabilization priorities.
             </p>
           </div>
 
           <div className="services-assessment-card">
             <h3>Assessment focus typically includes:</h3>
             <ul>
-              <li>Contract-to-invoice workflow review</li>
+              <li>Contract-to-invoice workflow alignment</li>
               <li>Billing timing and ownership analysis</li>
               <li>Collections structure and accountability</li>
-              <li>Operational handoff review</li>
+              <li>Unapplied / misapplied payment review</li>
+              <li>Revenue leakage identification</li>
               <li>Reporting and visibility gaps</li>
+              <li>Transition and stabilization priorities</li>
             </ul>
 
             <div className="button-row">
@@ -187,29 +307,29 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section section-light">
         <div className="container">
-          <h2 className="section-title">Related advisory services</h2>
+          <h2 className="section-title">What this support is designed to improve</h2>
 
           <div className="grid-4">
             <div className="card">
-              <h3>Billing Process Optimization</h3>
-              <p>Improve invoicing structure, timing, and operational readiness.</p>
+              <h3>Billing execution</h3>
+              <p>Improve timing, consistency, and process discipline around invoicing.</p>
             </div>
 
             <div className="card">
-              <h3>Collections Performance Improvement</h3>
-              <p>Strengthen follow-up discipline, aging visibility, and accountability.</p>
+              <h3>Collections discipline</h3>
+              <p>Increase follow-through, accountability, and aging performance.</p>
             </div>
 
             <div className="card">
-              <h3>Revenue Operations Alignment</h3>
-              <p>Reduce breakdowns between sales, operations, and finance.</p>
+              <h3>Receivables accuracy</h3>
+              <p>Strengthen payment application and revenue reconciliation reliability.</p>
             </div>
 
             <div className="card">
-              <h3>Financial Controls & Visibility</h3>
-              <p>Improve reporting clarity and leadership decision support.</p>
+              <h3>Leadership visibility</h3>
+              <p>Provide clearer insight into risks, bottlenecks, and financial priorities.</p>
             </div>
           </div>
         </div>
@@ -217,10 +337,15 @@ export default function ServicesPage() {
 
       <section id="contact-cta" className="cta-band">
         <div className="container">
-          <h2>Request a Revenue Control Assessment</h2>
+          <h2>Schedule a Revenue Stability Assessment</h2>
           <p>
-            See how Prosperity Heritage Advisory can help strengthen the systems
-            behind your cash performance.
+            If revenue is growing but cash performance remains inconsistent, the
+            issue may be sitting somewhere between billing execution, collections
+            discipline, reconciliation accuracy, or operational ownership.
+          </p>
+          <p>
+            Prosperity Heritage Advisory helps leadership teams identify and fix
+            those gaps.
           </p>
 
           <div className="button-row center-buttons">
