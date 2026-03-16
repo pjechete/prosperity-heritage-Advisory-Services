@@ -4,8 +4,6 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="container footer-inner">
-
-        {/* FIRM DESCRIPTION */}
         <div className="footer-about">
           <h3>Prosperity Heritage Advisory</h3>
           <p>
@@ -16,7 +14,6 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* SERVICE AREAS */}
         <div className="footer-services">
           <h4>Advisory Focus</h4>
           <ul>
@@ -28,7 +25,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* NAVIGATION */}
         <div className="footer-links">
           <h4>Navigation</h4>
           <Link href="/">Home</Link>
@@ -38,7 +34,6 @@ export default function Footer() {
           <Link href="/contact">Contact</Link>
         </div>
 
-        {/* CTA */}
         <div className="footer-cta">
           <h4>Work With Us</h4>
           <p>
@@ -50,23 +45,16 @@ export default function Footer() {
             Schedule Consultation
           </Link>
         </div>
-
       </div>
 
-      {/* FOOTER BOTTOM */}
       <div className="footer-bottom">
         <div className="container footer-bottom-inner">
-          <span>© {new Date().getFullYear()} Prosperity Heritage Advisory</span>
+          <span>
+            © {new Date().getFullYear()} Prosperity Heritage Advisory. All rights reserved.
+          </span>
           <span>Revenue Stability & Operational Finance Advisory</span>
         </div>
       </div>
     </footer>
-    <div className="footer-bottom">
-  <div className="container footer-bottom-inner">
-    <span>
-      © {new Date().getFullYear()} Prosperity Heritage Advisory. All rights reserved.
-    </span>
-  </div>
-</div>
   )
 }
