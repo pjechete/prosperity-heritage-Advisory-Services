@@ -21,10 +21,8 @@ export default function HomePage() {
             </h1>
 
             <p>
-              Prosperity Heritage Advisory helps leadership teams strengthen
-              billing discipline, collections performance, revenue control,
-              and financial visibility so revenue consistently converts into
-              predictable cash.
+              Prosperity Heritage Advisory helps leadership teams strengthen billing, collections, revenue integrity, and financial controls so revenue consistently converts into predictable cash outcomes.
+              We work with growing organizations that need stronger financial operations, clearer revenue visibility, and practical support during periods of growth or transition.
             </p>
 
             <div className="button-row">
