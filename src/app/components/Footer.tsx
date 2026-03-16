@@ -61,5 +61,12 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    <div className="footer-bottom">
+  <div className="container footer-bottom-inner">
+    <span>
+      © {new Date().getFullYear()} Prosperity Heritage Advisory. All rights reserved.
+    </span>
+  </div>
+</div>
   )
 }
