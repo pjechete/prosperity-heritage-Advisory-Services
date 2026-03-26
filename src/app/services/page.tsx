@@ -345,8 +345,8 @@ export default function ServicesPage() {
       requiring strong operational and financial coordination.
     </p>
 
-    <div className="grid-4" style={{ marginTop: '2rem' }}>
-      <div className="card">
+    <div style={{ marginTop: '2.5rem', display: 'flex', justifyContent: 'center' }}>
+      <div className="card" style={{ maxWidth: '520px' }}>
         <h3>Healthcare Development & Turnkey Projects</h3>
         <p>
           Through trusted partnerships, we support the development of healthcare
@@ -357,7 +357,7 @@ export default function ServicesPage() {
       </div>
     </div>
 
-    <p className="section-subtitle" style={{ marginTop: '2rem' }}>
+    <p className="section-subtitle" style={{ marginTop: '2.5rem' }}>
       All such engagements are undertaken selectively and in collaboration
       with specialized partners.
     </p>
