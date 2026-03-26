@@ -334,7 +334,35 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
+<section className="section section-light">
+  <div className="container">
+    <h2 className="section-title">Selective Engagements</h2>
 
+    <p className="section-subtitle">
+      In addition to our core advisory work, Prosperity Heritage Advisory
+      selectively supports high-impact initiatives through strategic partnerships.
+      These engagements typically involve complex, capital-intensive projects
+      requiring strong operational and financial coordination.
+    </p>
+
+    <div className="grid-4" style={{ marginTop: '2rem' }}>
+      <div className="card">
+        <h3>Healthcare Development & Turnkey Projects</h3>
+        <p>
+          Through trusted partnerships, we support the development of healthcare
+          facilities including hospitals, medical centers, and specialized
+          treatment units. These engagements may include feasibility, planning,
+          operational setup, and end-to-end project execution.
+        </p>
+      </div>
+    </div>
+
+    <p className="section-subtitle" style={{ marginTop: '2rem' }}>
+      All such engagements are undertaken selectively and in collaboration
+      with specialized partners.
+    </p>
+  </div>
+</section>
       <section id="contact-cta" className="cta-band">
         <div className="container">
           <h2>Schedule a Revenue Stability Assessment</h2>
