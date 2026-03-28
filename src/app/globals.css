@@ -113,13 +113,7 @@ body {
 }
 
 .nav-link.active::after {
-  content: '';
-  position: absolute;
-  bottom: -6px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: var(--primary);
+  display: none;
 }
 
 .header-cta {
