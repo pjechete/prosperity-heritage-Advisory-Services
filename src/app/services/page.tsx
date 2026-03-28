@@ -2,8 +2,6 @@ import Link from 'next/link'
 export default function ServicesPage() {
   return (
     <main>
-      <Navbar />
-
       <section className="page-hero services-hero">
         <div className="container">
           <div className="services-hero-grid">
@@ -291,8 +289,6 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
-
-      <Footer />
-    </main>
+   </main>
   )
 }
