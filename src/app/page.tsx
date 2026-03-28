@@ -1,366 +1,256 @@
 import Link from 'next/link'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
 
 export default function HomePage() {
   return (
     <main>
-      <Navbar />
-
-      {/* HERO SECTION */}
-      <section className="hero hero-watermark">
-        <div className="container hero-grid">
-          <div>
-            <div className="eyebrow">
-              Revenue Stability & Operational Finance Advisory
-            </div>
-
-            <h1>Turn Revenue Into Predictable Cash Performance</h1>
-
-            <p>
-              Prosperity Heritage Advisory helps leadership teams strengthen
-              billing, collections, revenue integrity, financial visibility,
-              and operational finance execution so revenue converts into more
-              predictable cash outcomes.
-            </p>
-
-            <p>
-              We work with growing organizations that need stronger financial
-              operations, clearer revenue visibility, and practical support
-              during periods of growth, transition, or operational strain.
-            </p>
-
-            <div className="button-row">
-              <Link href="/contact" className="btn-primary">
-                Schedule Consultation
-              </Link>
-
-              <Link href="/services" className="btn-secondary">
-                View Services
-              </Link>
-            </div>
-          </div>
-
-          <div className="hero-card">
-            <h3>Common executive concerns we help address</h3>
-
-            <div className="metric-list">
-              <div className="metric">
-                <strong>Delayed invoicing</strong>
-                <span>Invoices go out late, inconsistently, or without enough process discipline.</span>
-              </div>
-
-              <div className="metric">
-                <strong>Weak collections follow-through</strong>
-                <span>Teams lack structure, accountability, or a consistent rhythm for collections.</span>
-              </div>
-
-              <div className="metric">
-                <strong>Revenue integrity issues</strong>
-                <span>Unapplied or misapplied payments distort receivables and aging visibility.</span>
-              </div>
-
-              <div className="metric">
-                <strong>Limited financial visibility</strong>
-                <span>Leadership lacks clear insight into where revenue conversion is slowing down.</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CREDIBILITY STRIP */}
-      <section className="credibility-strip">
-        <div className="container credibility-inner">
-          <div className="credibility-text">
-            Supporting leadership teams navigating revenue complexity and operational transition
-          </div>
-
-          <div className="credibility-items">
-            <span>Revenue Control</span>
-            <span>Billing Discipline</span>
-            <span>Collections Performance</span>
-            <span>Revenue Integrity</span>
-            <span>Operational Stabilization</span>
-          </div>
-        </div>
-      </section>
-
-      {/* OVERVIEW SECTION */}
-      <section className="section">
+      {/* Hero */}
+      <section className="section hero">
         <div className="container">
-          <h2 className="section-title">
-            Strengthen the systems behind revenue performance
-          </h2>
-
-          <p className="section-subtitle">
-            Many businesses do not struggle because revenue is absent. They
-            struggle because the systems that should convert revenue into cash
-            are not operating with enough discipline, consistency, or visibility.
-          </p>
-
-          <div className="services-two-col" style={{ marginTop: '2rem' }}>
+          <div className="hero-grid">
             <div>
-              <p className="section-copy">
-                The issue is often not sales alone. It is what happens after the
-                sale through invoicing, collections, payment application,
-                financial ownership, and reporting.
+              <p className="eyebrow">Prosperity Heritage Advisory</p>
+              <h1 className="hero-title">Turn Revenue Into Predictable Cash</h1>
+              <p className="hero-subtext">
+                We help leadership teams strengthen billing discipline, collections
+                performance, revenue integrity, and financial visibility so revenue
+                consistently converts into cash.
               </p>
 
-              <p className="section-copy">
-                Prosperity Heritage Advisory helps leadership teams identify
-                where those systems are weakening performance and implement
-                practical improvements that support more stable cash outcomes.
-              </p>
+              <div className="hero-actions">
+                <Link href="/contact" className="btn btn-primary">
+                  Book a Consultation
+                </Link>
+                <Link href="/services" className="btn btn-secondary">
+                  Explore Services
+                </Link>
+              </div>
             </div>
 
-            <div className="services-callout">
-              <h3>What stronger execution can improve</h3>
-              <ul>
-                <li>Faster invoicing cycles</li>
-                <li>Reduced receivable aging</li>
-                <li>Better collections accountability</li>
-                <li>Cleaner reconciliation and payment application</li>
-                <li>Stronger leadership visibility</li>
-                <li>More consistent cash conversion</li>
+            <div className="hero-card">
+              <h3>Where cash performance often breaks down</h3>
+              <ul className="check-list">
+                <li>Delayed or inconsistent invoicing</li>
+                <li>Weak collections structure and follow-through</li>
+                <li>Revenue leakage across contracts, billing, and operations</li>
+                <li>Limited visibility into where cash is getting delayed</li>
+                <li>Operational strain after growth or acquisition</li>
               </ul>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ADVISORY FOCUS */}
+      {/* Problem */}
       <section className="section section-light">
-        <div className="container">
-          <h2 className="section-title">Our Advisory Focus</h2>
-
-          <p className="section-subtitle">
-            We help organizations strengthen the disciplines that protect
-            revenue quality, improve financial visibility, and support more
-            consistent cash performance.
+        <div className="container narrow">
+          <p className="section-label">The problem</p>
+          <h2>Revenue can look strong while cash still feels tight</h2>
+          <p>
+            Many growing businesses do not have a sales problem. They have an
+            execution problem somewhere between contracts, billing, collections,
+            reporting, and financial operations.
           </p>
-
-          <div className="grid-4">
-            <div className="card-highlight">
-              <h3>Revenue Control & Cash Stabilization</h3>
-              <p>
-                Strengthen the workflows, ownership, and controls that help
-                revenue convert into dependable cash outcomes.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Billing & Collections Optimization</h3>
-              <p>
-                Improve invoice timing, collections structure, follow-up
-                discipline, and accountability across teams.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Revenue Integrity & Reconciliation Support</h3>
-              <p>
-                Resolve unapplied or misapplied payments and improve the
-                accuracy of receivables and revenue-related reporting.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Financial Controls & Revenue Visibility</h3>
-              <p>
-                Give leadership clearer insight into where revenue conversion
-                slows down and where process risk is building.
-              </p>
-            </div>
-          </div>
-
-          <div className="grid-4" style={{ marginTop: '2rem' }}>
-            <div className="card">
-              <h3>M&A Transition & Operational Stabilization</h3>
-              <p>
-                Support acquired or transitioning organizations with hands-on
-                financial operations stabilization during high-pressure periods.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Revenue Operations Alignment</h3>
-              <p>
-                Reduce breakdowns between sales, operations, and finance so
-                revenue activity flows more cleanly into cash performance.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Operational Finance Support</h3>
-              <p>
-                Provide practical execution support when leadership teams need
-                more than high-level advice alone.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Assessment-Led Improvement</h3>
-              <p>
-                Start with a focused review to identify priority gaps,
-                transition risks, and the highest-impact improvement areas.
-              </p>
-            </div>
-          </div>
+          <p>
+            Invoices go out late. Payment terms do not match operational reality.
+            Collections lack structure. Leadership sees revenue, but not always a
+            clear path to cash.
+          </p>
+          <p>
+            Over time, these gaps create unnecessary pressure on working capital,
+            decision-making, and growth.
+          </p>
         </div>
       </section>
 
-      {/* WHO WE WORK WITH */}
+      {/* Core Offer */}
       <section className="section">
         <div className="container">
-          <h2 className="section-title">Who We Work With</h2>
-
-          <p className="section-subtitle">
-            Our advisory services support organizations dealing with growth,
-            operational complexity, and increasing financial discipline needs.
+          <p className="section-label">What we do</p>
+          <h2 className="section-title">Revenue Control & Cash Stabilization Advisory</h2>
+          <p className="section-intro">
+            We focus on the operational drivers that determine how revenue converts
+            into cash. Our work is hands-on, practical, and designed to strengthen
+            the financial engine behind growth.
           </p>
 
-          <div className="grid-4">
-            <div className="card">
-              <h3>Growth-Stage Companies</h3>
+          <div className="card-grid three-up">
+            <div className="info-card">
+              <h3>Billing Discipline</h3>
               <p>
-                Organizations scaling revenue that need stronger billing,
-                collections, and financial process discipline.
+                Improve invoicing timeliness, consistency, and control so revenue
+                is billed accurately and without avoidable delay.
               </p>
             </div>
 
-            <div className="card">
-              <h3>Professional Services Firms</h3>
+            <div className="info-card">
+              <h3>Collections Performance</h3>
               <p>
-                Businesses where invoicing, collections, and timing directly
-                affect liquidity and operational stability.
+                Build structured follow-up, accountability, and escalation
+                processes that improve cash realization.
               </p>
             </div>
 
-            <div className="card">
-              <h3>Healthcare Organizations</h3>
+            <div className="info-card">
+              <h3>Revenue Integrity</h3>
               <p>
-                Practices and service providers navigating billing complexity,
-                reimbursement pressure, and revenue visibility challenges.
+                Identify leakage, missed charges, underbilling, and process gaps
+                that weaken revenue capture.
               </p>
             </div>
 
-            <div className="card">
-              <h3>Multi-Location & Transitioning Businesses</h3>
+            <div className="info-card">
+              <h3>Operational Alignment</h3>
               <p>
-                Organizations where handoffs, ownership gaps, acquisitions, or
-                scaling pressure create operational finance strain.
+                Align contracts, billing workflows, and finance operations so the
+                revenue process works as a connected system.
+              </p>
+            </div>
+
+            <div className="info-card">
+              <h3>Financial Visibility</h3>
+              <p>
+                Give leadership a clearer picture of where cash is being delayed,
+                why it is happening, and what needs attention.
+              </p>
+            </div>
+
+            <div className="info-card">
+              <h3>Stabilization Support</h3>
+              <p>
+                Support transitions, growth phases, and post-acquisition
+                environments where controls and reporting often start to break.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* PROBLEM SECTION */}
+      {/* How We Work */}
       <section className="section section-light">
         <div className="container">
-          <h2 className="section-title">
-            Why revenue growth still fails to convert into predictable cash
-          </h2>
+          <p className="section-label">How we work</p>
+          <h2 className="section-title">A practical, leadership-focused approach</h2>
 
-          <p className="section-subtitle">
-            The problem is often not sales. It is what happens after the sale.
-          </p>
-
-          <div className="problem-list">
-            <div className="problem-item">
-              Invoices are delayed, inconsistent, or not triggered at the right time.
-            </div>
-
-            <div className="problem-item">
-              Payment terms do not align with operational reality.
-            </div>
-
-            <div className="problem-item">
-              Collections processes lack ownership and discipline.
-            </div>
-
-            <div className="problem-item">
-              Unapplied or misapplied payments distort receivables accuracy.
-            </div>
-
-            <div className="problem-item">
-              Sales, operations, and finance handoffs break down.
-            </div>
-
-            <div className="problem-item">
-              Leadership lacks visibility into where revenue conversion is slowing down.
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* APPROACH SECTION */}
-      <section className="section">
-        <div className="container">
-          <h2 className="section-title">How We Work</h2>
-
-          <p className="section-subtitle">
-            Our work is designed to help leadership teams move from reactive
-            financial strain to stronger operational control.
-          </p>
-
-          <div className="grid-4">
-            <div className="card-highlight">
+          <div className="steps-grid">
+            <div className="step-card">
+              <span className="step-number">01</span>
               <h3>Assess</h3>
               <p>
-                Review billing, collections, reconciliation, reporting, and
-                ownership across the revenue-to-cash process.
+                We review how revenue actually moves through your organization and
+                where cash performance starts to break down.
               </p>
             </div>
 
-            <div className="card">
-              <h3>Identify Gaps</h3>
+            <div className="step-card">
+              <span className="step-number">02</span>
+              <h3>Clarify</h3>
               <p>
-                Pinpoint where execution, controls, and handoffs are weakening
-                financial performance.
+                We identify the operational, billing, collections, and reporting
+                issues that are delaying or weakening cash realization.
               </p>
             </div>
 
-            <div className="card">
-              <h3>Implement Improvements</h3>
+            <div className="step-card">
+              <span className="step-number">03</span>
+              <h3>Stabilize</h3>
               <p>
-                Strengthen process discipline, accountability, and reporting
-                clarity in the areas that matter most.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Stabilize Operations</h3>
-              <p>
-                Help leadership teams build more reliable systems during growth,
-                transition, or post-acquisition periods.
+                We help leadership teams implement practical improvements that
+                create stronger control, visibility, and consistency.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* FINAL CTA */}
-      <section className="cta-band">
+      {/* Who We Work With */}
+      <section className="section">
         <div className="container">
-          <h2>Schedule a Revenue Stability Assessment</h2>
+          <p className="section-label">Who we work with</p>
+          <h2 className="section-title">Built for organizations under pressure to perform</h2>
 
+          <div className="card-grid three-up">
+            <div className="info-card">
+              <h3>Growing Companies</h3>
+              <p>
+                Businesses scaling faster than their financial processes can
+                reliably support.
+              </p>
+            </div>
+
+            <div className="info-card">
+              <h3>Private Equity & Transition Environments</h3>
+              <p>
+                Companies navigating change, integration, or operational strain
+                after acquisition.
+              </p>
+            </div>
+
+            <div className="info-card">
+              <h3>Leadership Teams Needing Clarity</h3>
+              <p>
+                Founders, CEOs, and finance leaders who need better control over
+                how revenue becomes cash.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Strategic Engagements */}
+      <section className="section section-light">
+        <div className="container narrow">
+          <p className="section-label">Selective strategic engagements</p>
+          <h2>Additional work undertaken selectively</h2>
           <p>
-            If revenue is growing but cash performance remains inconsistent,
-            the issue may be sitting somewhere between billing execution,
-            collections discipline, reconciliation accuracy, or operational ownership.
+            In select situations, we also engage in complex, high-value initiatives
+            where financial discipline, structuring, and cross-border insight are
+            critical.
+          </p>
+          <p>
+            These engagements are secondary to our core advisory work and are
+            undertaken on a selective, case-by-case basis.
           </p>
 
-          <div className="button-row center-buttons">
-            <Link href="/contact" className="btn-secondary">
-              Schedule Consultation
+          <div className="strategic-links">
+            <div className="info-card">
+              <h3>Healthcare Development & Turnkey Projects</h3>
+              <p>
+                Partner-led engagements involving healthcare infrastructure and
+                implementation support in emerging markets.
+              </p>
+            </div>
+
+            <div className="info-card">
+              <h3>Global Investment & Trade Opportunities</h3>
+              <p>
+                Structured, selective cross-border opportunities where alignment,
+                assessment, and disciplined introductions matter.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="section cta-section">
+        <div className="container narrow cta-box">
+          <p className="section-label">Start the conversation</p>
+          <h2>Strong revenue should lead to stronger cash performance</h2>
+          <p>
+            If revenue is growing but cash still feels inconsistent, we can help
+            identify where the process is breaking and what it will take to
+            stabilize it.
+          </p>
+          <div className="hero-actions">
+            <Link href="/contact" className="btn btn-primary">
+              Book a Consultation
+            </Link>
+            <Link href="/services" className="btn btn-secondary">
+              View Services
             </Link>
           </div>
         </div>
       </section>
-
-      <Footer />
     </main>
   )
 }
