@@ -1,13 +1,9 @@
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
 import Link from 'next/link'
 
 export default function AboutPage() {
   return (
     <main>
-      <Navbar />
-
-      <section className="page-hero">
+        <section className="page-hero">
         <div className="container narrow">
           <div className="eyebrow">About</div>
           <h1>About Prosperity Heritage Advisory</h1>
@@ -141,8 +137,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
-      <Footer />
-    </main>
+       </main>
   )
 }
