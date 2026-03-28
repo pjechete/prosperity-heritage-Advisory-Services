@@ -1,16 +1,11 @@
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
 
 export default function ContactPage() {
   return (
     <main>
-      <Navbar />
-
       <section className="page-hero">
         <div className="container narrow">
           <div className="eyebrow">Contact</div>
           <h1>Book a Consultation</h1>
-
           <p>
             Let’s discuss where revenue performance may be slowing down in your
             organization and how Prosperity Heritage Advisory can help strengthen
@@ -121,8 +116,6 @@ export default function ContactPage() {
           </p>
         </div>
       </section>
-
-      <Footer />
-    </main>
+       </main>
   )
 }
