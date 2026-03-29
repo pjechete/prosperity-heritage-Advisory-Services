@@ -3,12 +3,11 @@ import Link from 'next/link'
 export default function AboutPage() {
   return (
     <main>
-        <section className="page-hero">
-        <div className="container narrow">
-          <div className="eyebrow">About</div>
+      <section className="page-hero">
+        <div className="narrow">
+          <p className="eyebrow">About</p>
           <h1>About Prosperity Heritage Advisory</h1>
-
-          <p>
+          <p className="section-copy">
             Prosperity Heritage Advisory helps leadership teams strengthen the
             operational and financial systems that convert revenue into more
             predictable cash performance.
@@ -17,7 +16,7 @@ export default function AboutPage() {
       </section>
 
       <section className="section">
-        <div className="container narrow">
+        <div className="narrow">
           <div className="content-stack">
             <div className="card-gray">
               <p>
@@ -58,23 +57,14 @@ export default function AboutPage() {
                 stabilize the systems behind financial performance.
               </p>
             </div>
-
-            <div className="card-gray">
-              <p>
-                This may include support in areas such as revenue control, billing
-                and collections optimization, reconciliation and payment
-                application issues, financial controls, and hands-on operational
-                stabilization during periods of growth, change, or post-acquisition
-                transition.
-              </p>
-            </div>
           </div>
         </div>
       </section>
 
       <section className="section section-light">
-        <div className="container narrow">
-          <h2 className="section-title">What our work is designed to strengthen</h2>
+        <div className="narrow">
+          <p className="section-label">What our work strengthens</p>
+          <h2 className="section-title">Practical improvements behind cash performance</h2>
 
           <div className="content-stack">
             <div className="card">
@@ -122,21 +112,23 @@ export default function AboutPage() {
       </section>
 
       <section className="cta-band">
-        <div className="container narrow">
-          <h2>Let’s strengthen the systems behind cash performance</h2>
-          <p>
-            If your organization is dealing with delayed invoicing, collections
-            inconsistency, reconciliation issues, weak visibility, or financial
-            strain during a transition period, Prosperity Heritage Advisory can help.
-          </p>
+        <div className="narrow">
+          <div className="cta-box">
+            <h2>Let’s strengthen the systems behind cash performance</h2>
+            <p>
+              If your organization is dealing with delayed invoicing, collections
+              inconsistency, reconciliation issues, weak visibility, or financial
+              strain during a transition period, Prosperity Heritage Advisory can help.
+            </p>
 
-          <div className="button-row center-buttons">
-            <Link href="/contact" className="btn-secondary">
-              Book a Consultation
-            </Link>
+            <div className="button-row center-buttons">
+              <Link href="/contact" className="btn btn-secondary">
+                Book a Consultation
+              </Link>
+            </div>
           </div>
         </div>
       </section>
-       </main>
+    </main>
   )
 }
