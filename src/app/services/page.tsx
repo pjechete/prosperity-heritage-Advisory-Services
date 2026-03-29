@@ -261,27 +261,32 @@ export default function ServicesPage() {
           with our network.
         </p>
 
-        <div className="mt-5 flex flex-wrap gap-3">
-          <a
-            href="https://forms.gle/3WEnZBT97VqnDbeW6"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center rounded-full bg-[#0f2744] px-5 py-2.5 text-sm font-medium text-white transition hover:opacity-90"
-          >
-            Submit Opportunity
-          </a>
+        <p className="section-copy" style={{ marginTop: '1.5rem', fontWeight: 600 }}>
+  Private Opportunity Intake
+</p>
+<p className="section-copy">
+  We review a limited number of opportunities for potential alignment with our network.
+</p>
 
-          <a
-            href="https://forms.gle/QcrA5NqmiBaxdedD8"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center rounded-full border border-[#0f2744] px-5 py-2.5 text-sm font-medium text-[#0f2744] transition hover:bg-white/60"
-          >
-            Investor Registration
-          </a>
-        </div>
-      </div>
-    </div>
+<div className="button-row" style={{ marginTop: '1rem' }}>
+  <a
+    href="https://forms.gle/3WEnZBT97VqnDbeW6"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn btn-primary"
+  >
+    Submit Opportunity
+  </a>
+
+  <a
+    href="https://forms.gle/QcrA5NqmiBaxdedD8"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn btn-secondary"
+  >
+    Investor Registration
+  </a>
+</div>
 
     <p className="section-copy" style={{ marginTop: '1.5rem' }}>
       All engagements are undertaken selectively and in collaboration with
