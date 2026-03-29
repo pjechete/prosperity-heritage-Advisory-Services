@@ -129,31 +129,28 @@ export default function HomePage() {
 
           <div className="steps-grid">
             <div className="step-card">
-              <span className="step-number">01</span>
-              <h3>Assess</h3>
-              <p>
-                We review how revenue actually moves through your organization and
-                where cash performance starts to break down.
-              </p>
-            </div>
+  <h3>Assess</h3>
+  <p>
+    We review how revenue actually moves through your organization and
+    where cash performance starts to break down.
+  </p>
+</div>
 
-            <div className="step-card">
-              <span className="step-number">02</span>
-              <h3>Clarify</h3>
-              <p>
-                We identify the operational, billing, collections, and reporting
-                issues that are delaying or weakening cash realization.
-              </p>
-            </div>
+<div className="step-card">
+  <h3>Clarify</h3>
+  <p>
+    We identify the operational, billing, collections, and reporting
+    issues that are delaying or weakening cash realization.
+  </p>
+</div>
 
-            <div className="step-card">
-              <span className="step-number">03</span>
-              <h3>Stabilize</h3>
-              <p>
-                We help leadership teams implement practical improvements that
-                create stronger control, visibility, and consistency.
-              </p>
-            </div>
+<div className="step-card">
+  <h3>Stabilize</h3>
+  <p>
+    We help leadership teams implement practical improvements that
+    create stronger control, visibility, and consistency.
+  </p>
+</div>
           </div>
         </div>
       </section>
