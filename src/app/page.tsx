@@ -3,8 +3,7 @@ import Link from 'next/link'
 export default function HomePage() {
   return (
     <main>
-      {/* Hero */}
-      <section className="section hero">
+      <section className="hero">
         <div className="container">
           <div className="hero-grid">
             <div>
@@ -40,33 +39,31 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Problem */}
-      <section className="section section-light">
-        <div className="container narrow">
+      <section className="section section-soft">
+        <div className="narrow">
           <p className="section-label">The problem</p>
-          <h2>Revenue can look strong while cash still feels tight</h2>
-          <p>
+          <h2 className="section-title">Revenue can look strong while cash still feels tight</h2>
+          <p className="section-copy">
             Many growing businesses do not have a sales problem. They have an
             execution problem somewhere between contracts, billing, collections,
             reporting, and financial operations.
           </p>
-          <p>
+          <p className="section-copy">
             Invoices go out late. Payment terms do not match operational reality.
             Collections lack structure. Leadership sees revenue, but not always a
             clear path to cash.
           </p>
-          <p>
+          <p className="section-copy">
             Over time, these gaps create unnecessary pressure on working capital,
             decision-making, and growth.
           </p>
         </div>
       </section>
 
-      {/* Core Offer */}
       <section className="section">
         <div className="container">
           <p className="section-label">What we do</p>
-          <h2 className="section-title">Revenue Control & Cash Stabilization Advisory</h2>
+          <h2 className="section-title">Revenue Control &amp; Cash Stabilization Advisory</h2>
           <p className="section-intro">
             We focus on the operational drivers that determine how revenue converts
             into cash. Our work is hands-on, practical, and designed to strengthen
@@ -125,7 +122,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* How We Work */}
       <section className="section section-light">
         <div className="container">
           <p className="section-label">How we work</p>
@@ -162,7 +158,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Who We Work With */}
       <section className="section">
         <div className="container">
           <p className="section-label">Who we work with</p>
@@ -178,7 +173,7 @@ export default function HomePage() {
             </div>
 
             <div className="info-card">
-              <h3>Private Equity & Transition Environments</h3>
+              <h3>Private Equity &amp; Transition Environments</h3>
               <p>
                 Companies navigating change, integration, or operational strain
                 after acquisition.
@@ -196,24 +191,23 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Strategic Engagements */}
-      <section className="section section-light">
-        <div className="container narrow">
+      <section className="section section-soft">
+        <div className="narrow">
           <p className="section-label">Selective strategic engagements</p>
-          <h2>Additional work undertaken selectively</h2>
-          <p>
+          <h2 className="section-title">Additional work undertaken selectively</h2>
+          <p className="section-copy">
             In select situations, we also engage in complex, high-value initiatives
             where financial discipline, structuring, and cross-border insight are
             critical.
           </p>
-          <p>
+          <p className="section-copy">
             These engagements are secondary to our core advisory work and are
             undertaken on a selective, case-by-case basis.
           </p>
 
           <div className="strategic-links">
             <div className="info-card">
-              <h3>Healthcare Development & Turnkey Projects</h3>
+              <h3>Healthcare Development &amp; Turnkey Projects</h3>
               <p>
                 Partner-led engagements involving healthcare infrastructure and
                 implementation support in emerging markets.
@@ -221,7 +215,7 @@ export default function HomePage() {
             </div>
 
             <div className="info-card">
-              <h3>Global Investment & Trade Opportunities</h3>
+              <h3>Global Investment &amp; Trade Opportunities</h3>
               <p>
                 Structured, selective cross-border opportunities where alignment,
                 assessment, and disciplined introductions matter.
@@ -231,23 +225,24 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="section cta-section">
-        <div className="container narrow cta-box">
-          <p className="section-label">Start the conversation</p>
-          <h2>Strong revenue should lead to stronger cash performance</h2>
-          <p>
-            If revenue is growing but cash still feels inconsistent, we can help
-            identify where the process is breaking and what it will take to
-            stabilize it.
-          </p>
-          <div className="hero-actions">
-            <Link href="/contact" className="btn btn-primary">
-              Book a Consultation
-            </Link>
-            <Link href="/services" className="btn btn-secondary">
-              View Services
-            </Link>
+      <section className="cta-section">
+        <div className="narrow">
+          <div className="cta-box">
+            <p className="section-label">Start the conversation</p>
+            <h2>Strong revenue should lead to stronger cash performance</h2>
+            <p>
+              If revenue is growing but cash still feels inconsistent, we can help
+              identify where the process is breaking and what it will take to
+              stabilize it.
+            </p>
+            <div className="hero-actions center-buttons">
+              <Link href="/contact" className="btn btn-primary">
+                Book a Consultation
+              </Link>
+              <Link href="/services" className="btn btn-secondary">
+                View Services
+              </Link>
+            </div>
           </div>
         </div>
       </section>
