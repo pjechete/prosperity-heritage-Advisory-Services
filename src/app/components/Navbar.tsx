@@ -18,8 +18,11 @@ export default function Navbar() {
     <header className="site-header">
       <div className="container header-inner">
         <Link href="/" className="brand" aria-label="Prosperity Heritage Advisory home">
-          <span className="brand-main">Prosperity Heritage</span>
-          <span className="brand-sub">Advisory</span>
+          <img
+            src="/logo.png"
+            alt="Prosperity Heritage Advisory"
+            className="logo"
+          />
         </Link>
 
         <nav className="main-nav" aria-label="Main navigation">
