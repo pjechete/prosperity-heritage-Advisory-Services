@@ -212,99 +212,104 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
-<section id="selective-engagements" className="section section-soft">
-  <div className="container">
-    <p className="section-label">Selective engagements</p>
-    <h2 className="section-title">
-      Selective, partnership-led strategic engagements
-    </h2>
-    <p className="section-intro">
-      Beyond our core advisory work, we selectively engage in high-impact,
-      partnership-led initiatives in complex, capital-intensive environments
-      where strong operational and financial coordination is critical.
-    </p>
 
-    <div className="card-grid two-up">
-      <div className="card">
-        <h3>Healthcare Development &amp; Turnkey Projects</h3>
-        <p>
-          Through trusted partnerships, we support the development of
-          healthcare facilities including hospitals, medical centers, and
-          specialized treatment units.
-        </p>
-        <p>
-          These engagements may include feasibility, planning, operational
-          setup, project coordination, and end-to-end execution in
-          collaboration with specialized partners.
-        </p>
-      </div>
+      <section id="selective-engagements" className="section section-soft">
+        <div className="container">
+          <p className="section-label">Selective engagements</p>
+          <h2 className="section-title">
+            Selective, partnership-led strategic engagements
+          </h2>
+          <p className="section-intro">
+            Beyond our core advisory work, we selectively engage in high-impact,
+            partnership-led initiatives in complex, capital-intensive environments
+            where strong operational and financial coordination is critical.
+          </p>
 
-      <div className="card">
-        <h3>Global Investment &amp; Trade Opportunities</h3>
-        <p>
-          We selectively engage in cross-border investment and trade
-          opportunities, particularly in emerging markets where disciplined
-          structuring and clear alignment between capital and execution are
-          critical.
-        </p>
-        <p>
-          These engagements are carefully selected and structured to ensure
-          strong alignment, realistic assumptions, and meaningful outcomes.
-        </p>
+          <div className="card-grid two-up">
+            <div className="card">
+              <h3>Healthcare Development &amp; Turnkey Projects</h3>
+              <p>
+                Through trusted partnerships, we support the development of
+                healthcare facilities including hospitals, medical centers, and
+                specialized treatment units.
+              </p>
+              <p>
+                These engagements may include feasibility, planning, operational
+                setup, project coordination, and end-to-end execution in
+                collaboration with specialized partners.
+              </p>
+            </div>
 
-        <p className="section-copy" style={{ marginTop: '1.5rem', fontWeight: 600 }}>
-          Private Opportunity &amp; Investor Intake
-        </p>
-        <p className="section-copy">
-          We selectively review opportunities and engage with investors where there is strong alignment and clear potential for meaningful outcomes.
-        </p>
+            <div className="card">
+              <h3>Global Investment &amp; Trade Opportunities</h3>
+              <p>
+                We selectively engage in cross-border investment and trade
+                opportunities, particularly in emerging markets where disciplined
+                structuring and clear alignment between capital and execution are
+                critical.
+              </p>
+              <p>
+                These engagements are carefully selected and structured to ensure
+                strong alignment, realistic assumptions, and meaningful outcomes.
+              </p>
 
-        <div className="button-row" style={{ marginTop: '1rem' }}>
-          <a
-            href="https://forms.gle/3WEnZBT97VqnDbeW6"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-primary"
-          >
-            Submit Opportunity
-          </a>
+              <p
+                className="section-copy"
+                style={{ marginTop: '1.5rem', fontWeight: 600 }}
+              >
+                Private Opportunity &amp; Investor Intake
+              </p>
+              <p className="section-copy">
+                We selectively review opportunities and engage with investors where
+                there is strong alignment and clear potential for meaningful outcomes.
+              </p>
 
-          <a
-            href="https://forms.gle/QcrA5NqmiBaxdedD8"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-secondary"
-          >
-            Investor Registration
-          </a>
+              <div className="button-row" style={{ marginTop: '1rem' }}>
+                <a
+                  href="https://forms.gle/3WEnZBT97VqnDbeW6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                >
+                  Submit Opportunity
+                </a>
+
+                <a
+                  href="https://forms.gle/QcrA5NqmiBaxdedD8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-secondary"
+                >
+                  Investor Registration
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <p className="section-copy" style={{ marginTop: '1.5rem' }}>
+            All engagements are undertaken selectively and in collaboration with
+            trusted partners.
+          </p>
         </div>
-      </div>
-    </div>
+      </section>
 
-    <p className="section-copy" style={{ marginTop: '1.5rem' }}>
-      All engagements are undertaken selectively and in collaboration with trusted partners.
-    </p>
-  </div>
-</section>
+      <section id="contact-cta" className="cta-band">
+        <div className="narrow">
+          <div className="cta-box">
+            <h2>Strong financial performance is not just about revenue</h2>
+            <p>
+              It is about how revenue is structured, managed, and realized. That
+              is where our core advisory work is focused.
+            </p>
 
-<section id="contact-cta" className="cta-band">
-  <div className="narrow">
-    <div className="cta-box">
-      <h2>Strong financial performance is not just about revenue</h2>
-      <p>
-        It is about how revenue is structured, managed, and realized. That
-        is where our core advisory work is focused.
-      </p>
-
-      <div className="button-row center-buttons">
-        <Link href="/contact" className="btn btn-secondary">
-          Book a Consultation
-        </Link>
-      </div>
-    </div>
-  </div>
-</section>
-</section>
-</main>
+            <div className="button-row center-buttons">
+              <Link href="/contact" className="btn btn-secondary">
+                Book a Consultation
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   )
 }
