@@ -1,22 +1,22 @@
 import Link from 'next/link'
+
 export default function ServicesPage() {
   return (
     <main>
-      <section className="page-hero services-hero">
+      <section className="page-hero">
         <div className="container">
           <div className="services-hero-grid">
             <div>
-              <div className="eyebrow">Services</div>
-
+              <p className="eyebrow">Services</p>
               <h1>Focused advisory. Selective strategic engagements.</h1>
 
-              <p>
+              <p className="section-copy">
                 Prosperity Heritage Advisory is built around one core focus:
                 helping leadership teams strengthen the connection between
                 revenue and cash.
               </p>
 
-              <p>
+              <p className="section-copy">
                 Our core work centers on revenue control, billing discipline,
                 collections performance, revenue integrity, and operational
                 finance execution. In select situations, we also support
@@ -24,11 +24,10 @@ export default function ServicesPage() {
               </p>
 
               <div className="button-row">
-                <Link href="/contact" className="btn-primary">
+                <Link href="/contact" className="btn btn-primary">
                   Book a Consultation
                 </Link>
-
-                <a href="#core-advisory" className="btn-secondary">
+                <a href="#core-advisory" className="btn btn-secondary">
                   View Services
                 </a>
               </div>
@@ -64,8 +63,9 @@ export default function ServicesPage() {
       <section id="core-advisory" className="section">
         <div className="container services-two-col">
           <div>
+            <p className="section-label">Core advisory</p>
             <h2 className="section-title left-align">
-              Revenue Control & Cash Stabilization
+              Revenue Control &amp; Cash Stabilization
             </h2>
 
             <p className="section-copy">
@@ -101,9 +101,9 @@ export default function ServicesPage() {
 
       <section id="service-areas" className="section section-light">
         <div className="container">
+          <p className="section-label">Service areas</p>
           <h2 className="section-title">Core advisory areas</h2>
-
-          <p className="section-subtitle">
+          <p className="section-intro">
             Our work is centered on the operational drivers of cash performance.
           </p>
 
@@ -118,7 +118,7 @@ export default function ServicesPage() {
             </div>
 
             <div className="card">
-              <h3>Billing & Invoicing Discipline</h3>
+              <h3>Billing &amp; Invoicing Discipline</h3>
               <p>
                 Reduce delays, inconsistencies, and manual breakdowns that slow
                 invoicing and weaken the speed of cash conversion.
@@ -126,7 +126,7 @@ export default function ServicesPage() {
             </div>
 
             <div className="card">
-              <h3>Collections Strategy & Execution</h3>
+              <h3>Collections Strategy &amp; Execution</h3>
               <p>
                 Establish structured collections processes, follow-up cadence,
                 accountability, and escalation paths that improve realization.
@@ -134,17 +134,15 @@ export default function ServicesPage() {
             </div>
 
             <div className="card">
-              <h3>Revenue Integrity & Leakage Identification</h3>
+              <h3>Revenue Integrity &amp; Leakage Identification</h3>
               <p>
                 Identify missed charges, underbilling, process inefficiencies,
                 and control gaps that affect revenue capture.
               </p>
             </div>
-          </div>
 
-          <div className="grid-4" style={{ marginTop: '2rem' }}>
             <div className="card">
-              <h3>Financial Visibility & Reporting</h3>
+              <h3>Financial Visibility &amp; Reporting</h3>
               <p>
                 Improve leadership visibility into where cash is being delayed,
                 what is driving the delay, and where operational attention is
@@ -180,49 +178,46 @@ export default function ServicesPage() {
       </section>
 
       <section id="how-we-engage" className="section">
-        <div className="container">
-          <h2 className="section-title">How we engage</h2>
+        <div className="container services-two-col">
+          <div>
+            <p className="section-label">How we engage</p>
+            <h2 className="section-title left-align">
+              Hands-on, practical, and leadership-focused
+            </h2>
 
-          <p className="section-subtitle">
-            Hands-on, practical, and leadership-focused.
-          </p>
+            <p className="section-copy">
+              We work directly with leadership teams and operational
+              stakeholders to understand how revenue actually flows through
+              the organization, where breakdowns occur, and what practical
+              improvements will create stronger control and more predictable
+              cash outcomes.
+            </p>
 
-          <div className="services-two-col" style={{ marginTop: '2rem' }}>
-            <div>
-              <p className="section-copy">
-                We work directly with leadership teams and operational
-                stakeholders to understand how revenue actually flows through
-                the organization, where breakdowns occur, and what practical
-                improvements will create stronger control and more predictable
-                cash outcomes.
-              </p>
+            <p className="section-copy">
+              This is not accounting clean-up for its own sake. It is
+              structured advisory focused on the operational drivers of cash
+              performance.
+            </p>
+          </div>
 
-              <p className="section-copy">
-                This is not accounting clean-up for its own sake. It is
-                structured advisory focused on the operational drivers of cash
-                performance.
-              </p>
-            </div>
-
-            <div className="services-assessment-card">
-              <h3>Our approach typically includes</h3>
-              <ul>
-                <li>Process review across billing, collections, and reporting</li>
-                <li>Identification of execution gaps and ownership issues</li>
-                <li>Practical improvement recommendations</li>
-                <li>Leadership-level visibility into priorities and risks</li>
-                <li>Support during periods of change or transition</li>
-              </ul>
-            </div>
+          <div className="services-assessment-card">
+            <h3>Our approach typically includes</h3>
+            <ul>
+              <li>Process review across billing, collections, and reporting</li>
+              <li>Identification of execution gaps and ownership issues</li>
+              <li>Practical improvement recommendations</li>
+              <li>Leadership-level visibility into priorities and risks</li>
+              <li>Support during periods of change or transition</li>
+            </ul>
           </div>
         </div>
       </section>
 
-      <section id="selective-engagements" className="section section-light">
+      <section id="selective-engagements" className="section section-soft">
         <div className="container">
-          <h2 className="section-title">Selective engagements</h2>
-
-          <p className="section-subtitle">
+          <p className="section-label">Selective engagements</p>
+          <h2 className="section-title">Secondary, selective, and partnership-led</h2>
+          <p className="section-intro">
             In addition to our core advisory work, Prosperity Heritage Advisory
             selectively supports high-impact initiatives through strategic
             partnerships. These engagements typically involve complex,
@@ -230,22 +225,15 @@ export default function ServicesPage() {
             financial coordination.
           </p>
 
-          <div
-            style={{
-              marginTop: '2.5rem',
-              display: 'grid',
-              gridTemplateColumns: 'repeat(2, minmax(0, 1fr))',
-              gap: '24px',
-            }}
-          >
+          <div className="card-grid two-up">
             <div className="card">
-              <h3>Healthcare Development & Turnkey Projects</h3>
+              <h3>Healthcare Development &amp; Turnkey Projects</h3>
               <p>
                 Through trusted partnerships, we support the development of
                 healthcare facilities including hospitals, medical centers, and
                 specialized treatment units.
               </p>
-              <p style={{ marginTop: '1rem' }}>
+              <p>
                 These engagements may include feasibility, planning,
                 operational setup, project coordination, and end-to-end
                 execution in collaboration with specialized partners.
@@ -253,21 +241,21 @@ export default function ServicesPage() {
             </div>
 
             <div className="card">
-              <h3>Global Investment & Trade Opportunities</h3>
+              <h3>Global Investment &amp; Trade Opportunities</h3>
               <p>
                 We selectively engage in cross-border investment and trade
                 opportunities where there is a need for disciplined assessment,
                 realistic assumptions, and clear alignment between capital and
                 opportunity.
               </p>
-              <p style={{ marginTop: '1rem' }}>
+              <p>
                 These engagements are structured, limited, and evaluated on a
                 case-by-case basis rather than offered as a broad marketplace.
               </p>
             </div>
           </div>
 
-          <p className="section-subtitle" style={{ marginTop: '2.5rem' }}>
+          <p className="section-copy" style={{ marginTop: '1.5rem' }}>
             All such engagements are undertaken selectively and in collaboration
             with specialized partners.
           </p>
@@ -275,20 +263,22 @@ export default function ServicesPage() {
       </section>
 
       <section id="contact-cta" className="cta-band">
-        <div className="container">
-          <h2>Strong financial performance is not just about revenue</h2>
-          <p>
-            It is about how revenue is structured, managed, and realized. That
-            is where our core advisory work is focused.
-          </p>
+        <div className="narrow">
+          <div className="cta-box">
+            <h2>Strong financial performance is not just about revenue</h2>
+            <p>
+              It is about how revenue is structured, managed, and realized. That
+              is where our core advisory work is focused.
+            </p>
 
-          <div className="button-row center-buttons">
-            <Link href="/contact" className="btn-secondary">
-              Book a Consultation
-            </Link>
+            <div className="button-row center-buttons">
+              <Link href="/contact" className="btn btn-secondary">
+                Book a Consultation
+              </Link>
+            </div>
           </div>
         </div>
       </section>
-   </main>
+    </main>
   )
 }
