@@ -4,11 +4,10 @@ export default function InsightsPage() {
   return (
     <main>
       <section className="page-hero">
-        <div className="container narrow">
-          <div className="eyebrow">Insights</div>
+        <div className="narrow">
+          <p className="eyebrow">Insights</p>
           <h1>Perspectives on Revenue Stability</h1>
-
-          <p>
+          <p className="section-copy">
             Practical perspectives on revenue operations, billing discipline,
             collections performance, financial visibility, and operational
             finance execution.
@@ -18,9 +17,9 @@ export default function InsightsPage() {
 
       <section className="section">
         <div className="container">
-          <h2 className="section-title">Upcoming Articles</h2>
-
-          <p className="section-subtitle">
+          <p className="section-label">Insights library</p>
+          <h2 className="section-title">Upcoming articles and perspectives</h2>
+          <p className="section-intro">
             We regularly share insights drawn from real operational challenges
             organizations face as revenue grows and financial processes become
             more complex.
@@ -66,20 +65,34 @@ export default function InsightsPage() {
         </div>
       </section>
 
-      <section className="cta-band">
-        <div className="container narrow">
-          <h2>Need help stabilizing revenue performance?</h2>
-
-          <p>
-            If your organization is dealing with delayed invoicing,
-            reconciliation issues, aging receivables, or operational finance
-            strain, Prosperity Heritage Advisory can help.
+      <section className="section section-soft">
+        <div className="narrow">
+          <p className="section-label">Suggested content direction</p>
+          <h2 className="section-title">Keep insights focused and non-proprietary</h2>
+          <p className="section-copy">
+            The strongest public insights for your site are the ones that educate
+            without revealing client-specific details. Focus on recurring patterns,
+            execution challenges, and leadership-level lessons rather than
+            confidential case data.
           </p>
+        </div>
+      </section>
 
-          <div className="button-row center-buttons">
-            <Link href="/contact" className="btn-secondary">
-              Book a Consultation
-            </Link>
+      <section className="cta-band">
+        <div className="narrow">
+          <div className="cta-box">
+            <h2>Need help stabilizing revenue performance?</h2>
+            <p>
+              If your organization is dealing with delayed invoicing,
+              reconciliation issues, aging receivables, or operational finance
+              strain, Prosperity Heritage Advisory can help.
+            </p>
+
+            <div className="button-row center-buttons">
+              <Link href="/contact" className="btn btn-secondary">
+                Book a Consultation
+              </Link>
+            </div>
           </div>
         </div>
       </section>
