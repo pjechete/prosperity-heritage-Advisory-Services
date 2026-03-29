@@ -216,15 +216,10 @@ export default function ServicesPage() {
       <section id="selective-engagements" className="section section-soft">
         <div className="container">
           <p className="section-label">Selective engagements</p>
-          <h2 className="section-title">Secondary, selective, and partnership-led</h2>
+          <h2 className="section-title">Selective, partnership-led strategic engagements</h2>
           <p className="section-intro">
-            In addition to our core advisory work, Prosperity Heritage Advisory
-            selectively supports high-impact initiatives through strategic
-            partnerships. These engagements typically involve complex,
-            capital-intensive projects requiring strong operational and
-            financial coordination.
+            In addition to our core advisory work, we selectively engage in high-impact, partnership-led initiatives in complex, capital-intensive environments where strong operational and financial coordination is critical.
           </p>
-
           <div className="card-grid two-up">
             <div className="card">
               <h3>Healthcare Development &amp; Turnkey Projects</h3>
@@ -243,21 +238,16 @@ export default function ServicesPage() {
             <div className="card">
               <h3>Global Investment &amp; Trade Opportunities</h3>
               <p>
-                We selectively engage in cross-border investment and trade
-                opportunities where there is a need for disciplined assessment,
-                realistic assumptions, and clear alignment between capital and
-                opportunity.
+                We selectively engage in cross-border investment and trade opportunities, particularly in emerging markets where disciplined structuring and clear alignment between capital and execution are critical.
               </p>
               <p>
-                These engagements are structured, limited, and evaluated on a
-                case-by-case basis rather than offered as a broad marketplace.
+                These engagements are carefully selected and structured to ensure strong alignment, realistic assumptions, and meaningful outcomes.
               </p>
             </div>
           </div>
 
           <p className="section-copy" style={{ marginTop: '1.5rem' }}>
-            All such engagements are undertaken selectively and in collaboration
-            with specialized partners.
+            All engagements are undertaken selectively and in collaboration with trusted partners.
           </p>
         </div>
       </section>
