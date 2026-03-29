@@ -17,7 +17,7 @@ export default function Navbar() {
   return (
     <header className="site-header">
       <div className="container header-inner">
-        <Link href="/" className="brand">
+        <Link href="/" className="brand" aria-label="Prosperity Heritage Advisory home">
           <span className="brand-main">Prosperity Heritage</span>
           <span className="brand-sub">Advisory</span>
         </Link>
