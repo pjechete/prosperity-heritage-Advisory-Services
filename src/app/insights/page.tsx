@@ -64,21 +64,7 @@ export default function InsightsPage() {
           </div>
         </div>
       </section>
-
-      <section className="section section-soft">
-        <div className="narrow">
-          <p className="section-label">Suggested content direction</p>
-          <h2 className="section-title">Keep insights focused and non-proprietary</h2>
-          <p className="section-copy">
-            The strongest public insights for your site are the ones that educate
-            without revealing client-specific details. Focus on recurring patterns,
-            execution challenges, and leadership-level lessons rather than
-            confidential case data.
-          </p>
-        </div>
-      </section>
-
-      <section className="cta-band">
+    <section className="cta-band">
         <div className="narrow">
           <div className="cta-box">
             <h2>Need help stabilizing revenue performance?</h2>
