@@ -191,12 +191,12 @@ export default function HomePage() {
       <section className="section section-soft">
         <div className="narrow">
           <p className="section-label">Selective strategic engagements</p>
-          <h2 className="section-title">Additional work undertaken selectively</h2>
-          <p className="section-copy">
-            In select situations, we also engage in complex, high-value initiatives
-            where financial discipline, structuring, and cross-border insight are
-            critical.
-          </p>
+          <h2 className="section-title">Engagements we take on selectively</h2>
+<p className="section-copy">
+  We selectively engage in strategic opportunities where our experience in
+  operations, financial structuring, and cross-border execution can create
+  meaningful value.
+</p>
           <p className="section-copy">
             These engagements are secondary to our core advisory work and are
             undertaken on a selective, case-by-case basis.
