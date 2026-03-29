@@ -254,7 +254,7 @@ export default function ServicesPage() {
 
   <div className="mt-5 flex flex-wrap gap-3">
     <a
-      href="https://forms.gle/3WEnZBT97VqnDbeW6"
+      href=https://forms.gle/3WEnZBT97VqnDbeW6
       target="_blank"
       rel="noopener noreferrer"
       className="inline-flex items-center rounded-full bg-[#0f2744] px-5 py-2.5 text-sm font-medium text-white transition hover:opacity-90"
@@ -263,7 +263,7 @@ export default function ServicesPage() {
     </a>
 
     <a
-      href="https://forms.gle/QcrA5NqmiBaxdedD8"
+      href=https://forms.gle/QcrA5NqmiBaxdedD8
       target="_blank"
       rel="noopener noreferrer"
       className="inline-flex items-center rounded-full border border-[#0f2744] px-5 py-2.5 text-sm font-medium text-[#0f2744] transition hover:bg-white/60"
