@@ -235,16 +235,43 @@ export default function ServicesPage() {
               </p>
             </div>
 
-            <div className="card">
-              <h3>Global Investment &amp; Trade Opportunities</h3>
-              <p>
-                We selectively engage in cross-border investment and trade opportunities, particularly in emerging markets where disciplined structuring and clear alignment between capital and execution are critical.
-              </p>
-              <p>
-                These engagements are carefully selected and structured to ensure strong alignment, realistic assumptions, and meaningful outcomes.
-              </p>
-            </div>
-          </div>
+           <div className="card"> 
+  <h3>Global Investment &amp; Trade Opportunities</h3>
+  <p>
+    We selectively engage in cross-border investment and trade opportunities, particularly in emerging markets where disciplined structuring and clear alignment between capital and execution are critical.
+  </p>
+  <p>
+    These engagements are carefully selected and structured to ensure strong alignment, realistic assumptions, and meaningful outcomes.
+  </p>
+
+  {/* Private Intake Section */}
+  <p className="mt-6 font-semibold text-[#0f2744]">
+    Private Opportunity Intake
+  </p>
+  <p className="mt-2">
+    We review a limited number of opportunities for potential alignment with our network.
+  </p>
+
+  <div className="mt-5 flex flex-wrap gap-3">
+    <a
+      href="https://forms.gle/3WEnZBT97VqnDbeW6"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center rounded-full bg-[#0f2744] px-5 py-2.5 text-sm font-medium text-white transition hover:opacity-90"
+    >
+      Submit Opportunity
+    </a>
+
+    <a
+      href="https://forms.gle/QcrA5NqmiBaxdedD8"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center rounded-full border border-[#0f2744] px-5 py-2.5 text-sm font-medium text-[#0f2744] transition hover:bg-white/60"
+    >
+      Investor Registration
+    </a>
+  </div>
+</div>
 
           <p className="section-copy" style={{ marginTop: '1.5rem' }}>
             All engagements are undertaken selectively and in collaboration with trusted partners.
