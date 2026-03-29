@@ -260,12 +260,11 @@ export default function ServicesPage() {
           We review a limited number of opportunities for potential alignment
           with our network.
         </p>
-
-        <p className="section-copy" style={{ marginTop: '1.5rem', fontWeight: 600 }}>
-  Private Opportunity Intake
+<p className="section-copy" style={{ marginTop: '1.5rem', fontWeight: 600 }}>
+  Private Opportunity & Investor Intake
 </p>
 <p className="section-copy">
-  We review a limited number of opportunities for potential alignment with our network.
+  We selectively review opportunities and engage with investors where there is strong alignment and clear potential for meaningful outcomes.
 </p>
 
 <div className="button-row" style={{ marginTop: '1rem' }}>
@@ -288,12 +287,12 @@ export default function ServicesPage() {
   </a>
 </div>
 
-    <p className="section-copy" style={{ marginTop: '1.5rem' }}>
-      All engagements are undertaken selectively and in collaboration with
-      trusted partners.
-    </p>
-  </div>
-</section>
+<p className="section-copy" style={{ marginTop: '1.5rem' }}>
+  All engagements are undertaken selectively and in collaboration with trusted partners.
+</p>
+
+</div>   {/* closes container */}
+</section>   {/* closes selective-engagements section */}
       <section id="contact-cta" className="cta-band">
         <div className="narrow">
           <div className="cta-box">
