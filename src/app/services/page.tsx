@@ -212,8 +212,7 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
-
-      <section id="selective-engagements" className="section section-soft">
+<section id="selective-engagements" className="section section-soft">
   <div className="container">
     <p className="section-label">Selective engagements</p>
     <h2 className="section-title">
@@ -253,63 +252,55 @@ export default function ServicesPage() {
           strong alignment, realistic assumptions, and meaningful outcomes.
         </p>
 
-        <p className="mt-6 font-semibold text-[#0f2744]">
-          Private Opportunity Intake
+        <p className="section-copy" style={{ marginTop: '1.5rem', fontWeight: 600 }}>
+          Private Opportunity &amp; Investor Intake
         </p>
-        <p className="mt-2">
-          We review a limited number of opportunities for potential alignment
-          with our network.
+        <p className="section-copy">
+          We selectively review opportunities and engage with investors where there is strong alignment and clear potential for meaningful outcomes.
         </p>
-<p className="section-copy" style={{ marginTop: '1.5rem', fontWeight: 600 }}>
-  Private Opportunity & Investor Intake
-</p>
-<p className="section-copy">
-  We selectively review opportunities and engage with investors where there is strong alignment and clear potential for meaningful outcomes.
-</p>
 
-<div className="button-row" style={{ marginTop: '1rem' }}>
-  <a
-    href="https://forms.gle/3WEnZBT97VqnDbeW6"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="btn btn-primary"
-  >
-    Submit Opportunity
-  </a>
+        <div className="button-row" style={{ marginTop: '1rem' }}>
+          <a
+            href="https://forms.gle/3WEnZBT97VqnDbeW6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-primary"
+          >
+            Submit Opportunity
+          </a>
 
-  <a
-    href="https://forms.gle/QcrA5NqmiBaxdedD8"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="btn btn-secondary"
-  >
-    Investor Registration
-  </a>
-</div>
-
-<p className="section-copy" style={{ marginTop: '1.5rem' }}>
-  All engagements are undertaken selectively and in collaboration with trusted partners.
-</p>
-
-</div>   {/* closes container */}
-</section>   {/* closes selective-engagements section */}
-      <section id="contact-cta" className="cta-band">
-        <div className="narrow">
-          <div className="cta-box">
-            <h2>Strong financial performance is not just about revenue</h2>
-            <p>
-              It is about how revenue is structured, managed, and realized. That
-              is where our core advisory work is focused.
-            </p>
-
-            <div className="button-row center-buttons">
-              <Link href="/contact" className="btn btn-secondary">
-                Book a Consultation
-              </Link>
-            </div>
-          </div>
+          <a
+            href="https://forms.gle/QcrA5NqmiBaxdedD8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-secondary"
+          >
+            Investor Registration
+          </a>
         </div>
-      </section>
-    </main>
-  )
-}
+      </div>
+    </div>
+
+    <p className="section-copy" style={{ marginTop: '1.5rem' }}>
+      All engagements are undertaken selectively and in collaboration with trusted partners.
+    </p>
+  </div>
+</section>
+
+<section id="contact-cta" className="cta-band">
+  <div className="narrow">
+    <div className="cta-box">
+      <h2>Strong financial performance is not just about revenue</h2>
+      <p>
+        It is about how revenue is structured, managed, and realized. That
+        is where our core advisory work is focused.
+      </p>
+
+      <div className="button-row center-buttons">
+        <Link href="/contact" className="btn btn-secondary">
+          Book a Consultation
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
