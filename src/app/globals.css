@@ -198,7 +198,11 @@ li {
   line-height: 1.05;
   flex-shrink: 0;
 }
-
+.logo {
+  height: 48px;
+  width: auto;
+  display: block;
+}
 .brand-main {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.15rem;
