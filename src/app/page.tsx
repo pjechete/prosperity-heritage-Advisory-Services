@@ -198,8 +198,8 @@ export default function HomePage() {
   meaningful value.
 </p>
           <p className="section-copy">
-            These engagements are secondary to our core advisory work and are
-            undertaken on a selective, case-by-case basis.
+            These engagements are carefully selected and undertaken where there is
+strong alignment and clear potential for impact.
           </p>
 
           <div className="strategic-links">
