@@ -1,12 +1,11 @@
-
 export default function ContactPage() {
   return (
     <main>
       <section className="page-hero">
-        <div className="container narrow">
-          <div className="eyebrow">Contact</div>
+        <div className="narrow">
+          <p className="eyebrow">Contact</p>
           <h1>Book a Consultation</h1>
-          <p>
+          <p className="section-copy">
             Let’s discuss where revenue performance may be slowing down in your
             organization and how Prosperity Heritage Advisory can help strengthen
             billing discipline, collections execution, reconciliation accuracy,
@@ -16,7 +15,7 @@ export default function ContactPage() {
       </section>
 
       <section className="section">
-        <div className="container narrow">
+        <div className="narrow">
           <div className="content-stack" style={{ marginBottom: '2rem' }}>
             <div className="card-gray">
               <h3>Typical reasons clients reach out</h3>
@@ -97,7 +96,7 @@ export default function ContactPage() {
               </div>
 
               <div className="full-width">
-                <button type="submit" className="btn-primary">
+                <button type="submit" className="btn btn-primary">
                   Submit Inquiry
                 </button>
               </div>
@@ -107,15 +106,17 @@ export default function ContactPage() {
       </section>
 
       <section className="cta-band">
-        <div className="container narrow">
-          <h2>Revenue should convert into cash more consistently</h2>
-          <p>
-            If cash performance feels strained despite healthy revenue, the
-            issue may be sitting somewhere between invoicing, collections,
-            reconciliation, reporting, or operational ownership.
-          </p>
+        <div className="narrow">
+          <div className="cta-box">
+            <h2>Revenue should convert into cash more consistently</h2>
+            <p>
+              If cash performance feels strained despite healthy revenue, the
+              issue may be sitting somewhere between invoicing, collections,
+              reconciliation, reporting, or operational ownership.
+            </p>
+          </div>
         </div>
       </section>
-       </main>
+    </main>
   )
 }
