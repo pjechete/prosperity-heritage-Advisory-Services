@@ -214,71 +214,81 @@ export default function ServicesPage() {
       </section>
 
       <section id="selective-engagements" className="section section-soft">
-        <div className="container">
-          <p className="section-label">Selective engagements</p>
-          <h2 className="section-title">Selective, partnership-led strategic engagements</h2>
-          <p className="section-intro">
-            In addition to our core advisory work, we selectively engage in high-impact, partnership-led initiatives in complex, capital-intensive environments where strong operational and financial coordination is critical.
-          </p>
-          <div className="card-grid two-up">
-            <div className="card">
-              <h3>Healthcare Development &amp; Turnkey Projects</h3>
-              <p>
-                Through trusted partnerships, we support the development of
-                healthcare facilities including hospitals, medical centers, and
-                specialized treatment units.
-              </p>
-              <p>
-                These engagements may include feasibility, planning,
-                operational setup, project coordination, and end-to-end
-                execution in collaboration with specialized partners.
-              </p>
-            </div>
+  <div className="container">
+    <p className="section-label">Selective engagements</p>
+    <h2 className="section-title">
+      Selective, partnership-led strategic engagements
+    </h2>
+    <p className="section-intro">
+      Beyond our core advisory work, we selectively engage in high-impact,
+      partnership-led initiatives in complex, capital-intensive environments
+      where strong operational and financial coordination is critical.
+    </p>
 
-           <div className="card"> 
-  <h3>Global Investment &amp; Trade Opportunities</h3>
-  <p>
-    We selectively engage in cross-border investment and trade opportunities, particularly in emerging markets where disciplined structuring and clear alignment between capital and execution are critical.
-  </p>
-  <p>
-    These engagements are carefully selected and structured to ensure strong alignment, realistic assumptions, and meaningful outcomes.
-  </p>
+    <div className="card-grid two-up">
+      <div className="card">
+        <h3>Healthcare Development &amp; Turnkey Projects</h3>
+        <p>
+          Through trusted partnerships, we support the development of
+          healthcare facilities including hospitals, medical centers, and
+          specialized treatment units.
+        </p>
+        <p>
+          These engagements may include feasibility, planning, operational
+          setup, project coordination, and end-to-end execution in
+          collaboration with specialized partners.
+        </p>
+      </div>
 
-  {/* Private Intake Section */}
-  <p className="mt-6 font-semibold text-[#0f2744]">
-    Private Opportunity Intake
-  </p>
-  <p className="mt-2">
-    We review a limited number of opportunities for potential alignment with our network.
-  </p>
+      <div className="card">
+        <h3>Global Investment &amp; Trade Opportunities</h3>
+        <p>
+          We selectively engage in cross-border investment and trade
+          opportunities, particularly in emerging markets where disciplined
+          structuring and clear alignment between capital and execution are
+          critical.
+        </p>
+        <p>
+          These engagements are carefully selected and structured to ensure
+          strong alignment, realistic assumptions, and meaningful outcomes.
+        </p>
 
-  <div className="mt-5 flex flex-wrap gap-3">
-    <a
-      href=https://forms.gle/3WEnZBT97VqnDbeW6
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-flex items-center rounded-full bg-[#0f2744] px-5 py-2.5 text-sm font-medium text-white transition hover:opacity-90"
-    >
-      Submit Opportunity
-    </a>
+        <p className="mt-6 font-semibold text-[#0f2744]">
+          Private Opportunity Intake
+        </p>
+        <p className="mt-2">
+          We review a limited number of opportunities for potential alignment
+          with our network.
+        </p>
 
-    <a
-      href=https://forms.gle/QcrA5NqmiBaxdedD8
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-flex items-center rounded-full border border-[#0f2744] px-5 py-2.5 text-sm font-medium text-[#0f2744] transition hover:bg-white/60"
-    >
-      Investor Registration
-    </a>
-  </div>
-</div>
+        <div className="mt-5 flex flex-wrap gap-3">
+          <a
+            href="https://forms.gle/3WEnZBT97VqnDbeW6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center rounded-full bg-[#0f2744] px-5 py-2.5 text-sm font-medium text-white transition hover:opacity-90"
+          >
+            Submit Opportunity
+          </a>
 
-          <p className="section-copy" style={{ marginTop: '1.5rem' }}>
-            All engagements are undertaken selectively and in collaboration with trusted partners.
-          </p>
+          <a
+            href="https://forms.gle/QcrA5NqmiBaxdedD8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center rounded-full border border-[#0f2744] px-5 py-2.5 text-sm font-medium text-[#0f2744] transition hover:bg-white/60"
+          >
+            Investor Registration
+          </a>
         </div>
-      </section>
+      </div>
+    </div>
 
+    <p className="section-copy" style={{ marginTop: '1.5rem' }}>
+      All engagements are undertaken selectively and in collaboration with
+      trusted partners.
+    </p>
+  </div>
+</section>
       <section id="contact-cta" className="cta-band">
         <div className="narrow">
           <div className="cta-box">
