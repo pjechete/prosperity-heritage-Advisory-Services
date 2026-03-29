@@ -1,12 +1,8 @@
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
 import Link from 'next/link'
 
 export default function InsightsPage() {
   return (
     <main>
-      <Navbar />
-
       <section className="page-hero">
         <div className="container narrow">
           <div className="eyebrow">Insights</div>
@@ -87,8 +83,6 @@ export default function InsightsPage() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </main>
   )
 }
