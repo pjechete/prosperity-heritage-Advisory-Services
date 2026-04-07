@@ -230,7 +230,7 @@ export default function HomePage() {
       <section className="section section-clean">
         <div className="container narrow">
           <p className="section-label">Selective strategic engagements</p>
-          <h2 className="section-title">Additional work undertaken selectively</h2>
+          <h2 className="section-title">Engagements we take on selectively</h2>
           <p className="section-copy">
             In select situations, we also engage in complex, high-value
             initiatives where financial discipline, structuring, and
