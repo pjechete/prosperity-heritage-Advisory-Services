@@ -8,19 +8,19 @@ export default function ServicesPage() {
           <div className="services-hero-grid">
             <div>
               <p className="eyebrow">Services</p>
-              <h1>Focused advisory. Selective strategic engagements.</h1>
+              <h1>Revenue control, cash stabilization, and selective strategic support.</h1>
 
               <p className="section-copy">
-                Prosperity Heritage Advisory is built around one core focus:
-                helping leadership teams strengthen the connection between
-                revenue and cash.
+                Prosperity Heritage Advisory helps leadership teams improve how
+                revenue converts into cash by strengthening the operational
+                discipline behind billing, collections, revenue integrity, and
+                financial visibility.
               </p>
 
               <p className="section-copy">
-                Our core work centers on revenue control, billing discipline,
-                collections performance, revenue integrity, and operational
-                finance execution. In select situations, we also support
-                strategic initiatives through trusted partnerships.
+                Our work is practical, hands-on, and focused on the areas where
+                execution breakdowns quietly delay cash, weaken control, and
+                limit leadership confidence.
               </p>
 
               <div className="button-row">
@@ -34,14 +34,14 @@ export default function ServicesPage() {
             </div>
 
             <div className="services-hero-panel">
-              <h3>Core areas we help improve</h3>
+              <h3>What we help improve</h3>
               <ul className="services-checklist">
-                <li>Revenue process alignment</li>
-                <li>Billing and invoicing discipline</li>
-                <li>Collections execution and accountability</li>
-                <li>Revenue integrity and leakage review</li>
-                <li>Financial visibility and reporting</li>
-                <li>Post-acquisition stabilization</li>
+                <li>Faster, more disciplined billing cycles</li>
+                <li>Stronger collections execution and follow-through</li>
+                <li>Reduced revenue leakage and missed capture</li>
+                <li>Clearer reporting and cash visibility</li>
+                <li>Better operating discipline across handoffs</li>
+                <li>Stronger support during transition or growth</li>
               </ul>
             </div>
           </div>
@@ -69,31 +69,33 @@ export default function ServicesPage() {
             </h2>
 
             <p className="section-copy">
-              Most growing companies do not have a revenue problem. They have a
+              Many organizations do not have a revenue problem. They have a
               conversion problem.
             </p>
 
             <p className="section-copy">
-              Revenue is generated, but somewhere between contracts, billing,
-              collections, reporting, and financial operations, cash becomes
-              delayed, inconsistent, or difficult to manage with confidence.
+              Revenue may be booked, but cash is slowed by weak handoffs,
+              inconsistent billing discipline, delayed collections, poor
+              visibility, or operational gaps between commercial activity and
+              finance execution.
             </p>
 
             <p className="section-copy">
-              We help leadership teams identify and correct the operational
-              breakdowns behind that problem.
+              We help leadership teams identify those breakdowns, improve
+              accountability, and strengthen the operating rhythm required to
+              convert revenue into more predictable cash performance.
             </p>
           </div>
 
           <div className="services-callout">
-            <h3>What stronger execution can improve</h3>
+            <h3>Outcomes this work supports</h3>
             <ul>
-              <li>Faster invoicing cycles</li>
+              <li>Shorter invoicing cycles</li>
               <li>Reduced receivable aging</li>
-              <li>Stronger collections accountability</li>
-              <li>Better revenue capture discipline</li>
-              <li>Clearer visibility into delays and bottlenecks</li>
-              <li>More consistent cash performance</li>
+              <li>Stronger collections discipline</li>
+              <li>Improved revenue capture</li>
+              <li>Better visibility into bottlenecks and delays</li>
+              <li>More confidence in cash performance</li>
             </ul>
           </div>
         </div>
@@ -104,73 +106,79 @@ export default function ServicesPage() {
           <p className="section-label">Service areas</p>
           <h2 className="section-title">Core advisory areas</h2>
           <p className="section-intro">
-            Our work is centered on the operational drivers of cash performance.
+            Our services focus on the operational and financial processes that
+            most directly influence cash realization.
           </p>
 
           <div className="grid-4">
             <div className="card-highlight">
               <h3>Revenue Process Alignment</h3>
               <p>
-                Align contracts, billing workflows, and finance operations so
-                the revenue process works as a connected system rather than a
-                series of disconnected handoffs.
+                Improve alignment across contracts, billing, collections, and
+                finance so revenue moves through the business with fewer delays,
+                fewer disconnects, and stronger accountability.
               </p>
             </div>
 
             <div className="card">
               <h3>Billing &amp; Invoicing Discipline</h3>
               <p>
-                Reduce delays, inconsistencies, and manual breakdowns that slow
-                invoicing and weaken the speed of cash conversion.
+                Strengthen invoicing workflows, timing, ownership, and process
+                consistency to reduce preventable billing delays and improve
+                speed to cash.
               </p>
             </div>
 
             <div className="card">
               <h3>Collections Strategy &amp; Execution</h3>
               <p>
-                Establish structured collections processes, follow-up cadence,
-                accountability, and escalation paths that improve realization.
+                Establish clearer follow-up cadence, escalation paths,
+                ownership, and reporting discipline to improve collections
+                performance and receivables management.
               </p>
             </div>
 
             <div className="card">
-              <h3>Revenue Integrity &amp; Leakage Identification</h3>
+              <h3>Revenue Integrity &amp; Leakage Review</h3>
               <p>
-                Identify missed charges, underbilling, process inefficiencies,
-                and control gaps that affect revenue capture.
+                Identify missed charges, underbilling, breakdowns in execution,
+                and control gaps that reduce revenue realization and weaken
+                financial performance.
               </p>
             </div>
 
             <div className="card">
               <h3>Financial Visibility &amp; Reporting</h3>
               <p>
-                Improve leadership visibility into where cash is being delayed,
-                what is driving the delay, and where operational attention is
-                needed most.
+                Improve leadership reporting so decision-makers can clearly see
+                where cash is being delayed, what is driving performance, and
+                where intervention is needed.
               </p>
             </div>
 
             <div className="card">
-              <h3>Post-Acquisition Stabilization</h3>
+              <h3>Post-Acquisition or Transition Stabilization</h3>
               <p>
-                Support organizations through transition periods where billing,
-                reporting, control, and financial execution often become strained.
+                Support organizations during periods of integration, change, or
+                accelerated growth when billing, reporting, and financial
+                control often come under strain.
               </p>
             </div>
 
             <div className="card">
               <h3>Operational Finance Support</h3>
               <p>
-                Provide practical, hands-on support when leadership teams need
-                stronger execution in the financial operations behind revenue.
+                Provide practical support where teams need stronger execution,
+                tighter process discipline, or more leadership visibility across
+                the financial operations behind revenue.
               </p>
             </div>
 
             <div className="card">
               <h3>Assessment-Led Improvement</h3>
               <p>
-                Start with a focused review to identify the highest-impact gaps,
-                control weaknesses, and operational priorities.
+                Begin with a focused review to identify the highest-impact gaps,
+                operating risks, and practical priorities for improvement.
               </p>
             </div>
           </div>
@@ -186,28 +194,28 @@ export default function ServicesPage() {
             </h2>
 
             <p className="section-copy">
-              We work directly with leadership teams and operational
-              stakeholders to understand how revenue actually flows through
-              the organization, where breakdowns occur, and what practical
-              improvements will create stronger control and more predictable
-              cash outcomes.
+              We work directly with leadership teams and key operational
+              stakeholders to understand how revenue moves through the
+              organization, where execution weakens, and what improvements will
+              create stronger control and more dependable cash outcomes.
             </p>
 
             <p className="section-copy">
-              This is not accounting clean-up for its own sake. It is
-              structured advisory focused on the operational drivers of cash
-              performance.
+              Our work is not generic accounting clean-up. It is structured
+              advisory centered on operating discipline, financial visibility,
+              and the practical realities that determine whether revenue turns
+              into cash efficiently.
             </p>
           </div>
 
           <div className="services-assessment-card">
             <h3>Our approach typically includes</h3>
             <ul>
-              <li>Process review across billing, collections, and reporting</li>
+              <li>Review of billing, collections, and reporting workflows</li>
               <li>Identification of execution gaps and ownership issues</li>
-              <li>Practical improvement recommendations</li>
-              <li>Leadership-level visibility into priorities and risks</li>
-              <li>Support during periods of change or transition</li>
+              <li>Prioritization of practical improvement opportunities</li>
+              <li>Leadership-level visibility into risks and bottlenecks</li>
+              <li>Support through change, transition, or stabilization periods</li>
             </ul>
           </div>
         </div>
@@ -220,9 +228,10 @@ export default function ServicesPage() {
             Selective, partnership-led strategic engagements
           </h2>
           <p className="section-intro">
-            Beyond our core advisory work, we selectively engage in high-impact,
-            partnership-led initiatives in complex, capital-intensive environments
-            where strong operational and financial coordination is critical.
+            In addition to our core advisory work, we selectively support
+            strategic initiatives that require disciplined coordination,
+            financial structure, and trusted execution through experienced
+            partners.
           </p>
 
           <div className="card-grid two-up">
@@ -234,9 +243,9 @@ export default function ServicesPage() {
                 specialized treatment units.
               </p>
               <p>
-                These engagements may include feasibility, planning, operational
-                setup, project coordination, and end-to-end execution in
-                collaboration with specialized partners.
+                Engagements may include feasibility support, planning,
+                operational setup, project coordination, and end-to-end
+                execution in collaboration with specialized delivery partners.
               </p>
             </div>
 
@@ -244,13 +253,14 @@ export default function ServicesPage() {
               <h3>Global Investment &amp; Trade Opportunities</h3>
               <p>
                 We selectively engage in cross-border investment and trade
-                opportunities, particularly in emerging markets where disciplined
-                structuring and clear alignment between capital and execution are
-                critical.
+                opportunities where disciplined structure, realistic
+                assumptions, and strong alignment between capital and execution
+                are essential.
               </p>
               <p>
-                These engagements are carefully selected and structured to ensure
-                strong alignment, realistic assumptions, and meaningful outcomes.
+                These opportunities are reviewed selectively and pursued where
+                there is credible alignment, practical viability, and the
+                potential for meaningful outcomes.
               </p>
 
               <p
@@ -260,8 +270,8 @@ export default function ServicesPage() {
                 Private Opportunity &amp; Investor Intake
               </p>
               <p className="section-copy">
-                We selectively review opportunities and engage with investors where
-                there is strong alignment and clear potential for meaningful outcomes.
+                We review opportunities and investor interest on a selective
+                basis where there is clear fit, seriousness, and alignment.
               </p>
 
               <div className="button-row" style={{ marginTop: '1rem' }}>
@@ -287,8 +297,8 @@ export default function ServicesPage() {
           </div>
 
           <p className="section-copy" style={{ marginTop: '1.5rem' }}>
-            All engagements are undertaken selectively and in collaboration with
-            trusted partners.
+            All non-core engagements are undertaken selectively and in
+            collaboration with trusted partners.
           </p>
         </div>
       </section>
@@ -298,8 +308,9 @@ export default function ServicesPage() {
           <div className="cta-box">
             <h2>Strong financial performance is not just about revenue</h2>
             <p>
-              It is about how revenue is structured, managed, and realized. That
-              is where our core advisory work is focused.
+              It also depends on how revenue is billed, managed, collected, and
+              translated into cash. That is where our core advisory work is
+              focused.
             </p>
 
             <div className="button-row center-buttons">
