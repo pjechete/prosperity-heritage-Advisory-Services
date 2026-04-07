@@ -889,5 +889,145 @@ li {
   .service-item,
   .form-wrap {
     padding: 1.25rem;
+  /* =========================
+   PHS REFINEMENTS
+   Add below existing CSS
+========================= */
+
+/* Slightly tighter heading rhythm without changing your font system */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -0.025em;
+}
+
+p {
+  max-width: 72ch;
+}
+
+/* Better spacing when paragraphs stack */
+.section-copy + .section-copy,
+.section-intro + .section-copy,
+.hero-subtext + .hero-subtext {
+  margin-top: 0.35rem;
+}
+
+/* Optional clean white section if needed on homepage */
+.section-clean {
+  background: #ffffff;
+}
+
+/* Section head layout for pages using a split heading + supporting copy */
+.section-head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem 2.5rem;
+  align-items: end;
+  margin-bottom: 2rem;
+}
+
+.section-head-copy {
+  max-width: 540px;
+}
+
+/* Hero refinement: subtle premium background */
+.hero {
+  background:
+    radial-gradient(circle at top left, rgba(18, 124, 132, 0.08), transparent 34%),
+    radial-gradient(circle at bottom right, rgba(18, 124, 132, 0.05), transparent 28%),
+    linear-gradient(180deg, #ffffff 0%, #f8fbfc 100%);
+}
+
+/* Better hero proportion for stronger executive look */
+.hero-title {
+  max-width: 11ch;
+}
+
+.hero-proof {
+  max-width: 640px;
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--muted);
+}
+
+/* Slightly more premium cards without changing structure */
+.hero-card,
+.services-hero-panel,
+.services-callout,
+.services-assessment-card {
+  border: 1px solid rgba(219, 228, 236, 0.9);
+  box-shadow: 0 12px 30px rgba(16, 32, 51, 0.06);
+}
+
+.info-card,
+.card,
+.card-highlight,
+.card-gray,
+.step-card,
+.service-item,
+.cta-box,
+.form-wrap {
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.info-card:hover,
+.card:hover,
+.card-highlight:hover,
+.card-gray:hover,
+.step-card:hover,
+.service-item:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(18, 124, 132, 0.18);
+}
+
+/* Refined step number treatment */
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  height: 44px;
+  padding: 0 0.8rem;
+  border-radius: 999px;
+  background: rgba(18, 124, 132, 0.1);
+  letter-spacing: 0.06em;
+}
+
+/* CTA layout improvement when using a two-column CTA block */
+.cta-band-inner {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2rem;
+  align-items: center;
+  text-align: left;
+}
+
+.cta-actions {
+  display: flex;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Responsive support for new helper classes */
+@media (max-width: 1080px) {
+  .section-head,
+  .cta-band-inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .cta-actions {
+    flex-direction: column;
+    align-items: stretch;
   }
 }
