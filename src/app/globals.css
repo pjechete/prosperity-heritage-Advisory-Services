@@ -889,38 +889,27 @@ li {
   .service-item,
   .form-wrap {
     padding: 1.25rem;
-  /* =========================
-   PHS REFINEMENTS
-   Add below existing CSS
-========================= */
-
-/* Slightly tighter heading rhythm without changing your font system */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  letter-spacing: -0.025em;
+  }
 }
+
+/* =========================
+   PHS REFINEMENTS
+========================= */
 
 p {
   max-width: 72ch;
 }
 
-/* Better spacing when paragraphs stack */
 .section-copy + .section-copy,
 .section-intro + .section-copy,
 .hero-subtext + .hero-subtext {
   margin-top: 0.35rem;
 }
 
-/* Optional clean white section if needed on homepage */
 .section-clean {
   background: #ffffff;
 }
 
-/* Section head layout for pages using a split heading + supporting copy */
 .section-head {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -933,7 +922,6 @@ p {
   max-width: 540px;
 }
 
-/* Hero refinement: subtle premium background */
 .hero {
   background:
     radial-gradient(circle at top left, rgba(18, 124, 132, 0.08), transparent 34%),
@@ -941,7 +929,6 @@ p {
     linear-gradient(180deg, #ffffff 0%, #f8fbfc 100%);
 }
 
-/* Better hero proportion for stronger executive look */
 .hero-title {
   max-width: 11ch;
 }
@@ -954,7 +941,6 @@ p {
   color: var(--muted);
 }
 
-/* Slightly more premium cards without changing structure */
 .hero-card,
 .services-hero-panel,
 .services-callout,
@@ -988,7 +974,6 @@ p {
   border-color: rgba(18, 124, 132, 0.18);
 }
 
-/* Refined step number treatment */
 .step-number {
   display: inline-flex;
   align-items: center;
@@ -1001,7 +986,6 @@ p {
   letter-spacing: 0.06em;
 }
 
-/* CTA layout improvement when using a two-column CTA block */
 .cta-band-inner {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -1017,7 +1001,6 @@ p {
   align-items: center;
 }
 
-/* Responsive support for new helper classes */
 @media (max-width: 1080px) {
   .section-head,
   .cta-band-inner {
