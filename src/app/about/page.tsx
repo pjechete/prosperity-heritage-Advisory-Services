@@ -12,6 +12,9 @@ export default function AboutPage() {
             operational and financial systems that convert revenue into more
             predictable cash performance.
           </p>
+<p className="hero-proof">
+  Led by 20+ years of experience across global finance, operational transformation, and revenue cycle improvement.
+</p>
         </div>
       </section>
 
