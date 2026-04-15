@@ -170,6 +170,11 @@ export default function HomePage() {
               </p>
             </div>
           </div>
+          <div className="steps-closing narrow">
+  <p>
+    Engagements typically begin with a structured diagnostic to assess current processes, identify key gaps, and establish clear priorities.
+  </p>
+</div>
         </div>
       </section>
 
