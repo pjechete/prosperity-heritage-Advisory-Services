@@ -126,11 +126,16 @@ export default function HomePage() {
                 We support transitions, growth phases, and post-acquisition
                 environments where controls, reporting, and execution often
                 come under strain.
-                The result is a finance function that not only reports performance - but consistently converts revenue into predictable cash.
-              </p>
+                </p>
             </div>
           </div>
         </div>
+<div className="section-closing narrow">
+  <p>
+    The result is a finance function that not only reports performance—but
+    consistently converts revenue into predictable cash.
+  </p>
+</div>
       </section>
 
       <section className="section section-light">
