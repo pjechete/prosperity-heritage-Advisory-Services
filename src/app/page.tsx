@@ -47,18 +47,16 @@ export default function HomePage() {
             Revenue can look strong while cash still feels tight
           </h2>
           <p className="section-copy">
-            Many growing businesses do not have a sales problem. They have an
+            Many growing businesses do not have a sales or Demand problem. They have an
             execution problem somewhere between contracts, billing, collections,
             reporting, and financial operations.
           </p>
           <p className="section-copy">
-            Invoices go out late. Payment terms do not reflect operational
-            reality. Collections lack structure. Leadership sees revenue, but
-            not always a clear path to cash.
+           They may already be paying for finance staff, outside support, or systems — but invoicing still goes out late, 
+            collections remain inconsistent, reporting lacks clarity, and ownership across the revenue cycle is not always well defined.
           </p>
           <p className="section-copy">
-            Over time, these gaps create avoidable pressure on working capital,
-            decision-making, and growth.
+            The result is avoidable pressure on working capital, slower decision-making, and ongoing operational frustration.
           </p>
         </div>
       </section>
