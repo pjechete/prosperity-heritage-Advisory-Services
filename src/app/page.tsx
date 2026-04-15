@@ -132,7 +132,7 @@ export default function HomePage() {
         </div>
 <div className="section-closing narrow">
   <p>
-    The result is a finance function that not only reports performance—but
+    The result is a finance function that not only reports performance - but
     consistently converts revenue into predictable cash.
   </p>
 </div>
