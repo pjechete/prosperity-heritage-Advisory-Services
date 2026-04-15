@@ -149,25 +149,24 @@ export default function HomePage() {
             <div className="step-card">
               <h3>Assess</h3>
               <p>
-                We review how revenue actually moves through your organization
-                and where cash performance starts to break down.
+               We review how revenue moves through your organization - 
+                from contract to cash—and identify where delays, inconsistencies, and breakdowns occur..
               </p>
             </div>
 
             <div className="step-card">
               <h3>Clarify</h3>
               <p>
-                We identify the operational, billing, collections, and
-                reporting issues that are delaying or weakening cash
-                realization.
+                We isolate the root causes across billing, 
+                collections, reporting, and operations, and define what is required to improve performance.
               </p>
             </div>
 
             <div className="step-card">
               <h3>Stabilize</h3>
               <p>
-                We help leadership teams implement practical improvements that
-                create stronger control, visibility, and consistency.
+                We support leadership teams in implementing targeted 
+                improvements that strengthen execution, increase visibility, and drive more predictable cash outcomes.
               </p>
             </div>
           </div>
