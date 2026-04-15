@@ -58,7 +58,7 @@ export default function HomePage() {
           </p>
           <p className="section-copy">
             The result is avoidable pressure on working capital, slower and less confident decision-making, and teams caught in a cycle of rework rather than control.
-            <p className="section-copy">
+            
             This is not primarily a system or resource issue—it is an execution and alignment issue.
             Addressing it requires a clear understanding of how revenue flows through the organization, where it slows down, and what is needed to restore consistency, control, and accountability..
           </p>
