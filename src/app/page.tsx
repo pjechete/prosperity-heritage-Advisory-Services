@@ -126,8 +126,7 @@ export default function HomePage() {
                 We support transitions, growth phases, and post-acquisition
                 environments where controls, reporting, and execution often
                 come under strain.
-              <p>
-               The result is a finance function that not only reports performance - but consistently converts revenue into predictable cash.
+                The result is a finance function that not only reports performance - but consistently converts revenue into predictable cash.
               </p>
             </div>
           </div>
