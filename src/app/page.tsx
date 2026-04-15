@@ -73,9 +73,9 @@ export default function HomePage() {
             Revenue Control &amp; Cash Stabilization Advisory
           </h2>
           <p className="section-intro">
-            We focus on the operational drivers that determine how revenue
-            converts into cash. Our work is practical, hands-on, and designed
-            to strengthen the financial engine behind growth.
+            Prosperity Heritage Advisory works with leadership teams to identify where revenue is delayed, weakened,
+            or lost—and to strengthen the financial and operational processes that drive consistent cash performance.
+            Our approach is practical and focused: improving execution within your existing structure rather than adding unnecessary complexity.
           </p>
 
           <div className="card-grid three-up">
