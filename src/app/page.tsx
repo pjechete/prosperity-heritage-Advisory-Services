@@ -82,31 +82,31 @@ export default function HomePage() {
             <div className="info-card">
               <h3>Billing Discipline</h3>
               <p>
-                Improve invoicing timeliness, consistency, and control so
-                revenue is billed accurately and without avoidable delay.
+               We improve the timeliness, accuracy, and consistency of invoicing 
+                to ensure revenue is billed without delay and with full control.
               </p>
             </div>
 
             <div className="info-card">
               <h3>Collections Performance</h3>
               <p>
-                Build structured follow-up, accountability, and escalation
-                processes that improve cash realization.
+               We establish structured follow-up, accountability, 
+                and escalation processes to improve collections outcomes and reduce cash conversion delays.
               </p>
             </div>
 
             <div className="info-card">
               <h3>Revenue Integrity</h3>
               <p>
-                Identify leakage, missed charges, underbilling, and process
-                gaps that weaken revenue capture.
+                We identify missed charges, underbilling, reconciliation gaps, 
+                and process breakdowns that weaken revenue capture.
               </p>
             </div>
 
             <div className="info-card">
               <h3>Operational Alignment</h3>
               <p>
-                Align contracts, billing workflows, and finance operations so
+                We align contracts, billing workflows, and finance operations so
                 the revenue process works as a connected system rather than a
                 series of disconnected handoffs.
               </p>
@@ -115,17 +115,20 @@ export default function HomePage() {
             <div className="info-card">
               <h3>Financial Visibility</h3>
               <p>
-                Give leadership a clearer view of where cash is being delayed,
-                why it is happening, and what needs attention.
+               We provide leadership with clear, actionable insight 
+              into where cash is slowing down and what is driving performance gaps.
               </p>
             </div>
 
             <div className="info-card">
               <h3>Stabilization Support</h3>
               <p>
-                Support transitions, growth phases, and post-acquisition
+                We support transitions, growth phases, and post-acquisition
                 environments where controls, reporting, and execution often
                 come under strain.
+              <p>
+                <p className="section-copy">
+                The result is a finance function that not only reports performance - but consistently converts revenue into predictable cash.
               </p>
             </div>
           </div>
