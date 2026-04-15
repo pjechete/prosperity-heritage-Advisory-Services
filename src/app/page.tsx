@@ -12,7 +12,7 @@ export default function HomePage() {
               <p className="hero-subtext">
                 Many businesses are already investing in people, systems, and finance support-yet cash flow still feels tighter than it should. 
                 Delays, confusion, weak follow-through, and process gaps can quietly slow down how revenue turns into usable cash.
-              </p>
+              
               Prosperity Heritage Advisory helps leadership teams identify and fix the operational breakdowns behind billing delays,
               collections underperformance, revenue leakage, and limited financial visibility.
               </p>
