@@ -47,16 +47,17 @@ export default function HomePage() {
             Revenue can look strong while cash still feels tight
           </h2>
           <p className="section-copy">
-            Many growing businesses do not have a sales or Demand problem. They have an
-            execution problem somewhere between contracts, billing, collections,
-            reporting, and financial operations.
+            Both research and real-world experience show that cash flow challenges in growing businesses are rarely driven by demand, but 
+            by how effectively revenue is executed, billed, and converted into cash.
+            In many cases, the breakdown occurs somewhere between contracts, billing, collections, reporting, and financial operations.
           </p>
           <p className="section-copy">
-           They may already be paying for finance staff, outside support, or systems — but invoicing still goes out late, 
-            collections remain inconsistent, reporting lacks clarity, and ownership across the revenue cycle is not always well defined.
+           Organizations may already be investing in finance staff, external support, 
+            and systems—yet invoicing is delayed, collections are inconsistent, reporting lacks clarity, 
+            and ownership across the revenue cycle is not clearly defined
           </p>
           <p className="section-copy">
-            The result is avoidable pressure on working capital, slower decision-making, and ongoing operational frustration.
+            The result is avoidable pressure on working capital, slower and less confident decision-making, and teams caught in a cycle of rework rather than control.
           </p>
         </div>
       </section>
