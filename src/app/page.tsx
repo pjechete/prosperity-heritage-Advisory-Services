@@ -10,12 +10,9 @@ export default function HomePage() {
               <p className="eyebrow">Prosperity Heritage Advisory</p>
               <h1 className="hero-title">Turn Revenue Into Predictable Cash</h1>
               <p className="hero-subtext">
-                We help leadership teams strengthen billing discipline,
-                collections performance, revenue integrity, and financial
-                visibility so revenue converts into cash with greater
-                consistency, control, and confidence.
+                Many businesses are already investing in people, systems, and finance support-yet cash flow still feels tighter than it should. 
+                Delays, confusion, weak follow-through, and process gaps can quietly slow down how revenue turns into usable cash.
               </p>
-
               <div className="hero-actions">
                 <Link href="/contact" className="btn btn-primary">
                   Book a Consultation
