@@ -219,29 +219,33 @@ export default function HomePage() {
           <p className="section-label">Selective strategic engagements</p>
           <h2 className="section-title">Engagements we take on selectively</h2>
           <p className="section-copy">
-            We selectively engage in strategic opportunities where our
-            experience in operations, financial structuring, and cross-border
-            execution can create meaningful value.
+            We engage selectively in complex, high-impact opportunities 
+            where our experience in operations, financial structuring, 
+            and cross-border execution can create meaningful value.
           </p>
           <p className="section-copy">
-            These engagements are carefully selected and undertaken where there
-            is strong alignment, credible potential, and clear room for impact.
+            These engagements are undertaken in partnership with credible 
+            stakeholders, where there is strong alignment, disciplined execution, 
+            and a clear path to investment readiness.
           </p>
 
           <div className="strategic-links">
             <div className="info-card">
               <h3>Healthcare Development &amp; Turnkey Projects</h3>
               <p>
-                Partner-led engagements involving healthcare infrastructure and
-                implementation support in emerging markets.
+                Partner-led engagements involving healthcare infrastructure development 
+                and implementation support in emerging markets, where operational execution and coordination are critica.
               </p>
             </div>
 
             <div className="info-card">
               <h3>Global Investment &amp; Trade Opportunities</h3>
               <p>
-                Structured, selective cross-border opportunities where
-                alignment, assessment, and disciplined introductions matter.
+                Curated cross-border investment and trade opportunities, 
+                where disciplined sourcing, validation, and structured introductions drive better outcomes.
+                <p className="section-copy narrow">
+              In cross-border investing, trust is built through people—not algorithms.
+              </p>
               </p>
             </div>
           </div>
