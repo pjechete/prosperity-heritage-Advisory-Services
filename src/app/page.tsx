@@ -243,9 +243,12 @@ export default function HomePage() {
               <p>
                 Curated cross-border investment and trade opportunities, 
                 where disciplined sourcing, validation, and structured introductions drive better outcomes.
-                <p className="section-copy narrow">
-              In cross-border investing, trust is built through people—not algorithms.
-              </p>
+                <p>
+                <div className="section-closing narrow">
+                <p>
+                In cross-border investing, trust is built through people - not algorithms.
+                </p>
+                </div>
               </p>
             </div>
           </div>
