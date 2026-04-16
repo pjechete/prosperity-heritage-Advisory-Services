@@ -230,33 +230,35 @@ export default function HomePage() {
           </p>
 
           <div className="strategic-links">
-            <div className="info-card">
-              <h3>Healthcare Development &amp; Turnkey Projects</h3>
-              <p>
-                Partner-led engagements involving healthcare infrastructure development 
-                and implementation support in emerging markets, where operational execution and coordination are critica.
-              </p>
-            </div>
 
-<div className="info-card">
-  <h3>Global Investment &amp; Trade Opportunities</h3>
+        <div className="info-card">
+        <h3>Healthcare Development &amp; Turnkey Projects</h3>
+        <p>
+        Partner-led engagements involving healthcare infrastructure development 
+        and implementation support in emerging markets, where operational execution 
+        and coordination are critical.
+        </p>
+        </div>
 
-  <p>
-    Curated cross-border investment and trade opportunities, 
-    where disciplined sourcing, validation, and structured introductions drive better outcomes.
-  </p>
-</div>
+        <div className="info-card">
+        <h3>Global Investment &amp; Trade Opportunities</h3>
+      <p>
+      Curated cross-border investment and trade opportunities, 
+      where disciplined sourcing, validation, and structured introductions drive better outcomes.
+      </p>
+      </div>
 
-</div> {/* end of info-card-grid */}
+      </div> {/* end strategic-links */}
 
-<div className="section-closing narrow">
-  <p>
-    In cross-border investing, trust is built through people—not algorithms.
-  </p>
-</div>
-</div>
-</div>
-</section>
+      <div className="section-closing narrow">
+      <p>
+      In cross-border investing, trust is built through people—not algorithms.
+      </p>
+      </div>
+
+      </div> {/* container */}
+      </div> {/* section inner */}
+      </section>
 
       <section className="cta-section">
         <div className="narrow">
