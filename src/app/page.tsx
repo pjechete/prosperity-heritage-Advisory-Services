@@ -182,31 +182,32 @@ export default function HomePage() {
         <div className="container">
           <p className="section-label">Who we work with</p>
           <h2 className="section-title">
-            Built for organizations under pressure to perform
+            Built for organizations where revenue performance is not translating into cash
           </h2>
 
           <div className="card-grid three-up">
             <div className="info-card">
-              <h3>Growing Companies</h3>
+              <h3>Revenue Growing Faster Than Cash Flow
+              </h3>
               <p>
-                Businesses scaling faster than their financial processes can
-                reliably support.
+                Organizations where growth is outpacing financial processes, 
+                leading to delays, inconsistencies, and pressure on working capital.
               </p>
             </div>
 
             <div className="info-card">
-              <h3>Private Equity &amp; Transition Environments</h3>
+              <h3>Transition & Post-Acquisition Environments</h3>
               <p>
-                Companies navigating change, integration, or operational strain
-                during or after acquisition.
+                Companies navigating change, integration, or 
+                operational strain where financial controls and execution often come under pressure.
               </p>
             </div>
 
             <div className="info-card">
-              <h3>Leadership Teams Needing Clarity</h3>
+              <h3>Limited Visibility Into Cash Performance</h3>
               <p>
-                Founders, CEOs, and finance leaders who need better control
-                over how revenue becomes cash.
+                Founders, CEOs, and finance leaders who need clearer 
+                insight into how revenue is billed, collected, and converted into usable cash.
               </p>
             </div>
           </div>
