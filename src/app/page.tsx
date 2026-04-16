@@ -254,7 +254,6 @@ export default function HomePage() {
     In cross-border investing, trust is built through people—not algorithms.
   </p>
 </div>
-
 </div>
 </div>
 </section>
