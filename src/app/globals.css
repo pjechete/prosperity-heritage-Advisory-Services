@@ -553,6 +553,14 @@ li {
   gap: 1rem;
 }
 
+/* --- updated selective engagements layout --- */
+.strategic-links {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 2.25rem;
+  align-items: stretch;
+}
+
 .info-card,
 .card,
 .card-highlight,
@@ -619,6 +627,37 @@ li {
   color: var(--muted);
   line-height: 1.8;
   max-width: 34ch;
+}
+
+/* selective engagements card refinement */
+.strategic-links .info-card {
+  padding: 1.75rem;
+  border-radius: 22px;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  min-height: 100%;
+}
+
+.strategic-links .info-card h3 {
+  font-size: 1.35rem;
+  margin-bottom: 0.8rem;
+  max-width: 16ch;
+}
+
+.strategic-links .info-card p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  max-width: 36ch;
+  text-wrap: pretty;
+}
+
+.strategic-links .info-card:first-child {
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    rgba(18, 124, 132, 0.04) 100%
+  );
 }
 
 /* =========================
@@ -944,6 +983,13 @@ li {
     max-width: none;
   }
 
+  .strategic-links .info-card p,
+  .info-card p,
+  .step-card p,
+  .service-item p {
+    max-width: none;
+  }
+
   .services-jumpbar {
     top: 0;
   }
@@ -1009,6 +1055,10 @@ li {
   .service-item,
   .form-wrap,
   .cta-box {
+    padding: 1.35rem;
+  }
+
+  .strategic-links .info-card {
     padding: 1.35rem;
   }
 }
