@@ -141,6 +141,13 @@ h3 {
   letter-spacing: -0.022em;
 }
 
+h4 {
+  font-size: 1rem;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  color: var(--navy);
+}
+
 p {
   margin: 0 0 1rem;
   color: var(--muted);
@@ -631,12 +638,20 @@ li {
 
 /* selective engagements card refinement */
 .strategic-links .info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 1.75rem;
   border-radius: 22px;
   background: #ffffff;
   border: 1px solid var(--border);
   box-shadow: var(--shadow-sm);
   min-height: 100%;
+}
+
+.strategic-links .info-card > div:first-child {
+  display: flex;
+  flex-direction: column;
 }
 
 .strategic-links .info-card h3 {
@@ -652,12 +667,41 @@ li {
   text-wrap: pretty;
 }
 
+.strategic-links .info-card p + p {
+  margin-top: 0.5rem;
+}
+
 .strategic-links .info-card:first-child {
   background: linear-gradient(
     180deg,
     #ffffff 0%,
     rgba(18, 124, 132, 0.04) 100%
   );
+}
+
+.card-subsection {
+  margin-top: 1.25rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--border);
+}
+
+.card-subsection h4 {
+  margin: 0 0 0.65rem;
+  font-size: 1rem;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  color: var(--navy);
+}
+
+.card-subsection p {
+  margin-bottom: 0;
+}
+
+.card-footer {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
 }
 
 /* =========================
@@ -1075,5 +1119,10 @@ li {
 
   .strategic-links .info-card {
     padding: 1.35rem;
+  }
+
+  .card-footer {
+    flex-direction: column;
+    align-items: stretch;
   }
 }
