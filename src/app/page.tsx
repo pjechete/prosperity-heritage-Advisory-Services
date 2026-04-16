@@ -9,14 +9,17 @@ export default function HomePage() {
             <div>
               <p className="eyebrow">Prosperity Heritage Advisory</p>
               <h1 className="hero-title">Turn Revenue Into Predictable Cash</h1>
+
               <p className="hero-subtext">
                 Many businesses are already investing in people, systems, and finance support—yet cash flow still feels tighter than it should.
                 Delays, confusion, weak follow-through, and process gaps can quietly slow down how revenue turns into usable cash.
               </p>
+
               <p className="hero-subtext">
                 Prosperity Heritage Advisory helps leadership teams identify and fix the operational breakdowns behind billing delays,
                 collections underperformance, revenue leakage, and limited financial visibility.
               </p>
+
               <div className="hero-actions">
                 <Link href="/contact" className="btn btn-primary">
                   Book a Consultation
@@ -47,20 +50,25 @@ export default function HomePage() {
           <h2 className="section-title">
             Revenue can look strong while cash still feels tight
           </h2>
+
           <p className="section-copy">
             Both research and real-world experience show that cash flow challenges in growing businesses are rarely driven by demand, but
             by how effectively revenue is executed, billed, and converted into cash.
           </p>
+
           <p className="section-copy">
             In many cases, the breakdown occurs somewhere between contracts, billing, collections, reporting, and financial operations.
           </p>
+
           <p className="section-copy">
             Organizations may already be investing in finance staff, external support, and systems—yet invoicing is delayed, collections are inconsistent,
             reporting lacks clarity, and ownership across the revenue cycle is not clearly defined.
           </p>
+
           <p className="section-copy">
             The result is avoidable pressure on working capital, slower and less confident decision-making, and teams caught in a cycle of rework rather than control.
           </p>
+
           <p className="section-copy">
             This is not primarily a system or resource issue—it is an execution and alignment issue.
             Addressing it requires a clear understanding of how revenue flows through the organization, where it slows down, and what is needed to restore consistency,
@@ -75,6 +83,7 @@ export default function HomePage() {
           <h2 className="section-title">
             Revenue Control &amp; Cash Stabilization Advisory
           </h2>
+
           <p className="section-intro">
             Prosperity Heritage Advisory works with leadership teams to identify where revenue is delayed, weakened,
             or lost—and to strengthen the financial and operational processes that drive consistent cash performance.
@@ -237,20 +246,24 @@ export default function HomePage() {
 
           <div className="strategic-links">
             <div className="info-card">
-              <h3>Healthcare Development &amp; Turnkey Projects</h3>
-              <p>
-                Partner-led engagements involving healthcare infrastructure development
-                and implementation support in emerging markets, where operational execution
-                and coordination are critical.
-              </p>
+              <div>
+                <h3>Healthcare Development &amp; Turnkey Projects</h3>
+                <p>
+                  Partner-led engagements involving healthcare infrastructure development
+                  and implementation support in emerging markets, where operational execution
+                  and coordination are critical.
+                </p>
+              </div>
             </div>
 
             <div className="info-card">
-              <h3>Global Investment &amp; Trade Opportunities</h3>
-              <p>
-                Curated cross-border investment and trade opportunities,
-                where disciplined sourcing, validation, and structured introductions drive better outcomes.
-              </p>
+              <div>
+                <h3>Global Investment &amp; Trade Opportunities</h3>
+                <p>
+                  Curated cross-border investment and trade opportunities,
+                  where disciplined sourcing, validation, and structured introductions drive better outcomes.
+                </p>
+              </div>
             </div>
           </div>
 
