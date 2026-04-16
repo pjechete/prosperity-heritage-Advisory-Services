@@ -237,18 +237,21 @@ export default function HomePage() {
                 and implementation support in emerging markets, where operational execution and coordination are critica.
               </p>
             </div>
-
             <div className="info-card">
-              <h3>Global Investment &amp; Trade Opportunities</h3>
-              <p>
-                Curated cross-border investment and trade opportunities, 
-                where disciplined sourcing, validation, and structured introductions drive better outcomes.
-                <p>
-                <div className="section-closing narrow">
-                <p>
-                In cross-border investing, trust is built through people - not algorithms.
-                </p>
-                </div>
+            <h3>Global Investment &amp; Trade Opportunities</h3>
+  
+            <p>
+            Curated cross-border investment and trade opportunities, 
+            where disciplined sourcing, validation, and structured introductions drive better outcomes.
+            </p>
+
+            </div>
+
+            <div className="section-closing narrow">
+            <p>
+            In cross-border investing, trust is built through people—not algorithms.
+            </p>
+            </div>
               </p>
             </div>
           </div>
