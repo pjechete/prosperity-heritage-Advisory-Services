@@ -983,10 +983,10 @@ li {
   }
 
   .strategic-links .info-card p,
-  .info-card p,
-  .step-card p,
-  .service-item p {
-    max-width: none;
+.info-card p,
+.step-card p,
+.service-item p {
+  max-width: 100%;
   }
 
   .services-jumpbar {
