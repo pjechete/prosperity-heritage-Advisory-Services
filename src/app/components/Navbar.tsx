@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 
 const navLinks = [
@@ -17,15 +18,18 @@ export default function Navbar() {
   return (
     <header className="site-header">
       <div className="container header-inner">
-        <Link href="/" className="brand" aria-label="Prosperity Heritage Advisory home">
-          <img
+
+        <Link href="/" className="brand">
+          <Image
             src="/logo.png"
             alt="Prosperity Heritage Advisory"
-            className="logo"
+            width={150}
+            height={50}
+            priority
           />
         </Link>
 
-        <nav className="main-nav" aria-label="Main navigation">
+        <nav className="main-nav">
           {navLinks.map((link) => {
             const isActive =
               link.href === '/'
@@ -46,7 +50,7 @@ export default function Navbar() {
 
         <div className="header-cta">
           <Link href="/contact" className="btn btn-primary btn-sm">
-            Book a Consultation
+            Schedule Diagnostic
           </Link>
         </div>
       </div>
