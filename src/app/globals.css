@@ -474,26 +474,30 @@ li {
 }
 .hero-visual {
   position: relative;
+  padding-right: 40px;   /* creates breathing room from edge */
+  padding-top: 20px;     /* lifts image slightly */
 }
 
 .hero-visual img {
-  width: 100%;
+  width: 90%;            /* slightly smaller = less cramped */
   height: auto;
   display: block;
+  margin-left: auto;     /* keeps it aligned right */
 }
-
 .hero-overlay-card {
   position: absolute;
   right: 0;
   bottom: 0;
-  transform: translate(6%, 10%);
-  max-width: 320px;
-  padding: 1.25rem 1.25rem 1.1rem;
-  border: 1px solid rgba(219, 228, 236, 0.95);
-  background: rgba(255, 255, 255, 0.95);
+
+  transform: translate(25%, 20%);  /* pushes it OUT, not squeezed in */
+
+  max-width: 300px;
+  padding: 1.3rem;
+
   border-radius: 22px;
-  box-shadow: 0 18px 38px rgba(16, 32, 51, 0.08);
-  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 20px 45px rgba(16, 32, 51, 0.08);
+  backdrop-filter: blur(10px);
 }
 
 .hero-overlay-card h3 {
@@ -949,10 +953,13 @@ li {
     grid-template-columns: 1fr;
   }
 
-  .hero-grid,
-  .services-hero-grid,
-  .services-two-col {
-    gap: 1.5rem;
+.hero-grid {
+  gap: 3rem;
+}
+
+.services-hero-grid,
+.services-two-col {
+  gap: 1.5rem; /* keep these unchanged */
   }
 }
 @media (max-width: 900px) {
