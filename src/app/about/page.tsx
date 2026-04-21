@@ -6,91 +6,76 @@ export default function AboutPage() {
       <section className="page-hero">
         <div className="narrow">
           <p className="eyebrow">About</p>
-          <h1>About Prosperity Heritage Advisory</h1>
-          <p className="section-copy">
+          <h1 className="page-title">A focused advisory partner for revenue control and cash stabilization</h1>
+
+          <p className="section-copy section-copy-lg">
             Prosperity Heritage Advisory helps leadership teams strengthen the
-            operational and financial systems that convert revenue into more
-            predictable cash performance.
+            operational and financial systems that determine how revenue
+            converts into cash.
           </p>
-<p className="hero-proof">
-  Led by 20+ years of experience across global finance, operational transformation, and revenue cycle improvement.
-</p>
+
+          <p className="hero-proof">
+            Led by 20+ years of experience across global finance, operational
+            transformation, and revenue cycle improvement.
+          </p>
         </div>
       </section>
 
       <section className="section">
         <div className="narrow">
-          <div className="content-stack">
-            <div className="card-gray">
-              <p>
-                Many growing organizations generate strong revenue but still
-                experience instability in cash performance. In most cases, the
-                issue is not revenue alone. The breakdown usually happens
-                somewhere between billing execution, collections follow-through,
-                payment application, financial ownership, and reporting visibility.
-              </p>
-            </div>
+          <p className="section-label">What we see</p>
+          <h2 className="section-title">
+            Revenue can look healthy while cash performance remains under pressure
+          </h2>
 
-            <div className="card-gray">
-              <p>
-                As companies grow, go through acquisitions, or operate through
-                periods of transition, these gaps often become more visible.
-                Sales teams move quickly, operations evolve, and finance teams
-                work hard to keep pace. Without strong process discipline
-                connecting these functions, revenue may look healthy while cash
-                outcomes remain inconsistent and difficult to manage.
-              </p>
-            </div>
+          <p className="section-copy">
+            Many organizations generate strong revenue but still experience
+            instability in cash performance. In most cases, the issue is not
+            revenue alone. The breakdown happens somewhere between billing,
+            collections, payment application, financial ownership, and
+            reporting visibility.
+          </p>
 
-            <div className="card-gray">
-              <p>
-                Prosperity Heritage Advisory focuses on practical,
-                leadership-level improvements that help organizations strengthen
-                billing discipline, collections performance, revenue integrity,
-                financial visibility, and operational finance execution.
-              </p>
-            </div>
-
-            <div className="card-gray">
-              <p>
-                We support organizations that need more than routine accounting
-                support and more than high-level strategy alone. Our work is
-                designed to help leadership teams identify where revenue
-                conversion is slowing down, correct underlying process gaps, and
-                stabilize the systems behind financial performance.
-              </p>
-            </div>
-          </div>
+          <p className="section-copy">
+            As businesses grow, go through acquisitions, or operate through
+            periods of transition, these gaps become more visible. Sales moves
+            quickly. Operations evolves. Finance works hard to keep pace. But
+            without strong process discipline connecting those functions,
+            revenue may appear healthy while cash outcomes remain inconsistent
+            and difficult to manage.
+          </p>
         </div>
       </section>
 
-      <section className="section section-light">
-        <div className="narrow">
-          <p className="section-label">What our work strengthens</p>
-          <h2 className="section-title">Practical improvements behind cash performance</h2>
+      <section className="section section-soft">
+        <div className="container">
+          <p className="section-label">How we help</p>
+          <h2 className="section-title">
+            Practical, leadership-level improvement where execution matters most
+          </h2>
 
-          <div className="content-stack">
-            <div className="card">
+          <div className="card-grid three-up">
+            <div className="card card-feature">
               <h3>Billing Discipline</h3>
               <p>
-                Improve invoice timing, accuracy, and process ownership so
-                revenue is captured and billed more consistently.
+                Improve invoice timing, accuracy, and ownership so revenue is
+                captured and billed with greater consistency.
               </p>
             </div>
 
-            <div className="card">
+            <div className="card card-feature">
               <h3>Collections Performance</h3>
               <p>
                 Strengthen follow-up structure, accountability, and aging
-                management to improve cash conversion.
+                management to support stronger cash conversion.
               </p>
             </div>
 
-            <div className="card">
+            <div className="card card-feature">
               <h3>Revenue Integrity</h3>
               <p>
-                Resolve issues affecting receivables visibility, including
-                unapplied or misapplied payments and reconciliation gaps.
+                Address gaps affecting receivables visibility, including
+                unapplied or misapplied cash and reconciliation issues.
               </p>
             </div>
 
@@ -105,28 +90,74 @@ export default function AboutPage() {
             <div className="card">
               <h3>Operational Stabilization</h3>
               <p>
-                Support businesses during growth, transition, or
-                post-acquisition periods where finance operations need stronger
-                execution and control.
+                Support organizations during growth, transition, or
+                post-acquisition periods where execution and control come under
+                strain.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Cash Performance Focus</h3>
+              <p>
+                Improve the discipline behind how revenue is managed,
+                translated, and preserved as usable cash.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="cta-band">
-        <div className="narrow">
-          <div className="cta-box">
-            <h2>Let’s strengthen the systems behind cash performance</h2>
-            <p>
-              If your organization is dealing with delayed invoicing, collections
-              inconsistency, reconciliation issues, weak visibility, or financial
-              strain during a transition period, Prosperity Heritage Advisory can help.
+      <section className="section">
+        <div className="container services-two-col">
+          <div>
+            <p className="section-label">Why PHS</p>
+            <h2 className="section-title left-align">
+              More than routine accounting. More than high-level strategy.
+            </h2>
+
+            <p className="section-copy">
+              Prosperity Heritage Advisory focuses on the operating layer where
+              revenue conversion is often weakened. Our work is designed for
+              leadership teams that need clearer control, stronger execution,
+              and more dependable cash outcomes.
             </p>
 
-            <div className="button-row center-buttons">
-              <Link href="/contact" className="btn btn-secondary">
-                Book a Consultation
+            <p className="section-copy">
+              We support organizations that need to identify where revenue
+              conversion is slowing down, correct underlying process gaps, and
+              stabilize the systems behind financial performance.
+            </p>
+          </div>
+
+          <div className="services-callout">
+            <h3>What defines our approach</h3>
+            <ul>
+              <li>Focused on execution, not just analysis</li>
+              <li>Grounded in operational and financial realities</li>
+              <li>Structured around control, visibility, and accountability</li>
+              <li>Designed for leadership teams managing growth or complexity</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="cta-section">
+        <div className="narrow">
+          <div className="cta-box">
+            <p className="section-label">Next step</p>
+            <h2>Let’s strengthen the systems behind cash performance</h2>
+            <p>
+              If delayed invoicing, collections inconsistency, reconciliation
+              issues, weak visibility, or transition-related strain are
+              affecting performance, we can help.
+            </p>
+
+            <div className="hero-actions center-buttons">
+              <Link href="/contact" className="btn btn-primary">
+                Schedule a Diagnostic
+              </Link>
+              <Link href="/services" className="btn btn-secondary">
+                Explore Services
               </Link>
             </div>
           </div>
