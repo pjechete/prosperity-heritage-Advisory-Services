@@ -7,15 +7,11 @@ export default function ContactPage() {
           <h1 className="page-title">Let’s identify what’s holding back your cash performance</h1>
 
           <p className="section-copy section-copy-lg">
-            If revenue is growing but cash performance still feels strained,
-            the issue is often sitting somewhere inside billing, collections,
-            reporting, or financial execution.
+           If revenue is growing but cash performance still feels strained, the issue is often within billing, collections, reporting, or financial execution.
           </p>
 
           <p className="hero-proof">
-            This is the right place to start the conversation if you need
-            clearer visibility, stronger control, and more dependable cash
-            outcomes.
+            Use this form to share a bit about what you’re seeing, and we’ll help you identify where the breakdown may be.
           </p>
         </div>
       </section>
