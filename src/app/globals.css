@@ -106,10 +106,6 @@ select {
    TYPOGRAPHY
 ========================= */
 
-/* =========================
-   TYPOGRAPHY
-========================= */
-
 h1,
 h2,
 h3,
@@ -262,6 +258,7 @@ li {
   line-height: 1.7;
   color: var(--text);
 }
+
 /* =========================
    NAVBAR
 ========================= */
@@ -478,28 +475,27 @@ li {
   line-height: 1.68;
   color: var(--muted);
 }
+
 .hero-visual {
   position: relative;
-  padding-right: 40px;   /* creates breathing room from edge */
-  padding-top: 20px;     /* lifts image slightly */
+  padding-right: 40px;
+  padding-top: 20px;
 }
 
 .hero-visual img {
-  width: 90%;            /* slightly smaller = less cramped */
+  width: 90%;
   height: auto;
   display: block;
-  margin-left: auto;     /* keeps it aligned right */
+  margin-left: auto;
 }
+
 .hero-overlay-card {
   position: absolute;
   right: 0;
   bottom: 0;
-
-  transform: translate(25%, 20%);  /* pushes it OUT, not squeezed in */
-
+  transform: translate(25%, 20%);
   max-width: 300px;
   padding: 1.3rem;
-
   border-radius: 22px;
   background: rgba(255, 255, 255, 0.96);
   box-shadow: 0 20px 45px rgba(16, 32, 51, 0.08);
@@ -518,6 +514,7 @@ li {
   margin-bottom: 0.45rem;
   font-size: 0.97rem;
 }
+
 /* =========================
    PANELS / CARDS
 ========================= */
@@ -536,6 +533,18 @@ li {
   border-radius: var(--radius-lg);
   padding: 1.5rem;
   box-shadow: var(--shadow-sm);
+}
+
+.card-gray {
+  background: linear-gradient(180deg, #f8fbfc 0%, #ffffff 100%);
+}
+
+.card-highlight {
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    rgba(18, 124, 132, 0.05) 100%
+  );
 }
 
 .card h3,
@@ -618,6 +627,7 @@ li {
   margin-top: 1.6rem;
   align-items: stretch;
 }
+
 .problem-section,
 .framework-section {
   display: grid;
@@ -656,6 +666,7 @@ li {
 .approach-copy {
   max-width: 44rem;
 }
+
 /* =========================
    STEPS
 ========================= */
@@ -721,16 +732,6 @@ li {
   display: grid;
   gap: 0.9rem;
 }
-.services-jumpbar { ... }
-
-.services-jump-links { ... }
-
-.services-jump-links a { ... }
-
-.services-jump-links a:hover { ... }
-
-.service-stack { ... }
-
 
 /* =========================
    SERVICES PAGE EXTENSIONS
@@ -768,6 +769,7 @@ li {
     rgba(18, 124, 132, 0.04) 100%
   );
 }
+
 /* =========================
    FORM
 ========================= */
@@ -987,15 +989,20 @@ li {
     grid-template-columns: 1fr;
   }
 
-.hero-grid {
-  gap: 3rem;
-}
+  .hero-grid {
+    gap: 3rem;
+  }
 
-.services-hero-grid,
-.services-two-col {
-  gap: 1.5rem; /* keep these unchanged */
+  .services-hero-grid,
+  .services-two-col {
+    gap: 1.5rem;
+  }
+
+  .services-focus-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
 @media (max-width: 900px) {
   .problem-section,
   .framework-section {
@@ -1008,8 +1015,7 @@ li {
     margin-top: 1rem;
     max-width: 100%;
   }
-}
-@media (max-width: 900px) {
+
   .section,
   .hero,
   .page-hero,
@@ -1047,10 +1053,13 @@ li {
   .form-grid,
   .footer-inner,
   .card-grid,
-  .card-grid-two {
+  .card-grid-two,
+  .services-focus-grid,
+  .services-pillars-grid {
     grid-template-columns: 1fr;
   }
 
+  .page-title,
   .hero-title,
   .section-title,
   .cta-box h2 {
@@ -1091,7 +1100,8 @@ li {
   .section-subtitle,
   .section-copy,
   .hero-subtext,
-  .hero-copy {
+  .hero-copy,
+  .section-copy-lg {
     font-size: 1rem;
     line-height: 1.68;
   }
