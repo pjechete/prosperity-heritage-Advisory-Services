@@ -1,4 +1,11 @@
-import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'About Prosperity Heritage Advisory | Revenue Control Experts',
+  description:
+    'Learn how Prosperity Heritage Advisory helps leadership teams strengthen the systems that convert revenue into predictable cash performance.',
+}
+  import Link from 'next/link'
 
 export default function AboutPage() {
   return (
