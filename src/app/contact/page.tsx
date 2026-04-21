@@ -4,7 +4,7 @@ export default function ContactPage() {
       <section className="page-hero">
         <div className="container page-hero-copy">
           <p className="eyebrow">Contact</p>
-          <h1 className="page-title">Start with a structured conversation</h1>
+          <h1 className="page-title">Let’s identify what’s holding back your cash performance</h1>
 
           <p className="section-copy section-copy-lg">
             If revenue is growing but cash performance still feels strained,
