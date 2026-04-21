@@ -4,7 +4,7 @@ export default function AboutPage() {
   return (
     <main>
       <section className="page-hero">
-        <div className="narrow">
+        <div className="container">
           <p className="eyebrow">About</p>
           <h1 className="page-title">A focused advisory partner for revenue control and cash stabilization</h1>
 
@@ -22,7 +22,7 @@ export default function AboutPage() {
       </section>
 
       <section className="section">
-        <div className="narrow">
+        <div className="container">
           <p className="section-label">What we see</p>
           <h2 className="section-title">
             Revenue can look healthy while cash performance remains under pressure
@@ -142,7 +142,7 @@ export default function AboutPage() {
       </section>
 
       <section className="cta-section">
-        <div className="narrow">
+        <div className="container">
           <div className="cta-box">
             <p className="section-label">Next step</p>
             <h2>Let’s strengthen the systems behind cash performance</h2>
