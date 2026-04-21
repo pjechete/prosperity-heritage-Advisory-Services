@@ -70,14 +70,15 @@ export default function InsightsPage() {
           </p>
 
           <div className="card-grid">
-            <div className="card card-highlight">
-              <h3>Why Revenue Does Not Always Convert Into Cash</h3>
-              <p>
-                Revenue can appear strong while cash remains strained. This
-                piece looks at the operational gaps that often sit between the
-                two.
-              </p>
-            </div>
+           <Link href="/insights/revenue-not-converting-to-cash">
+  <div className="card card-highlight">
+    <h3>Why Revenue Does Not Always Convert Into Cash</h3>
+    <p>
+      Revenue can appear strong while cash remains strained. This piece
+      explains where the breakdown usually happens.
+    </p>
+  </div>
+</Link>
 
             <div className="card">
               <h3>The Hidden Cost of Delayed Invoicing</h3>
