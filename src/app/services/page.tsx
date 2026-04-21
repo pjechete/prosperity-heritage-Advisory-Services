@@ -1,4 +1,11 @@
-import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Revenue Control, Billing & Collections Consulting | PHS Services',
+  description:
+    'Advisory services focused on billing discipline, collections performance, revenue integrity, and financial visibility to improve cash outcomes.',
+}
+  import Link from 'next/link'
 
 export default function ServicesPage() {
   return (
