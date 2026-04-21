@@ -4,79 +4,133 @@ export default function InsightsPage() {
   return (
     <main>
       <section className="page-hero">
-        <div className="narrow">
+        <div className="container page-hero-copy">
           <p className="eyebrow">Insights</p>
-          <h1>Perspectives on Revenue Stability</h1>
-          <p className="section-copy">
-            Practical perspectives on revenue operations, billing discipline,
-            collections performance, financial visibility, and operational
-            finance execution.
+          <h1 className="page-title">Perspectives on revenue control and cash performance</h1>
+
+          <p className="section-copy section-copy-lg">
+            Practical insight on the operational, financial, and execution issues
+            that affect how revenue converts into cash.
           </p>
+
+          <p className="hero-proof">
+            Focused on the patterns leadership teams need to see earlier —
+            before delays, leakage, and visibility issues become bigger problems.
+          </p>
+        </div>
+      </section>
+
+      <section className="section section-soft">
+        <div className="container">
+          <p className="section-label">What we cover</p>
+          <h2 className="section-title">Three areas that shape cash performance</h2>
+
+          <div className="card-grid three-up">
+            <div className="card card-feature">
+              <h3>Revenue Control</h3>
+              <p>
+                Insights on billing discipline, revenue integrity, accountability,
+                and the operational breakdowns that weaken cash realization.
+              </p>
+            </div>
+
+            <div className="card card-feature">
+              <h3>Cash Stabilization</h3>
+              <p>
+                Perspectives on receivables pressure, collections performance,
+                cash flow strain, and how organizations build stronger control.
+              </p>
+            </div>
+
+            <div className="card card-feature">
+              <h3>Operational Finance</h3>
+              <p>
+                Practical thinking on reporting visibility, execution discipline,
+                cross-functional handoffs, and financial operating rhythm.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
       <section className="section">
         <div className="container">
-          <p className="section-label">Insights library</p>
-          <h2 className="section-title">Upcoming articles and perspectives</h2>
+          <p className="section-label">Featured insights</p>
+          <h2 className="section-title">Current and upcoming perspectives</h2>
           <p className="section-intro">
-            We regularly share insights drawn from real operational challenges
-            organizations face as revenue grows and financial processes become
-            more complex.
+            A selection of the themes and issues we continue to explore across
+            revenue operations, billing, collections, and financial execution.
           </p>
 
-          <div className="grid-4">
-            <div className="card">
+          <div className="card-grid">
+            <div className="card card-highlight">
               <h3>Why Revenue Does Not Always Convert Into Cash</h3>
               <p>
-                Many organizations generate strong revenue yet still struggle
-                with inconsistent cash performance. We explore where the
-                breakdown often occurs between billing, collections, and
-                financial visibility.
+                Revenue can appear strong while cash remains strained. This
+                piece looks at the operational gaps that often sit between the
+                two.
               </p>
             </div>
 
             <div className="card">
               <h3>The Hidden Cost of Delayed Invoicing</h3>
               <p>
-                Delayed billing cycles quietly weaken cash flow, distort aging,
-                and reduce leadership visibility into operational performance.
+                Billing delays rarely stay isolated. They affect aging,
+                collections, visibility, and leadership confidence.
               </p>
             </div>
 
             <div className="card">
-              <h3>Why Unapplied Cash Is Often a Process Problem</h3>
+              <h3>Why Unapplied Cash Is Usually a Process Problem</h3>
               <p>
-                Unapplied or misapplied payments are rarely just accounting
-                cleanup issues. They often reveal deeper breakdowns in process,
-                ownership, and reconciliation discipline.
+                Unapplied or misapplied payments often point to deeper issues in
+                execution, ownership, and reconciliation discipline.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>When Growth Outpaces Financial Control</h3>
+              <p>
+                As organizations scale, revenue may grow faster than the
+                systems needed to bill, collect, and report it effectively.
               </p>
             </div>
 
             <div className="card">
               <h3>What Breaks After an Acquisition</h3>
               <p>
-                Acquisitions often expose operational gaps across billing,
-                collections, reporting, and financial controls that require
-                stabilization quickly.
+                Transition periods often expose weak handoffs, reporting gaps,
+                and execution strain across billing and financial operations.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Leadership Visibility and the Cash Conversation</h3>
+              <p>
+                Strong decision-making depends on being able to see where
+                revenue is slowing down and why cash performance is weakening.
               </p>
             </div>
           </div>
         </div>
       </section>
-    <section className="cta-band">
+
+      <section className="cta-section">
         <div className="narrow">
           <div className="cta-box">
-            <h2>Need help stabilizing revenue performance?</h2>
+            <p className="section-label">Next step</p>
+            <h2>Seeing similar patterns in your organization?</h2>
             <p>
-              If your organization is dealing with delayed invoicing,
-              reconciliation issues, aging receivables, or operational finance
-              strain, Prosperity Heritage Advisory can help.
+              If the issues explored here feel familiar, the next step may be
+              understanding where your own revenue process is slowing down.
             </p>
 
-            <div className="button-row center-buttons">
-              <Link href="/contact" className="btn btn-secondary">
-                Book a Consultation
+            <div className="hero-actions center-buttons">
+              <Link href="/contact" className="btn btn-primary">
+                Schedule a Diagnostic
+              </Link>
+              <Link href="/services" className="btn btn-secondary">
+                Explore Services
               </Link>
             </div>
           </div>
