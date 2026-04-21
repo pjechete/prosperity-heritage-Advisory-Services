@@ -1,4 +1,11 @@
-import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Revenue Control & Cash Flow Insights | PHS Advisory',
+  description:
+    'Insights on revenue control, billing, collections, financial visibility, and the operational issues that affect cash performance.',
+}
+  import Link from 'next/link'
 
 export default function InsightsPage() {
   return (
