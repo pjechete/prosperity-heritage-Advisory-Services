@@ -1,4 +1,11 @@
-import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Revenue Control & Cash Stabilization Advisory | Prosperity Heritage Advisory',
+  description:
+    'We help companies improve cash flow by fixing breakdowns across billing, collections, and financial operations. Turn revenue into predictable cash.',
+}
+  import Link from 'next/link'
 import Image from 'next/image'
 
 export default function HomePage() {
