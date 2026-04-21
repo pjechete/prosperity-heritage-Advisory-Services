@@ -1,4 +1,11 @@
-export default function ContactPage() {
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Contact | Revenue Control & Cash Flow Consultation | PHS',
+  description:
+    'Start a conversation about billing, collections, and financial performance challenges affecting your cash flow.',
+}
+  export default function ContactPage() {
   return (
     <main>
       <section className="page-hero">
