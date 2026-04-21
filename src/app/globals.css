@@ -215,14 +215,12 @@ li {
 }
 
 .page-title {
-  max-width: 18ch;
+  max-width: 16ch;
   margin-bottom: 1rem;
-  font-size: clamp(2.75rem, 4.6vw, 4.7rem);
-  line-height: 0.98;
-}
-.page-title {
+  font-size: clamp(2.9rem, 4.6vw, 4.8rem);
   line-height: 1.02;
 }
+
 .section-title {
   margin-bottom: 0.9rem;
   max-width: 16ch;
@@ -259,6 +257,9 @@ li {
   font-size: 1rem;
   line-height: 1.7;
   color: var(--text);
+}
+.page-hero-copy {
+  max-width: 760px;
 }
 
 /* =========================
@@ -416,7 +417,7 @@ li {
 .page-hero {
   position: relative;
   overflow: hidden;
-  padding: 92px 0 78px;
+  padding: 88px 0 72px;
 }
 
 .hero {
@@ -451,14 +452,14 @@ li {
 }
 
 .hero-title {
-  max-width: 9ch;
-  margin-bottom: 0.95rem;
+  max-width: 11ch;
+  margin-bottom: 1rem;
   font-size: clamp(3.15rem, 5vw, 5.1rem);
-  line-height: 1;
+  line-height: 0.98;
 }
 
 .hero-subtext {
-  max-width: 38rem;
+  max-width: 40rem;
   font-size: 1.08rem;
   line-height: 1.72;
   color: var(--muted);
@@ -471,9 +472,9 @@ li {
 }
 
 .hero-proof {
-  max-width: 38rem;
-  margin-top: 0.9rem;
-  font-size: 0.98rem;
+  max-width: 44rem;
+  margin-top: 0.85rem;
+  font-size: 1rem;
   line-height: 1.68;
   color: var(--muted);
 }
@@ -1025,7 +1026,16 @@ li {
   .cta-section {
     padding: 64px 0;
   }
+.page-title,
+  .hero-title,
+  .section-title,
+  .cta-box h2 {
+    max-width: none;
+  }
 
+  .page-hero-copy {
+    max-width: 100%;
+  }
   .header-inner {
     min-height: auto;
     padding: 0.95rem 0;
