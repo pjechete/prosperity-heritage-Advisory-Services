@@ -215,12 +215,14 @@ li {
 }
 
 .page-title {
-  max-width: 12ch;
+  max-width: 18ch;
   margin-bottom: 1rem;
   font-size: clamp(2.75rem, 4.6vw, 4.7rem);
   line-height: 0.98;
 }
-
+.page-title {
+  line-height: 1.02;
+}
 .section-title {
   margin-bottom: 0.9rem;
   max-width: 16ch;
