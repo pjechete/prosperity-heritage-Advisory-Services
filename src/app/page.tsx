@@ -23,14 +23,12 @@ export default function HomePage() {
               </h1>
 
               <p className="hero-subtext">
-                We help leadership teams strengthen billing, collections, and
-                financial workflows so revenue moves through the business with
-                greater control, fewer delays, and clearer visibility into cash.
+                We help leadership teams strengthen billing, collections, and financial workflows
+                so revenue moves with greater control, fewer delays, and clearer visibility into cash.
               </p>
 
               <p className="hero-subtext">
-                The result is a more reliable path from revenue activity to
-                predictable cash.
+                The result is a more predictable path from revenue activity to cash.
               </p>
 
               <div className="hero-actions">
@@ -108,15 +106,14 @@ export default function HomePage() {
             <p className="section-label">How we think</p>
 
             <h2 className="section-title">
-              Revenue optimization requires control, discipline, and visibility.
+              Revenue performance is driven by control, discipline, and visibility.
             </h2>
 
             <div className="framework-list">
               <div>
                 <h3>Control</h3>
                 <p>
-                  Clear ownership across billing, collections, finance, and
-                  operational handoffs.
+                  Clear ownership and accountability across the revenue process.
                 </p>
               </div>
 
@@ -131,8 +128,7 @@ export default function HomePage() {
               <div>
                 <h3>Visibility</h3>
                 <p>
-                  Decision-ready reporting that helps leadership see where cash is
-                  delayed, why it is delayed, and what needs attention.
+                 Clear insight into cash performance, delays, and drivers.
                 </p>
               </div>
             </div>
@@ -150,17 +146,18 @@ export default function HomePage() {
       </section>
 
       {/* APPROACH */}
- <section className="section section-light">
+<section className="section section-light">
   <div className="container approach-section">
     <div className="approach-copy">
       <p className="section-label">Our approach</p>
+
       <h2 className="section-title">
-        A disciplined path from assessment to optimization.
+        A structured approach to improving revenue performance and cash visibility.
       </h2>
+
       <p className="section-copy">
-        We use a structured approach to evaluate revenue performance, identify
-        execution gaps, design practical improvements, implement controls, and
-        strengthen cash visibility over time.
+        We use a disciplined process to assess current performance, identify gaps,
+        design improvements, implement controls, and optimize revenue-to-cash outcomes.
       </p>
     </div>
 
@@ -168,37 +165,37 @@ export default function HomePage() {
       <div className="approach-step">
         <span>01</span>
         <h3>Assess</h3>
-        <p>Review current revenue workflows, reporting, controls, and cash visibility.</p>
+        <p>Establish a clear view of revenue flow, control points, and cash visibility.</p>
       </div>
 
       <div className="approach-step">
         <span>02</span>
         <h3>Diagnose</h3>
-        <p>Identify root causes behind delays, leakage, rework, and performance gaps.</p>
+        <p>Identify the root causes of delays, leakage, and performance gaps.</p>
       </div>
 
       <div className="approach-step">
         <span>03</span>
         <h3>Design</h3>
-        <p>Develop practical process improvements, ownership models, and reporting routines.</p>
+        <p>Define practical improvements across ownership, process, and reporting.</p>
       </div>
 
       <div className="approach-step">
         <span>04</span>
         <h3>Implement</h3>
-        <p>Support execution of improved workflows, cadence, controls, and accountability.</p>
+        <p>Support execution with clear structure, cadence, and accountability.</p>
       </div>
 
       <div className="approach-step">
         <span>05</span>
         <h3>Control</h3>
-        <p>Strengthen monitoring, escalation, and visibility so improvements are sustained.</p>
+        <p>Strengthen monitoring and discipline to sustain performance over time.</p>
       </div>
 
       <div className="approach-step">
         <span>06</span>
         <h3>Optimize</h3>
-        <p>Refine performance over time to improve cash predictability and operating discipline.</p>
+        <p>Continuously refine execution to improve cash predictability and efficiency.</p>
       </div>
     </div>
   </div>
@@ -248,21 +245,20 @@ export default function HomePage() {
           <div className="cta-box">
             <p className="eyebrow">Revenue Performance Review</p>
 
-            <h2>
-              Improve revenue performance with clearer cash visibility.
-            </h2>
+<h2>
+  A clearer view of how revenue is performing across your business.
+</h2>
 
-            <p>
-              If revenue is not consistently converting into cash, we help identify
-              where billing, collections, reporting, and process handoffs are limiting
-              performance — and where stronger control can improve outcomes.
-            </p>
+<p>
+  If revenue is not consistently converting into cash, we help identify where
+  performance, control, and visibility can be improved.
+</p>
 
-            <div className="hero-actions center-buttons">
-              <Link href="/contact" className="btn btn-primary">
-                Schedule a Revenue Review
-              </Link>
-            </div>
+<div className="hero-actions center-buttons">
+  <Link href="/contact" className="btn btn-primary">
+    Schedule a Revenue Review
+  </Link>
+</div>
           </div>
         </div>
       </section>
