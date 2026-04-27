@@ -150,28 +150,28 @@ export default function HomePage() {
       </section>
 
       {/* APPROACH */}
-      <section className="section section-light">
-        <div className="container approach-section">
-          <div className="approach-copy">
-            <p className="section-label">Our approach</p>
-            <h2 className="section-title">Diagnose. Align. Improve.</h2>
-            <p className="section-copy">
-              A focused advisory approach designed to identify revenue process gaps,
-              improve alignment, and strengthen visibility from revenue activity to
-              cash performance.
-            </p>
-          </div>
+ <section className="section section-light">
+  <div className="container approach-section">
+    <div className="approach-copy">
+      <p className="section-label">Our approach</p>
+      <h2 className="section-title">Diagnose. Align. Improve.</h2>
+      <p className="section-copy">
+        A focused advisory approach designed to identify revenue process gaps,
+        improve alignment, and strengthen visibility from revenue activity to
+        cash performance.
+      </p>
+    </div>
 
-          <div className="approach-visual">
-            <Image
-              src="/images/approach-flow.png"
-              alt="Diagnose align improve revenue process visual"
-              width={1000}
-              height={420}
-            />
-          </div>
-        </div>
-      </section>
+    <div className="approach-visual">
+      <Image
+        src="/images/approach-flow.png"
+        alt="Diagnose align improve revenue process visual"
+        width={1000}
+        height={420}
+      />
+    </div>
+  </div>
+</section>
 
       {/* AUDIENCE */}
       <section className="section">
