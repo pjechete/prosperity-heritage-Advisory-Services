@@ -207,32 +207,32 @@ export default function HomePage() {
           <p className="section-label">Who this is for</p>
 
           <h2 className="section-title">
-            Built for organizations that need stronger revenue performance and
-            clearer cash visibility.
+            Designed for leadership teams where revenue performance and cash visibility
+            are not fully aligned.
           </h2>
 
           <div className="card-grid three-up">
             <div className="card">
-              <h3>Revenue growth with limited cash clarity</h3>
+              <h3>Revenue is growing, but cash is inconsistent</h3>
               <p>
-                Revenue activity is increasing, but leadership does not have a clear
-                view of when it will convert into cash.
+              Revenue activity is strong, but cash flow lacks predictability due to
+              delays, leakage, or execution gaps.
               </p>
             </div>
 
             <div className="card">
-              <h3>Billing and collections friction</h3>
+              <h3>Processes exist, but outcomes vary</h3>
               <p>
-                Invoicing delays, collections gaps, and unclear ownership are slowing
-                the revenue-to-cash cycle.
+              Billing, collections, and reporting are in place, but performance is
+              inconsistent and difficult to manage.
               </p>
             </div>
 
             <div className="card">
-              <h3>Reporting that lacks visibility</h3>
+              <h3>Limited visibility into cash performance</h3>
               <p>
-                Financial reporting exists, but it does not clearly show where cash is
-                delayed or what operational issues require action.
+              Leadership lacks a clear, reliable view of where cash is delayed and
+              what is driving those delays.
               </p>
             </div>
           </div>
@@ -245,20 +245,20 @@ export default function HomePage() {
           <div className="cta-box">
             <p className="eyebrow">Revenue Performance Review</p>
 
-<h2>
-  A clearer view of how revenue is performing across your business.
-</h2>
+        <h2>
+        A clearer view of how revenue is performing across your business.
+        </h2>
 
-<p>
-  If revenue is not consistently converting into cash, we help identify where
-  performance, control, and visibility can be improved.
-</p>
+        <p>
+        If revenue is not consistently converting into cash, we help identify where
+        performance, control, and visibility can be improved.
+        </p>
 
-<div className="hero-actions center-buttons">
-  <Link href="/contact" className="btn btn-primary">
-    Schedule a Revenue Review
-  </Link>
-</div>
+        <div className="hero-actions center-buttons">
+        <Link href="/contact" className="btn btn-primary">
+      Schedule a Revenue Review
+      </Link>
+        </div>
           </div>
         </div>
       </section>
