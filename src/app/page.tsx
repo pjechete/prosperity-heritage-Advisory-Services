@@ -162,13 +162,33 @@ export default function HomePage() {
       </p>
     </div>
 
-    <div className="approach-visual">
-      <Image
-        src="/images/approach-flow.png"
-        alt="Diagnose align improve revenue process visual"
-        width={1000}
-        height={420}
-      />
+    <div className="approach-steps">
+      <div className="approach-step">
+        <span>01</span>
+        <h3>Diagnose</h3>
+        <p>
+          Review billing, collections, reporting, and workflow gaps that affect
+          revenue performance and cash visibility.
+        </p>
+      </div>
+
+      <div className="approach-step">
+        <span>02</span>
+        <h3>Align</h3>
+        <p>
+          Clarify ownership, improve handoffs, and strengthen process discipline
+          across operations, finance, and leadership.
+        </p>
+      </div>
+
+      <div className="approach-step">
+        <span>03</span>
+        <h3>Improve</h3>
+        <p>
+          Implement practical improvements that support stronger control, fewer
+          delays, and clearer cash performance.
+        </p>
+      </div>
     </div>
   </div>
 </section>
