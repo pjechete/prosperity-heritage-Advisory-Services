@@ -154,40 +154,51 @@ export default function HomePage() {
   <div className="container approach-section">
     <div className="approach-copy">
       <p className="section-label">Our approach</p>
-      <h2 className="section-title">Diagnose. Align. Improve.</h2>
+      <h2 className="section-title">
+        A disciplined path from assessment to optimization.
+      </h2>
       <p className="section-copy">
-        A focused advisory approach designed to identify revenue process gaps,
-        improve alignment, and strengthen visibility from revenue activity to
-        cash performance.
+        We use a structured approach to evaluate revenue performance, identify
+        execution gaps, design practical improvements, implement controls, and
+        strengthen cash visibility over time.
       </p>
     </div>
 
-    <div className="approach-steps">
+    <div className="approach-steps six-step">
       <div className="approach-step">
         <span>01</span>
-        <h3>Diagnose</h3>
-        <p>
-          Review billing, collections, reporting, and workflow gaps that affect
-          revenue performance and cash visibility.
-        </p>
+        <h3>Assess</h3>
+        <p>Review current revenue workflows, reporting, controls, and cash visibility.</p>
       </div>
 
       <div className="approach-step">
         <span>02</span>
-        <h3>Align</h3>
-        <p>
-          Clarify ownership, improve handoffs, and strengthen process discipline
-          across operations, finance, and leadership.
-        </p>
+        <h3>Diagnose</h3>
+        <p>Identify root causes behind delays, leakage, rework, and performance gaps.</p>
       </div>
 
       <div className="approach-step">
         <span>03</span>
-        <h3>Improve</h3>
-        <p>
-          Implement practical improvements that support stronger control, fewer
-          delays, and clearer cash performance.
-        </p>
+        <h3>Design</h3>
+        <p>Develop practical process improvements, ownership models, and reporting routines.</p>
+      </div>
+
+      <div className="approach-step">
+        <span>04</span>
+        <h3>Implement</h3>
+        <p>Support execution of improved workflows, cadence, controls, and accountability.</p>
+      </div>
+
+      <div className="approach-step">
+        <span>05</span>
+        <h3>Control</h3>
+        <p>Strengthen monitoring, escalation, and visibility so improvements are sustained.</p>
+      </div>
+
+      <div className="approach-step">
+        <span>06</span>
+        <h3>Optimize</h3>
+        <p>Refine performance over time to improve cash predictability and operating discipline.</p>
       </div>
     </div>
   </div>
