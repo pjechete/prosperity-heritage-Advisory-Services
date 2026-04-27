@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Revenue Control, Billing & Collections Consulting | PHS Services',
+  title: 'Revenue Performance & Cash Visibility Advisory | PHS Services',
   description:
-    'Advisory services focused on billing discipline, collections performance, revenue integrity, and financial visibility to improve cash outcomes.',
+    'Advisory services focused on revenue performance, billing discipline, collections execution, revenue integrity, and cash visibility.',
 }
-  import Link from 'next/link'
 
 export default function ServicesPage() {
   return (
@@ -15,19 +15,22 @@ export default function ServicesPage() {
           <div className="services-hero-grid">
             <div>
               <p className="eyebrow">Services</p>
-              <h1>Revenue control, cash stabilization, and selective strategic support.</h1>
+
+              <h1>
+                Revenue performance, cash visibility, and execution discipline.
+              </h1>
 
               <p className="section-copy">
                 Prosperity Heritage Advisory helps leadership teams improve how
-                revenue converts into cash by strengthening the operational
-                discipline behind billing, collections, revenue integrity, and
-                financial visibility.
+                revenue converts into cash by strengthening control, discipline,
+                and visibility across billing, collections, revenue integrity,
+                and financial workflows.
               </p>
 
               <p className="section-copy">
                 Our work is practical, hands-on, and focused on the areas where
-                execution breakdowns quietly delay cash, weaken control, and
-                limit leadership confidence.
+                execution gaps delay cash, weaken control, and limit leadership
+                confidence.
               </p>
 
               <div className="button-row">
@@ -43,12 +46,12 @@ export default function ServicesPage() {
             <div className="services-hero-panel">
               <h3>What we help improve</h3>
               <ul className="services-checklist">
-                <li>Faster, more disciplined billing cycles</li>
-                <li>Stronger collections execution and follow-through</li>
-                <li>Reduced revenue leakage and missed capture</li>
-                <li>Clearer reporting and cash visibility</li>
-                <li>Better operating discipline across handoffs</li>
-                <li>Stronger support during transition or growth</li>
+                <li>More disciplined billing cycles</li>
+                <li>Stronger collections execution</li>
+                <li>Reduced revenue leakage</li>
+                <li>Clearer cash visibility</li>
+                <li>Better control across process handoffs</li>
+                <li>More consistent revenue-to-cash performance</li>
               </ul>
             </div>
           </div>
@@ -61,7 +64,6 @@ export default function ServicesPage() {
             <a href="#core-advisory">Core Advisory</a>
             <a href="#service-areas">Service Areas</a>
             <a href="#how-we-engage">How We Engage</a>
-            <a href="#selective-engagements">Selective Engagements</a>
             <a href="#contact-cta">Contact</a>
           </div>
         </div>
@@ -71,26 +73,27 @@ export default function ServicesPage() {
         <div className="container services-two-col">
           <div>
             <p className="section-label">Core advisory</p>
+
             <h2 className="section-title left-align">
-              Revenue Control &amp; Cash Stabilization
+              Revenue Control &amp; Cash Visibility
             </h2>
 
             <p className="section-copy">
-              Many organizations do not have a revenue problem. They have a
-              conversion problem.
+              Revenue performance is not only driven by demand — it is shaped by
+              execution.
             </p>
 
             <p className="section-copy">
-              Revenue may be booked, but cash is slowed by weak handoffs,
-              inconsistent billing discipline, delayed collections, poor
-              visibility, or operational gaps between commercial activity and
-              finance execution.
+              Revenue may be recorded, but cash is often delayed by weak
+              handoffs, inconsistent billing discipline, delayed collections,
+              limited visibility, or operational gaps between commercial
+              activity and finance execution.
             </p>
 
             <p className="section-copy">
-              We help leadership teams identify those breakdowns, improve
-              accountability, and strengthen the operating rhythm required to
-              convert revenue into more predictable cash performance.
+              We help leadership teams identify these breakdowns, strengthen
+              accountability, and improve the operating rhythm required to
+              convert revenue into more predictable cash.
             </p>
           </div>
 
@@ -101,8 +104,8 @@ export default function ServicesPage() {
               <li>Reduced receivable aging</li>
               <li>Stronger collections discipline</li>
               <li>Improved revenue capture</li>
-              <li>Better visibility into bottlenecks and delays</li>
-              <li>More confidence in cash performance</li>
+              <li>Clearer visibility into delays and bottlenecks</li>
+              <li>Greater confidence in cash performance</li>
             </ul>
           </div>
         </div>
@@ -111,10 +114,12 @@ export default function ServicesPage() {
       <section id="service-areas" className="section section-light">
         <div className="container">
           <p className="section-label">Service areas</p>
+
           <h2 className="section-title">Core advisory areas</h2>
+
           <p className="section-intro">
             Our services focus on the operational and financial processes that
-            most directly influence cash realization.
+            most directly influence revenue performance and cash visibility.
           </p>
 
           <div className="grid-4">
@@ -122,53 +127,50 @@ export default function ServicesPage() {
               <h3>Revenue Process Alignment</h3>
               <p>
                 Improve alignment across contracts, billing, collections, and
-                finance so revenue moves through the business with fewer delays,
-                fewer disconnects, and stronger accountability.
+                finance so revenue moves with fewer delays, clearer ownership,
+                and stronger accountability.
               </p>
             </div>
 
             <div className="card">
               <h3>Billing &amp; Invoicing Discipline</h3>
               <p>
-                Strengthen invoicing workflows, timing, ownership, and process
-                consistency to reduce preventable billing delays and improve
-                speed to cash.
+                Strengthen invoicing workflows, timing, and ownership to reduce
+                preventable delays and improve speed to cash.
               </p>
             </div>
 
             <div className="card">
               <h3>Collections Strategy &amp; Execution</h3>
               <p>
-                Establish clearer follow-up cadence, escalation paths,
-                ownership, and reporting discipline to improve collections
-                performance and receivables management.
+                Establish clearer follow-up cadence, escalation paths, ownership,
+                and reporting discipline to improve collections performance.
               </p>
             </div>
 
             <div className="card">
               <h3>Revenue Integrity &amp; Leakage Review</h3>
               <p>
-                Identify missed charges, underbilling, breakdowns in execution,
-                and control gaps that reduce revenue realization and weaken
-                financial performance.
+                Identify missed charges, underbilling, execution gaps, and
+                control issues that reduce revenue realization.
               </p>
             </div>
 
             <div className="card">
               <h3>Financial Visibility &amp; Reporting</h3>
               <p>
-                Improve leadership reporting so decision-makers can clearly see
-                where cash is being delayed, what is driving performance, and
-                where intervention is needed.
+                Improve leadership reporting so decision-makers can see where
+                cash is delayed, what is driving performance, and where action is
+                needed.
               </p>
             </div>
 
             <div className="card">
               <h3>Post-Acquisition or Transition Stabilization</h3>
               <p>
-                Support organizations during periods of integration, change, or
-                accelerated growth when billing, reporting, and financial
-                control often come under strain.
+                Support organizations during integration, change, or accelerated
+                growth when billing, reporting, and financial control come under
+                strain.
               </p>
             </div>
 
@@ -176,15 +178,14 @@ export default function ServicesPage() {
               <h3>Operational Finance Support</h3>
               <p>
                 Provide practical support where teams need stronger execution,
-                tighter process discipline, or more leadership visibility across
-                the financial operations behind revenue.
+                tighter process discipline, or clearer leadership visibility.
               </p>
             </div>
 
             <div className="card">
               <h3>Assessment-Led Improvement</h3>
               <p>
-                Begin with a focused review to identify the highest-impact gaps,
+                Begin with a focused review to identify high-impact gaps,
                 operating risks, and practical priorities for improvement.
               </p>
             </div>
@@ -196,34 +197,60 @@ export default function ServicesPage() {
         <div className="container services-two-col">
           <div>
             <p className="section-label">How we engage</p>
+
             <h2 className="section-title left-align">
-              Hands-on, practical, and leadership-focused
+              A structured approach to improving revenue performance and cash
+              visibility.
             </h2>
 
             <p className="section-copy">
-              We work directly with leadership teams and key operational
-              stakeholders to understand how revenue moves through the
-              organization, where execution weakens, and what improvements will
-              create stronger control and more dependable cash outcomes.
+              We work directly with leadership teams and key stakeholders to
+              understand how revenue moves through the organization, where
+              execution weakens, and what improvements will strengthen control
+              and cash performance.
             </p>
 
             <p className="section-copy">
               Our work is not generic accounting clean-up. It is structured
-              advisory centered on operating discipline, financial visibility,
-              and the practical realities that determine whether revenue turns
-              into cash efficiently.
+              advisory focused on operating discipline, financial visibility, and
+              the execution required to convert revenue into cash.
             </p>
           </div>
 
           <div className="services-assessment-card">
             <h3>Our approach typically includes</h3>
             <ul>
-              <li>Review of billing, collections, and reporting workflows</li>
-              <li>Identification of execution gaps and ownership issues</li>
-              <li>Prioritization of practical improvement opportunities</li>
-              <li>Leadership-level visibility into risks and bottlenecks</li>
-              <li>Support through change, transition, or stabilization periods</li>
+              <li>Assessment of revenue flow, controls, and cash visibility</li>
+              <li>Diagnosis of execution gaps, leakage, and delays</li>
+              <li>Design of practical improvements across process and reporting</li>
+              <li>Implementation support with cadence and accountability</li>
+              <li>Control routines to sustain performance over time</li>
+              <li>Optimization of revenue-to-cash outcomes</li>
             </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact-cta" className="cta-band">
+        <div className="narrow">
+          <div className="cta-box">
+            <p className="eyebrow">Revenue Performance Review</p>
+
+            <h2>
+              A clearer view of how revenue is performing across your business.
+            </h2>
+
+            <p>
+              If revenue is not consistently converting into cash, we help
+              identify where performance, control, and visibility can be
+              improved.
+            </p>
+
+            <div className="button-row center-buttons">
+              <Link href="/contact" className="btn btn-secondary">
+                Book a Consultation
+              </Link>
+            </div>
           </div>
         </div>
       </section>
