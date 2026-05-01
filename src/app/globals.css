@@ -288,12 +288,12 @@ li {
   display: inline-flex;
   align-items: center;
   flex-shrink: 0;
+  padding-right: 0.5rem;
 }
 
 .logo {
-  height: 52px;
+  height: 64px;
   width: auto;
-  display: block;
 }
 
 .main-nav {
