@@ -1,55 +1,66 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Contact | Revenue Control & Cash Flow Consultation | PHS',
+  title: 'Contact | Revenue Control, Public Sector & Execution Advisory | PHS',
   description:
-    'Start a conversation about billing, collections, and financial performance challenges affecting your cash flow.',
+    'Start a conversation with Prosperity Heritage Advisory about revenue control, cash visibility, public sector readiness, healthcare initiatives, and execution challenges.',
 }
-  export default function ContactPage() {
+
+export default function ContactPage() {
   return (
-    <main>
+    <main id="top">
       <section className="page-hero">
         <div className="container page-hero-copy">
           <p className="eyebrow">Contact</p>
-          <h1 className="page-title">Let’s identify what’s holding back your cash performance</h1>
+
+          <h1 className="page-title">
+            Let’s identify where performance, visibility, or execution is breaking down.
+          </h1>
 
           <p className="section-copy section-copy-lg">
-           If revenue is growing but cash performance still feels strained, the issue is often within billing, collections, reporting, or financial execution.
+            Whether you are facing revenue-to-cash challenges, operational finance pressure,
+            public sector complexity, healthcare transformation needs, or partner-led execution
+            challenges, we help clarify where structure and discipline are needed.
           </p>
 
           <p className="hero-proof">
-            Use this form to share a bit about what you’re seeing, and we’ll help you identify where the breakdown may be.
+            Use the form below to share what you are seeing. We review inquiries with a focus on
+            fit, urgency, and whether a structured diagnostic or advisory engagement would be
+            appropriate.
           </p>
         </div>
       </section>
 
       <section className="section section-soft">
         <div className="container">
-          <p className="section-label">Typical reasons clients reach out</p>
-          <h2 className="section-title">Where execution pressure usually shows up</h2>
+          <p className="section-label">When to reach out</p>
+
+          <h2 className="section-title">
+            We support organizations where execution affects financial performance.
+          </h2>
 
           <div className="card-grid three-up">
             <div className="card card-feature">
-              <h3>Billing Delays</h3>
+              <h3>Revenue &amp; Cash Performance</h3>
               <p>
-                Invoicing is inconsistent, ownership is unclear, or billing is
-                not keeping pace with operational activity.
+                Revenue is growing, but billing delays, collections gaps, leakage, or weak
+                reporting are limiting cash predictability.
               </p>
             </div>
 
             <div className="card card-feature">
-              <h3>Collections Pressure</h3>
+              <h3>Public Sector Readiness</h3>
               <p>
-                Receivables are aging, follow-through is weak, and cash
-                conversion is not as disciplined as it should be.
+                Public, quasi-government, or partner-led initiatives need stronger financial
+                controls, funding accountability, reporting discipline, or execution structure.
               </p>
             </div>
 
             <div className="card card-feature">
-              <h3>Visibility Gaps</h3>
+              <h3>Healthcare &amp; Partner-Led Initiatives</h3>
               <p>
-                Leadership can see revenue, but not clearly enough where cash is
-                slowing down or why performance is weakening.
+                Healthcare, revenue cycle, implementation, or strategic partnership initiatives
+                require clearer workflow alignment, operational readiness, and financial visibility.
               </p>
             </div>
           </div>
@@ -60,29 +71,31 @@ export const metadata: Metadata = {
         <div className="container services-two-col">
           <div>
             <p className="section-label">What to expect</p>
+
             <h2 className="section-title left-align">
-              A focused intake, not a generic inquiry
+              A focused intake for serious advisory conversations.
             </h2>
 
             <p className="section-copy">
-              Use this form to share the revenue, billing, collections,
-              reconciliation, or operational finance challenges you are facing.
+              This is not a generic inquiry process. We use the initial information you share to
+              understand the situation, the operating context, and whether PHS is the right fit to
+              help.
             </p>
 
             <p className="section-copy">
-              We review inquiries with a focus on fit, urgency, and where a
-              structured diagnostic or advisory engagement may create the most
-              value.
+              We are especially interested in situations where financial performance depends on
+              better execution across billing, collections, reporting, operations, stakeholders,
+              or partner delivery.
             </p>
 
             <div className="services-callout">
-              <h3>Examples of what to share</h3>
+              <h3>Helpful details to include</h3>
               <ul>
-                <li>Delayed or inconsistent invoicing</li>
-                <li>Weak collections rhythm or aging pressure</li>
-                <li>Revenue leakage or reconciliation issues</li>
-                <li>Broken handoffs across operations and finance</li>
-                <li>Cash strain during growth, change, or transition</li>
+                <li>What prompted the inquiry now</li>
+                <li>Revenue, billing, collections, or cash visibility concerns</li>
+                <li>Public sector, healthcare, or partner-led initiative context</li>
+                <li>Any growth, transition, implementation, or funding pressure</li>
+                <li>What outcome you are trying to improve</li>
               </ul>
             </div>
           </div>
@@ -101,34 +114,17 @@ export const metadata: Metadata = {
 
               <div className="form-field">
                 <label htmlFor="name">Name</label>
-                <input
-                  id="name"
-                  name="name"
-                  type="text"
-                  placeholder="Your name"
-                  required
-                />
+                <input id="name" name="name" type="text" placeholder="Your name" required />
               </div>
 
               <div className="form-field">
                 <label htmlFor="email">Email</label>
-                <input
-                  id="email"
-                  name="email"
-                  type="email"
-                  placeholder="you@example.com"
-                  required
-                />
+                <input id="email" name="email" type="email" placeholder="you@example.com" required />
               </div>
 
               <div className="form-field">
-                <label htmlFor="company">Company</label>
-                <input
-                  id="company"
-                  name="company"
-                  type="text"
-                  placeholder="Company name"
-                />
+                <label htmlFor="company">Organization</label>
+                <input id="company" name="company" type="text" placeholder="Organization name" />
               </div>
 
               <div className="form-field">
@@ -137,7 +133,17 @@ export const metadata: Metadata = {
                   id="role"
                   name="role"
                   type="text"
-                  placeholder="Founder, CFO, Controller, Operations Leader, etc."
+                  placeholder="Founder, CFO, Controller, Executive Director, Operations Leader, etc."
+                />
+              </div>
+
+              <div className="full-width form-field">
+                <label htmlFor="interest">Primary Area of Interest</label>
+                <input
+                  id="interest"
+                  name="interest"
+                  type="text"
+                  placeholder="Revenue control, public sector readiness, healthcare initiative, strategic partnership, etc."
                 />
               </div>
 
@@ -146,7 +152,7 @@ export const metadata: Metadata = {
                 <textarea
                   id="message"
                   name="message"
-                  placeholder="Briefly describe the revenue, billing, collections, reconciliation, or operational finance challenges you are facing."
+                  placeholder="Briefly describe the challenge, opportunity, or initiative you would like to discuss."
                   rows={6}
                   required
                 />
@@ -165,11 +171,14 @@ export const metadata: Metadata = {
       <section className="cta-section">
         <div className="narrow">
           <div className="cta-box">
-            <p className="section-label">Next step</p>
-            <h2>Strong revenue should not be undermined by weak execution</h2>
+            <p className="eyebrow">Next step</p>
+
+            <h2>Strong outcomes depend on disciplined execution.</h2>
+
             <p>
-              If cash performance feels strained despite healthy revenue, it may
-              be time to identify where the breakdown is happening.
+              If performance is being limited by weak visibility, unclear ownership, delayed cash
+              conversion, or complex stakeholder execution, the next step is understanding where the
+              breakdown is occurring.
             </p>
 
             <div className="hero-actions center-buttons">
