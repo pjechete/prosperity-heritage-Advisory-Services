@@ -18,7 +18,6 @@ export default function Navbar() {
   return (
     <header className="site-header">
       <div className="container header-inner">
-
         <Link href="/" className="brand">
           <Image
             src="/logo.png"
@@ -29,12 +28,10 @@ export default function Navbar() {
           />
         </Link>
 
-        <nav className="main-nav">
+        <nav className="main-nav" aria-label="Main navigation">
           {navLinks.map((link) => {
             const isActive =
-              link.href === '/'
-                ? pathname === '/'
-                : pathname?.startsWith(link.href)
+              link.href === '/' ? pathname === '/' : pathname?.startsWith(link.href)
 
             return (
               <Link
