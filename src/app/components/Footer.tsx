@@ -5,50 +5,58 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-inner">
 
+        {/* BRAND */}
         <div>
           <h3>Prosperity Heritage Advisory</h3>
           <p>
-            We help leadership teams identify where revenue breaks down and
-            strengthen the systems that convert revenue into predictable cash.
+            Practitioner-led advisory focused on revenue control, cash visibility,
+            and execution discipline. We support leadership teams across healthcare,
+            public sector, and complex operating environments where performance
+            depends on execution.
           </p>
         </div>
 
+        {/* CORE SERVICES */}
         <div>
-          <h4>Focus Areas</h4>
+          <h4>Core Advisory</h4>
           <ul>
-            <li>Revenue Control</li>
-            <li>Cash Stabilization</li>
-            <li>Billing & Collections</li>
-            <li>Financial Visibility</li>
+            <li>Revenue Control & Cash Stabilization</li>
+            <li>Revenue Process Alignment</li>
+            <li>Billing & Collections Execution</li>
+            <li>Financial Visibility & Reporting</li>
           </ul>
         </div>
 
-        <div className="footer-links">
-          <h4>Navigation</h4>
-          <Link href="/">Home</Link>
-          <Link href="/services">Services</Link>
-          <Link href="/about">About</Link>
-          <Link href="/insights">Insights</Link>
-          <Link href="/contact">Contact</Link>
+        {/* STRATEGIC ENGAGEMENTS */}
+        <div>
+          <h4>Strategic Engagements</h4>
+          <ul>
+            <li>Public Sector Advisory</li>
+            <li>Healthcare & Turnkey Projects</li>
+            <li>Global Investment & Trade</li>
+          </ul>
         </div>
 
+        {/* CTA */}
         <div>
           <h4>Start Here</h4>
           <p>
-            If revenue is not translating into predictable cash,
-            we can help identify where the breakdown is occurring.
+            If revenue is not translating into predictable cash, or execution
+            complexity is limiting performance, we can help identify where
+            improvement is needed.
           </p>
 
           <Link href="/contact" className="btn btn-secondary">
-            Schedule Diagnostic
+            Schedule a Diagnostic
           </Link>
         </div>
       </div>
 
+      {/* FOOTER BOTTOM */}
       <div className="footer-bottom">
         <div className="container footer-bottom-inner">
           <span>© {new Date().getFullYear()} Prosperity Heritage Advisory</span>
-          <span>Revenue Control & Cash Stabilization</span>
+          <span>Revenue Control • Cash Visibility • Execution Discipline</span>
         </div>
       </div>
     </footer>
