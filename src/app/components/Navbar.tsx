@@ -22,8 +22,8 @@ export default function Navbar() {
           <Image
             src="/logo.png"
             alt="Prosperity Heritage Advisory"
-            width={150}
-            height={50}
+            width={190}
+            height={60}
             priority
           />
         </Link>
