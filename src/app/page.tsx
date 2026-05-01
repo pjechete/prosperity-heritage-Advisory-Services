@@ -10,229 +10,161 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   return (
-    <main>
+    <>
       {/* HERO */}
       <section className="hero">
-        <div className="container">
-          <div className="hero-grid">
-            <div>
-              <p className="eyebrow">Prosperity Heritage Advisory</p>
+        <div className="container hero-inner">
+          <p className="eyebrow">Prosperity Heritage Advisory</p>
 
-              <h1 className="hero-title">
-                Optimizing Revenue Performance and Cash Visibility.
-              </h1>
+          <h1>
+            Helping organizations turn revenue into predictable cash—especially
+            in complex operational and funding environments.
+          </h1>
 
-              <p className="hero-subtext">
-                We help leadership teams strengthen billing, collections, and financial workflows
-                so revenue moves with greater control, fewer delays, and clearer visibility into cash.
-              </p>
+          <p className="hero-sub">
+            We advise leadership teams on strengthening revenue-to-cash
+            performance across billing, collections, financial workflows, and
+            operational execution.
+          </p>
 
-              <p className="hero-subtext">
-                The result is a more predictable path from revenue activity to cash.
-              </p>
-
-              <div className="hero-actions">
-                <Link href="/contact" className="btn btn-primary">
-                  Schedule a Revenue Review
-                </Link>
-                <Link href="/services" className="btn btn-secondary">
-                  Explore Services
-                </Link>
-              </div>
-            </div>
-
-            <div className="hero-visual">
-              <Image
-                src="/images/hero-visual.png"
-                alt="Revenue optimization and cash visibility advisory visual"
-                width={900}
-                height={700}
-                priority
-              />
-
-              <div className="hero-overlay-card">
-                <h3>Where revenue performance is affected</h3>
-                <ul>
-                  <li>Delayed invoicing</li>
-                  <li>Inconsistent collections follow-through</li>
-                  <li>Revenue leakage</li>
-                  <li>Limited cash visibility</li>
-                  <li>Disconnected handoffs</li>
-                </ul>
-              </div>
-            </div>
+          <div className="hero-actions">
+            <a href="/contact" className="btn-primary">
+              Start a Conversation
+            </a>
+            <a href="/services" className="btn-secondary">
+              Explore Services
+            </a>
           </div>
         </div>
       </section>
 
       {/* PROBLEM */}
-      <section className="section section-soft">
-        <div className="container problem-section">
-          <div>
-            <p className="section-label">The reality</p>
-
-            <h2 className="section-title">
-              Revenue activity does not always create cash visibility.
-            </h2>
-
-            <p className="section-copy">
-              Many organizations generate revenue, but leadership still lacks a
-              clear view of when that revenue will convert into cash, where delays
-              are occurring, and which process gaps are limiting performance.
-            </p>
-
-            <p className="section-copy">
-              The issue is often not demand alone. It is how billing, collections,
-              reporting, and financial workflows operate together after revenue
-              is created.
-            </p>
-          </div>
-
-          <div className="section-visual">
-            <Image
-              src="/images/problem-visual.png"
-              alt="Revenue process and cash visibility alignment visual"
-              width={800}
-              height={500}
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* FRAMEWORK */}
       <section className="section">
-        <div className="container framework-section">
-          <div>
-            <p className="section-label">How we think</p>
+        <div className="container">
+          <p className="section-kicker">The Problem</p>
 
-            <h2 className="section-title">
-              Revenue performance is driven by control, discipline, and visibility.
-            </h2>
+          <h2>Revenue is not the issue. Control is.</h2>
 
-            <div className="framework-list">
-              <div>
-                <h3>Control</h3>
-                <p>
-                  Clear ownership and accountability across the revenue process.
-                </p>
-              </div>
+          <p className="section-lead">
+            Many organizations generate revenue but struggle to convert it into
+            predictable cash. The issue often sits between contracts, billing,
+            collections, reporting, and financial operations.
+          </p>
 
-              <div>
-                <h3>Discipline</h3>
-                <p>
-                  Consistent billing cycles, collections cadence, escalation paths,
-                  and reporting routines.
-                </p>
-              </div>
-
-              <div>
-                <h3>Visibility</h3>
-                <p>
-                 Clear insight into cash performance, delays, and drivers.
-                </p>
-              </div>
+          <div className="three-grid">
+            <div className="info-card">
+              <h3>Delayed Billing</h3>
+              <p>
+                Revenue is earned, but invoicing delays and unclear ownership
+                slow down cash conversion.
+              </p>
             </div>
-          </div>
 
-          <div className="framework-visual">
-            <Image
-              src="/images/framework-visual.png"
-              alt="Revenue control discipline and visibility framework visual"
-              width={900}
-              height={520}
-            />
+            <div className="info-card">
+              <h3>Collections Gaps</h3>
+              <p>
+                Follow-up cadence, escalation paths, and accountability are not
+                always clearly defined.
+              </p>
+            </div>
+
+            <div className="info-card">
+              <h3>Limited Visibility</h3>
+              <p>
+                Leadership lacks timely, decision-ready reporting on where cash
+                is delayed or leaking.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       {/* APPROACH */}
-<section className="section section-light">
-  <div className="container approach-section">
-    <div className="approach-copy">
-      <p className="section-label">Our approach</p>
-
-      <h2 className="section-title">
-        A structured approach to improving revenue performance and cash visibility.
-      </h2>
-
-      <p className="section-copy">
-        We use a disciplined process to assess current performance, identify gaps,
-        design improvements, implement controls, and optimize revenue-to-cash outcomes.
-      </p>
-    </div>
-
-    <div className="approach-steps six-step">
-      <div className="approach-step">
-        <span>01</span>
-        <h3>Assess</h3>
-        <p>Establish a clear view of revenue flow, control points, and cash visibility.</p>
-      </div>
-
-      <div className="approach-step">
-        <span>02</span>
-        <h3>Diagnose</h3>
-        <p>Identify the root causes of delays, leakage, and performance gaps.</p>
-      </div>
-
-      <div className="approach-step">
-        <span>03</span>
-        <h3>Design</h3>
-        <p>Define practical improvements across ownership, process, and reporting.</p>
-      </div>
-
-      <div className="approach-step">
-        <span>04</span>
-        <h3>Implement</h3>
-        <p>Support execution with clear structure, cadence, and accountability.</p>
-      </div>
-
-      <div className="approach-step">
-        <span>05</span>
-        <h3>Control</h3>
-        <p>Strengthen monitoring and discipline to sustain performance over time.</p>
-      </div>
-
-      <div className="approach-step">
-        <span>06</span>
-        <h3>Optimize</h3>
-        <p>Continuously refine execution to improve cash predictability and efficiency.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-      {/* AUDIENCE */}
-      <section className="section">
+      <section className="section section-soft">
         <div className="container">
-          <p className="section-label">Who this is for</p>
+          <p className="section-kicker">Our Approach</p>
 
-          <h2 className="section-title">
-            Designed for leadership teams where revenue performance and cash visibility
-            are not fully aligned.
-          </h2>
+          <h2>We focus on the last mile of financial performance.</h2>
 
-          <div className="card-grid three-up">
-            <div className="card">
-              <h3>Revenue is growing, but cash is inconsistent</h3>
+          <p className="section-lead">
+            We help organizations strengthen the handoffs between operations,
+            billing, collections, and finance so revenue moves through the
+            business with fewer delays, fewer disconnects, and stronger
+            accountability.
+          </p>
+
+          <div className="three-grid">
+            <div className="info-card">
+              <span className="step-number">01</span>
+              <h3>Diagnose</h3>
               <p>
-              Revenue activity is strong, but cash flow lacks predictability due to
-              delays, leakage, or execution gaps.
+                Review current workflows, reporting, ownership, and control
+                gaps.
               </p>
             </div>
 
-            <div className="card">
-              <h3>Processes exist, but outcomes vary</h3>
+            <div className="info-card">
+              <span className="step-number">02</span>
+              <h3>Align</h3>
               <p>
-              Billing, collections, and reporting are in place, but performance is
-              inconsistent and difficult to manage.
+                Clarify process handoffs across contracts, billing, collections,
+                and finance.
               </p>
             </div>
 
-            <div className="card">
-              <h3>Limited visibility into cash performance</h3>
+            <div className="info-card">
+              <span className="step-number">03</span>
+              <h3>Stabilize</h3>
               <p>
-              Leadership lacks a clear, reliable view of where cash is delayed and
-              what is driving those delays.
+                Implement practical improvements that support predictable cash
+                performance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* STRATEGIC ENGAGEMENTS */}
+      <section className="strategic-section">
+        <div className="container">
+          <p className="section-kicker">Selective Strategic Engagements</p>
+
+          <h2>High-impact advisory for complex environments.</h2>
+
+          <p className="section-lead">
+            In addition to our core advisory work, we selectively engage in
+            opportunities where financial operations, execution discipline, and
+            strategic coordination are critical.
+          </p>
+
+          <div className="strategic-grid">
+            <div className="strategic-card">
+              <div className="strategic-label">Public Sector</div>
+              <h3>Public & Government Advisory</h3>
+              <p>
+                Supporting public and quasi-government organizations in
+                strengthening financial controls, revenue integrity, funding
+                accountability, and operational visibility.
+              </p>
+            </div>
+
+            <div className="strategic-card">
+              <div className="strategic-label">Global Markets</div>
+              <h3>Global Investment & Trade Opportunities</h3>
+              <p>
+                Supporting select cross-border investment and trade
+                opportunities through disciplined sourcing, validation,
+                structuring, and stakeholder alignment.
+              </p>
+            </div>
+
+            <div className="strategic-card">
+              <div className="strategic-label">Healthcare</div>
+              <h3>Healthcare Development & Turnkey Projects</h3>
+              <p>
+                Supporting partner-led healthcare initiatives involving
+                feasibility, setup, execution coordination, and operational
+                readiness in complex markets.
               </p>
             </div>
           </div>
@@ -241,27 +173,22 @@ export default function HomePage() {
 
       {/* CTA */}
       <section className="cta-section">
-        <div className="narrow">
-          <div className="cta-box">
-            <p className="eyebrow">Revenue Performance Review</p>
+        <div className="container cta-box">
+          <p className="section-kicker">Start With Control</p>
 
-        <h2>
-        A clearer view of how revenue is performing across your business.
-        </h2>
+          <h2>Stronger cash performance starts with better execution.</h2>
 
-        <p>
-        If revenue is not consistently converting into cash, we help identify where
-        performance, control, and visibility can be improved.
-        </p>
+          <p>
+            If revenue is being generated but cash flow remains unpredictable,
+            the issue may be sitting inside the handoffs between operations,
+            billing, collections, and finance.
+          </p>
 
-        <div className="hero-actions center-buttons">
-        <Link href="/contact" className="btn btn-primary">
-      Schedule a Revenue Review
-      </Link>
-        </div>
-          </div>
+          <a href="/contact" className="btn-primary">
+            Schedule a Conversation
+          </a>
         </div>
       </section>
-    </main>
-  )
+    </>
+  );
 }
