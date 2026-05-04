@@ -1220,66 +1220,110 @@ li {
     max-width: 100%;
   }
    /* =========================
-   PREMIUM REFINEMENT LAYER
-   (Non-destructive upgrade)
+   /* =========================
+   PREMIUM SITE REFINEMENT PATCH
+   Safe non-destructive layer
 ========================= */
 
-/* ---- Global spacing rhythm ---- */
-
-.section {
-  padding: 88px 0;
-}
-
-.section-light,
-.section-soft,
-.section-clean {
-  padding: 88px 0;
-}
-
-.page-hero {
-  padding: 110px 0 84px;
-}
-
-/* ---- Paragraph refinement ---- */
-
-p {
-  line-height: 1.72;
-  margin-bottom: 1.05rem;
-}
-
-.section-intro,
+/* Better paragraph rhythm */
+.section p,
 .hero-subtext,
-.hero-copy {
-  line-height: 1.75;
+.section-intro,
+.section-copy {
+  line-height: 1.72;
 }
 
-/* ---- Heading polish ---- */
-
-h1 {
-  letter-spacing: -0.038em;
+/* Cleaner content spacing */
+.content-grid {
+  display: grid;
+  gap: 1.15rem;
 }
 
-h2 {
-  letter-spacing: -0.028em;
-  margin-bottom: 1.05rem;
+.content-grid p {
+  margin-bottom: 0;
 }
 
-h3 {
-  margin-bottom: 0.6rem;
+/* Better form structure */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.15rem;
+  margin-top: 1.5rem;
 }
 
-/* ---- Container tightening ---- */
-
-.container {
-  width: min(1120px, calc(100% - 2rem));
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
 }
 
-.narrow {
-  max-width: 720px;
+.form-field label {
+  font-weight: 650;
+  color: var(--navy);
 }
 
-/* ---- Card elevation ---- */
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  border: 1px solid rgba(16, 32, 51, 0.14);
+  border-radius: 14px;
+  padding: 0.95rem 1rem;
+  background: #ffffff;
+  color: var(--text);
+}
 
+.form-field textarea {
+  min-height: 160px;
+  resize: vertical;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px rgba(18, 124, 132, 0.14);
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+.form-note {
+  max-width: 44rem;
+  margin-top: 0.45rem;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+/* Outcomes section treatment */
+.outcomes-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+  margin-top: 1.25rem;
+}
+
+.outcomes-list div {
+  position: relative;
+  padding: 0.95rem 1rem 0.95rem 2.35rem;
+  border: 1px solid rgba(16, 32, 51, 0.08);
+  border-radius: 16px;
+  background: #ffffff;
+  color: var(--text);
+  box-shadow: 0 12px 28px rgba(16, 32, 51, 0.04);
+}
+
+.outcomes-list div::before {
+  content: "✓";
+  position: absolute;
+  left: 1rem;
+  top: 0.95rem;
+  color: var(--primary);
+  font-weight: 800;
+}
+
+/* Card texture */
 .card,
 .card-gray,
 .card-highlight,
@@ -1288,86 +1332,25 @@ h3 {
 .services-callout,
 .services-assessment-card,
 .step-card,
-.form-wrap {
-  border-radius: 20px;
-  box-shadow: 0 18px 45px rgba(16, 32, 51, 0.05);
-  border: 1px solid rgba(16, 32, 51, 0.08);
+.form-wrap,
+.approach-step {
+  border-color: rgba(16, 32, 51, 0.08);
+  box-shadow: 0 18px 45px rgba(16, 32, 51, 0.045);
 }
 
-/* ---- Subtle hover polish (premium feel) ---- */
-
-.card:hover,
-.service-card:hover,
-.approach-step:hover {
-  transform: translateY(-2px);
-  transition: all 0.25s ease;
-  box-shadow: 0 22px 50px rgba(16, 32, 51, 0.08);
+/* Better services jumpbar rhythm */
+.services-jump-links {
+  gap: 1.35rem;
 }
 
-/* ---- Button refinement ---- */
-
-.btn,
-.btn-primary,
-.btn-secondary {
-  padding: 0.92rem 1.3rem;
-  border-radius: 999px;
+.services-jump-links a {
+  padding: 0.4rem 0;
 }
 
-.btn:hover,
-.btn-primary:hover,
-.btn-secondary:hover {
-  transform: translateY(-1px);
-}
-
-/* ---- Form polish (very important) ---- */
-
-.form-field input,
-.form-field textarea {
-  border-radius: 14px;
-  padding: 0.95rem 1rem;
-  border: 1px solid rgba(16, 32, 51, 0.14);
-}
-
-.form-field input:focus,
-.form-field textarea:focus {
-  box-shadow: 0 0 0 4px rgba(18, 124, 132, 0.14);
-}
-
-/* ---- Form note (your new addition) ---- */
-
-.form-note {
-  font-size: 0.9rem;
-  color: #6b7280;
-  margin-top: 0.6rem;
-  line-height: 1.5;
-}
-
-/* ---- CTA band refinement ---- */
-
-.cta-band {
-  padding: 88px 0;
-}
-
-.cta-box {
-  border-radius: 28px;
-  box-shadow: 0 20px 55px rgba(16, 32, 51, 0.06);
-}
-
-/* ---- Visual consistency ---- */
-
-.hero-title,
-.page-title {
-  max-width: 18ch;
-}
-
-.section-intro,
-.hero-subtext {
-  max-width: 44rem;
-}
-
-/* ---- Smooth transitions globally ---- */
-
-* {
-  transition: background-color 0.2s ease, border-color 0.2s ease;
-}
+/* Responsive cleanup */
+@media (max-width: 900px) {
+  .form-grid,
+  .outcomes-list {
+    grid-template-columns: 1fr;
+  }
 }
