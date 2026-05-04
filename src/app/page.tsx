@@ -11,73 +11,65 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <main>
-      {/* HERO */}
-      <section className="hero">
-        <div className="container">
-          <div className="hero-grid">
-            <div>
-              <p className="eyebrow">Prosperity Heritage Advisory</p>
+     {/* HERO */}
+<section className="hero">
+  <div className="container">
+    <div className="hero-grid">
+      <div>
+        <p className="eyebrow">Prosperity Heritage Advisory</p>
 
-              <h1 className="hero-title">
-                Improving Cash Flow Through Stronger Revenue-to-Cash Performance.
-              </h1>
+        <h1 className="hero-title">
+          Improving Cash Flow Through Stronger Revenue-to-Cash Performance.
+        </h1>
 
-              <p className="hero-subtext">
-                We help leadership teams reduce delays, improve collections
-                consistency, and strengthen visibility across billing,
-                collections, and financial workflows.
-              </p>
+        <p className="hero-subtext">
+          We help leadership teams reduce delays, improve collections
+          consistency, and strengthen visibility across billing, collections,
+          and financial workflows.
+        </p>
 
-              <p className="hero-subtext">
-                Cash flow is not just a financial outcome—it reflects how
-                revenue is executed.
-              </p>
-                  <p className="hero-subtext emphasis">
-    Revenue is recorded every day. Cash depends on how well it is executed.
-  </p>
+        <p className="hero-subtext">
+          Cash flow is not just a financial outcome—it reflects how revenue is
+          executed.
+        </p>
 
-  <div className="hero-actions">
-    <Link href="/contact" className="btn btn-primary">
-      Schedule a Revenue Diagnostic
-    </Link>
-    <Link href="/services" className="btn btn-secondary">
-      Explore Services
-    </Link>
-  </div>
-</div>
-            <div className="hero-actions">
-                <Link href="/contact" className="btn btn-primary">
-                  Schedule a Revenue Diagnostic
-                </Link>
-                <Link href="/services" className="btn btn-secondary">
-                  Explore Services
-                </Link>
-              </div>
-            </div>
+        <p className="hero-subtext emphasis">
+          Revenue is recorded every day. Cash depends on how well it is executed.
+        </p>
 
-            <div className="hero-visual">
-              <Image
-                src="/images/hero-visual.png"
-                alt="Revenue optimization and cash visibility advisory visual"
-                width={900}
-                height={700}
-                priority
-              />
-
-              <div className="hero-overlay-card">
-                <h3>Where revenue performance is affected</h3>
-                <ul>
-                  <li>Delayed invoicing</li>
-                  <li>Inconsistent collections follow-through</li>
-                  <li>Revenue leakage</li>
-                  <li>Limited cash visibility</li>
-                  <li>Disconnected handoffs</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+        <div className="hero-actions">
+          <Link href="/contact" className="btn btn-primary">
+            Schedule a Revenue Diagnostic
+          </Link>
+          <Link href="/services" className="btn btn-secondary">
+            Explore Services
+          </Link>
         </div>
-      </section>
+      </div>
+
+      <div className="hero-visual">
+        <Image
+          src="/images/hero-visual.png"
+          alt="Revenue optimization and cash visibility advisory visual"
+          width={900}
+          height={700}
+          priority
+        />
+
+        <div className="hero-overlay-card">
+          <h3>Where revenue performance is affected</h3>
+          <ul>
+            <li>Delayed invoicing</li>
+            <li>Inconsistent collections follow-through</li>
+            <li>Revenue leakage</li>
+            <li>Limited cash visibility</li>
+            <li>Disconnected handoffs</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* PROBLEM */}
       <section className="section section-soft">
