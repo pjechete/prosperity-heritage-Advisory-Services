@@ -13,28 +13,25 @@ export default function HomePage() {
     <main>
       {/* HERO */}
      <h1 className="hero-title">
-  Improving Cash Flow Through Stronger Revenue-to-Cash Performance.
-</h1>
+      Improving Cash Flow Through Stronger Revenue-to-Cash Performance.
+      </h1>
+      
+      <p className="hero-subtext">
+        We help leadership teams reduce delays, improve collections consistency, and
+        strengthen visibility across billing, collections, and financial workflows.
+        </p>
 
-<p className="hero-subtext">
-  We help leadership teams reduce delays, improve collections consistency, and
-  strengthen visibility across billing, collections, and financial workflows.
-</p>
-
-<p className="hero-subtext">
-  Cash flow is not just a financial outcome—it reflects how revenue is executed.
-</p>
-
-<div className="hero-actions">
-  <Link href="/contact" className="btn btn-primary">
-    Schedule a Revenue Diagnostic
-  </Link>
-  <Link href="/services" className="btn btn-secondary">
-    Explore Services
-  </Link>
-</div>
+          <p className="hero-subtext">
+          Cash flow is not just a financial outcome—it reflects how revenue is executed.
+          </p>
+          <div className="hero-actions">
+          <Link href="/contact" className="btn btn-primary">
+          Schedule a Revenue Diagnostic
+          </Link>
+            <Link href="/services" className="btn btn-secondary">
+            Explore Services
+              </Link>
             </div>
-
             <div className="hero-visual">
               <Image
                 src="/images/hero-visual.png"
