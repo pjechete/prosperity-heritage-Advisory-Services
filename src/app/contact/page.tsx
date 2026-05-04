@@ -101,53 +101,92 @@ export default function ContactPage() {
             </ul>
           </div>
 
-          <form className="form-grid">
-            <div className="form-field">
-              <label>Name</label>
-              <input type="text" placeholder="Your name" />
-            </div>
-
-            <div className="form-field">
-              <label>Email</label>
-              <input type="email" placeholder="you@example.com" />
-            </div>
-
-            <div className="form-field">
-              <label>Organization</label>
-              <input type="text" placeholder="Organization name" />
-            </div>
-
-            <div className="form-field">
-              <label>Role / Title</label>
+          <div className="form-wrap">
+            <form
+              action="https://formspree.io/f/xzdjgopr"
+              method="POST"
+              className="form-grid"
+            >
               <input
-                type="text"
-                placeholder="Founder, CFO, Controller, etc."
+                type="hidden"
+                name="_subject"
+                value="New PHS Website Inquiry"
               />
-            </div>
 
-            <div className="form-field full-width">
-              <label>Primary Area of Interest</label>
-              <input
-                type="text"
-                placeholder="Revenue control, public sector readiness, healthcare initiative, etc."
-              />
-            </div>
+              <div className="form-field">
+                <label htmlFor="name">Name</label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="Your name"
+                  required
+                />
+              </div>
 
-            <div className="form-field full-width">
-              <label>Message</label>
-              <textarea placeholder="Briefly describe the challenge, opportunity, or initiative you would like to discuss." />
-            </div>
+              <div className="form-field">
+                <label htmlFor="email">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="you@example.com"
+                  required
+                />
+              </div>
 
-            <div className="form-field full-width">
-              <button type="submit" className="btn btn-primary">
-                Submit Inquiry
-              </button>
+              <div className="form-field">
+                <label htmlFor="company">Organization</label>
+                <input
+                  id="company"
+                  name="company"
+                  type="text"
+                  placeholder="Organization name"
+                />
+              </div>
 
-              <p className="form-note">
-                All inquiries are reviewed confidentially. We will follow up if there is a clear fit.
-              </p>
-            </div>
-          </form>
+              <div className="form-field">
+                <label htmlFor="role">Role / Title</label>
+                <input
+                  id="role"
+                  name="role"
+                  type="text"
+                  placeholder="Founder, CFO, Controller, etc."
+                />
+              </div>
+
+              <div className="form-field full-width">
+                <label htmlFor="interest">Primary Area of Interest</label>
+                <input
+                  id="interest"
+                  name="interest"
+                  type="text"
+                  placeholder="Revenue control, public sector readiness, healthcare initiative, etc."
+                />
+              </div>
+
+              <div className="form-field full-width">
+                <label htmlFor="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Briefly describe the challenge, opportunity, or initiative you would like to discuss."
+                  rows={6}
+                  required
+                />
+              </div>
+
+              <div className="form-field full-width">
+                <button type="submit" className="btn btn-primary">
+                  Submit Inquiry
+                </button>
+
+                <p className="form-note">
+                  All inquiries are reviewed confidentially. We will follow up if there is a clear fit.
+                </p>
+              </div>
+            </form>
+          </div>
         </div>
       </section>
 
@@ -167,5 +206,5 @@ export default function ContactPage() {
         </div>
       </section>
     </main>
-  );
+  )
 }
