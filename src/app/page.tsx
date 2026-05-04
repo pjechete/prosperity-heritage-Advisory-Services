@@ -12,33 +12,27 @@ export default function HomePage() {
   return (
     <main>
       {/* HERO */}
-      <section className="hero">
-        <div className="container">
-          <div className="hero-grid">
-            <div>
-              <p className="eyebrow">Prosperity Heritage Advisory</p>
+     <h1 className="hero-title">
+  Improving Cash Flow Through Stronger Revenue-to-Cash Performance.
+</h1>
 
-              <h1 className="hero-title">
-                Optimizing Revenue Performance and Cash Visibility.
-              </h1>
+<p className="hero-subtext">
+  We help leadership teams reduce delays, improve collections consistency, and
+  strengthen visibility across billing, collections, and financial workflows.
+</p>
 
-              <p className="hero-subtext">
-                We help leadership teams strengthen billing, collections, and financial workflows
-                so revenue moves with greater control, fewer delays, and clearer visibility into cash.
-              </p>
+<p className="hero-subtext">
+  Cash flow is not just a financial outcome—it reflects how revenue is executed.
+</p>
 
-              <p className="hero-subtext">
-                The result is a more predictable path from revenue activity to cash.
-              </p>
-
-              <div className="hero-actions">
-                <Link href="/contact" className="btn btn-primary">
-                  Schedule a Revenue Review
-                </Link>
-                <Link href="/services" className="btn btn-secondary">
-                  Explore Services
-                </Link>
-              </div>
+<div className="hero-actions">
+  <Link href="/contact" className="btn btn-primary">
+    Schedule a Revenue Diagnostic
+  </Link>
+  <Link href="/services" className="btn btn-secondary">
+    Explore Services
+  </Link>
+</div>
             </div>
 
             <div className="hero-visual">
