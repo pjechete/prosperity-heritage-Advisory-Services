@@ -1219,4 +1219,155 @@ li {
   .narrow-copy {
     max-width: 100%;
   }
+   /* =========================
+   PREMIUM REFINEMENT LAYER
+   (Non-destructive upgrade)
+========================= */
+
+/* ---- Global spacing rhythm ---- */
+
+.section {
+  padding: 88px 0;
+}
+
+.section-light,
+.section-soft,
+.section-clean {
+  padding: 88px 0;
+}
+
+.page-hero {
+  padding: 110px 0 84px;
+}
+
+/* ---- Paragraph refinement ---- */
+
+p {
+  line-height: 1.72;
+  margin-bottom: 1.05rem;
+}
+
+.section-intro,
+.hero-subtext,
+.hero-copy {
+  line-height: 1.75;
+}
+
+/* ---- Heading polish ---- */
+
+h1 {
+  letter-spacing: -0.038em;
+}
+
+h2 {
+  letter-spacing: -0.028em;
+  margin-bottom: 1.05rem;
+}
+
+h3 {
+  margin-bottom: 0.6rem;
+}
+
+/* ---- Container tightening ---- */
+
+.container {
+  width: min(1120px, calc(100% - 2rem));
+}
+
+.narrow {
+  max-width: 720px;
+}
+
+/* ---- Card elevation ---- */
+
+.card,
+.card-gray,
+.card-highlight,
+.hero-card,
+.services-hero-panel,
+.services-callout,
+.services-assessment-card,
+.step-card,
+.form-wrap {
+  border-radius: 20px;
+  box-shadow: 0 18px 45px rgba(16, 32, 51, 0.05);
+  border: 1px solid rgba(16, 32, 51, 0.08);
+}
+
+/* ---- Subtle hover polish (premium feel) ---- */
+
+.card:hover,
+.service-card:hover,
+.approach-step:hover {
+  transform: translateY(-2px);
+  transition: all 0.25s ease;
+  box-shadow: 0 22px 50px rgba(16, 32, 51, 0.08);
+}
+
+/* ---- Button refinement ---- */
+
+.btn,
+.btn-primary,
+.btn-secondary {
+  padding: 0.92rem 1.3rem;
+  border-radius: 999px;
+}
+
+.btn:hover,
+.btn-primary:hover,
+.btn-secondary:hover {
+  transform: translateY(-1px);
+}
+
+/* ---- Form polish (very important) ---- */
+
+.form-field input,
+.form-field textarea {
+  border-radius: 14px;
+  padding: 0.95rem 1rem;
+  border: 1px solid rgba(16, 32, 51, 0.14);
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+  box-shadow: 0 0 0 4px rgba(18, 124, 132, 0.14);
+}
+
+/* ---- Form note (your new addition) ---- */
+
+.form-note {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-top: 0.6rem;
+  line-height: 1.5;
+}
+
+/* ---- CTA band refinement ---- */
+
+.cta-band {
+  padding: 88px 0;
+}
+
+.cta-box {
+  border-radius: 28px;
+  box-shadow: 0 20px 55px rgba(16, 32, 51, 0.06);
+}
+
+/* ---- Visual consistency ---- */
+
+.hero-title,
+.page-title {
+  max-width: 18ch;
+}
+
+.section-intro,
+.hero-subtext {
+  max-width: 44rem;
+}
+
+/* ---- Smooth transitions globally ---- */
+
+* {
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
 }
