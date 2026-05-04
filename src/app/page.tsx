@@ -89,7 +89,7 @@ export default function HomePage() {
             </p>
 
             <p className="section-copy">
-              The issue is often not demand alone. It is how billing,
+              The issue is rarely demand alone. It is how billing,
               collections, reporting, and financial workflows operate together
               after revenue is created.
             </p>
