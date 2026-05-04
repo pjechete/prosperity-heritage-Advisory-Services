@@ -1219,13 +1219,13 @@ li {
   .narrow-copy {
     max-width: 100%;
   }
-   /* =========================
-   /* =========================
+}
+
+/* =========================
    PREMIUM SITE REFINEMENT PATCH
    Safe non-destructive layer
 ========================= */
 
-/* Better paragraph rhythm */
 .section p,
 .hero-subtext,
 .section-intro,
@@ -1233,7 +1233,6 @@ li {
   line-height: 1.72;
 }
 
-/* Cleaner content spacing */
 .content-grid {
   display: grid;
   gap: 1.15rem;
@@ -1243,7 +1242,6 @@ li {
   margin-bottom: 0;
 }
 
-/* Better form structure */
 .form-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1296,7 +1294,6 @@ li {
   color: var(--muted);
 }
 
-/* Outcomes section treatment */
 .outcomes-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1323,7 +1320,6 @@ li {
   font-weight: 800;
 }
 
-/* Card texture */
 .card,
 .card-gray,
 .card-highlight,
@@ -1338,7 +1334,6 @@ li {
   box-shadow: 0 18px 45px rgba(16, 32, 51, 0.045);
 }
 
-/* Better services jumpbar rhythm */
 .services-jump-links {
   gap: 1.35rem;
 }
@@ -1347,7 +1342,6 @@ li {
   padding: 0.4rem 0;
 }
 
-/* Responsive cleanup */
 @media (max-width: 900px) {
   .form-grid,
   .outcomes-list {
