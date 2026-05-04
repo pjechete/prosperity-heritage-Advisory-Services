@@ -9,7 +9,6 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <main>
-
       {/* HERO */}
       <section className="page-hero">
         <div className="container">
@@ -44,7 +43,6 @@ export default function ContactPage() {
           </p>
 
           <div className="services-grid">
-
             <div className="service-card">
               <h3>Revenue & Cash Performance</h3>
               <p>
@@ -65,7 +63,6 @@ export default function ContactPage() {
                 Healthcare, revenue cycle, implementation, or strategic partnership initiatives require clearer workflow alignment, operational readiness, and financial visibility.
               </p>
             </div>
-
           </div>
         </div>
       </section>
@@ -91,7 +88,6 @@ export default function ContactPage() {
       {/* FORM */}
       <section id="contact-form" className="section alt">
         <div className="container narrow">
-
           <h2>Share your situation</h2>
 
           <div className="form-guidance">
@@ -105,37 +101,53 @@ export default function ContactPage() {
             </ul>
           </div>
 
-          {/* FORM FIELDS */}
-          <form className="contact-form">
+          <form className="form-grid">
+            <div className="form-field">
+              <label>Name</label>
+              <input type="text" placeholder="Your name" />
+            </div>
 
-            <label>Name</label>
-            <input type="text" placeholder="Your name" />
+            <div className="form-field">
+              <label>Email</label>
+              <input type="email" placeholder="you@example.com" />
+            </div>
 
-            <label>Email</label>
-            <input type="email" placeholder="you@example.com" />
+            <div className="form-field">
+              <label>Organization</label>
+              <input type="text" placeholder="Organization name" />
+            </div>
 
-            <label>Organization</label>
-            <input type="text" placeholder="Organization name" />
+            <div className="form-field">
+              <label>Role / Title</label>
+              <input
+                type="text"
+                placeholder="Founder, CFO, Controller, etc."
+              />
+            </div>
 
-            <label>Role / Title</label>
-            <input type="text" placeholder="Founder, CFO, Controller, Executive Director, Operations Leader, etc." />
+            <div className="form-field full-width">
+              <label>Primary Area of Interest</label>
+              <input
+                type="text"
+                placeholder="Revenue control, public sector readiness, healthcare initiative, etc."
+              />
+            </div>
 
-            <label>Primary Area of Interest</label>
-            <input type="text" placeholder="Revenue control, public sector readiness, healthcare initiative, strategic partnership, etc." />
+            <div className="form-field full-width">
+              <label>Message</label>
+              <textarea placeholder="Briefly describe the challenge, opportunity, or initiative you would like to discuss." />
+            </div>
 
-            <label>Message</label>
-            <textarea placeholder="Briefly describe the challenge, opportunity, or initiative you would like to discuss." />
+            <div className="form-field full-width">
+              <button type="submit" className="btn btn-primary">
+                Submit Inquiry
+              </button>
 
-            <button type="submit" className="btn btn-primary">
-              Submit Inquiry
-            </button>
-
-            <p className="form-note">
-              All inquiries are reviewed confidentially. We will follow up if there is a clear fit.
-            </p>
-
+              <p className="form-note">
+                All inquiries are reviewed confidentially. We will follow up if there is a clear fit.
+              </p>
+            </div>
           </form>
-
         </div>
       </section>
 
@@ -154,7 +166,6 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-
     </main>
   );
 }
