@@ -149,7 +149,7 @@ export default function ServicesPage() {
           <div>
             <p className="section-label">Outcomes This Work Supports</p>
 
-            <div className="outcome-grid">
+            <div className="outcome-list">
               <div className="outcome-card">Shorter invoicing cycles</div>
               <div className="outcome-card">Reduced receivable aging</div>
               <div className="outcome-card">Stronger collections discipline</div>
