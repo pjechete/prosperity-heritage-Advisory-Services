@@ -32,8 +32,20 @@ export default function HomePage() {
                 Cash flow is not just a financial outcome—it reflects how
                 revenue is executed.
               </p>
+                  <p className="hero-subtext emphasis">
+    Revenue is recorded every day. Cash depends on how well it is executed.
+  </p>
 
-              <div className="hero-actions">
+  <div className="hero-actions">
+    <Link href="/contact" className="btn btn-primary">
+      Schedule a Revenue Diagnostic
+    </Link>
+    <Link href="/services" className="btn btn-secondary">
+      Explore Services
+    </Link>
+  </div>
+</div>
+            <div className="hero-actions">
                 <Link href="/contact" className="btn btn-primary">
                   Schedule a Revenue Diagnostic
                 </Link>
