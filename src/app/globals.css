@@ -1504,4 +1504,68 @@ li {
   .diagram-note {
     margin-top: 1rem;
   }
+  /* =========================
+   SVG REVENUE CASH DIAGRAM
+========================= */
+
+.revenue-cash-svg-wrap {
+  margin-top: 2rem;
+  width: 100%;
+  overflow-x: auto;
 }
+
+.revenue-cash-svg-wrap svg {
+  width: 100%;
+  height: auto;
+  min-width: 900px;
+  display: block;
+}
+
+.rc-line {
+  stroke: rgba(16, 32, 51, 0.18);
+  stroke-width: 2;
+}
+
+.rc-node circle {
+  fill: #ffffff;
+  stroke: rgba(16, 32, 51, 0.16);
+  stroke-width: 2;
+  transition:
+    transform 0.25s ease,
+    stroke 0.25s ease,
+    fill 0.25s ease;
+}
+
+.rc-node text {
+  font-size: 13px;
+  fill: var(--navy);
+  font-weight: 700;
+  pointer-events: none;
+}
+
+.rc-node.risk circle {
+  fill: rgba(18, 124, 132, 0.08);
+  stroke: var(--primary);
+}
+
+.rc-node:hover circle {
+  transform: translateY(-4px);
+  stroke: var(--primary-dark);
+  fill: rgba(18, 124, 132, 0.12);
+}
+
+.revenue-cash-svg-wrap.compact svg {
+  min-width: 760px;
+}
+
+.revenue-cash-svg-wrap.compact .rc-node text {
+  font-size: 12px;
+}
+
+@media (max-width: 760px) {
+  .revenue-cash-svg-wrap svg {
+    min-width: 720px;
+  }
+} 
+}
+
