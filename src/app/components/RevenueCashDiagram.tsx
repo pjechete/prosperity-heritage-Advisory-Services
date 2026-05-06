@@ -1,4 +1,9 @@
+'use client'
+
 type Props = {
+  compact?: boolean
+}
+  type Props = {
   compact?: boolean
 }
 
