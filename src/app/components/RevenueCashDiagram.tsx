@@ -3,9 +3,6 @@
 type Props = {
   compact?: boolean
 }
-  type Props = {
-  compact?: boolean
-}
 
 export default function RevenueCashDiagram({ compact = false }: Props) {
   const steps = [
