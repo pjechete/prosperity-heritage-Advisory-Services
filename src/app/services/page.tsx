@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import RevenueCashDiagram from '../../components/RevenueCashDiagram'
+import RevenueCashDiagram from '../components/RevenueCashDiagram'
 
 export const metadata: Metadata = {
   title:
