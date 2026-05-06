@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Contact | Revenue Control, Public Sector & Execution Advisory | PHS',
+  title: 'Contact | Revenue Diagnostic | PHS',
   description:
-    'Start a conversation with Prosperity Heritage Advisory about revenue control, cash visibility, public sector readiness, healthcare initiatives, and execution challenges.',
+    'Start a Revenue Diagnostic with Prosperity Heritage Advisory to identify where revenue is not converting into predictable cash.',
 }
 
 export default function ContactPage() {
@@ -13,93 +13,60 @@ export default function ContactPage() {
       <section className="page-hero">
         <div className="container">
           <p className="eyebrow">Contact</p>
-          <h1>
-            Let’s identify where performance, visibility, or execution is breaking down.
-          </h1>
-          <p className="hero-subtext">
-            We work with leadership teams to clarify where revenue, operations, and financial workflows are not translating into predictable cash performance—and what needs to change.
-          </p>
-        </div>
-      </section>
 
-      {/* INTRO */}
-      <section className="section">
-        <div className="container narrow">
-          <p>
-            Whether you are facing revenue-to-cash challenges, operational finance pressure, healthcare transformation needs, public sector complexity, or partner-led execution issues, the first step is understanding where structure and discipline are breaking down.
-          </p>
-          <p>
-            We review all inquiries with a focus on fit, urgency, and whether a structured diagnostic or advisory engagement is appropriate.
+          <h1>
+            If revenue is not converting into predictable cash, let’s identify why.
+          </h1>
+
+          <p className="hero-subtext">
+            A focused conversation to understand where execution is slowing,
+            leaking, or breaking down across your revenue process.
           </p>
         </div>
       </section>
 
       {/* WHEN TO REACH OUT */}
-      <section className="section alt">
+      <section className="section section-soft">
         <div className="container">
           <h2>When to reach out</h2>
-          <p className="section-intro">
-            We support organizations where execution directly affects financial performance.
-          </p>
 
-          <div className="services-grid">
-            <div className="service-card">
-              <h3>Revenue & Cash Performance</h3>
+          <div className="card-grid three-up">
+            <div className="card">
+              <h3>Revenue is strong, cash is inconsistent</h3>
               <p>
-                Revenue is growing, but billing delays, collections gaps, leakage, or weak reporting are limiting cash predictability and visibility.
+                Billing delays, collections gaps, or weak visibility are affecting
+                cash flow.
               </p>
             </div>
 
-            <div className="service-card">
-              <h3>Public Sector Readiness</h3>
+            <div className="card">
+              <h3>Processes exist, but outcomes vary</h3>
               <p>
-                Public, quasi-government, or partner-led initiatives require stronger financial controls, funding accountability, reporting discipline, and execution structure.
+                Teams and systems are in place, but execution lacks consistency
+                or control.
               </p>
             </div>
 
-            <div className="service-card">
-              <h3>Healthcare & Partner-Led Initiatives</h3>
+            <div className="card">
+              <h3>Growth is increasing complexity</h3>
               <p>
-                Healthcare, revenue cycle, implementation, or strategic partnership initiatives require clearer workflow alignment, operational readiness, and financial visibility.
+                Scaling, acquisitions, or new initiatives are creating breakdowns
+                across workflows.
               </p>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* WHAT TO EXPECT */}
-      <section className="section">
-        <div className="container narrow">
-          <h2>What to expect</h2>
-          <p className="section-intro">
-            A focused intake designed for serious advisory conversations.
-          </p>
-
-          <p>
-            This is not a generic inquiry process. The information you provide helps us understand the operating context, the underlying issues, and whether PHS is the right fit to support your situation.
-          </p>
-
-          <p>
-            We prioritize engagements where financial performance depends on improving execution across billing, collections, reporting, operations, stakeholder coordination, or partner delivery.
-          </p>
         </div>
       </section>
 
       {/* FORM */}
-      <section id="contact-form" className="section alt">
+      <section id="contact-form" className="section">
         <div className="container narrow">
-          <h2>Share your situation</h2>
+          <h2>Start the diagnostic</h2>
 
-          <div className="form-guidance">
-            <p className="section-intro">Helpful context to include:</p>
-            <ul>
-              <li>What prompted the inquiry now</li>
-              <li>Revenue, billing, collections, or cash visibility concerns</li>
-              <li>Public sector, healthcare, or partner-led initiative context</li>
-              <li>Any growth, transition, implementation, or funding pressure</li>
-              <li>What outcome you are trying to improve</li>
-            </ul>
-          </div>
+          <p className="section-intro">
+            Share a few details about your situation. We’ll follow up if there’s a
+            strong fit.
+          </p>
 
           <div className="form-wrap">
             <form
@@ -110,68 +77,36 @@ export default function ContactPage() {
               <input
                 type="hidden"
                 name="_subject"
-                value="New PHS Website Inquiry"
+                value="New PHS Revenue Diagnostic Inquiry"
               />
 
               <div className="form-field">
                 <label htmlFor="name">Name</label>
-                <input
-                  id="name"
-                  name="name"
-                  type="text"
-                  placeholder="Your name"
-                  required
-                />
+                <input id="name" name="name" type="text" required />
               </div>
 
               <div className="form-field">
                 <label htmlFor="email">Email</label>
-                <input
-                  id="email"
-                  name="email"
-                  type="email"
-                  placeholder="you@example.com"
-                  required
-                />
+                <input id="email" name="email" type="email" required />
               </div>
 
               <div className="form-field">
                 <label htmlFor="company">Organization</label>
-                <input
-                  id="company"
-                  name="company"
-                  type="text"
-                  placeholder="Organization name"
-                />
+                <input id="company" name="company" type="text" />
               </div>
 
               <div className="form-field">
                 <label htmlFor="role">Role / Title</label>
-                <input
-                  id="role"
-                  name="role"
-                  type="text"
-                  placeholder="Founder, CFO, Controller, etc."
-                />
+                <input id="role" name="role" type="text" />
               </div>
 
               <div className="form-field full-width">
-                <label htmlFor="interest">Primary Area of Interest</label>
-                <input
-                  id="interest"
-                  name="interest"
-                  type="text"
-                  placeholder="Revenue control, public sector readiness, healthcare initiative, etc."
-                />
-              </div>
-
-              <div className="form-field full-width">
-                <label htmlFor="message">Message</label>
+                <label htmlFor="message">What’s happening?</label>
                 <textarea
                   id="message"
                   name="message"
-                  placeholder="Briefly describe the challenge, opportunity, or initiative you would like to discuss."
-                  rows={6}
+                  rows={5}
+                  placeholder="Briefly describe where revenue or cash performance feels off."
                   required
                 />
               </div>
@@ -182,7 +117,7 @@ export default function ContactPage() {
                 </button>
 
                 <p className="form-note">
-                  All inquiries are reviewed confidentially. We will follow up if there is a clear fit.
+                  We review every inquiry. We’ll follow up if there’s a clear fit.
                 </p>
               </div>
             </form>
@@ -190,18 +125,25 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* CTA */}
+      {/* STRONG CTA */}
       <section className="cta-band">
         <div className="container">
-          <h2>Strong outcomes depend on disciplined execution.</h2>
-          <p>
-            If performance is being limited by weak visibility, unclear ownership, delayed cash conversion, or complex stakeholder execution, the next step is identifying where the breakdown is occurring.
-          </p>
+          <div className="cta-box">
+            <p className="eyebrow">Why act now</p>
 
-          <div className="cta-actions">
-            <a href="#contact-form" className="btn btn-primary">
-              Complete the Form
-            </a>
+            <h2>Cash pressure rarely starts as a cash problem.</h2>
+
+            <p>
+              It usually begins earlier — in delayed handoffs, inconsistent
+              billing, weak follow-through, or limited visibility. The sooner
+              those signals are addressed, the easier they are to control.
+            </p>
+
+            <div className="cta-actions">
+              <a href="#contact-form" className="btn btn-primary">
+                Start the Diagnostic
+              </a>
+            </div>
           </div>
         </div>
       </section>
