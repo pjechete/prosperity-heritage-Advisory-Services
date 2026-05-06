@@ -1,10 +1,12 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import RevenueCashDiagram from '@/components/RevenueCashDiagram'
 
 export const metadata: Metadata = {
-  title: 'Revenue Performance & Cash Visibility Advisory | PHS Services',
+  title:
+    'Revenue Execution Control & Cash Stabilization Advisory | PHS Services',
   description:
-    'Advisory services focused on revenue performance, billing discipline, collections execution, revenue integrity, cash visibility, public sector readiness, and selective strategic engagements.',
+    'Prosperity Heritage Advisory helps leadership teams restore control over how revenue becomes cash by fixing execution breakdowns across operations, billing, collections, and financial workflows.',
 }
 
 export default function ServicesPage() {
@@ -17,19 +19,19 @@ export default function ServicesPage() {
             <div>
               <p className="eyebrow">Services</p>
 
-              <h1>
-                Strengthening Revenue Performance, Cash Visibility, and Execution Discipline.
-              </h1>
+              <h1>Restoring Control Over How Revenue Becomes Cash.</h1>
 
               <p className="section-copy">
-                Prosperity Heritage Advisory helps leadership teams improve how revenue converts
-                into cash by strengthening control, discipline, and visibility across billing,
-                collections, revenue integrity, and financial workflows.
+                Prosperity Heritage Advisory helps leadership teams identify and
+                fix the breakdowns between revenue generation, billing,
+                collections, and cash realization—so revenue turns into
+                predictable cash.
               </p>
 
               <p className="section-copy">
-                Our work is practical, hands-on, and focused on the areas where execution gaps
-                delay cash, weaken control, and limit leadership confidence.
+                Our work focuses on the execution layer—where revenue slows,
+                leaks, or fails to convert—across operations, billing,
+                collections, and financial workflows.
               </p>
 
               <div className="button-row">
@@ -45,57 +47,61 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* WHAT WE HELP IMPROVE */}
+      {/* WHAT WE STRENGTHEN */}
       <section className="section">
         <div className="container">
-          <p className="section-label">What We Help Improve</p>
+          <p className="section-label">What We Strengthen</p>
 
-          <div className="card-grid three">
+          <h2 className="section-title">
+            The execution points that determine whether revenue becomes cash.
+          </h2>
+
+          <div className="card-grid three-up">
+            <div className="card">
+              <h3>Revenue Flow Alignment</h3>
+              <p>
+                Aligning contracts, operations, billing, collections, and finance
+                to eliminate breakdowns between teams.
+              </p>
+            </div>
+
             <div className="card">
               <h3>Billing Discipline</h3>
               <p>
-                More consistent invoicing workflows, clearer ownership, and
-                fewer preventable delays.
+                Establishing consistent invoicing workflows, ownership, and
+                timing to reduce preventable delays.
               </p>
             </div>
 
             <div className="card">
               <h3>Collections Execution</h3>
               <p>
-                Stronger follow-up cadence, escalation discipline, and
-                accountability across receivables.
+                Strengthening follow-up cadence, escalation, and accountability
+                across receivables.
               </p>
             </div>
 
             <div className="card">
-              <h3>Revenue Integrity</h3>
+              <h3>Revenue Leakage Control</h3>
               <p>
-                Reduced leakage from missed charges, underbilling, weak
-                controls, or execution gaps.
+                Identifying missed charges, underbilling, and execution gaps
+                that reduce realized revenue.
               </p>
             </div>
 
             <div className="card">
               <h3>Cash Visibility</h3>
               <p>
-                Clearer reporting into where cash is delayed, what is driving
-                performance, and where action is needed.
+                Providing clarity into what is owed, what is delayed, and what
+                requires action.
               </p>
             </div>
 
             <div className="card">
-              <h3>Process Handoffs</h3>
+              <h3>Execution Discipline</h3>
               <p>
-                Better alignment between contracts, operations, billing,
-                collections, and finance.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Revenue-to-Cash Performance</h3>
-              <p>
-                A stronger operating rhythm for converting earned revenue into
-                more predictable cash.
+                Creating structure, cadence, and accountability across the
+                revenue-to-cash process.
               </p>
             </div>
           </div>
@@ -107,6 +113,7 @@ export default function ServicesPage() {
         <div className="container">
           <div className="services-jump-links">
             <a href="#core-advisory">Core Advisory</a>
+            <a href="#revenue-model">Revenue-to-Cash Model</a>
             <a href="#service-areas">Service Areas</a>
             <a href="#how-we-engage">How We Engage</a>
             <a href="#selective-engagements">Strategic Engagements</a>
@@ -116,107 +123,160 @@ export default function ServicesPage() {
       </section>
 
       {/* CORE ADVISORY */}
-      <section id="core-advisory" className="section">
+      <section id="core-advisory" className="section section-soft">
         <div className="container services-two-col">
           <div>
-            <p className="section-label">Core advisory</p>
+            <p className="section-label">Core Advisory</p>
 
-            <h2 className="section-title left-align">
-              Revenue Control &amp; Cash Visibility
+            <h2 className="section-title">
+              Revenue Execution Control &amp; Cash Stabilization
             </h2>
 
             <p className="section-copy">
-              Revenue performance is not only driven by demand alone. It is shaped by
-              how well revenue is executed, controlled, billed, collected, and
-              reported.
+              Revenue performance is not driven by demand alone. It is
+              determined by how well revenue is executed, controlled, billed,
+              collected, and converted into cash.
             </p>
 
             <p className="section-copy">
-              In many organizations, revenue is recorded every day, but cash is
-              delayed by weak handoffs, inconsistent billing discipline, slow
-              collections follow-through, limited reporting visibility, or
-              operational gaps between commercial activity and finance execution.
+              In many organizations, revenue is recorded consistently—but cash
+              is delayed by weak handoffs, inconsistent billing discipline, slow
+              collections execution, and limited visibility across the
+              revenue-to-cash process.
             </p>
 
             <p className="section-copy">
-              We help leadership teams identify these breakdowns, strengthen accountability,
-              and implement the operating discipline required to
-              improve cash performance with greater consistency and confidence.
+              We help leadership teams restore control across these execution
+              points, strengthen accountability, and implement the discipline
+              required to improve cash performance with consistency and
+              confidence.
             </p>
           </div>
 
-          {/* OUTCOMES */}
           <div>
-            <p className="section-label">Outcomes This Work Supports</p>
+            <p className="section-label">Outcomes</p>
 
-            <div className="outcome-list">
-              <div className="outcome-card">Shorter invoicing cycles</div>
-              <div className="outcome-card">Reduced receivable aging</div>
-              <div className="outcome-card">Stronger collections discipline</div>
-              <div className="outcome-card">Improved revenue capture</div>
-              <div className="outcome-card">
-                Clearer visibility into bottlenecks
-              </div>
-              <div className="outcome-card">
-                Greater confidence in cash performance
-              </div>
+            <div className="outcomes-list">
+              <div>Shorter invoicing cycles</div>
+              <div>Reduced receivable aging</div>
+              <div>Stronger collections discipline</div>
+              <div>Improved revenue capture</div>
+              <div>Clearer visibility into bottlenecks</div>
+              <div>More predictable cash performance</div>
             </div>
           </div>
         </div>
       </section>
 
+      {/* REVENUE TO CASH MODEL */}
+      <section id="revenue-model" className="section section-light">
+        <div className="container">
+          <p className="section-label">Revenue-to-Cash Model</p>
+
+          <h2 className="section-title">
+            Where revenue slows before it becomes cash.
+          </h2>
+
+          <p className="section-copy narrow-copy">
+            Most cash flow issues do not originate in accounting. They occur
+            across execution points between operations, billing, collections,
+            and financial workflows.
+          </p>
+
+          <RevenueCashDiagram compact />
+        </div>
+      </section>
+
       {/* SERVICE AREAS */}
-      <section id="service-areas" className="section section-alt">
+      <section id="service-areas" className="section">
         <div className="container">
           <p className="section-label">Service Areas</p>
 
-          <h2>Core Advisory Areas</h2>
+          <h2 className="section-title">Core Advisory Areas</h2>
 
           <p className="section-intro">
-            Our services focus on the operational and financial processes that
-            most directly influence revenue performance, cash visibility, and
-            execution control.
+            Our advisory work focuses on the execution layer where revenue is
+            converted into cash—across ownership, process discipline, billing,
+            collections, and financial visibility.
           </p>
 
-          <div className="card-grid two">
-            {/* ALL CARDS UNCHANGED */}
-            {/* (kept exactly as-is) */}
-            {/* ... your cards unchanged ... */}
+          <div className="card-grid two-up">
+            <div className="card">
+              <h3>Revenue Flow Alignment</h3>
+              <p>
+                Improving how revenue moves across teams, systems, and workflows
+                from creation to collection.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Billing &amp; Invoicing Discipline</h3>
+              <p>
+                Designing consistent billing processes to reduce delays and
+                improve timing of cash inflows.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Collections Strategy &amp; Execution</h3>
+              <p>
+                Establishing structured follow-up, escalation paths, and
+                ownership across receivables.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Revenue Leakage Review</h3>
+              <p>
+                Identifying where revenue is lost between work performed and
+                cash received.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Cash Visibility &amp; Reporting</h3>
+              <p>
+                Providing decision-ready insight into cash performance and
+                bottlenecks.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Operational Finance Support</h3>
+              <p>
+                Supporting execution across revenue-linked operations with
+                structure, discipline, and visibility.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       {/* HOW WE ENGAGE */}
-      <section className="section">
+      <section id="how-we-engage" className="section section-light">
         <div className="container narrow">
           <p className="section-label">How We Engage</p>
 
           <h2>
-            A Structured Approach to Improving Revenue Performance and Cash
-            Visibility.
+            A Structured Approach to Restoring Revenue Execution Control.
           </h2>
 
           <p>
             We do not approach revenue performance as a generic accounting
-            clean-up exercise. We view it as an execution, control, and
-            visibility issue.
+            issue. We treat it as an execution and control challenge across the
+            organization.
           </p>
 
           <p>
-            Our work is hands-on and leadership-focused. We work directly with
-            key stakeholders to understand how revenue moves through the
-            organization, where execution weakens, and what improvements will
-            strengthen cash performance.
+            Our work is hands-on and leadership-focused. We assess how revenue
+            moves, identify where execution breaks down, and implement practical
+            improvements to restore control and predictability.
           </p>
-
-          <div className="process-list">
-            {/* unchanged */}
-          </div>
         </div>
       </section>
 
       {/* STRATEGIC ENGAGEMENTS */}
-      <section className="section section-alt">
+      <section id="selective-engagements" className="section section-soft">
         <div className="container">
           <p className="section-label">Selective Strategic Engagements</p>
 
@@ -227,16 +287,45 @@ export default function ServicesPage() {
 
           <p className="section-intro">
             In addition to our core advisory work, we selectively support
-            initiatives that require disciplined coordination, financial
-            structure, stakeholder alignment, and trusted execution through
-            experienced partners.
+            initiatives requiring financial structure, execution discipline, and
+            stakeholder alignment.
           </p>
 
-          <div className="card-grid two">
-            {/* unchanged */}
+          <div className="card-grid two-up">
+            <div className="card">
+              <h3>Healthcare Transformation</h3>
+              <p>
+                Supporting revenue cycle alignment, implementation readiness,
+                and operational finance structure.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Public Sector Readiness</h3>
+              <p>
+                Structuring complex initiatives with clarity across execution,
+                accountability, and financial workflows.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Partner-Led Execution</h3>
+              <p>
+                Supporting strategic partners where execution, market
+                development, and financial discipline intersect.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Cross-Border Initiatives</h3>
+              <p>
+                Supporting initiatives requiring coordination across regions,
+                partners, and financial structures.
+              </p>
+            </div>
           </div>
 
-          <p className="section-note">
+          <p className="section-copy top-gap">
             All non-core engagements are undertaken selectively and in
             collaboration with trusted partners.
           </p>
@@ -246,19 +335,26 @@ export default function ServicesPage() {
       {/* FINAL CTA */}
       <section id="contact-cta" className="cta-band">
         <div className="container">
-          <p className="section-label">Revenue Performance Review</p>
+          <div className="cta-box">
+            <p className="eyebrow">Revenue Diagnostic</p>
 
-          <h2>Strong financial performance is not just about revenue.</h2>
+            <h2>
+              If revenue is strong but cash is inconsistent, the issue is not
+              sales. It is execution.
+            </h2>
 
-          <p>
-            It depends on how revenue is billed, managed, collected, reported,
-            and translated into cash. That is where our core advisory work is
-            focused.
-          </p>
+            <p>
+              We help leadership teams identify where revenue is slowing,
+              leaking, or failing to convert into predictable cash—and what
+              needs to change.
+            </p>
 
-          <Link href="/contact" className="btn btn-primary">
-            Book a Consultation
-          </Link>
+            <div className="hero-actions center-buttons">
+              <Link href="/contact" className="btn btn-primary">
+                Schedule a Revenue Diagnostic
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
     </main>
