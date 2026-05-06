@@ -850,10 +850,11 @@ li {
 }
 
 .cta-box h2 {
-  max-width: 16ch;
-  margin: 0.3rem auto 0.8rem;
-  line-height: 1.02;
+  max-width: 26ch;
+  margin: 0.3rem auto 0.9rem;
+  line-height: 1.04;
   letter-spacing: -0.034em;
+  font-size: clamp(2.3rem, 3.8vw, 4rem);
 }
 
 .cta-box p {
