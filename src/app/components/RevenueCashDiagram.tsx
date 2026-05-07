@@ -35,10 +35,23 @@ export default function RevenueCashDiagram({ compact = false }: Props) {
             transform={`translate(${step.x}, 62)`}
           >
             <rect width="120" height="96" rx="18" />
-            <text x="60" y="42" textAnchor="middle">
+
+            {step.risk && (
+              <text x="60" y="22" textAnchor="middle" className="rc-risk-tag">
+                RISK POINT
+              </text>
+            )}
+
+            <text x="60" y={step.risk ? 47 : 42} textAnchor="middle">
               {String(index + 1).padStart(2, '0')}
             </text>
-            <text x="60" y="66" textAnchor="middle" className="rc-label">
+
+            <text
+              x="60"
+              y={step.risk ? 71 : 66}
+              textAnchor="middle"
+              className="rc-label"
+            >
               {step.label}
             </text>
           </g>
@@ -69,12 +82,16 @@ export default function RevenueCashDiagram({ compact = false }: Props) {
           stroke: rgba(16, 32, 51, 0.14);
           stroke-width: 1.5;
           filter: drop-shadow(0 12px 22px rgba(16, 32, 51, 0.06));
-          transition: transform 0.22s ease, stroke 0.22s ease, fill 0.22s ease;
+          transition:
+            transform 0.22s ease,
+            stroke 0.22s ease,
+            fill 0.22s ease;
         }
 
         .rc-card.risk rect {
-          fill: rgba(18, 124, 132, 0.08);
-          stroke: rgba(18, 124, 132, 0.42);
+          fill: rgba(18, 124, 132, 0.12);
+          stroke: rgba(18, 124, 132, 0.62);
+          stroke-width: 2;
         }
 
         .rc-card text {
@@ -91,8 +108,19 @@ export default function RevenueCashDiagram({ compact = false }: Props) {
           letter-spacing: 0;
         }
 
+        .rc-card.risk .rc-label {
+          fill: #0f646a;
+        }
+
+        .rc-risk-tag {
+          fill: #0f646a;
+          font-size: 7.5px;
+          font-weight: 800;
+          letter-spacing: 0.12em;
+        }
+
         .rc-card:hover rect {
-          fill: rgba(18, 124, 132, 0.12);
+          fill: rgba(18, 124, 132, 0.16);
           stroke: #0f646a;
           transform: translateY(-4px);
         }
