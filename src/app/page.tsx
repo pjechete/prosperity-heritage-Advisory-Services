@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
+import RevenueCashDiagram from './components/RevenueCashDiagram'
 
 export const metadata: Metadata = {
   title:
@@ -156,7 +157,7 @@ export default function HomePage() {
 
       {/* CATEGORY REFRAME */}
       <section className="section section-light">
-        <div className="container framework-section">
+        <div className="container services-two-col">
           <div>
             <p className="section-label">Category reframe</p>
 
@@ -171,41 +172,16 @@ export default function HomePage() {
               revenue is created, billed, collected, monitored, and converted
               into cash.
             </p>
-
-            <div className="framework-list">
-              <div>
-                <h3>Traditional accounting</h3>
-                <p>
-                  Tracks revenue, reports results, supports compliance, and
-                  reconciles what already happened.
-                </p>
-              </div>
-
-              <div>
-                <h3>Revenue Execution Control</h3>
-                <p>
-                  Identifies where revenue slows, breaks, leaks, or fails to
-                  convert into predictable cash.
-                </p>
-              </div>
-
-              <div>
-                <h3>Why it matters</h3>
-                <p>
-                  The gap often lives between teams, workflows, and execution
-                  points—not only inside accounting systems.
-                </p>
-              </div>
-            </div>
           </div>
 
-          <div className="framework-visual">
-            <Image
-              src="/images/framework-visual.png"
-              alt="Revenue execution control framework visual"
-              width={900}
-              height={520}
-            />
+          <div className="card card-highlight">
+            <h3>Where PHS steps in</h3>
+            <p>
+              The gap often lives between teams, workflows, and execution
+              points—not only inside accounting systems. We focus on where
+              revenue slows, breaks, leaks, or fails to convert into predictable
+              cash.
+            </p>
           </div>
         </div>
       </section>
@@ -224,45 +200,7 @@ export default function HomePage() {
             executed, monitored, and controlled.
           </p>
 
-          <div className="cash-flow-diagram">
-            <div className="flow-step">
-              <span>01</span>
-              <h3>Revenue Generated</h3>
-              <p>Sales, services, contracts, or work completed.</p>
-            </div>
-
-            <div className="flow-arrow">→</div>
-
-            <div className="flow-step warning">
-              <span>02</span>
-              <h3>Operational Handoffs</h3>
-              <p>Information moves between teams and systems.</p>
-            </div>
-
-            <div className="flow-arrow">→</div>
-
-            <div className="flow-step warning">
-              <span>03</span>
-              <h3>Billing Execution</h3>
-              <p>Revenue is captured, invoiced, and validated.</p>
-            </div>
-
-            <div className="flow-arrow">→</div>
-
-            <div className="flow-step warning">
-              <span>04</span>
-              <h3>Collections Follow-Through</h3>
-              <p>Ownership, cadence, escalation, and accountability.</p>
-            </div>
-
-            <div className="flow-arrow">→</div>
-
-            <div className="flow-step">
-              <span>05</span>
-              <h3>Cash Realized</h3>
-              <p>Revenue becomes available, predictable cash.</p>
-            </div>
-          </div>
+          <RevenueCashDiagram />
 
           <p className="diagram-note">
             Breakdowns do not always happen in accounting systems. They often
@@ -273,49 +211,38 @@ export default function HomePage() {
 
       {/* FRAMEWORK */}
       <section className="section">
-        <div className="container framework-section">
-          <div>
-            <p className="section-label">How we think</p>
+        <div className="container">
+          <p className="section-label">How we think</p>
 
-            <h2 className="section-title">
-              Revenue performance is strengthened through control, discipline,
-              and visibility.
-            </h2>
+          <h2 className="section-title">
+            Revenue performance is strengthened through control, discipline,
+            and visibility.
+          </h2>
 
-            <div className="framework-list">
-              <div>
-                <h3>Control</h3>
-                <p>
-                  Clear ownership, defined handoffs, and accountability across
-                  the revenue-to-cash process.
-                </p>
-              </div>
-
-              <div>
-                <h3>Discipline</h3>
-                <p>
-                  Consistent billing cycles, collections cadence, escalation
-                  paths, and performance routines.
-                </p>
-              </div>
-
-              <div>
-                <h3>Visibility</h3>
-                <p>
-                  Clear insight into what is owed, what is delayed, what is at
-                  risk, and what requires action.
-                </p>
-              </div>
+          <div className="card-grid three-up">
+            <div className="card">
+              <h3>Control</h3>
+              <p>
+                Clear ownership, defined handoffs, and accountability across the
+                revenue-to-cash process.
+              </p>
             </div>
-          </div>
 
-          <div className="framework-visual">
-            <Image
-              src="/images/framework-visual.png"
-              alt="Revenue control discipline and visibility framework visual"
-              width={900}
-              height={520}
-            />
+            <div className="card">
+              <h3>Discipline</h3>
+              <p>
+                Consistent billing cycles, collections cadence, escalation
+                paths, and performance routines.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Visibility</h3>
+              <p>
+                Clear insight into what is owed, what is delayed, what is at
+                risk, and what requires action.
+              </p>
+            </div>
           </div>
         </div>
       </section>
