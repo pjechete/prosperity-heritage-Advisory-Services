@@ -1,8 +1,8 @@
-import type { Metadata } from 'next'
+publicimport type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 
-export const metadata: Metadata = {
+export const metadata: Metadpublicata = {
   title:
     'Operational Stability & Growth Advisory | Prosperity Heritage Advisory',
   description:
@@ -47,7 +47,7 @@ export default function HomePage() {
 
             <div className="hero-visual">
               <Image
-                src="/visuals/stability-growth-ecosystem.png"
+                src="/stability-growth-ecosystem.png"
                 alt="Stability and Sustainable Growth Ecosystem"
                 width={900}
                 height={700}
@@ -75,7 +75,7 @@ export default function HomePage() {
 
           <div className="section-visual wide-visual">
             <Image
-              src="/visuals/organizational-signals-map.png"
+              src="/organizational-signals-map.png"
               alt="Organizational signals map showing operational pressure, visibility gaps, and coordination risks"
               width={1100}
               height={700}
@@ -89,7 +89,7 @@ export default function HomePage() {
         <div className="container problem-section">
           <div className="section-visual">
             <Image
-              src="/visuals/pressure-beneath-surface.png"
+              src="/pressure-beneath-surface.png"
               alt="Pressure beneath the surface showing visible symptoms and underlying operational causes"
               width={800}
               height={600}
@@ -140,7 +140,7 @@ export default function HomePage() {
 
           <div className="section-visual wide-visual">
             <Image
-              src="/visuals/execution-flow-architecture.png"
+              src="/execution-flow-architecture.png"
               alt="Execution flow architecture showing how organizational performance depends on connected execution"
               width={1100}
               height={700}
@@ -168,7 +168,7 @@ export default function HomePage() {
 
           <div className="section-visual wide-visual">
             <Image
-              src="/visuals/phs-diagnostic-framework.png"
+              src="/phs-diagnostic-framework.png"
               alt="PHS diagnostic framework: Assess, Diagnose, Design, Implement, Control, Optimize"
               width={1100}
               height={700}
