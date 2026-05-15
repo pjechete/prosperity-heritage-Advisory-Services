@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 
-export const metadata: Metadpublicata = {
+export const metadata: Metadata = {
   title:
     'Operational Stability & Growth Advisory | Prosperity Heritage Advisory',
   description:
