@@ -18,20 +18,26 @@ export default function Navbar() {
   return (
     <header className="site-header">
       <div className="container header-inner">
+
+        {/* BRAND */}
         <Link href="/" className="brand">
           <Image
             src="/logo.png"
             alt="Prosperity Heritage Advisory"
-            width={190}
-            height={60}
+            width={200}
+            height={64}
             priority
+            className="logo"
           />
         </Link>
 
+        {/* NAVIGATION */}
         <nav className="main-nav" aria-label="Main navigation">
           {navLinks.map((link) => {
             const isActive =
-              link.href === '/' ? pathname === '/' : pathname?.startsWith(link.href)
+              link.href === '/'
+                ? pathname === '/'
+                : pathname?.startsWith(link.href)
 
             return (
               <Link
@@ -45,9 +51,10 @@ export default function Navbar() {
           })}
         </nav>
 
+        {/* CTA */}
         <div className="header-cta">
           <Link href="/contact" className="btn btn-primary btn-sm">
-            Schedule Diagnostic
+            Schedule a Conversation
           </Link>
         </div>
       </div>
