@@ -198,33 +198,34 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <section className="phs-section">
-        <div className="phs-container phs-reality-grid">
-          <div className="phs-reality-heading">
-            <p className="phs-section-label">How We Engage</p>
-            <div className="phs-gold-rule" />
-            <h2>
-              We begin by understanding the operating environment before
-              prescribing solutions.
-            </h2>
-          </div>
+     {/* HOW WE ENGAGE */}
+<section className="section section-soft">
+  <div className="container">
+    <div className="content-block narrow">
+      <p className="section-label">How We Engage</p>
 
-          <div>
-            <p>
-              Our work starts with diagnostic review. We assess workflow
-              realities, reporting visibility, operational coordination,
-              financial alignment, and execution patterns to identify where
-              pressure is building and what needs attention.
-            </p>
+      <h2 className="section-title">
+        We begin by understanding the operating environment before prescribing
+        solutions.
+      </h2>
 
-            <p>
-              The objective is practical clarity: understanding what is
-              happening, why it matters, where stability is being affected, and
-              what actions can strengthen organizational performance.
-            </p>
-          </div>
-        </div>
-      </section>
+      <div className="section-copy">
+        <p>
+          Our work starts with diagnostic review. We assess workflow realities,
+          reporting visibility, operational coordination, financial alignment,
+          and execution patterns to identify where pressure is building and
+          what requires attention.
+        </p>
+
+        <p>
+          The objective is practical clarity: understanding what is happening,
+          why it matters, where stability is being affected, and what actions
+          can strengthen organizational performance over time.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
       <section className="phs-section phs-advisory-areas">
         <div className="phs-container">
