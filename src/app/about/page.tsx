@@ -3,9 +3,9 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title:
-    'About | Revenue Execution Control & Cash Stabilization | Prosperity Heritage Advisory',
+    'About | Operational Stability & Execution Advisory | Prosperity Heritage Advisory',
   description:
-    'Prosperity Heritage Advisory helps organizations restore control over how revenue becomes cash through execution discipline, alignment, and financial visibility.',
+    'Prosperity Heritage Advisory helps organizations strengthen operational clarity, visibility, execution discipline, stability, and sustainable growth across complex environments.',
 }
 
 export default function AboutPage() {
@@ -17,71 +17,70 @@ export default function AboutPage() {
           <p className="eyebrow">About</p>
 
           <h1>
-            Built on the belief that strong businesses fail from lack of control,
-            not lack of revenue.
+            Built on the belief that operational stability depends on how well organizations execute.
           </h1>
 
           <p className="section-copy">
-            Prosperity Heritage Advisory was founded from direct experience
-            inside organizations where revenue performance and cash outcomes did
-            not align.
+            Prosperity Heritage Advisory was shaped through direct experience
+            inside organizations where performance, visibility, workflows,
+            execution, and financial outcomes were not fully aligned.
           </p>
 
           <p className="section-copy">
-            In many cases, the issue was not demand, strategy, or effort. It was
-            execution—how revenue moved through the business, how it was managed,
-            and how consistently it was converted into cash.
+            In many environments, the issue was not effort alone. It was how
+            operations, reporting, coordination, ownership, and execution
+            functioned beneath the surface.
           </p>
         </div>
       </section>
 
-      {/* ORIGIN / OBSERVATION */}
+      {/* OBSERVATION */}
       <section className="section">
         <div className="container narrow">
           <p className="section-label">What we observed</p>
 
           <h2 className="section-title">
-            The same pattern appears across industries and organizations.
+            The same operational patterns appear across industries and environments.
           </h2>
 
           <p className="section-copy">
-            Revenue is generated every day. But between that point and cash
-            realization, it passes through multiple teams, systems, and
-            workflows.
+            Organizations often experience pressure gradually through fragmented
+            workflows, inconsistent execution, recurring workarounds, delayed
+            visibility, weak coordination, and growing operational complexity.
           </p>
 
           <p className="section-copy">
-            Along that path, ownership becomes fragmented, processes become
-            inconsistent, and visibility declines. Over time, these gaps
-            compound—often remaining invisible until they begin to affect cash
-            flow, growth, or decision-making.
+            These issues frequently remain normalized until they begin affecting
+            leadership confidence, financial performance, operational stability,
+            or organizational growth.
           </p>
 
           <p className="section-copy">
-            These are not isolated issues. They are structural.
+            The challenge is rarely one isolated issue. It is how the environment
+            functions as a whole.
           </p>
         </div>
       </section>
 
-      {/* POINT OF VIEW */}
+      {/* PERSPECTIVE */}
       <section className="section section-soft">
         <div className="container narrow">
           <p className="section-label">Our perspective</p>
 
           <h2 className="section-title">
-            Execution is where revenue performance is ultimately determined.
+            Stability and growth depend on visibility, coordination, and disciplined execution.
           </h2>
 
           <p className="section-copy">
-            Financial results are often treated as outcomes to be reported. In
-            reality, they are the result of how well execution is managed across
-            the organization.
+            Organizational performance is often treated as an outcome to measure.
+            In reality, it reflects how well operational environments are managed
+            across workflows, reporting, ownership, decision-making, and execution.
           </p>
 
           <p className="section-copy">
-            When execution lacks structure, discipline, and ownership, revenue
-            slows, leaks, or becomes unpredictable. When those elements are
-            strengthened, performance becomes more consistent and more reliable.
+            When operational discipline weakens, pressure compounds quietly.
+            When visibility, coordination, and accountability strengthen,
+            performance becomes more sustainable and more predictable.
           </p>
         </div>
       </section>
@@ -92,62 +91,62 @@ export default function AboutPage() {
           <p className="section-label">How we think</p>
 
           <h2 className="section-title">
-            Control, discipline, and visibility are not abstract concepts. They
-            are operational realities.
+            Visibility, discipline, coordination, and control are operational realities.
           </h2>
 
           <div className="card-grid three-up">
             <div className="card">
-              <h3>Control</h3>
+              <h3>Visibility</h3>
               <p>
-                Clear ownership and accountability across the revenue-to-cash
-                process.
+                Clear insight into operational conditions, workflow pressure,
+                execution gaps, and performance risk.
               </p>
             </div>
 
             <div className="card">
               <h3>Discipline</h3>
               <p>
-                Consistent execution across billing, collections, and financial
-                workflows.
+                Consistent operational execution, accountability, follow-through,
+                and process reliability.
               </p>
             </div>
 
             <div className="card">
-              <h3>Visibility</h3>
+              <h3>Coordination</h3>
               <p>
-                Clear insight into what is happening across the revenue process
-                in real time.
+                Stronger alignment across teams, systems, reporting structures,
+                workflows, and leadership priorities.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* APPROACH WITHOUT DUPLICATION */}
+      {/* APPROACH */}
       <section className="section section-light">
         <div className="container narrow">
           <p className="section-label">Approach</p>
 
           <h2 className="section-title">
-            A practical, execution-focused approach shaped by real operating
-            environments.
+            A practical approach shaped by real operating environments.
           </h2>
 
           <p className="section-copy">
-            Our work is grounded in experience inside organizations where
-            operational complexity, growth, and financial pressure intersect.
+            Our work is grounded in environments where operational complexity,
+            financial pressure, transformation, execution risk, and organizational
+            coordination intersect.
           </p>
 
           <p className="section-copy">
-            Rather than focusing only on analysis or reporting, we work directly
-            within the execution layer—where revenue is managed, transferred, and
-            converted.
+            Rather than focusing only on reporting or analysis, we work within
+            the operational layer where visibility, execution, workflows, and
+            organizational performance are shaped day-to-day.
           </p>
 
           <p className="section-copy">
-            The goal is not theoretical improvement. It is practical, measurable
-            change in how the business performs.
+            The objective is not theoretical improvement. It is practical,
+            sustainable progress across the areas that affect organizational
+            stability and performance.
           </p>
         </div>
       </section>
@@ -158,15 +157,16 @@ export default function AboutPage() {
           <p className="section-label">Where we fit</p>
 
           <h2 className="section-title">
-            We are typically engaged when something does not feel aligned between
-            performance and outcomes.
+            We are often engaged when leadership senses pressure before the root issue is fully visible.
           </h2>
 
           <ul className="bullet-list">
-            <li>Revenue is present, but cash feels inconsistent</li>
-            <li>Processes exist, but outcomes vary</li>
+            <li>Performance and outcomes feel misaligned</li>
+            <li>Processes exist, but execution varies</li>
             <li>Growth is increasing operational complexity</li>
-            <li>Leadership lacks clear visibility into execution</li>
+            <li>Visibility across workflows feels limited</li>
+            <li>Operational pressure is increasing beneath the surface</li>
+            <li>Leadership needs clearer insight into execution conditions</li>
           </ul>
         </div>
       </section>
@@ -178,18 +178,18 @@ export default function AboutPage() {
             <p className="eyebrow">Start the conversation</p>
 
             <h2>
-              If performance and cash outcomes are not aligned, it is often a
-              signal—not a coincidence.
+              Strong organizations strengthen visibility before instability becomes visible.
             </h2>
 
             <p>
-              We help leadership teams understand what is driving that gap and
-              how to address it.
+              PHS works with leadership teams seeking stronger operational
+              clarity, execution discipline, organizational coordination,
+              stability, and sustainable performance across complex environments.
             </p>
 
             <div className="hero-actions center-buttons">
               <Link href="/contact" className="btn btn-primary">
-                Schedule a Revenue Diagnostic
+                Schedule a Diagnostic Conversation
               </Link>
             </div>
           </div>
