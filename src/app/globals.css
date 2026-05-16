@@ -873,7 +873,21 @@ p {
   grid-template-columns: repeat(2, 1fr);
   gap: 18px;
 }
+.phs-engage-copy {
+  max-width: 760px;
+  margin-top: 1.5rem;
+}
 
+.phs-engage-copy p {
+  margin: 0 0 1.35rem;
+  color: #475569;
+  font-size: 1.02rem;
+  line-height: 1.85;
+}
+
+.phs-engage-copy p:last-child {
+  margin-bottom: 0;
+}
 @media (max-width: 1080px) {
   .phs-service-grid {
     grid-template-columns: repeat(2, 1fr);
