@@ -182,28 +182,58 @@ export default function HomePage() {
 
       {/* APPROACH */}
       <section className="phs-section phs-approach">
-        <div className="phs-container">
-          <div className="phs-centered-header">
-            <p className="phs-section-label">Our Approach</p>
-            <div className="phs-gold-rule centered" />
-            <h2>
-              A structured approach that creates clarity, strengthens execution,
-              and drives results.
-            </h2>
-          </div>
+  <div className="phs-container">
+    <div className="phs-centered-header">
+      <p className="phs-section-label">Our Approach</p>
+      <div className="phs-gold-rule centered" />
+      <h2>
+        A structured approach that creates clarity, strengthens execution, and
+        drives results.
+      </h2>
+    </div>
 
-          <div className="phs-process-grid">
-            {processSteps.map((step) => (
-              <article className="phs-process-step" key={step.number}>
-                <span>{step.number}</span>
-                <div className="phs-process-icon">◎</div>
-                <h3>{step.title}</h3>
-                <p>{step.body}</p>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
+    <div className="phs-process-grid">
+      {[
+        {
+          number: '01',
+          title: 'Assess',
+          body: 'Understand the environment, challenges, and operational realities.',
+        },
+        {
+          number: '02',
+          title: 'Diagnose',
+          body: 'Identify root causes, risks, and gaps affecting stability and performance.',
+        },
+        {
+          number: '03',
+          title: 'Design',
+          body: 'Develop practical solutions and an actionable path forward.',
+        },
+        {
+          number: '04',
+          title: 'Implement',
+          body: 'Guide execution with alignment, discipline, and accountability.',
+        },
+        {
+          number: '05',
+          title: 'Control',
+          body: 'Strengthen controls, workflows, and visibility to sustain improvement.',
+        },
+        {
+          number: '06',
+          title: 'Optimize',
+          body: 'Continuously improve to support resilience and long-term growth.',
+        },
+      ].map((step) => (
+        <article className="phs-process-step" key={step.number}>
+          <span>{step.number}</span>
+          <h3>{step.title}</h3>
+          <p>{step.body}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* ADVISORY AREAS */}
       <section className="phs-section phs-advisory-areas">
