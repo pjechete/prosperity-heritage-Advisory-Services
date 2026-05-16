@@ -18,19 +18,17 @@ export default function Navbar() {
   return (
     <header className="site-header">
       <div className="container header-inner">
-        {/* BRAND */}
-        <Link href="/" className="brand" aria-label="Homepage">
+        <Link href="/" className="brand" aria-label="Prosperity Heritage Advisory homepage">
           <Image
             src="/logo.png"
             alt="Prosperity Heritage Advisory"
-            width={220}
-            height={70}
+            width={250}
+            height={78}
             priority
             className="logo"
           />
         </Link>
 
-        {/* NAVIGATION */}
         <nav className="main-nav" aria-label="Main navigation">
           {navLinks.map((link) => {
             const isActive =
@@ -50,7 +48,6 @@ export default function Navbar() {
           })}
         </nav>
 
-        {/* CTA */}
         <div className="header-cta">
           <Link href="/contact" className="btn btn-primary btn-sm">
             Schedule a Conversation
