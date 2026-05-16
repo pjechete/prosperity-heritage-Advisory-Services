@@ -7,245 +7,307 @@ export const metadata: Metadata = {
     'Executive insights on operational clarity, visibility, workflow coordination, execution discipline, organizational stability, and sustainable growth.',
 }
 
+const featuredInsights = [
+  {
+    title: 'Why Revenue Does Not Always Convert Into Cash',
+    body:
+      'A practical perspective on how revenue visibility, execution discipline, and operational coordination influence financial stability.',
+    href: '/insights/revenue-not-converting-to-cash',
+  },
+  {
+    title: 'Why Organizations Normalize Dysfunction',
+    body:
+      'Temporary fixes, manual workarounds, and informal processes can quietly become permanent operating habits.',
+  },
+]
+
+const coreThemes = [
+  {
+    title: 'Operational Visibility',
+    body:
+      'Perspectives on reporting clarity, leadership awareness, organizational blind spots, and visibility gaps.',
+  },
+  {
+    title: 'Execution Discipline',
+    body:
+      'Thinking on ownership, coordination, workflow consistency, accountability, and operational follow-through.',
+  },
+  {
+    title: 'Organizational Stability',
+    body:
+      'Insights on operational pressure, structural weakness, transformation strain, and sustainable performance.',
+  },
+]
+
+const insightLibrary = [
+  {
+    title: 'Why Organizations Normalize Workarounds',
+    body:
+      'Manual fixes may keep work moving temporarily, but they often become embedded operating habits that hide deeper issues.',
+  },
+  {
+    title: 'Growth Without Visibility Creates Pressure',
+    body:
+      'Expansion can increase complexity faster than reporting, coordination, and operating discipline mature.',
+  },
+  {
+    title: 'Why Systems Alone Do Not Solve Execution Problems',
+    body:
+      'Technology can support performance, but weak ownership, unclear handoffs, and inconsistent discipline still limit outcomes.',
+  },
+  {
+    title: 'The Hidden Cost of Fragmented Workflows',
+    body:
+      'Disconnected teams and informal processes quietly reduce visibility, consistency, accountability, and control.',
+  },
+  {
+    title: 'Operational Pressure Often Appears Quietly',
+    body:
+      'The earliest signs of instability often appear as delays, reporting gaps, recurring escalations, or coordination strain.',
+  },
+  {
+    title: 'What Strong Leadership Teams See Earlier',
+    body:
+      'Stronger leadership visibility helps organizations identify signals before operational pressure becomes financial pressure.',
+  },
+]
+
+const complexEnvironments = [
+  {
+    title: 'Healthcare Operations',
+    body:
+      'Perspectives on workflow alignment, revenue visibility, implementation readiness, and operational finance structure.',
+  },
+  {
+    title: 'Public Sector Readiness',
+    body:
+      'Thinking on controls, reporting discipline, execution structure, and accountability in public and quasi-government environments.',
+  },
+  {
+    title: 'Partner-Led Execution',
+    body:
+      'Practical insight on how advisory support, stakeholder alignment, financial controls, and operational execution come together.',
+  },
+]
+
 export default function InsightsPage() {
   return (
     <main>
-      {/* HERO */}
-      <section className="page-hero">
-        <div className="container page-hero-copy">
-          <p className="eyebrow">Insights</p>
+      <section className="phs-hero">
+        <div className="phs-container phs-hero-grid">
+          <div className="phs-hero-copy">
+            <p className="phs-eyebrow">Insights</p>
 
-          <h1 className="page-title">
-            Perspectives on operational clarity, execution, stability, and sustainable growth.
-          </h1>
+            <h1>
+              Perspectives on operational clarity, execution, stability, and
+              sustainable growth.
+            </h1>
 
-          <p className="section-copy section-copy-lg">
-            Executive perspectives on operational pressure, organizational visibility,
-            workflow coordination, execution discipline, and the underlying conditions
-            that influence stability and performance across complex environments.
-          </p>
+            <div className="phs-gold-rule" />
 
-          <p className="hero-proof">
-            Written for leadership teams seeking to identify operational risks,
-            execution gaps, visibility issues, and organizational pressure earlier —
-            before instability becomes fully visible.
-          </p>
-        </div>
-      </section>
+            <p className="phs-hero-lede">
+              Executive perspectives on operational pressure, organizational
+              visibility, workflow coordination, execution discipline, and the
+              underlying conditions that influence stability and performance
+              across complex environments.
+            </p>
 
-      {/* FEATURED INSIGHT */}
-      <section className="section section-soft">
-        <div className="container">
-          <p className="section-label">Featured perspective</p>
+            <p>
+              Written for leadership teams seeking to identify operational
+              risks, execution gaps, visibility issues, and organizational
+              pressure earlier — before instability becomes fully visible.
+            </p>
 
-          <h2 className="section-title">
-            Strong organizations recognize pressure before instability becomes visible.
-          </h2>
+            <div className="phs-hero-actions">
+              <a href="#featured-insights" className="phs-btn phs-btn-primary">
+                View Insights
+              </a>
 
-          <p className="section-intro">
-            Operational pressure often appears gradually. It may show up through
-            recurring workarounds, delayed visibility, fragmented reporting,
-            inconsistent execution, or growing coordination strain across the
-            organization.
-          </p>
-
-          <div className="card-grid two-up">
-            <Link
-              href="/insights/revenue-not-converting-to-cash"
-              className="card card-highlight"
-            >
-              <h3>Why Revenue Does Not Always Convert Into Cash</h3>
-              <p>
-                A practical perspective on how revenue visibility, execution
-                discipline, and operational coordination influence financial
-                stability.
-              </p>
-            </Link>
-
-            <div className="card">
-              <h3>Why Organizations Normalize Dysfunction</h3>
-              <p>
-                Temporary fixes, manual workarounds, and informal processes can
-                quietly become permanent operating habits.
-              </p>
+              <Link href="/contact" className="phs-btn phs-btn-secondary">
+                Schedule a Conversation
+              </Link>
             </div>
           </div>
+
+          <aside className="phs-advisory-panel">
+            <p>Insight Lens</p>
+            <div className="phs-panel-rule" />
+
+            <div className="phs-panel-item">
+              <span className="phs-panel-icon">◎</span>
+              <div>
+                <h3>Signals</h3>
+                <p>Recognizing early indicators of operational pressure.</p>
+              </div>
+            </div>
+
+            <div className="phs-panel-item">
+              <span className="phs-panel-icon">▥</span>
+              <div>
+                <h3>Patterns</h3>
+                <p>Understanding recurring issues beneath visible symptoms.</p>
+              </div>
+            </div>
+
+            <div className="phs-panel-item">
+              <span className="phs-panel-icon">↗</span>
+              <div>
+                <h3>Discipline</h3>
+                <p>Strengthening the conditions that support sustainable performance.</p>
+              </div>
+            </div>
+          </aside>
         </div>
       </section>
 
-      {/* CORE THEMES */}
-      <section className="section">
-        <div className="container">
-          <p className="section-label">Core themes</p>
-
-          <h2 className="section-title">
-            The operational conditions that influence organizational performance.
-          </h2>
-
-          <div className="card-grid three-up">
-            <div className="card card-feature">
-              <h3>Operational Visibility</h3>
-              <p>
-                Perspectives on reporting clarity, leadership awareness,
-                organizational blind spots, and visibility gaps.
-              </p>
-            </div>
-
-            <div className="card card-feature">
-              <h3>Execution Discipline</h3>
-              <p>
-                Thinking on ownership, coordination, workflow consistency,
-                accountability, and operational follow-through.
-              </p>
-            </div>
-
-            <div className="card card-feature">
-              <h3>Organizational Stability</h3>
-              <p>
-                Insights on operational pressure, structural weakness,
-                transformation strain, and sustainable performance.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* INSIGHT LIBRARY */}
-      <section className="section section-light">
-        <div className="container">
-          <p className="section-label">Insight library</p>
-
-          <h2 className="section-title">
-            Operational signals leadership teams should not ignore.
-          </h2>
-
-          <p className="section-intro">
-            These topics reflect common patterns that appear when organizations
-            are growing, changing, stabilizing, or operating with limited visibility
-            across critical workflows.
-          </p>
-
-          <div className="card-grid three-up">
-            <div className="card">
-              <h3>Why Organizations Normalize Workarounds</h3>
-              <p>
-                Manual fixes may keep work moving temporarily, but they often
-                become embedded operating habits that hide deeper issues.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Growth Without Visibility Creates Pressure</h3>
-              <p>
-                Expansion can increase complexity faster than reporting,
-                coordination, and operating discipline mature.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Why Systems Alone Do Not Solve Execution Problems</h3>
-              <p>
-                Technology can support performance, but weak ownership, unclear
-                handoffs, and inconsistent discipline still limit outcomes.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>The Hidden Cost of Fragmented Workflows</h3>
-              <p>
-                Disconnected teams and informal processes quietly reduce
-                visibility, consistency, accountability, and control.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Operational Pressure Often Appears Quietly</h3>
-              <p>
-                The earliest signs of instability often appear as delays,
-                reporting gaps, recurring escalations, or coordination strain.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>What Strong Leadership Teams See Earlier</h3>
-              <p>
-                Stronger leadership visibility helps organizations identify
-                signals before operational pressure becomes financial pressure.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* COMPLEX ENVIRONMENTS */}
-      <section className="section section-soft">
-        <div className="container">
-          <p className="section-label">Complex environments</p>
-
-          <h2 className="section-title">
-            Complex environments require stronger visibility and execution discipline.
-          </h2>
-
-          <p className="section-intro">
-            In healthcare, public sector, transformation, and partner-led
-            initiatives, performance issues often appear through implementation
-            gaps, stakeholder misalignment, unclear ownership, weak reporting,
-            and accountability pressure.
-          </p>
-
-          <div className="card-grid three-up">
-            <div className="card">
-              <h3>Healthcare Operations</h3>
-              <p>
-                Perspectives on workflow alignment, revenue visibility,
-                implementation readiness, and operational finance structure.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Public Sector Readiness</h3>
-              <p>
-                Thinking on controls, reporting discipline, execution structure,
-                and accountability in public and quasi-government environments.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Partner-Led Execution</h3>
-              <p>
-                Practical insight on how advisory support, stakeholder alignment,
-                financial controls, and operational execution come together.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="cta-section">
-        <div className="narrow">
-          <div className="cta-box">
-            <p className="eyebrow">Diagnostic Conversation</p>
-
+      <section
+        id="featured-insights"
+        className="phs-section phs-executive-reality"
+      >
+        <div className="phs-container phs-reality-grid">
+          <div className="phs-reality-heading">
+            <p className="phs-section-label">Featured Perspective</p>
+            <div className="phs-gold-rule" />
             <h2>
-              Strong organizations strengthen visibility before instability becomes visible.
+              Strong organizations recognize pressure before instability becomes
+              visible.
+            </h2>
+          </div>
+
+          <div>
+            <p>
+              Operational pressure often appears gradually. It may show up
+              through recurring workarounds, delayed visibility, fragmented
+              reporting, inconsistent execution, or growing coordination strain
+              across the organization.
+            </p>
+
+            <div className="phs-featured-insights">
+              {featuredInsights.map((item) =>
+                item.href ? (
+                  <Link
+                    href={item.href}
+                    className="phs-insight-card phs-insight-card-featured"
+                    key={item.title}
+                  >
+                    <h3>{item.title}</h3>
+                    <p>{item.body}</p>
+                    <span>Read perspective</span>
+                  </Link>
+                ) : (
+                  <article className="phs-insight-card" key={item.title}>
+                    <h3>{item.title}</h3>
+                    <p>{item.body}</p>
+                  </article>
+                ),
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="phs-section phs-advisory-areas">
+        <div className="phs-container">
+          <div className="phs-centered-header">
+            <p className="phs-section-label">Core Themes</p>
+            <div className="phs-gold-rule centered" />
+            <h2>
+              The operational conditions that influence organizational
+              performance.
+            </h2>
+          </div>
+
+          <div className="phs-insight-theme-grid">
+            {coreThemes.map((item) => (
+              <article className="phs-advisory-card" key={item.title}>
+                <div className="phs-card-icon">▧</div>
+                <h3>{item.title}</h3>
+                <p>{item.body}</p>
+                <div className="phs-card-line" />
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="phs-section phs-approach">
+        <div className="phs-container">
+          <div className="phs-centered-header">
+            <p className="phs-section-label">Insight Library</p>
+            <div className="phs-gold-rule centered" />
+            <h2>Operational signals leadership teams should not ignore.</h2>
+          </div>
+
+          <p className="phs-section-intro">
+            These topics reflect common patterns that appear when organizations
+            are growing, changing, stabilizing, or operating with limited
+            visibility across critical workflows.
+          </p>
+
+          <div className="phs-insight-library-grid">
+            {insightLibrary.map((item) => (
+              <article className="phs-insight-card" key={item.title}>
+                <h3>{item.title}</h3>
+                <p>{item.body}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="phs-section phs-executive-reality">
+        <div className="phs-container phs-advisory-layout">
+          <div className="phs-advisory-heading">
+            <p className="phs-section-label">Complex Environments</p>
+            <div className="phs-gold-rule" />
+            <h2>
+              Complex environments require stronger visibility and execution
+              discipline.
+            </h2>
+            <p>
+              In healthcare, public sector, transformation, and partner-led
+              initiatives, performance issues often appear through implementation
+              gaps, stakeholder misalignment, unclear ownership, weak reporting,
+              and accountability pressure.
+            </p>
+          </div>
+
+          <div className="phs-environment-grid">
+            {complexEnvironments.map((item) => (
+              <article className="phs-advisory-card" key={item.title}>
+                <div className="phs-card-icon">◎</div>
+                <h3>{item.title}</h3>
+                <p>{item.body}</p>
+                <div className="phs-card-line" />
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="phs-final-cta">
+        <div className="phs-container phs-cta-grid">
+          <div>
+            <h2>
+              Strong organizations strengthen visibility before instability
+              becomes visible.
             </h2>
 
             <p>
-              PHS works with leadership teams seeking stronger operational clarity,
-              execution discipline, organizational coordination, and sustainable
-              performance across complex environments.
+              PHS works with leadership teams seeking stronger operational
+              clarity, execution discipline, organizational coordination, and
+              sustainable performance across complex environments.
             </p>
+          </div>
 
-            <div className="hero-actions center-buttons">
-              <Link href="/contact" className="btn btn-primary">
-                Schedule a Diagnostic Conversation
-              </Link>
+          <div className="phs-cta-actions">
+            <Link href="/contact" className="phs-btn phs-btn-gold">
+              Schedule a Diagnostic Conversation
+            </Link>
 
-              <Link href="/services" className="btn btn-secondary">
-                Explore Services
-              </Link>
-            </div>
+            <Link href="/services" className="phs-btn phs-btn-secondary">
+              Explore Services
+            </Link>
           </div>
         </div>
       </section>
