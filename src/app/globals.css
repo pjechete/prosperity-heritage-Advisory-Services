@@ -830,7 +830,62 @@ p {
   margin: 14px 0 0;
   color: rgba(255, 255, 255, 0.82);
 }
+/* =========================
+   PREMIUM SERVICES PAGE
+========================= */
 
+.phs-service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.phs-service-card {
+  min-height: 340px;
+  padding: 28px 24px;
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.06);
+}
+
+.phs-service-card h3 {
+  margin: 0 0 16px;
+  color: var(--navy);
+  font-size: 1.08rem;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
+
+.phs-service-card p {
+  margin: 0 0 14px;
+  color: #475569;
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+.phs-service-card strong {
+  color: var(--navy);
+  font-weight: 700;
+}
+
+.phs-environment-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+@media (max-width: 1080px) {
+  .phs-service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .phs-service-grid,
+  .phs-environment-grid {
+    grid-template-columns: 1fr;
+  }
+}
 /* =========================
    CTA BAND
 ========================= */
