@@ -212,7 +212,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-     {/* HOW WE ENGAGE */}
+{/* HOW WE ENGAGE */}
 <section className="section section-soft">
   <div className="container">
     <div className="content-block narrow">
@@ -223,21 +223,22 @@ export default function ServicesPage() {
         solutions.
       </h2>
 
-     <div className="phs-engage-copy">
-  <p>
-    Our work starts with diagnostic review. We assess workflow realities,
-    reporting visibility, operational coordination, financial alignment, and
-    execution patterns to identify where pressure is building and what requires
-    attention.
-  </p>
+      <div className="phs-engage-copy">
+        <p>
+          Our work starts with diagnostic review. We assess workflow realities,
+          reporting visibility, operational coordination, financial alignment,
+          and execution patterns to identify where pressure is building and what
+          requires attention.
+        </p>
 
-  <p>
-    The objective is practical clarity: understanding what is happening, why it
-    matters, where stability is being affected, and what actions can strengthen
-    organizational performance over time.
-  </p>
-</div>
-</div>
+        <p>
+          The objective is practical clarity: understanding what is happening,
+          why it matters, where stability is being affected, and what actions
+          can strengthen organizational performance over time.
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
 
       <section className="phs-section phs-advisory-areas">
