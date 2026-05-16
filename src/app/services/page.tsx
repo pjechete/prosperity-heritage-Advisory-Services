@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import RevenueCashDiagram from '../components/RevenueCashDiagram'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title:
-    'Revenue Execution Control & Cash Stabilization Advisory | PHS Services',
+    'Operational Stability, Execution & Growth Advisory | PHS Services',
   description:
-    'Prosperity Heritage Advisory helps leadership teams restore control over how revenue becomes cash by fixing execution breakdowns across operations, billing, collections, and financial workflows.',
+    'Prosperity Heritage Advisory helps organizations strengthen operational clarity, visibility, execution discipline, coordination, stability, and sustainable growth across complex environments.',
 }
 
 export default function ServicesPage() {
@@ -14,35 +14,45 @@ export default function ServicesPage() {
     <main>
       {/* HERO */}
       <section className="page-hero">
-        <div className="container">
-          <div className="services-hero-grid">
-            <div>
-              <p className="eyebrow">Services</p>
+        <div className="container services-hero-grid">
+          <div>
+            <p className="eyebrow">Services</p>
 
-              <h1>Restoring Control Over How Revenue Becomes Cash.</h1>
+            <h1>
+              Advisory support for operational clarity, stability, and sustainable growth.
+            </h1>
 
-              <p className="section-copy">
-                Prosperity Heritage Advisory helps leadership teams identify and
-                fix the breakdowns between revenue generation, billing,
-                collections, and cash realization—so revenue turns into
-                predictable cash.
-              </p>
+            <p className="section-copy">
+              Organizations often experience operational pressure through fragmented
+              execution, limited visibility, workflow inefficiencies, inconsistent
+              coordination, and growing complexity across the environment.
+            </p>
 
-              <p className="section-copy">
-                Our work focuses on the execution layer—where revenue slows,
-                leaks, or fails to convert—across operations, billing,
-                collections, and financial workflows.
-              </p>
+            <p className="section-copy">
+              PHS works with leadership teams to strengthen operational clarity,
+              improve execution discipline, support coordination, and create more
+              sustainable performance across complex environments.
+            </p>
 
-              <div className="button-row">
-                <Link href="/contact" className="btn btn-primary">
-                  Schedule a Revenue Diagnostic
-                </Link>
-                <a href="#service-areas" className="btn btn-secondary">
-                  View Services
-                </a>
-              </div>
+            <div className="button-row">
+              <Link href="/contact" className="btn btn-primary">
+                Schedule a Diagnostic Conversation
+              </Link>
+
+              <a href="#service-areas" className="btn btn-secondary">
+                View Advisory Focus
+              </a>
             </div>
+          </div>
+
+          <div className="section-visual">
+            <Image
+              src="/execution-flow-architecture.png"
+              alt="Execution flow architecture showing how performance depends on connected execution"
+              width={900}
+              height={650}
+              priority
+            />
           </div>
         </div>
       </section>
@@ -53,55 +63,55 @@ export default function ServicesPage() {
           <p className="section-label">What We Strengthen</p>
 
           <h2 className="section-title">
-            The execution points that determine whether revenue becomes cash.
+            The operational environments that influence visibility, execution, and performance.
           </h2>
 
           <div className="card-grid three-up">
             <div className="card">
-              <h3>Revenue Flow Alignment</h3>
+              <h3>Operational Visibility</h3>
               <p>
-                Aligning contracts, operations, billing, collections, and finance
-                to eliminate breakdowns between teams.
+                Creating clearer insight into operational conditions, workflow risks,
+                delays, and performance constraints.
               </p>
             </div>
 
             <div className="card">
-              <h3>Billing Discipline</h3>
+              <h3>Workflow Coordination</h3>
               <p>
-                Establishing consistent invoicing workflows, ownership, and
-                timing to reduce preventable delays.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Collections Execution</h3>
-              <p>
-                Strengthening follow-up cadence, escalation, and accountability
-                across receivables.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Revenue Leakage Control</h3>
-              <p>
-                Identifying missed charges, underbilling, and execution gaps
-                that reduce realized revenue.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Cash Visibility</h3>
-              <p>
-                Providing clarity into what is owed, what is delayed, and what
-                requires action.
+                Improving alignment across teams, systems, reporting structures, and
+                operational handoffs.
               </p>
             </div>
 
             <div className="card">
               <h3>Execution Discipline</h3>
               <p>
-                Creating structure, cadence, and accountability across the
-                revenue-to-cash process.
+                Strengthening accountability, ownership, process consistency, and
+                operational follow-through.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Organizational Controls</h3>
+              <p>
+                Supporting structures that improve oversight, governance, visibility,
+                and operational reliability.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Financial & Operational Alignment</h3>
+              <p>
+                Helping operational activity, reporting, and financial realities stay
+                connected across the environment.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Stability & Performance Support</h3>
+              <p>
+                Strengthening the foundations required for sustainable organizational
+                performance.
               </p>
             </div>
           </div>
@@ -113,10 +123,10 @@ export default function ServicesPage() {
         <div className="container">
           <div className="services-jump-links">
             <a href="#core-advisory">Core Advisory</a>
-            <a href="#revenue-model">Revenue-to-Cash Model</a>
-            <a href="#service-areas">Service Areas</a>
+            <a href="#execution-architecture">Execution Architecture</a>
+            <a href="#service-areas">Advisory Focus</a>
             <a href="#how-we-engage">How We Engage</a>
-            <a href="#selective-engagements">Strategic Engagements</a>
+            <a href="#strategic-environments">Strategic Environments</a>
             <a href="#contact-cta">Contact</a>
           </div>
         </div>
@@ -129,27 +139,19 @@ export default function ServicesPage() {
             <p className="section-label">Core Advisory</p>
 
             <h2 className="section-title">
-              Revenue Execution Control &amp; Cash Stabilization
+              Operational Stability & Execution Advisory
             </h2>
 
             <p className="section-copy">
-              Revenue performance is not driven by demand alone. It is
-              determined by how well revenue is executed, controlled, billed,
-              collected, and converted into cash.
+              Stability and growth depend on more than strategy or demand. They
+              depend on how well the organization executes across workflows, teams,
+              systems, reporting, and decision-making environments.
             </p>
 
             <p className="section-copy">
-              In many organizations, revenue is recorded consistently—but cash
-              is delayed by weak handoffs, inconsistent billing discipline, slow
-              collections execution, and limited visibility across the
-              revenue-to-cash process.
-            </p>
-
-            <p className="section-copy">
-              We help leadership teams restore control across these execution
-              points, strengthen accountability, and implement the discipline
-              required to improve cash performance with consistency and
-              confidence.
+              PHS helps leadership teams identify where execution is breaking down,
+              where visibility is limited, and where coordination gaps are affecting
+              performance.
             </p>
           </div>
 
@@ -157,95 +159,104 @@ export default function ServicesPage() {
             <p className="section-label">Outcomes</p>
 
             <div className="outcomes-list">
-              <div>Shorter invoicing cycles</div>
-              <div>Reduced receivable aging</div>
-              <div>Stronger collections discipline</div>
-              <div>Improved revenue capture</div>
-              <div>Clearer visibility into bottlenecks</div>
-              <div>More predictable cash performance</div>
+              <div>Clearer operational visibility</div>
+              <div>Stronger execution discipline</div>
+              <div>Improved workflow coordination</div>
+              <div>Better reporting confidence</div>
+              <div>Reduced operational friction</div>
+              <div>More stable performance</div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* REVENUE TO CASH MODEL */}
-      <section id="revenue-model" className="section section-light">
+      {/* EXECUTION ARCHITECTURE */}
+      <section id="execution-architecture" className="section section-light">
         <div className="container">
-          <p className="section-label">Revenue-to-Cash Model</p>
+          <p className="section-label">Execution Architecture</p>
 
           <h2 className="section-title">
-            Where revenue slows before it becomes cash.
+            Performance depends on how execution flows across the organization.
           </h2>
 
           <p className="section-copy narrow-copy">
-            Most cash flow issues do not originate in accounting. They occur
-            across execution points between operations, billing, collections,
-            and financial workflows.
+            Operational pressure rarely originates from one isolated issue.
+            Performance depends on how workflows, execution, reporting, financial
+            coordination, and leadership visibility connect across the organization.
           </p>
 
-          <RevenueCashDiagram compact />
+          <div className="section-visual wide-visual">
+            <Image
+              src="/execution-flow-architecture.png"
+              alt="Execution flow architecture"
+              width={1100}
+              height={700}
+            />
+          </div>
         </div>
       </section>
 
       {/* SERVICE AREAS */}
       <section id="service-areas" className="section">
         <div className="container">
-          <p className="section-label">Service Areas</p>
+          <p className="section-label">Areas of Advisory Focus</p>
 
-          <h2 className="section-title">Core Advisory Areas</h2>
+          <h2 className="section-title">
+            Advisory domains that support stability, visibility, and sustainable growth.
+          </h2>
 
           <p className="section-intro">
-            Our advisory work focuses on the execution layer where revenue is
-            converted into cash—across ownership, process discipline, billing,
-            collections, and financial visibility.
+            Our advisory work focuses on environments where visibility, execution
+            discipline, workflow coordination, and organizational clarity directly
+            affect performance and stability.
           </p>
 
           <div className="card-grid two-up">
             <div className="card">
-              <h3>Revenue Flow Alignment</h3>
+              <h3>Operational Diagnostics & Organizational Assessment</h3>
               <p>
-                Improving how revenue moves across teams, systems, and workflows
-                from creation to collection.
+                Identifying operational pressure, inefficiencies, coordination gaps,
+                and execution risks affecting performance.
               </p>
             </div>
 
             <div className="card">
-              <h3>Billing &amp; Invoicing Discipline</h3>
+              <h3>Revenue Execution & Cash Stabilization</h3>
               <p>
-                Designing consistent billing processes to reduce delays and
-                improve timing of cash inflows.
+                Strengthening the operational and financial environments that
+                influence revenue visibility, cash realization, and stability.
               </p>
             </div>
 
             <div className="card">
-              <h3>Collections Strategy &amp; Execution</h3>
+              <h3>Workflow & Process Alignment</h3>
               <p>
-                Establishing structured follow-up, escalation paths, and
-                ownership across receivables.
+                Improving coordination across teams, systems, reporting structures,
+                and operational workflows.
               </p>
             </div>
 
             <div className="card">
-              <h3>Revenue Leakage Review</h3>
+              <h3>Visibility, Reporting & Operational Controls</h3>
               <p>
-                Identifying where revenue is lost between work performed and
-                cash received.
+                Supporting clearer visibility, stronger reporting structures,
+                accountability, and execution oversight.
               </p>
             </div>
 
             <div className="card">
-              <h3>Cash Visibility &amp; Reporting</h3>
+              <h3>Transition & Stabilization Advisory</h3>
               <p>
-                Providing decision-ready insight into cash performance and
-                bottlenecks.
+                Helping organizations navigate growth, restructuring, integration,
+                operational strain, and transformation environments.
               </p>
             </div>
 
             <div className="card">
-              <h3>Operational Finance Support</h3>
+              <h3>Healthcare & Public Sector Operational Support</h3>
               <p>
-                Supporting execution across revenue-linked operations with
-                structure, discipline, and visibility.
+                Supporting complex environments where discipline, visibility,
+                accountability, and coordination are critical.
               </p>
             </div>
           </div>
@@ -258,77 +269,70 @@ export default function ServicesPage() {
           <p className="section-label">How We Engage</p>
 
           <h2>
-            A Structured Approach to Restoring Revenue Execution Control.
+            A structured approach to operational diagnostics and organizational improvement.
           </h2>
 
           <p>
-            We do not approach revenue performance as a generic accounting
-            issue. We treat it as an execution and control challenge across the
-            organization.
+            We begin by understanding the environment before prescribing solutions.
+            Our work focuses on assessing conditions, identifying root causes, and
+            supporting practical improvements that strengthen execution and visibility.
           </p>
 
           <p>
-            Our work is hands-on and leadership-focused. We assess how revenue
-            moves, identify where execution breaks down, and implement practical
-            improvements to restore control and predictability.
+            The goal is not complexity. The goal is clarity, discipline, and
+            practical progress across the areas that affect stability and performance.
           </p>
         </div>
       </section>
 
-      {/* STRATEGIC ENGAGEMENTS */}
-      <section id="selective-engagements" className="section section-soft">
+      {/* STRATEGIC ENVIRONMENTS */}
+      <section id="strategic-environments" className="section section-soft">
         <div className="container">
-          <p className="section-label">Selective Strategic Engagements</p>
+          <p className="section-label">Strategic Environments</p>
 
           <h2>
-            Advisory Support for Complex Public Sector, Healthcare, and
-            Partner-Led Initiatives.
+            Support for complex operating environments where execution matters.
           </h2>
 
           <p className="section-intro">
-            In addition to our core advisory work, we selectively support
-            initiatives requiring financial structure, execution discipline, and
-            stakeholder alignment.
+            PHS selectively supports organizations and partners where operational
+            structure, stakeholder coordination, financial visibility, and execution
+            discipline are important to success.
           </p>
 
           <div className="card-grid two-up">
             <div className="card">
-              <h3>Healthcare Transformation</h3>
+              <h3>Healthcare Operations</h3>
               <p>
-                Supporting revenue cycle alignment, implementation readiness,
-                and operational finance structure.
+                Supporting workflow alignment, implementation readiness, revenue
+                visibility, and operational finance structure.
               </p>
             </div>
 
             <div className="card">
-              <h3>Public Sector Readiness</h3>
+              <h3>Public Sector & Complex Systems</h3>
               <p>
-                Structuring complex initiatives with clarity across execution,
-                accountability, and financial workflows.
+                Bringing structure to scope, accountability, financial workflows,
+                stakeholder coordination, and execution requirements.
               </p>
             </div>
 
             <div className="card">
-              <h3>Partner-Led Execution</h3>
+              <h3>Transformation & Stabilization</h3>
               <p>
-                Supporting strategic partners where execution, market
-                development, and financial discipline intersect.
+                Supporting environments facing growth, transition, process strain,
+                integration, or operating model change.
               </p>
             </div>
 
             <div className="card">
-              <h3>Cross-Border Initiatives</h3>
+              <h3>Global Advisory Initiatives</h3>
               <p>
-                Supporting initiatives requiring coordination across regions,
-                partners, and financial structures.
+                Supporting selected cross-border initiatives requiring coordination,
+                financial structure, partner alignment, and execution discipline.
               </p>
             </div>
           </div>
-
-          <p className="section-copy top-gap">
-            All non-core engagements are undertaken selectively and in
-            collaboration with trusted partners.
-          </p>
         </div>
       </section>
 
@@ -336,22 +340,22 @@ export default function ServicesPage() {
       <section id="contact-cta" className="cta-band">
         <div className="container">
           <div className="cta-box">
-            <p className="eyebrow">Revenue Diagnostic</p>
+            <p className="eyebrow">Diagnostic Conversation</p>
 
             <h2>
-              If revenue is strong but cash is inconsistent, the issue is not
-              sales. It is execution.
+              Strong organizational performance depends on visibility,
+              coordination, and disciplined execution.
             </h2>
 
             <p>
-              We help leadership teams identify where revenue is slowing,
-              leaking, or failing to convert into predictable cash—and what
-              needs to change.
+              PHS works with leadership teams seeking stronger operational clarity,
+              execution discipline, organizational stability, and more sustainable
+              performance across complex environments.
             </p>
 
             <div className="hero-actions center-buttons">
               <Link href="/contact" className="btn btn-primary">
-                Schedule a Revenue Diagnostic
+                Schedule a Diagnostic Conversation
               </Link>
             </div>
           </div>
