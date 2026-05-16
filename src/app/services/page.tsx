@@ -3,8 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title:
-    'Operational Stability, Execution & Growth Advisory | PHS Services',
+  title: 'Operational Stability, Execution & Growth Advisory | PHS Services',
   description:
     'Prosperity Heritage Advisory helps organizations strengthen operational clarity, visibility, execution discipline, coordination, stability, and sustainable growth across complex environments.',
 }
@@ -12,113 +11,37 @@ export const metadata: Metadata = {
 export default function ServicesPage() {
   return (
     <main>
-      {/* HERO */}
       <section className="page-hero">
-        <div className="container services-hero-grid">
-          <div>
-            <p className="eyebrow">Services</p>
+        <div className="container narrow">
+          <p className="eyebrow">Services</p>
 
-            <h1>
-              Advisory support for operational clarity, stability, and sustainable growth.
-            </h1>
+          <h1>
+            Advisory support for operational clarity, stability, and sustainable growth.
+          </h1>
 
-            <p className="section-copy">
-              Organizations often experience operational pressure through fragmented
-              execution, limited visibility, workflow inefficiencies, inconsistent
-              coordination, and growing complexity across the environment.
-            </p>
+          <p className="section-copy">
+            PHS helps leadership teams understand where operational pressure,
+            limited visibility, workflow breakdowns, and execution gaps are
+            affecting performance.
+          </p>
 
-            <p className="section-copy">
-              PHS works with leadership teams to strengthen operational clarity,
-              improve execution discipline, support coordination, and create more
-              sustainable performance across complex environments.
-            </p>
+          <p className="section-copy">
+            Our work focuses on practical diagnostics, clearer visibility, stronger
+            coordination, and disciplined execution across complex environments.
+          </p>
 
-            <div className="button-row">
-              <Link href="/contact" className="btn btn-primary">
-                Schedule a Diagnostic Conversation
-              </Link>
+          <div className="button-row">
+            <Link href="/contact" className="btn btn-primary">
+              Schedule a Diagnostic Conversation
+            </Link>
 
-              <a href="#service-areas" className="btn btn-secondary">
-                View Advisory Focus
-              </a>
-            </div>
-          </div>
-
-          <div className="section-visual">
-            <Image
-              src="/execution-flow-architecture.png"
-              alt="Execution flow architecture showing how performance depends on connected execution"
-              width={900}
-              height={650}
-              priority
-            />
+            <a href="#service-areas" className="btn btn-secondary">
+              View Advisory Focus
+            </a>
           </div>
         </div>
       </section>
 
-      {/* WHAT WE STRENGTHEN */}
-      <section className="section">
-        <div className="container">
-          <p className="section-label">What We Strengthen</p>
-
-          <h2 className="section-title">
-            The operational environments that influence visibility, execution, and performance.
-          </h2>
-
-          <div className="card-grid three-up">
-            <div className="card">
-              <h3>Operational Visibility</h3>
-              <p>
-                Creating clearer insight into operational conditions, workflow risks,
-                delays, and performance constraints.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Workflow Coordination</h3>
-              <p>
-                Improving alignment across teams, systems, reporting structures, and
-                operational handoffs.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Execution Discipline</h3>
-              <p>
-                Strengthening accountability, ownership, process consistency, and
-                operational follow-through.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Organizational Controls</h3>
-              <p>
-                Supporting structures that improve oversight, governance, visibility,
-                and operational reliability.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Financial & Operational Alignment</h3>
-              <p>
-                Helping operational activity, reporting, and financial realities stay
-                connected across the environment.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Stability & Performance Support</h3>
-              <p>
-                Strengthening the foundations required for sustainable organizational
-                performance.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* JUMP BAR */}
       <section className="services-jumpbar">
         <div className="container">
           <div className="services-jump-links">
@@ -132,7 +55,6 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* CORE ADVISORY */}
       <section id="core-advisory" className="section section-soft">
         <div className="container services-two-col">
           <div>
@@ -143,15 +65,14 @@ export default function ServicesPage() {
             </h2>
 
             <p className="section-copy">
-              Stability and growth depend on more than strategy or demand. They
-              depend on how well the organization executes across workflows, teams,
-              systems, reporting, and decision-making environments.
+              Stability and growth depend on how well the organization executes
+              across workflows, teams, reporting, financial coordination, and
+              leadership decision-making.
             </p>
 
             <p className="section-copy">
-              PHS helps leadership teams identify where execution is breaking down,
-              where visibility is limited, and where coordination gaps are affecting
-              performance.
+              PHS helps identify where execution is breaking down, where visibility
+              is limited, and where coordination gaps are affecting performance.
             </p>
           </div>
 
@@ -170,7 +91,6 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* EXECUTION ARCHITECTURE */}
       <section id="execution-architecture" className="section section-light">
         <div className="container">
           <p className="section-label">Execution Architecture</p>
@@ -181,8 +101,8 @@ export default function ServicesPage() {
 
           <p className="section-copy narrow-copy">
             Operational pressure rarely originates from one isolated issue.
-            Performance depends on how workflows, execution, reporting, financial
-            coordination, and leadership visibility connect across the organization.
+            Performance depends on how workflows, reporting, financial coordination,
+            execution, and leadership visibility connect.
           </p>
 
           <div className="section-visual wide-visual">
@@ -196,7 +116,6 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* SERVICE AREAS */}
       <section id="service-areas" className="section">
         <div className="container">
           <p className="section-label">Areas of Advisory Focus</p>
@@ -204,12 +123,6 @@ export default function ServicesPage() {
           <h2 className="section-title">
             Advisory domains that support stability, visibility, and sustainable growth.
           </h2>
-
-          <p className="section-intro">
-            Our advisory work focuses on environments where visibility, execution
-            discipline, workflow coordination, and organizational clarity directly
-            affect performance and stability.
-          </p>
 
           <div className="card-grid two-up">
             <div className="card">
@@ -263,13 +176,12 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* HOW WE ENGAGE */}
       <section id="how-we-engage" className="section section-light">
         <div className="container narrow">
           <p className="section-label">How We Engage</p>
 
           <h2>
-            A structured approach to operational diagnostics and organizational improvement.
+            A structured approach to operational diagnostics and improvement.
           </h2>
 
           <p>
@@ -277,15 +189,9 @@ export default function ServicesPage() {
             Our work focuses on assessing conditions, identifying root causes, and
             supporting practical improvements that strengthen execution and visibility.
           </p>
-
-          <p>
-            The goal is not complexity. The goal is clarity, discipline, and
-            practical progress across the areas that affect stability and performance.
-          </p>
         </div>
       </section>
 
-      {/* STRATEGIC ENVIRONMENTS */}
       <section id="strategic-environments" className="section section-soft">
         <div className="container">
           <p className="section-label">Strategic Environments</p>
@@ -293,12 +199,6 @@ export default function ServicesPage() {
           <h2>
             Support for complex operating environments where execution matters.
           </h2>
-
-          <p className="section-intro">
-            PHS selectively supports organizations and partners where operational
-            structure, stakeholder coordination, financial visibility, and execution
-            discipline are important to success.
-          </p>
 
           <div className="card-grid two-up">
             <div className="card">
@@ -336,21 +236,18 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* FINAL CTA */}
       <section id="contact-cta" className="cta-band">
         <div className="container">
           <div className="cta-box">
             <p className="eyebrow">Diagnostic Conversation</p>
 
             <h2>
-              Strong organizational performance depends on visibility,
-              coordination, and disciplined execution.
+              Strong performance depends on visibility, coordination, and disciplined execution.
             </h2>
 
             <p>
               PHS works with leadership teams seeking stronger operational clarity,
-              execution discipline, organizational stability, and more sustainable
-              performance across complex environments.
+              stability, and sustainable performance across complex environments.
             </p>
 
             <div className="hero-actions center-buttons">
