@@ -4,27 +4,25 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="container footer-inner">
-
         {/* BRAND */}
-        <div>
+        <div className="footer-brand">
           <h3>Prosperity Heritage Advisory</h3>
 
           <p>
-            Operational advisory support for organizations seeking stronger
-            visibility, execution discipline, organizational coordination,
-            stability, and sustainable growth across complex environments.
+            Advisory support focused on operational visibility, execution
+            discipline, organizational stability, and sustainable growth.
           </p>
         </div>
 
-        {/* ADVISORY FOCUS */}
+        {/* AREAS OF FOCUS */}
         <div>
-          <h4>Advisory Focus</h4>
+          <h4>Areas of Focus</h4>
 
           <ul>
-            <li>Operational Diagnostics & Assessment</li>
-            <li>Execution & Workflow Alignment</li>
-            <li>Visibility & Operational Controls</li>
+            <li>Operational Diagnostics</li>
             <li>Revenue Execution & Cash Stabilization</li>
+            <li>Workflow Alignment & Visibility</li>
+            <li>Leadership & Organizational Coordination</li>
           </ul>
         </div>
 
@@ -42,17 +40,16 @@ export default function Footer() {
 
         {/* CTA */}
         <div>
-          <h4>Start Here</h4>
+          <h4>Begin the Conversation</h4>
 
           <p>
-            Organizations often experience pressure long before the underlying
-            issue becomes fully visible. We help leadership teams assess where
-            operational clarity, coordination, visibility, or execution may be
-            limiting performance.
+            Organizations often experience pressure before the root issue becomes
+            fully visible. We help leadership teams assess where visibility,
+            coordination, and execution may be affecting performance.
           </p>
 
-          <Link href="/contact" className="btn btn-secondary">
-            Schedule a Diagnostic Conversation
+          <Link href="/contact" className="footer-link">
+            Contact Advisory Team →
           </Link>
         </div>
       </div>
@@ -60,13 +57,9 @@ export default function Footer() {
       {/* FOOTER BOTTOM */}
       <div className="footer-bottom">
         <div className="container footer-bottom-inner">
-          <span>
-            © {new Date().getFullYear()} Prosperity Heritage Advisory
-          </span>
+          <span>© {new Date().getFullYear()} Prosperity Heritage Advisory</span>
 
-          <span>
-            Stability • Visibility • Execution • Sustainable Growth
-          </span>
+          <span>Stability • Visibility • Execution • Sustainable Growth</span>
         </div>
       </div>
     </footer>
