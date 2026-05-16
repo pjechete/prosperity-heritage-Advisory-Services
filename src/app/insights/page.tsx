@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Revenue Execution Control Insights | PHS Advisory',
+  title: 'Operational Stability, Execution & Growth Insights | PHS Advisory',
   description:
-    'Executive insights on revenue execution control, cash stabilization, billing discipline, collections execution, revenue leakage, and financial visibility.',
+    'Executive insights on operational clarity, visibility, workflow coordination, execution discipline, organizational stability, and sustainable growth.',
 }
 
 export default function InsightsPage() {
@@ -16,19 +16,19 @@ export default function InsightsPage() {
           <p className="eyebrow">Insights</p>
 
           <h1 className="page-title">
-            Perspectives on why revenue does not always become cash.
+            Perspectives on operational clarity, execution, stability, and sustainable growth.
           </h1>
 
           <p className="section-copy section-copy-lg">
-            Executive thinking on the execution gaps, process breakdowns, and
-            visibility issues that affect how revenue converts into predictable
-            cash.
+            Executive perspectives on operational pressure, organizational visibility,
+            workflow coordination, execution discipline, and the underlying conditions
+            that influence stability and performance across complex environments.
           </p>
 
           <p className="hero-proof">
-            Written for leadership teams that want to see cash performance
-            issues earlier — before delays, leakage, and uncertainty become
-            larger business problems.
+            Written for leadership teams seeking to identify operational risks,
+            execution gaps, visibility issues, and organizational pressure earlier —
+            before instability becomes fully visible.
           </p>
         </div>
       </section>
@@ -39,14 +39,14 @@ export default function InsightsPage() {
           <p className="section-label">Featured perspective</p>
 
           <h2 className="section-title">
-            Revenue is not the issue. Conversion is.
+            Strong organizations recognize pressure before instability becomes visible.
           </h2>
 
           <p className="section-intro">
-            Many organizations generate revenue consistently, yet still struggle
-            with cash predictability. The issue often sits between revenue
-            generation and cash realization — across handoffs, billing,
-            collections, and reporting visibility.
+            Operational pressure often appears gradually. It may show up through
+            recurring workarounds, delayed visibility, fragmented reporting,
+            inconsistent execution, or growing coordination strain across the
+            organization.
           </p>
 
           <div className="card-grid two-up">
@@ -56,18 +56,17 @@ export default function InsightsPage() {
             >
               <h3>Why Revenue Does Not Always Convert Into Cash</h3>
               <p>
-                A practical explanation of where revenue slows, leaks, or fails
-                to convert — and why leadership teams need to look beyond
-                financial reporting alone.
+                A practical perspective on how revenue visibility, execution
+                discipline, and operational coordination influence financial
+                stability.
               </p>
             </Link>
 
             <div className="card">
-              <h3>The Revenue-to-Cash Execution Gap</h3>
+              <h3>Why Organizations Normalize Dysfunction</h3>
               <p>
-                Strong revenue can hide weak execution. The most important
-                breakdowns often happen between operations, billing, collections,
-                and finance.
+                Temporary fixes, manual workarounds, and informal processes can
+                quietly become permanent operating habits.
               </p>
             </div>
           </div>
@@ -80,32 +79,31 @@ export default function InsightsPage() {
           <p className="section-label">Core themes</p>
 
           <h2 className="section-title">
-            The operating issues that shape cash performance.
+            The operational conditions that influence organizational performance.
           </h2>
 
           <div className="card-grid three-up">
             <div className="card card-feature">
-              <h3>Revenue Execution Control</h3>
+              <h3>Operational Visibility</h3>
               <p>
-                Perspectives on ownership, handoffs, workflow discipline, and
-                the execution points that determine whether revenue becomes
-                cash.
+                Perspectives on reporting clarity, leadership awareness,
+                organizational blind spots, and visibility gaps.
               </p>
             </div>
 
             <div className="card card-feature">
-              <h3>Billing & Collections Discipline</h3>
+              <h3>Execution Discipline</h3>
               <p>
-                Insights on invoicing delays, receivables pressure, escalation
-                routines, and the habits that improve cash conversion.
+                Thinking on ownership, coordination, workflow consistency,
+                accountability, and operational follow-through.
               </p>
             </div>
 
             <div className="card card-feature">
-              <h3>Cash Visibility</h3>
+              <h3>Organizational Stability</h3>
               <p>
-                Thinking on the reports, signals, and operating rhythms leaders
-                need to see where cash is delayed or at risk.
+                Insights on operational pressure, structural weakness,
+                transformation strain, and sustainable performance.
               </p>
             </div>
           </div>
@@ -118,107 +116,105 @@ export default function InsightsPage() {
           <p className="section-label">Insight library</p>
 
           <h2 className="section-title">
-            Signals leadership teams should not ignore.
+            Operational signals leadership teams should not ignore.
           </h2>
 
           <p className="section-intro">
-            These topics reflect common patterns we see when revenue performance
-            and cash outcomes are not fully aligned.
+            These topics reflect common patterns that appear when organizations
+            are growing, changing, stabilizing, or operating with limited visibility
+            across critical workflows.
           </p>
 
           <div className="card-grid three-up">
             <div className="card">
-              <h3>The Hidden Cost of Delayed Invoicing</h3>
+              <h3>Why Organizations Normalize Workarounds</h3>
               <p>
-                Billing delays rarely stay isolated. They affect aging,
-                collections, visibility, and leadership confidence.
+                Manual fixes may keep work moving temporarily, but they often
+                become embedded operating habits that hide deeper issues.
               </p>
             </div>
 
             <div className="card">
-              <h3>Why Unapplied Cash Is Usually a Process Problem</h3>
+              <h3>Growth Without Visibility Creates Pressure</h3>
               <p>
-                Unapplied or misapplied payments often point to deeper issues in
-                execution, ownership, and reconciliation discipline.
+                Expansion can increase complexity faster than reporting,
+                coordination, and operating discipline mature.
               </p>
             </div>
 
             <div className="card">
-              <h3>When Growth Outpaces Control</h3>
+              <h3>Why Systems Alone Do Not Solve Execution Problems</h3>
               <p>
-                As organizations scale, revenue may grow faster than the systems
-                and routines needed to bill, collect, and report it effectively.
+                Technology can support performance, but weak ownership, unclear
+                handoffs, and inconsistent discipline still limit outcomes.
               </p>
             </div>
 
             <div className="card">
-              <h3>What Breaks After an Acquisition</h3>
+              <h3>The Hidden Cost of Fragmented Workflows</h3>
               <p>
-                Transition periods often expose weak handoffs, reporting gaps,
-                and execution strain across billing and financial operations.
+                Disconnected teams and informal processes quietly reduce
+                visibility, consistency, accountability, and control.
               </p>
             </div>
 
             <div className="card">
-              <h3>Leadership Visibility and the Cash Conversation</h3>
+              <h3>Operational Pressure Often Appears Quietly</h3>
               <p>
-                Strong decisions depend on seeing where revenue is slowing down,
-                what is at risk, and why cash performance is weakening.
+                The earliest signs of instability often appear as delays,
+                reporting gaps, recurring escalations, or coordination strain.
               </p>
             </div>
 
             <div className="card">
-              <h3>Why More Revenue Does Not Always Reduce Pressure</h3>
+              <h3>What Strong Leadership Teams See Earlier</h3>
               <p>
-                Growth can increase stress when revenue volume rises faster than
-                execution discipline, controls, and cash visibility.
+                Stronger leadership visibility helps organizations identify
+                signals before operational pressure becomes financial pressure.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* EXECUTION ENVIRONMENTS */}
+      {/* COMPLEX ENVIRONMENTS */}
       <section className="section section-soft">
         <div className="container">
           <p className="section-label">Complex environments</p>
 
           <h2 className="section-title">
-            Where complexity increases the need for execution visibility.
+            Complex environments require stronger visibility and execution discipline.
           </h2>
 
           <p className="section-intro">
-            In healthcare, public sector, and partner-led initiatives,
-            performance issues often appear through implementation gaps,
-            stakeholder misalignment, unclear ownership, weak reporting, and
-            funding accountability pressure.
+            In healthcare, public sector, transformation, and partner-led
+            initiatives, performance issues often appear through implementation
+            gaps, stakeholder misalignment, unclear ownership, weak reporting,
+            and accountability pressure.
           </p>
 
           <div className="card-grid three-up">
             <div className="card">
-              <h3>Healthcare Transformation</h3>
+              <h3>Healthcare Operations</h3>
               <p>
-                Perspectives on revenue cycle, operational workflows,
-                implementation readiness, and financial visibility across
-                healthcare initiatives.
+                Perspectives on workflow alignment, revenue visibility,
+                implementation readiness, and operational finance structure.
               </p>
             </div>
 
             <div className="card">
               <h3>Public Sector Readiness</h3>
               <p>
-                Thinking on financial controls, reporting discipline, execution
-                structure, and accountability in public and quasi-government
-                environments.
+                Thinking on controls, reporting discipline, execution structure,
+                and accountability in public and quasi-government environments.
               </p>
             </div>
 
             <div className="card">
               <h3>Partner-Led Execution</h3>
               <p>
-                Practical insight on how advisory support, market development,
-                financial controls, and operational execution come together in
-                strategic partnerships.
+                Practical insight on how advisory support, stakeholder alignment,
+                financial controls, and operational execution come together.
               </p>
             </div>
           </div>
@@ -229,22 +225,21 @@ export default function InsightsPage() {
       <section className="cta-section">
         <div className="narrow">
           <div className="cta-box">
-            <p className="eyebrow">Next step</p>
+            <p className="eyebrow">Diagnostic Conversation</p>
 
             <h2>
-              If these patterns feel familiar, the issue may already be visible
-              in your revenue-to-cash process.
+              Strong organizations strengthen visibility before instability becomes visible.
             </h2>
 
             <p>
-              We help leadership teams identify where revenue is slowing,
-              leaking, or failing to convert into predictable cash — and what
-              needs to change.
+              PHS works with leadership teams seeking stronger operational clarity,
+              execution discipline, organizational coordination, and sustainable
+              performance across complex environments.
             </p>
 
             <div className="hero-actions center-buttons">
               <Link href="/contact" className="btn btn-primary">
-                Schedule a Revenue Diagnostic
+                Schedule a Diagnostic Conversation
               </Link>
 
               <Link href="/services" className="btn btn-secondary">
