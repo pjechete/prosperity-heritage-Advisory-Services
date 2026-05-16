@@ -4,7 +4,21 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Strategic Advisory Areas | PHS Services',
   description:
-    'Prosperity Heritage Advisory supports organizations through operational visibility, workflow alignment, financial process review, transition stabilization, healthcare and public sector advisory, and leadership diagnostics.',
+    'Prosperity Heritage Advisory supports organizatio.phs-engage-copy {
+  max-width: 760px;
+  margin-top: 1.5rem;
+}
+
+.phs-engage-copy p {
+  margin: 0 0 1.35rem;
+  color: #475569;
+  font-size: 1.02rem;
+  line-height: 1.85;
+}
+
+.phs-engage-copy p:last-child {
+  margin-bottom: 0;
+}ns through operational visibility, workflow alignment, financial process review, transition stabilization, healthcare and public sector advisory, and leadership diagnostics.',
 }
 
 const advisoryAreas = [
@@ -209,20 +223,20 @@ export default function ServicesPage() {
         solutions.
       </h2>
 
-      <div className="section-copy">
-        <p>
-          Our work starts with diagnostic review. We assess workflow realities,
-          reporting visibility, operational coordination, financial alignment,
-          and execution patterns to identify where pressure is building and
-          what requires attention.
-        </p>
+     <div className="phs-engage-copy">
+  <p>
+    Our work starts with diagnostic review. We assess workflow realities,
+    reporting visibility, operational coordination, financial alignment, and
+    execution patterns to identify where pressure is building and what requires
+    attention.
+  </p>
 
-        <p>
-          The objective is practical clarity: understanding what is happening,
-          why it matters, where stability is being affected, and what actions
-          can strengthen organizational performance over time.
-        </p>
-      </div>
+  <p>
+    The objective is practical clarity: understanding what is happening, why it
+    matters, where stability is being affected, and what actions can strengthen
+    organizational performance over time.
+  </p>
+</div>
     </div>
   </div>
 </section>
