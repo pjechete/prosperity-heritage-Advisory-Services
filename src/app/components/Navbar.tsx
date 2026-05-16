@@ -18,14 +18,13 @@ export default function Navbar() {
   return (
     <header className="site-header">
       <div className="container header-inner">
-
         {/* BRAND */}
-        <Link href="/" className="brand">
+        <Link href="/" className="brand" aria-label="Homepage">
           <Image
             src="/logo.png"
             alt="Prosperity Heritage Advisory"
-            width={200}
-            height={64}
+            width={220}
+            height={70}
             priority
             className="logo"
           />
