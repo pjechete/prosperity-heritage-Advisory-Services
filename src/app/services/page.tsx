@@ -237,8 +237,7 @@ export default function ServicesPage() {
     organizational performance over time.
   </p>
 </div>
-    </div>
-  </div>
+</div>
 </section>
 
       <section className="phs-section phs-advisory-areas">
