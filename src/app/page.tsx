@@ -15,7 +15,7 @@ export default function HomePage() {
       {/* HERO */}
       <section className="hero">
         <div className="container">
-          <div className="hero-grid">
+          <div className="narrow">
             <div>
               <p className="eyebrow">Prosperity Heritage Advisory</p>
 
@@ -45,15 +45,6 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="hero-visual">
-              <Image
-                src="/stability-growth-ecosystem.png"
-                alt="Stability and Sustainable Growth Ecosystem"
-                width={900}
-                height={700}
-                priority
-              />
-            </div>
           </div>
         </div>
       </section>
@@ -122,34 +113,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* EXECUTION FLOW */}
-      <section className="section">
-        <div className="container">
-          <p className="section-label">Execution flow architecture</p>
-
-          <h2 className="section-title">
-            Organizational performance depends on how execution flows across the
-            environment.
-          </h2>
-
-          <p className="section-copy narrow-copy">
-            Stability and growth require more than activity. They depend on how
-            strategy, operations, workflows, financial coordination, reporting,
-            and leadership decisions connect across the organization.
-          </p>
-
-          <div className="section-visual wide-visual">
-            <Image
-              src="/execution-flow-architecture.png"
-              alt="Execution flow architecture showing how organizational performance depends on connected execution"
-              width={1100}
-              height={700}
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* FRAMEWORK */}
+        {/* FRAMEWORK */}
       <section className="section section-soft">
         <div className="container">
           <p className="section-label">How we work</p>
