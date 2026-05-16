@@ -239,8 +239,20 @@ p {
 
 .logo {
   display: block;
-  height: 250px;
-  width: auto;
+  width: 250px;
+  height: auto;
+}
+
+.header-cta {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.btn-sm {
+  min-height: 44px;
+  padding: 0.72rem 1rem;
+  font-size: 0.74rem;
 }
 
 .main-nav {
