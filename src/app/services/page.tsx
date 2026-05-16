@@ -4,21 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Strategic Advisory Areas | PHS Services',
   description:
-    'Prosperity Heritage Advisory supports organizatio.phs-engage-copy {
-  max-width: 760px;
-  margin-top: 1.5rem;
-}
-
-.phs-engage-copy p {
-  margin: 0 0 1.35rem;
-  color: #475569;
-  font-size: 1.02rem;
-  line-height: 1.85;
-}
-
-.phs-engage-copy p:last-child {
-  margin-bottom: 0;
-}ns through operational visibility, workflow alignment, financial process review, transition stabilization, healthcare and public sector advisory, and leadership diagnostics.',
+    'Prosperity Heritage Advisory supports organizations through operational visibility, workflow alignment, financial process review, transition stabilization, healthcare and public sector advisory, and leadership diagnostics.',
 }
 
 const advisoryAreas = [
@@ -140,7 +126,9 @@ export default function ServicesPage() {
               <span className="phs-panel-icon">▥</span>
               <div>
                 <h3>Coordination</h3>
-                <p>Improving how teams, systems, workflows, and handoffs connect.</p>
+                <p>
+                  Improving how teams, systems, workflows, and handoffs connect.
+                </p>
               </div>
             </div>
 
@@ -181,13 +169,17 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <section id="strategic-advisory-areas" className="phs-section phs-advisory-areas">
+      <section
+        id="strategic-advisory-areas"
+        className="phs-section phs-advisory-areas"
+      >
         <div className="phs-container">
           <div className="phs-centered-header">
             <p className="phs-section-label">Strategic Advisory Areas</p>
             <div className="phs-gold-rule centered" />
             <h2>
-              Areas of operational focus where PHS helps organizations create clarity.
+              Areas of operational focus where PHS helps organizations create
+              clarity.
             </h2>
           </div>
 
@@ -212,34 +204,34 @@ export default function ServicesPage() {
         </div>
       </section>
 
-{/* HOW WE ENGAGE */}
-<section className="section section-soft">
-  <div className="container">
-    <div className="content-block narrow">
-      <p className="section-label">How We Engage</p>
+      <section className="section section-soft">
+        <div className="container">
+          <div className="content-block narrow">
+            <p className="section-label">How We Engage</p>
 
-      <h2 className="section-title">
-        We begin by understanding the operating environment before prescribing
-        solutions.
-      </h2>
+            <h2 className="section-title">
+              We begin by understanding the operating environment before
+              prescribing solutions.
+            </h2>
 
-      <div className="phs-engage-copy">
-        <p>
-          Our work starts with diagnostic review. We assess workflow realities,
-          reporting visibility, operational coordination, financial alignment,
-          and execution patterns to identify where pressure is building and what
-          requires attention.
-        </p>
+            <div className="phs-engage-copy">
+              <p>
+                Our work starts with diagnostic review. We assess workflow
+                realities, reporting visibility, operational coordination,
+                financial alignment, and execution patterns to identify where
+                pressure is building and what requires attention.
+              </p>
 
-        <p>
-          The objective is practical clarity: understanding what is happening,
-          why it matters, where stability is being affected, and what actions
-          can strengthen organizational performance over time.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
+              <p>
+                The objective is practical clarity: understanding what is
+                happening, why it matters, where stability is being affected, and
+                what actions can strengthen organizational performance over
+                time.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="phs-section phs-advisory-areas">
         <div className="phs-container">
@@ -274,6 +266,7 @@ export default function ServicesPage() {
               Strong performance begins with understanding what is happening
               beneath the surface.
             </h2>
+
             <p>
               PHS works with leadership teams seeking clearer visibility,
               stronger execution discipline, and more sustainable organizational
