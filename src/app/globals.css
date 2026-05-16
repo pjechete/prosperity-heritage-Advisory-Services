@@ -150,7 +150,7 @@ p {
 }
 
 .section {
-  padding: var(--section-space) 0;
+  padding: 88px 0;
 }
 
 .section-light {
@@ -409,10 +409,12 @@ p {
 }
 
 .section-visual img {
-  width: 100%;
-  height: auto;
-  border-radius: 28px;
-  box-shadow: var(--shadow-md);
+ width: 100%;
+ max-width: 920px;
+ height: auto;
+ margin: 0 auto;
+ border-radius: 24px;
+ box-shadow: var(--shadow-sm);
 }
 
 .wide-visual img {
