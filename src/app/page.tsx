@@ -4,8 +4,13 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title:
     'Operational Stability & Growth Advisory | Prosperity Heritage Advisory',
+
   description:
     'Prosperity Heritage Advisory helps organizations strengthen operational clarity, visibility, execution discipline, and sustainable growth across complex environments.',
+
+  alternates: {
+    canonical: 'https://phs-usa.com/',
+  },
 }
 
 const executiveSignals = [
