@@ -70,12 +70,21 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="mock-section mock-section-soft">
-        <div className="mock-container">
-          <div className="mock-profile">
-            <div className="mock-avatar">Professional Headshot</div>
+      section className="mock-section mock-section-soft">
+  <div className="mock-container">
+    <div className="mock-profile">
+      <figure className="mock-avatar">
+        <Image
+          src="/prosper-headshot.png"
+          alt="Prosper Jechete, MBA, CRCR"
+          width={400}
+          height={500}
+          className="profile-image"
+          priority
+        />
+      </figure>
 
-            <div>
+      <div>
               <h2>Meet Prosper Jechete</h2>
 
               <p>
