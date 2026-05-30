@@ -4,32 +4,34 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Services | Operational & Financial Support | PHS',
   description:
-    'PHS provides practical support for billing, collections, cash flow, workflow coordination, financial reporting, controls, growth, change, and special projects.',
+    'Practical support for billing, collections, cash flow, workflow coordination, financial reporting, controls, growth, change, and special projects.',
   alternates: {
     canonical: 'https://phs-usa.com/services',
   },
   openGraph: {
     title: 'Services | Operational & Financial Support | PHS',
     description:
-      'Practical operational and financial support for growing organizations facing workflow breakdowns, reporting challenges, cash flow pressure, and execution issues.',
+      'PHS works alongside organizations to assess pressure, improve what matters most, and provide ongoing support when needed.',
     url: 'https://phs-usa.com/services',
     siteName: 'Prosperity Heritage Advisory',
     type: 'website',
   },
 }
 
-const partnerOptions = [
+const partnerWays = [
   {
     number: '1',
     title: 'Assess',
     lead: "When you know something isn't working but aren't sure where the problem starts.",
-    body: 'We review operational workflows, reporting processes, and financial activities to identify where pressure is occurring and what is contributing to it.',
+    body:
+      'We review operational workflows, reporting processes, and financial activities to identify where pressure is occurring and what is contributing to it.',
   },
   {
     number: '2',
     title: 'Improve',
     lead: 'When processes, workflows, or financial activities need attention.',
-    body: 'We work alongside your team to address priority issues, strengthen execution, and reduce operational friction.',
+    body:
+      'We work alongside your team to address priority issues, strengthen execution, and reduce operational friction.',
   },
   {
     number: '3',
@@ -39,7 +41,7 @@ const partnerOptions = [
   },
 ]
 
-const serviceAreas = [
+const supportAreas = [
   {
     title: 'Billing, Collections & Cash Flow',
     intro:
@@ -98,34 +100,38 @@ const serviceAreas = [
   },
 ]
 
-const supportedGroups = [
+const industries = [
   {
     title: 'Healthcare & Medical Practices',
-    body: 'Supporting billing processes, operational workflows, reporting, and financial visibility.',
+    body:
+      'Supporting billing processes, operational workflows, reporting, and financial visibility.',
   },
   {
     title: 'Construction & Field Services',
-    body: 'Supporting project billing, job cost visibility, approvals, reporting, and operational coordination.',
+    body:
+      'Supporting project billing, job cost visibility, approvals, reporting, and operational coordination.',
   },
   {
     title: 'Logistics & Multi-Location Businesses',
-    body: 'Supporting invoicing processes, operational visibility, workflow management, and team accountability.',
+    body:
+      'Supporting invoicing processes, operational visibility, workflow management, and team accountability.',
   },
   {
     title: 'Professional & Service-Based Businesses',
-    body: 'Supporting financial visibility, reporting, process improvement, and operational effectiveness.',
+    body:
+      'Supporting financial visibility, reporting, process improvement, and operational effectiveness.',
   },
 ]
 
 export default function ServicesPage() {
   return (
     <main>
-      <section className="phs-page-hero">
-        <div className="phs-container phs-hero-copy">
-          <p className="phs-eyebrow">Services</p>
+      <section className="mock-hero mock-hero-simple">
+        <div className="mock-container">
+          <p className="mock-eyebrow">Services</p>
           <h1>Practical support for operational and financial challenges.</h1>
 
-          <p className="phs-hero-lede">
+          <p>
             Organizations often experience pressure long before the root cause
             becomes visible. Delayed billing, reporting gaps, workflow
             breakdowns, unclear ownership, and inconsistent execution create
@@ -139,23 +145,22 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <section className="phs-section phs-section-soft">
-        <div className="phs-container">
-          <div className="phs-section-header">
-            <p className="phs-section-label">Three Ways We Partner</p>
-            <h2>Start where your organization needs support.</h2>
+      <section className="mock-section mock-section-soft">
+        <div className="mock-container">
+          <div className="mock-section-header">
+            <p className="mock-eyebrow">Three Ways We Partner</p>
             <p>
               Every organization is different. Some need clarity. Others need
               help solving a specific problem. Some need ongoing support.
             </p>
           </div>
 
-          <div className="phs-grid phs-grid-3">
-            {partnerOptions.map((item) => (
-              <article className="phs-card phs-step-card" key={item.title}>
-                <span>{item.number}</span>
+          <div className="mock-steps">
+            {partnerWays.map((item) => (
+              <article className="mock-card" key={item.title}>
+                <div className="mock-step-number">{item.number}</div>
                 <h3>{item.title}</h3>
-                <p className="phs-card-lead">{item.lead}</p>
+                <p>{item.lead}</p>
                 <p>{item.body}</p>
               </article>
             ))}
@@ -163,21 +168,20 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <section className="phs-section">
-        <div className="phs-container">
-          <div className="phs-section-header">
-            <p className="phs-section-label">Common Areas We Support</p>
-            <h2>Practical help for the areas where pressure often shows up.</h2>
+      <section className="mock-section">
+        <div className="mock-container">
+          <div className="mock-section-header">
+            <p className="mock-eyebrow">Common Areas We Support</p>
           </div>
 
-          <div className="phs-grid phs-grid-2">
-            {serviceAreas.map((area) => (
-              <article className="phs-card phs-service-detail" key={area.title}>
-                <h3>{area.title}</h3>
-                <p>{area.intro}</p>
-                <p>{area.body}</p>
-                <ul className="phs-bullet-list">
-                  {area.bullets.map((bullet) => (
+          <div className="mock-grid-2">
+            {supportAreas.map((item) => (
+              <article className="mock-card" key={item.title}>
+                <h3>{item.title}</h3>
+                <p>{item.intro}</p>
+                <p>{item.body}</p>
+                <ul className="mock-bullet-list">
+                  {item.bullets.map((bullet) => (
                     <li key={bullet}>{bullet}</li>
                   ))}
                 </ul>
@@ -187,16 +191,15 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <section className="phs-section phs-section-soft">
-        <div className="phs-container">
-          <div className="phs-section-header">
-            <p className="phs-section-label">Who We Typically Support</p>
-            <h2>Support for growing, operationally complex organizations.</h2>
+      <section className="mock-section mock-section-soft">
+        <div className="mock-container">
+          <div className="mock-section-header">
+            <p className="mock-eyebrow">Who We Typically Support</p>
           </div>
 
-          <div className="phs-grid phs-grid-2">
-            {supportedGroups.map((item) => (
-              <article className="phs-card" key={item.title}>
+          <div className="mock-grid-2">
+            {industries.map((item) => (
+              <article className="mock-card" key={item.title}>
                 <h3>{item.title}</h3>
                 <p>{item.body}</p>
               </article>
@@ -205,17 +208,15 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <section className="phs-final-cta">
-        <div className="phs-container phs-cta-grid">
-          <div>
-            <h2>Not sure where the problem starts?</h2>
-            <p>
-              You do not need to have the answers before reaching out. If you
-              feel the pressure but cannot find the source, let&apos;s work through
-              it together.
-            </p>
-          </div>
-          <Link href="/contact" className="phs-btn phs-btn-gold">
+      <section className="mock-cta">
+        <div className="mock-container">
+          <h2>Not sure where the problem starts?</h2>
+          <p>
+            You don&apos;t need to have the answers before you call. If you feel
+            the pressure but can&apos;t find the source, let&apos;s work through
+            it together.
+          </p>
+          <Link href="/contact" className="mock-btn">
             Schedule a Conversation
           </Link>
         </div>
