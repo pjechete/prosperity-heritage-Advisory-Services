@@ -2,252 +2,206 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title:
-    'About | Operational Stability & Execution Advisory | Prosperity Heritage Advisory',
+  title: 'About Prosper Jechete | Prosperity Heritage Advisory',
   description:
-    'Prosperity Heritage Advisory helps organizations strengthen operational clarity, visibility, execution discipline, stability, and sustainable growth across complex environments.',
+    'Learn about Prosper Jechete, MBA, CRCR, Founder and Principal of Prosperity Heritage Advisory, and his operational, financial, revenue cycle, and controllership experience.',
+  alternates: {
+    canonical: 'https://phs-usa.com/about',
+  },
+  openGraph: {
+    title: 'About Prosper Jechete | Prosperity Heritage Advisory',
+    description:
+      'Enterprise experience, independent focus, and practical operational and financial support for growing organizations.',
+    url: 'https://phs-usa.com/about',
+    siteName: 'Prosperity Heritage Advisory',
+    type: 'website',
+  },
 }
 
 const principles = [
   {
-    title: 'Visibility',
-    body:
-      'Clear insight into operational conditions, workflow pressure, execution gaps, and performance risk.',
+    title: 'Diagnosis Before Prescription',
+    body: 'Every organization is different. We begin by understanding your environment before recommending solutions.',
   },
   {
-    title: 'Discipline',
-    body:
-      'Consistent operational execution, accountability, follow-through, and process reliability.',
+    title: 'Practical Clarity Over Jargon',
+    body: 'We focus on practical improvements that leaders and teams can understand, implement, and sustain.',
   },
   {
-    title: 'Coordination',
-    body:
-      'Stronger alignment across teams, systems, reporting structures, workflows, and leadership priorities.',
+    title: 'Sustained Accountability',
+    body: 'Improvements only matter if they continue after the project ends. We focus on helping teams build processes and habits that last.',
+  },
+  {
+    title: 'Assess → Improve → Ongoing Support',
+    body: 'We work alongside leadership teams to understand what is happening, improve what matters most, and provide support where needed.',
   },
 ]
 
-const fitSignals = [
-  'Performance and outcomes feel misaligned',
-  'Processes exist, but execution varies',
-  'Growth is increasing operational complexity',
-  'Visibility across workflows feels limited',
-  'Operational pressure is increasing beneath the surface',
-  'Leadership needs clearer insight into execution conditions',
+const clientReasons = [
+  'Clear communication',
+  'Practical recommendations',
+  'Hands-on support',
+  'Flexible engagement',
+  'An experienced partner they can call when challenges arise',
 ]
 
 export default function AboutPage() {
   return (
     <main>
-      <section className="phs-hero">
-        <div className="phs-container phs-hero-grid">
-          <div className="phs-hero-copy">
-            <p className="phs-eyebrow">About Prosperity Heritage Advisory</p>
+      <section className="phs-page-hero">
+        <div className="phs-container phs-hero-copy">
+          <p className="phs-eyebrow">About</p>
+          <h1>Enterprise experience. Independent focus.</h1>
 
-            <h1>
-              Built on the belief that stability depends on how well organizations execute.
-            </h1>
+          <p className="phs-hero-lede">
+            At a certain stage of growth, every successful organization runs
+            into a wall. The workflows, systems, and processes that helped the
+            business reach its current level begin to strain under increasing
+            complexity.
+          </p>
 
-            <div className="phs-gold-rule" />
+          <p>
+            Communication becomes harder. Visibility decreases. Reporting
+            becomes less reliable. Cash flow becomes more difficult to predict.
+          </p>
 
-            <p className="phs-hero-lede">
-              Prosperity Heritage Advisory was shaped through direct experience
-              inside organizations where performance, visibility, workflows,
-              execution, and financial outcomes were not fully aligned.
-            </p>
-
-            <p>
-              In many environments, the issue was not effort alone. It was how
-              operations, reporting, coordination, ownership, and execution
-              functioned beneath the surface.
-            </p>
-          </div>
-
-          <aside className="phs-advisory-panel">
-            <p>Advisory Perspective</p>
-            <div className="phs-panel-rule" />
-
-            <div className="phs-panel-item">
-              <span className="phs-panel-icon">◎</span>
-              <div>
-                <h3>Operational clarity</h3>
-                <p>Understanding what is happening beneath surface-level symptoms.</p>
-              </div>
-            </div>
-
-            <div className="phs-panel-item">
-              <span className="phs-panel-icon">▥</span>
-              <div>
-                <h3>Execution discipline</h3>
-                <p>Strengthening how work moves through the organization.</p>
-              </div>
-            </div>
-
-            <div className="phs-panel-item">
-              <span className="phs-panel-icon">↗</span>
-              <div>
-                <h3>Sustainable performance</h3>
-                <p>Supporting stability, visibility, and long-term growth.</p>
-              </div>
-            </div>
-          </aside>
+          <p>
+            Prosperity Heritage Advisory was created to help organizations
+            navigate those challenges with practical support grounded in
+            real-world operational and financial experience.
+          </p>
         </div>
       </section>
 
-      <section className="phs-section phs-executive-reality">
-        <div className="phs-container phs-reality-grid">
-          <div className="phs-reality-heading">
-            <p className="phs-section-label">What We Observed</p>
-            <div className="phs-gold-rule" />
-            <h2>
-              The same operational patterns appear across industries and environments.
-            </h2>
-          </div>
+      <section className="phs-section phs-section-soft">
+        <div className="phs-container phs-profile-grid">
+          <div className="phs-headshot-placeholder">Professional Headshot</div>
 
           <div>
-            <p>
-              Organizations often experience pressure gradually through
-              fragmented workflows, inconsistent execution, recurring
-              workarounds, delayed visibility, weak coordination, and growing
-              operational complexity.
+            <p className="phs-section-label">Meet The Founder</p>
+            <h2>Meet Prosper Jechete</h2>
+            <p className="phs-profile-title">
+              <strong>Prosper Jechete, MBA, CRCR</strong>
+              <br />
+              Founder & Principal
+            </p>
+            <p className="phs-credential-note">
+              Master of Business Administration (MBA)
+              <br />
+              Certified Revenue Cycle Representative (CRCR) — revenue cycle,
+              billing, collections, and cash-flow visibility.
+            </p>
+            <p className="phs-credential-strip">
+              15+ years of financial & operational leadership · MBA · CRCR
             </p>
 
             <p>
-              These issues frequently remain normalized until they begin
-              affecting leadership confidence, financial performance,
-              operational stability, or organizational growth.
+              For more than 15 years, Prosper has worked across financial
+              leadership, operational improvement, reporting, revenue
+              performance, and process management.
             </p>
 
             <p>
-              The challenge is rarely one isolated issue. It is how the
-              environment functions as a whole.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="phs-section phs-approach">
-        <div className="phs-container">
-          <div className="phs-centered-header">
-            <p className="phs-section-label">Our Perspective</p>
-            <div className="phs-gold-rule centered" />
-            <h2>
-              Stability and growth depend on visibility, coordination, and
-              disciplined execution.
-            </h2>
-          </div>
-
-          <div className="phs-about-copy">
-            <p>
-              Organizational performance is often treated as an outcome to
-              measure. In reality, it reflects how well operational environments
-              are managed across workflows, reporting, ownership, decision-making,
-              and execution.
+              His experience includes financial leadership and operational
+              improvement across complex healthcare and revenue environments,
+              including Tenet Healthcare, Conifer Health Solutions, and Prime
+              Healthcare, as well as fractional finance and controllership work
+              with growing organizations.
             </p>
 
             <p>
-              When operational discipline weakens, pressure compounds quietly.
-              When visibility, coordination, and accountability strengthen,
-              performance becomes more sustainable and more predictable.
+              Throughout that experience, one pattern has remained consistent:
+              the visible problem is rarely the root problem.
+            </p>
+
+            <p>
+              Financial pressure is often the result of workflow breakdowns,
+              communication gaps, reporting challenges, unclear ownership, and
+              operational strain that have been building for months.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="phs-section phs-advisory-areas">
+      <section className="phs-section">
         <div className="phs-container">
-          <div className="phs-centered-header">
-            <p className="phs-section-label">How We Think</p>
-            <div className="phs-gold-rule centered" />
-            <h2>
-              Visibility, discipline, coordination, and control are operational
-              realities.
-            </h2>
+          <div className="phs-section-header">
+            <p className="phs-section-label">Experience That Shapes Our Perspective</p>
+            <h2>Practical experience in complex operating environments.</h2>
           </div>
 
-          <div className="phs-about-principles">
+          <div className="phs-grid phs-grid-2">
+            <article className="phs-card">
+              <h3>Complex Operating Environments</h3>
+              <p>
+                Working within large healthcare systems and other operationally
+                complex organizations provided exposure to the challenges that
+                emerge when people, processes, systems, and reporting must work
+                together at scale.
+              </p>
+            </article>
+
+            <article className="phs-card">
+              <h3>Practical Problem Solving</h3>
+              <p>
+                While every organization is different, the underlying challenges
+                are often familiar: delayed visibility, workflow breakdowns,
+                reporting challenges, unclear ownership, cash flow pressure, and
+                operational complexity.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section className="phs-section phs-section-soft">
+        <div className="phs-container">
+          <div className="phs-section-header">
+            <p className="phs-section-label">How We Work</p>
+            <h2>Practical support, clear communication, and accountability.</h2>
+          </div>
+
+          <div className="phs-grid phs-grid-2">
             {principles.map((item) => (
-              <article className="phs-advisory-card" key={item.title}>
-                <div className="phs-card-icon">▧</div>
+              <article className="phs-card" key={item.title}>
                 <h3>{item.title}</h3>
                 <p>{item.body}</p>
-                <div className="phs-card-line" />
               </article>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="phs-section phs-executive-reality">
-        <div className="phs-container phs-reality-grid">
-          <div className="phs-reality-heading">
-            <p className="phs-section-label">Approach</p>
-            <div className="phs-gold-rule" />
-            <h2>A practical approach shaped by real operating environments.</h2>
-          </div>
+      <section className="phs-section">
+        <div className="phs-container phs-narrow">
+          <p className="phs-section-label">Why Clients Work With PHS</p>
+          <h2>Clients want more than advice. They want practical support.</h2>
+          <p>
+            Clients engage PHS because they want practical support from someone
+            who understands both operational realities and financial consequences.
+          </p>
 
-          <div>
-            <p>
-              Our work is grounded in environments where operational complexity,
-              financial pressure, transformation, execution risk, and
-              organizational coordination intersect.
-            </p>
+          <ul className="phs-bullet-list phs-two-column-list">
+            {clientReasons.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
 
-            <p>
-              Rather than focusing only on reporting or analysis, we work within
-              the operational layer where visibility, execution, workflows, and
-              organizational performance are shaped day-to-day.
-            </p>
-
-            <p>
-              The objective is not theoretical improvement. It is practical,
-              sustainable progress across the areas that affect organizational
-              stability and performance.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="phs-section phs-advisory-areas">
-        <div className="phs-container">
-          <div className="phs-advisory-layout">
-            <div className="phs-advisory-heading">
-              <p className="phs-section-label">Where We Fit</p>
-              <div className="phs-gold-rule" />
-              <h2>
-                We are often engaged when leadership senses pressure before the
-                root issue is fully visible.
-              </h2>
-            </div>
-
-            <div className="phs-fit-list">
-              {fitSignals.map((item) => (
-                <div className="phs-fit-item" key={item}>
-                  <span>◎</span>
-                  <p>{item}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+          <p>Above all, they want someone who helps them move forward.</p>
         </div>
       </section>
 
       <section className="phs-final-cta">
         <div className="phs-container phs-cta-grid">
           <div>
-            <h2>
-              Strong organizations strengthen visibility before instability
-              becomes visible.
-            </h2>
-
+            <h2>Let&apos;s start with a conversation.</h2>
             <p>
-              PHS works with leadership teams seeking stronger operational
-              clarity, execution discipline, organizational coordination,
-              stability, and sustainable performance across complex environments.
+              If you&apos;re experiencing operational or financial pressure and
+              aren&apos;t sure where the problem starts, let&apos;s talk.
             </p>
           </div>
-
           <Link href="/contact" className="phs-btn phs-btn-gold">
-            Schedule a Diagnostic Conversation
+            Schedule a Conversation
           </Link>
         </div>
       </section>
