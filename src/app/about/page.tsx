@@ -70,21 +70,21 @@ export default function AboutPage() {
         </div>
       </section>
 
-      section className="mock-section mock-section-soft">
-  <div className="mock-container">
-    <div className="mock-profile">
-      <figure className="mock-avatar">
-        <Image
-          src="/prosper-headshot.png"
-          alt="Prosper Jechete, MBA, CRCR"
-          width={400}
-          height={500}
-          className="profile-image"
-          priority
-        />
-      </figure>
+      <section className="mock-section mock-section-soft">
+        <div className="mock-container">
+          <div className="mock-profile">
+            <figure className="mock-avatar">
+              <Image
+                src="/prosper-headshot.png"
+                alt="Prosper Jechete, MBA, CRCR"
+                width={400}
+                height={500}
+                className="profile-image"
+                priority
+              />
+            </figure>
 
-      <div>
+            <div>
               <h2>Meet Prosper Jechete</h2>
 
               <p>
@@ -118,7 +118,9 @@ export default function AboutPage() {
                 with growing organizations.
               </p>
 
-              <p>Throughout that experience, one pattern has remained consistent:</p>
+              <p>
+                Throughout that experience, one pattern has remained consistent:
+              </p>
 
               <p>
                 <strong>The visible problem is rarely the root problem.</strong>
@@ -137,7 +139,9 @@ export default function AboutPage() {
       <section className="mock-section">
         <div className="mock-container">
           <div className="mock-section-header">
-            <p className="mock-eyebrow">Experience That Shapes Our Perspective</p>
+            <p className="mock-eyebrow">
+              Experience That Shapes Our Perspective
+            </p>
           </div>
 
           <div className="mock-grid-2">
@@ -222,4 +226,3 @@ export default function AboutPage() {
     </main>
   )
 }
-
