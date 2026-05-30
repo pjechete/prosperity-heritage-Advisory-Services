@@ -18,7 +18,11 @@ export default function Navbar() {
   return (
     <header className="site-header">
       <div className="container header-inner">
-        <Link href="/" className="brand" aria-label="Prosperity Heritage Advisory homepage">
+        <Link
+          href="/"
+          className="brand"
+          aria-label="Prosperity Heritage Advisory homepage"
+        >
           <Image
             src="/logo.png"
             alt="Prosperity Heritage Advisory"
@@ -32,9 +36,7 @@ export default function Navbar() {
         <nav className="main-nav" aria-label="Main navigation">
           {navLinks.map((link) => {
             const isActive =
-              link.href === '/'
-                ? pathname === '/'
-                : pathname?.startsWith(link.href)
+              link.href === '/' ? pathname === '/' : pathname?.startsWith(link.href)
 
             return (
               <Link
@@ -49,7 +51,7 @@ export default function Navbar() {
         </nav>
 
         <div className="header-cta">
-          <Link href="/contact" className="btn btn-primary btn-sm">
+          <Link href="/contact" className="btn secondary btn-sm">
             Schedule a Conversation
           </Link>
         </div>
