@@ -1,123 +1,80 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Contact | Diagnostic Conversation | PHS',
+  title: 'Contact | Prosperity Heritage Advisory',
   description:
-    'Start a diagnostic conversation with Prosperity Heritage Advisory to assess operational clarity, visibility, execution discipline, stability, and sustainable growth.',
+    'Contact Prosperity Heritage Advisory to start a practical conversation about operational friction, cash flow pressure, reporting issues, workflows, and financial process challenges.',
+  alternates: {
+    canonical: 'https://phs-usa.com/contact',
+  },
+  openGraph: {
+    title: 'Contact | Prosperity Heritage Advisory',
+    description:
+      'Start a practical conversation with PHS about operational or financial pressure affecting your organization.',
+    url: 'https://phs-usa.com/contact',
+    siteName: 'Prosperity Heritage Advisory',
+    type: 'website',
+  },
 }
 
-const reachOutSignals = [
-  {
-    title: 'Pressure is increasing, but the root cause is unclear',
-    body:
-      'Leadership sees symptoms, but the underlying operational issue is difficult to isolate.',
-  },
-  {
-    title: 'Processes exist, but outcomes vary',
-    body:
-      'Teams, systems, and workflows are in place, but execution lacks consistency, visibility, or control.',
-  },
-  {
-    title: 'Growth is increasing complexity',
-    body:
-      'Scaling, transformation, acquisitions, or new initiatives are creating pressure across workflows and decision-making.',
-  },
+const expectations = [
+  'A practical discussion about what is creating pressure',
+  'A few questions about your workflows, reporting, or financial processes',
+  'An honest perspective on whether PHS may be able to help',
 ]
 
 export default function ContactPage() {
   return (
     <main>
-      <section className="phs-hero">
-        <div className="phs-container phs-hero-grid">
-          <div className="phs-hero-copy">
-            <p className="phs-eyebrow">Contact</p>
+      <section className="phs-page-hero">
+        <div className="phs-container phs-hero-copy">
+          <p className="phs-eyebrow">Contact</p>
+          <h1>Let&apos;s start with a practical conversation.</h1>
 
-            <h1>Start with a diagnostic conversation.</h1>
+          <p className="phs-hero-lede">
+            Many organizations know they are experiencing operational friction
+            or financial pressure, but they are not completely sure where the
+            breakdown originates.
+          </p>
 
-            <div className="phs-gold-rule" />
+          <p>
+            You do not need to have all the answers before reaching out. Our
+            work begins with a conversation, not a sales pitch.
+          </p>
+        </div>
+      </section>
 
-            <p className="phs-hero-lede">
-              If operational pressure, limited visibility, inconsistent
-              execution, growth complexity, or financial strain is affecting
-              performance, PHS can help identify what may be happening beneath
-              the surface.
-            </p>
+      <section className="phs-section phs-section-soft" id="contact-form">
+        <div className="phs-container phs-contact-layout">
+          <div>
+            <p className="phs-section-label">Option 1</p>
+            <h2>Schedule a Conversation</h2>
+            <p>Skip the back-and-forth and schedule a brief introductory call.</p>
 
-            <div className="phs-hero-actions">
+            <div className="phs-card phs-contact-card">
+              <h3>What to expect</h3>
+              <ul className="phs-bullet-list">
+                {expectations.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+              <p>
+                The goal is simple: understand what is happening and determine
+                whether there is a fit.
+              </p>
               <a href="#contact-form" className="phs-btn phs-btn-primary">
-                Start the Conversation
+                Schedule a Conversation
               </a>
             </div>
           </div>
 
-          <aside className="phs-advisory-panel">
-            <p>Diagnostic Lens</p>
-            <div className="phs-panel-rule" />
-
-            <div className="phs-panel-item">
-              <span className="phs-panel-icon">◎</span>
-              <div>
-                <h3>Clarity</h3>
-                <p>Understanding what is happening beneath visible symptoms.</p>
-              </div>
-            </div>
-
-            <div className="phs-panel-item">
-              <span className="phs-panel-icon">▥</span>
-              <div>
-                <h3>Fit</h3>
-                <p>Determining whether PHS is the right advisory partner.</p>
-              </div>
-            </div>
-
-            <div className="phs-panel-item">
-              <span className="phs-panel-icon">↗</span>
-              <div>
-                <h3>Next steps</h3>
-                <p>Identifying whether a diagnostic review is appropriate.</p>
-              </div>
-            </div>
-          </aside>
-        </div>
-      </section>
-
-      <section className="phs-section phs-advisory-areas">
-        <div className="phs-container">
-          <div className="phs-centered-header">
-            <p className="phs-section-label">When To Reach Out</p>
-            <div className="phs-gold-rule centered" />
-            <h2>
-              Reach out when pressure is visible, but the root issue is not yet
-              clear.
-            </h2>
-          </div>
-
-          <div className="phs-contact-signal-grid">
-            {reachOutSignals.map((item) => (
-              <article className="phs-advisory-card" key={item.title}>
-                <div className="phs-card-icon">▧</div>
-                <h3>{item.title}</h3>
-                <p>{item.body}</p>
-                <div className="phs-card-line" />
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section id="contact-form" className="phs-section phs-contact-section">
-        <div className="phs-container">
-          <div className="phs-contact-layout">
-            <div className="phs-advisory-heading">
-              <p className="phs-section-label">Start The Conversation</p>
-              <div className="phs-gold-rule" />
-              <h2>Share what you are seeing.</h2>
-              <p>
-                Provide a few details about your organization, the pressure you
-                are seeing, or the environment you want to assess. We review
-                every inquiry and follow up when there is a clear fit.
-              </p>
-            </div>
+          <div>
+            <p className="phs-section-label">Option 2</p>
+            <h2>Send a Message</h2>
+            <p>
+              Prefer to share a few details first? Complete the form below or
+              email us directly at <strong>info@phs-usa.com</strong>.
+            </p>
 
             <div className="phs-form-panel">
               <form
@@ -128,7 +85,7 @@ export default function ContactPage() {
                 <input
                   type="hidden"
                   name="_subject"
-                  value="New PHS Diagnostic Conversation Inquiry"
+                  value="New PHS Contact Inquiry"
                 />
 
                 <div className="form-field">
@@ -137,68 +94,79 @@ export default function ContactPage() {
                 </div>
 
                 <div className="form-field">
-                  <label htmlFor="email">Email</label>
-                  <input id="email" name="email" type="email" required />
-                </div>
-
-                <div className="form-field">
-                  <label htmlFor="company">Organization</label>
-                  <input id="company" name="company" type="text" />
-                </div>
-
-                <div className="form-field">
                   <label htmlFor="role">Role / Title</label>
                   <input id="role" name="role" type="text" />
                 </div>
 
+                <div className="form-field">
+                  <label htmlFor="organization">Organization</label>
+                  <input id="organization" name="organization" type="text" />
+                </div>
+
+                <div className="form-field">
+                  <label htmlFor="email">Email</label>
+                  <input id="email" name="email" type="email" required />
+                </div>
+
                 <div className="form-field full-width">
-                  <label htmlFor="area">Area of interest</label>
-                  <select id="area" name="area">
+                  <label htmlFor="industry">Industry</label>
+                  <select id="industry" name="industry">
                     <option value="">Select one</option>
-                    <option value="Operational Diagnostic">
-                      Operational Diagnostic
+                    <option value="Healthcare & Medical Practices">
+                      Healthcare & Medical Practices
                     </option>
-                    <option value="Revenue Execution & Cash Stabilization">
-                      Revenue Execution & Cash Stabilization
+                    <option value="Construction & Field Services">
+                      Construction & Field Services
                     </option>
-                    <option value="Workflow & Process Alignment">
-                      Workflow & Process Alignment
+                    <option value="Logistics & Multi-Location Businesses">
+                      Logistics & Multi-Location Businesses
                     </option>
-                    <option value="Visibility, Reporting & Controls">
-                      Visibility, Reporting & Controls
-                    </option>
-                    <option value="Healthcare Advisory">
-                      Healthcare Advisory
-                    </option>
-                    <option value="Public Sector Readiness">
-                      Public Sector Readiness
-                    </option>
-                    <option value="Strategic Partnership">
-                      Strategic Partnership
-                    </option>
+                    <option value="Professional Services">Professional Services</option>
                     <option value="Other">Other</option>
                   </select>
                 </div>
 
                 <div className="form-field full-width">
-                  <label htmlFor="message">What’s happening?</label>
+                  <label htmlFor="pressure">Primary Pressure Point</label>
+                  <select id="pressure" name="pressure">
+                    <option value="">Select one</option>
+                    <option value="Unpredictable Cash Flow">
+                      Unpredictable Cash Flow
+                    </option>
+                    <option value="Billing or Invoicing Delays">
+                      Billing or Invoicing Delays
+                    </option>
+                    <option value="Reporting or Reconciliation Issues">
+                      Reporting or Reconciliation Issues
+                    </option>
+                    <option value="Workflow or Team Coordination Challenges">
+                      Workflow or Team Coordination Challenges
+                    </option>
+                    <option value="Growth or Change Support">
+                      Growth or Change Support
+                    </option>
+                    <option value="Not Sure Yet">Not Sure Yet</option>
+                  </select>
+                </div>
+
+                <div className="form-field full-width">
+                  <label htmlFor="message">Briefly Describe What Is Happening</label>
                   <textarea
                     id="message"
                     name="message"
                     rows={5}
-                    placeholder="Briefly describe the pressure, visibility gap, execution issue, or opportunity you want to assess."
+                    placeholder="Tell us what feels stuck, what is creating pressure, or what you need help understanding."
                     required
                   />
                 </div>
 
                 <div className="form-field full-width">
                   <button type="submit" className="phs-btn phs-btn-primary">
-                    Submit Inquiry
+                    Send Message
                   </button>
-
                   <p className="form-note">
-                    All inquiries are reviewed confidentially. We will follow up
-                    if there is a clear fit.
+                    Every inquiry is reviewed personally by Prosper Jechete,
+                    MBA, CRCR, Founder & Principal.
                   </p>
                 </div>
               </form>
@@ -207,24 +175,19 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="phs-final-cta">
-        <div className="phs-container phs-cta-grid">
-          <div>
-            <h2>
-              Strong organizations strengthen visibility before instability
-              becomes visible.
-            </h2>
+      <section className="phs-section">
+        <div className="phs-container phs-narrow phs-centered">
+          <p className="phs-section-label">Contact Information</p>
+          <p className="phs-contact-info">info@phs-usa.com</p>
 
-            <p>
-              Operational pressure often begins beneath the surface through
-              fragmented workflows, delayed visibility, inconsistent execution,
-              weak coordination, or financial strain.
-            </p>
-          </div>
-
-          <a href="#contact-form" className="phs-btn phs-btn-gold">
-            Start the Conversation
-          </a>
+          <p className="phs-section-label phs-spaced-label">Confidentiality</p>
+          <h2>Professional care and discretion.</h2>
+          <p>
+            Your operational and financial information is treated with
+            professional care and discretion. We use the information you provide
+            only to understand your situation and determine whether PHS may be
+            able to help.
+          </p>
         </div>
       </section>
     </main>
