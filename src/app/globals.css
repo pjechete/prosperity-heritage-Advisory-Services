@@ -454,14 +454,11 @@ h3 {
 }
 
 .mock-avatar {
-  height: 320px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 0;
   border-radius: 20px;
+  overflow: hidden;
+  height: 320px;
   background: #ddd;
-  color: var(--muted);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .mock-profile span {
