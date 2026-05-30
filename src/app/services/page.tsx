@@ -2,259 +2,205 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Strategic Advisory Areas | PHS Services',
+  title: 'Services | Operational & Financial Support | PHS',
   description:
-    'Prosperity Heritage Advisory supports organizations through operational visibility, workflow alignment, financial process review, transition stabilization, healthcare and public sector advisory, and leadership diagnostics.',
+    'PHS provides practical support for billing, collections, cash flow, workflow coordination, financial reporting, controls, growth, change, and special projects.',
+  alternates: {
+    canonical: 'https://phs-usa.com/services',
+  },
+  openGraph: {
+    title: 'Services | Operational & Financial Support | PHS',
+    description:
+      'Practical operational and financial support for growing organizations facing workflow breakdowns, reporting challenges, cash flow pressure, and execution issues.',
+    url: 'https://phs-usa.com/services',
+    siteName: 'Prosperity Heritage Advisory',
+    type: 'website',
+  },
 }
 
-const advisoryAreas = [
+const partnerOptions = [
   {
-    title: 'Revenue Execution & Cash Stabilization',
-    assess:
-      'Revenue flow, billing timing, collections follow-through, operational handoffs, leakage risk, and cash visibility.',
-    affects:
-      'Cash predictability, accountability, reporting confidence, and financial stability.',
+    number: '1',
+    title: 'Assess',
+    lead: "When you know something isn't working but aren't sure where the problem starts.",
+    body: 'We review operational workflows, reporting processes, and financial activities to identify where pressure is occurring and what is contributing to it.',
   },
   {
-    title: 'Operational Visibility & Workflow Alignment',
-    assess:
-      'Workflow movement, coordination gaps, reporting delays, ownership clarity, and operational friction across teams and processes.',
-    affects:
-      'Execution consistency, responsiveness, leadership visibility, and organizational alignment.',
+    number: '2',
+    title: 'Improve',
+    lead: 'When processes, workflows, or financial activities need attention.',
+    body: 'We work alongside your team to address priority issues, strengthen execution, and reduce operational friction.',
   },
   {
-    title: 'Financial Process & Control Review',
-    assess:
-      'Financial workflows, reporting routines, control structures, approval paths, reconciliation pressure, and process reliability.',
-    affects:
-      'Visibility, oversight, accountability, financial coordination, and leadership confidence.',
-  },
-  {
-    title: 'Transition & Transformation Stabilization',
-    assess:
-      'Growth pressure, implementation strain, integration risks, process disruption, and operational readiness during change.',
-    affects:
-      'Stability during transition, execution continuity, organizational coordination, and operational resilience.',
-  },
-  {
-    title: 'Healthcare & Public Sector Advisory',
-    assess:
-      'Stakeholder coordination, workflow readiness, accountability structures, reporting expectations, and execution requirements.',
-    affects:
-      'Implementation readiness, operational discipline, public accountability, and program performance.',
-  },
-  {
-    title: 'Leadership Diagnostic Support',
-    assess:
-      'Operational symptoms, pressure points, visibility limitations, decision constraints, recurring workarounds, and root-cause patterns.',
-    affects:
-      'Leadership clarity, corrective action, operational confidence, and organizational direction.',
+    number: '3',
+    title: 'Ongoing Support',
+    lead: 'When you need experienced support without the cost and commitment of a full-time hire.',
+    body: "Support is flexible and tailored to your organization's needs.",
   },
 ]
 
-const environments = [
+const serviceAreas = [
   {
-    title: 'Growing Organizations',
+    title: 'Billing, Collections & Cash Flow',
+    intro:
+      'When invoicing slows, collections fall behind, or cash becomes difficult to predict, the problem is often larger than accounting alone.',
     body:
-      'When operational complexity increases faster than workflows, reporting structures, and execution discipline can mature.',
+      'We help organizations identify where revenue is getting delayed, where cash is leaking, and what is preventing work from turning into cash efficiently.',
+    bullets: [
+      'Billing processes',
+      'Collections follow-through',
+      'Cash visibility',
+      'Revenue tracking',
+      'Process bottlenecks affecting cash flow',
+    ],
   },
   {
-    title: 'Operationally Complex Businesses',
+    title: 'Operations & Workflow Support',
+    intro:
+      'Dropped handoffs, communication gaps, and inconsistent processes create redundant effort and constant firefighting.',
     body:
-      'When performance depends on multiple teams, systems, approvals, reporting routines, and operational handoffs working together.',
+      'We help organizations improve how work moves across teams, systems, and departments so responsibilities are clear and execution becomes more consistent.',
+    bullets: [
+      'Team coordination',
+      'Workflow consistency',
+      'Process ownership',
+      'Operational accountability',
+      'Day-to-day execution',
+    ],
   },
   {
-    title: 'Healthcare & Service Environments',
+    title: 'Financial Reporting & Process Improvement',
+    intro:
+      'When reporting becomes difficult to trust, leaders lose confidence in the numbers and decisions become harder to make.',
     body:
-      'When operational workflows, implementation readiness, financial visibility, and service coordination intersect.',
+      'We help strengthen the processes behind the reporting so leadership has greater visibility into performance and financial results.',
+    bullets: [
+      'Financial reporting',
+      'Reconciliations',
+      'Month-end close',
+      'Internal controls',
+      'Financial visibility',
+    ],
   },
   {
-    title: 'Public Sector & Partner-Led Initiatives',
+    title: 'Growth, Change & Special Projects',
+    intro:
+      'Growth, system changes, and team transitions can create operational strain that disrupts day-to-day performance.',
     body:
-      'When accountability, stakeholder alignment, reporting discipline, and execution structure are critical to success.',
+      'We provide practical support to help organizations navigate change while maintaining visibility, accountability, and operational continuity.',
+    bullets: [
+      'System implementations',
+      'Team transitions',
+      'Organizational changes',
+      'Process redesign efforts',
+      'Special operational projects',
+    ],
+  },
+]
+
+const supportedGroups = [
+  {
+    title: 'Healthcare & Medical Practices',
+    body: 'Supporting billing processes, operational workflows, reporting, and financial visibility.',
+  },
+  {
+    title: 'Construction & Field Services',
+    body: 'Supporting project billing, job cost visibility, approvals, reporting, and operational coordination.',
+  },
+  {
+    title: 'Logistics & Multi-Location Businesses',
+    body: 'Supporting invoicing processes, operational visibility, workflow management, and team accountability.',
+  },
+  {
+    title: 'Professional & Service-Based Businesses',
+    body: 'Supporting financial visibility, reporting, process improvement, and operational effectiveness.',
   },
 ]
 
 export default function ServicesPage() {
   return (
     <main>
-      <section className="phs-hero">
-        <div className="phs-container phs-hero-grid">
-          <div className="phs-hero-copy">
-            <p className="phs-eyebrow">Strategic Advisory Areas</p>
+      <section className="phs-page-hero">
+        <div className="phs-container phs-hero-copy">
+          <p className="phs-eyebrow">Services</p>
+          <h1>Practical support for operational and financial challenges.</h1>
 
-            <h1>
-              Advisory support for organizations navigating pressure,
-              complexity, and execution risk.
-            </h1>
+          <p className="phs-hero-lede">
+            Organizations often experience pressure long before the root cause
+            becomes visible. Delayed billing, reporting gaps, workflow
+            breakdowns, unclear ownership, and inconsistent execution create
+            hidden operational strains that slow growth and drain resources.
+          </p>
 
-            <div className="phs-gold-rule" />
-
-            <p className="phs-hero-lede">
-              PHS helps leadership teams assess where operational visibility,
-              workflow coordination, financial discipline, and execution
-              conditions may be limiting stability and sustainable growth.
-            </p>
-
-            <div className="phs-hero-actions">
-              <Link href="/contact" className="phs-btn phs-btn-primary">
-                Schedule a Diagnostic Conversation
-              </Link>
-
-              <a
-                href="#strategic-advisory-areas"
-                className="phs-btn phs-btn-secondary"
-              >
-                View Advisory Areas
-              </a>
-            </div>
-          </div>
-
-          <aside className="phs-advisory-panel">
-            <p>Service Lens</p>
-            <div className="phs-panel-rule" />
-
-            <div className="phs-panel-item">
-              <span className="phs-panel-icon">◎</span>
-              <div>
-                <h3>Visibility</h3>
-                <p>Clarifying where leadership lacks timely operating insight.</p>
-              </div>
-            </div>
-
-            <div className="phs-panel-item">
-              <span className="phs-panel-icon">▥</span>
-              <div>
-                <h3>Coordination</h3>
-                <p>
-                  Improving how teams, systems, workflows, and handoffs connect.
-                </p>
-              </div>
-            </div>
-
-            <div className="phs-panel-item">
-              <span className="phs-panel-icon">↗</span>
-              <div>
-                <h3>Execution</h3>
-                <p>Strengthening the discipline required to sustain performance.</p>
-              </div>
-            </div>
-          </aside>
+          <p>
+            PHS works alongside organizations to identify what is creating the
+            pressure, improve what matters most, and provide support when needed.
+          </p>
         </div>
       </section>
 
-      <section className="phs-section phs-executive-reality">
-        <div className="phs-container phs-reality-grid">
-          <div className="phs-reality-heading">
-            <p className="phs-section-label">Execution Architecture</p>
-            <div className="phs-gold-rule" />
-            <h2>Operational pressure rarely develops from one isolated issue.</h2>
-          </div>
-
-          <div>
-            <p>
-              In many organizations, performance challenges emerge through
-              fragmented workflows, delayed visibility, inconsistent execution,
-              unclear ownership, financial misalignment, and growing coordination
-              pressure across teams and operating environments.
-            </p>
-
-            <p>
-              PHS helps leadership teams identify where these conditions are
-              developing, how they are affecting performance, and what practical
-              improvements can strengthen stability, visibility, and execution
-              consistency.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section
-        id="strategic-advisory-areas"
-        className="phs-section phs-advisory-areas"
-      >
+      <section className="phs-section phs-section-soft">
         <div className="phs-container">
-          <div className="phs-centered-header">
-            <p className="phs-section-label">Strategic Advisory Areas</p>
-            <div className="phs-gold-rule centered" />
-            <h2>
-              Areas of operational focus where PHS helps organizations create
-              clarity.
-            </h2>
+          <div className="phs-section-header">
+            <p className="phs-section-label">Three Ways We Partner</p>
+            <h2>Start where your organization needs support.</h2>
+            <p>
+              Every organization is different. Some need clarity. Others need
+              help solving a specific problem. Some need ongoing support.
+            </p>
           </div>
 
-          <div className="phs-service-grid">
-            {advisoryAreas.map((area) => (
-              <article className="phs-service-card" key={area.title}>
-                <div className="phs-card-icon">▧</div>
-                <h3>{area.title}</h3>
-
-                <p>
-                  <strong>What we assess:</strong> {area.assess}
-                </p>
-
-                <p>
-                  <strong>What it affects:</strong> {area.affects}
-                </p>
-
-                <div className="phs-card-line" />
+          <div className="phs-grid phs-grid-3">
+            {partnerOptions.map((item) => (
+              <article className="phs-card phs-step-card" key={item.title}>
+                <span>{item.number}</span>
+                <h3>{item.title}</h3>
+                <p className="phs-card-lead">{item.lead}</p>
+                <p>{item.body}</p>
               </article>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="section section-soft">
-        <div className="container">
-          <div className="content-block narrow">
-            <p className="section-label">How We Engage</p>
+      <section className="phs-section">
+        <div className="phs-container">
+          <div className="phs-section-header">
+            <p className="phs-section-label">Common Areas We Support</p>
+            <h2>Practical help for the areas where pressure often shows up.</h2>
+          </div>
 
-            <h2 className="section-title">
-              We begin by understanding the operating environment before
-              prescribing solutions.
-            </h2>
-
-            <div className="phs-engage-copy">
-              <p>
-                Our work starts with diagnostic review. We assess workflow
-                realities, reporting visibility, operational coordination,
-                financial alignment, and execution patterns to identify where
-                pressure is building and what requires attention.
-              </p>
-
-              <p>
-                The objective is practical clarity: understanding what is
-                happening, why it matters, where stability is being affected, and
-                what actions can strengthen organizational performance over
-                time.
-              </p>
-            </div>
+          <div className="phs-grid phs-grid-2">
+            {serviceAreas.map((area) => (
+              <article className="phs-card phs-service-detail" key={area.title}>
+                <h3>{area.title}</h3>
+                <p>{area.intro}</p>
+                <p>{area.body}</p>
+                <ul className="phs-bullet-list">
+                  {area.bullets.map((bullet) => (
+                    <li key={bullet}>{bullet}</li>
+                  ))}
+                </ul>
+              </article>
+            ))}
           </div>
         </div>
       </section>
 
-      <section className="phs-section phs-advisory-areas">
+      <section className="phs-section phs-section-soft">
         <div className="phs-container">
-          <div className="phs-advisory-layout">
-            <div className="phs-advisory-heading">
-              <p className="phs-section-label">Where This Applies</p>
-              <div className="phs-gold-rule" />
-              <h2>
-                Environments where visibility, coordination, and disciplined
-                execution matter.
-              </h2>
-            </div>
+          <div className="phs-section-header">
+            <p className="phs-section-label">Who We Typically Support</p>
+            <h2>Support for growing, operationally complex organizations.</h2>
+          </div>
 
-            <div className="phs-environment-grid">
-              {environments.map((item) => (
-                <article className="phs-advisory-card" key={item.title}>
-                  <div className="phs-card-icon">◎</div>
-                  <h3>{item.title}</h3>
-                  <p>{item.body}</p>
-                  <div className="phs-card-line" />
-                </article>
-              ))}
-            </div>
+          <div className="phs-grid phs-grid-2">
+            {supportedGroups.map((item) => (
+              <article className="phs-card" key={item.title}>
+                <h3>{item.title}</h3>
+                <p>{item.body}</p>
+              </article>
+            ))}
           </div>
         </div>
       </section>
@@ -262,20 +208,15 @@ export default function ServicesPage() {
       <section className="phs-final-cta">
         <div className="phs-container phs-cta-grid">
           <div>
-            <h2>
-              Strong performance begins with understanding what is happening
-              beneath the surface.
-            </h2>
-
+            <h2>Not sure where the problem starts?</h2>
             <p>
-              PHS works with leadership teams seeking clearer visibility,
-              stronger execution discipline, and more sustainable organizational
-              performance.
+              You do not need to have the answers before reaching out. If you
+              feel the pressure but cannot find the source, let&apos;s work through
+              it together.
             </p>
           </div>
-
           <Link href="/contact" className="phs-btn phs-btn-gold">
-            Schedule a Diagnostic Conversation
+            Schedule a Conversation
           </Link>
         </div>
       </section>
