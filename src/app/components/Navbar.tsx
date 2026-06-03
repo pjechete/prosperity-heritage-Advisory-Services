@@ -26,8 +26,8 @@ export default function Navbar() {
           <Image
             src="/logo.png"
             alt="Prosperity Heritage Advisory"
-            width={250}
-            height={78}
+            width={240}
+            height={75}
             priority
             className="logo"
           />
@@ -51,8 +51,8 @@ export default function Navbar() {
         </nav>
 
         <div className="header-cta">
-          <Link href="/contact" className="btn secondary btn-sm">
-            Schedule a Conversation
+          <Link href="/contact" className="btn btn-sm secondary">
+            Start a Conversation
           </Link>
         </div>
       </div>
