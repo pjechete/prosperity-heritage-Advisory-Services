@@ -42,42 +42,46 @@ export default function ContactPage() {
         <div className="mock-container">
           <div className="mock-grid-2 mock-contact-grid">
             <div>
-              <p className="mock-eyebrow">Option 1</p>
-              <h2>Schedule a Conversation</h2>
+              <p className="mock-eyebrow">Start the Conversation</p>
+              <h2>Tell us what is creating pressure.</h2>
 
-              <p>Skip the back-and-forth and schedule a brief introductory call.</p>
+              <p>
+                Many organizations know something is not working as it should,
+                but they are not always sure where the breakdown starts.
+              </p>
+
+              <p>
+                Whether the challenge involves workflows, reporting, cash flow,
+                billing, team coordination, growth, or operational execution,
+                the first step is understanding what is happening.
+              </p>
 
               <article className="mock-card">
-                <h3>What to expect</h3>
+                <h3>What happens next?</h3>
+
                 <ul className="mock-bullet-list">
-                  <li>A practical discussion about what is creating pressure</li>
+                  <li>We review the information you provide.</li>
+                  <li>We determine whether PHS may be able to help.</li>
                   <li>
-                    A few questions about your workflows, reporting, or financial
-                    processes
-                  </li>
-                  <li>
-                    An honest perspective on whether PHS may be able to help
+                    We reach out to discuss next steps if there appears to be a
+                    fit.
                   </li>
                 </ul>
 
                 <p>
                   The goal is simple: understand what is happening and determine
-                  whether there is a fit.
+                  whether there is a practical path forward.
                 </p>
-
-                <a href="#" className="mock-btn">
-                  Schedule a Conversation
-                </a>
               </article>
             </div>
 
             <div>
-              <p className="mock-eyebrow">Option 2</p>
-              <h2>Send a Message</h2>
+              <p className="mock-eyebrow">Send a Message</p>
+              <h2>Share a few details.</h2>
 
               <p>
-                Prefer to share a few details first? Complete the form below or
-                email us directly at <strong>info@phs-usa.com</strong>.
+                Complete the form below or email us directly at{' '}
+                <strong>info@phs-usa.com</strong>.
               </p>
 
               <article className="mock-card">
@@ -136,7 +140,9 @@ export default function ContactPage() {
                   </div>
 
                   <div className="mock-form-group">
-                    <label htmlFor="message">Briefly Describe What Is Happening</label>
+                    <label htmlFor="message">
+                      Briefly Describe What Is Happening
+                    </label>
                     <textarea
                       id="message"
                       name="message"
@@ -151,7 +157,8 @@ export default function ContactPage() {
                 </form>
 
                 <p className="mock-note">
-                 Every inquiry is reviewed by the PHS team and handled with professional care and discretion.
+                  Every inquiry is reviewed by the PHS team and handled with
+                  professional care and discretion.
                 </p>
               </article>
             </div>
@@ -161,27 +168,20 @@ export default function ContactPage() {
 
       <section className="mock-section">
         <div className="mock-container mock-centered">
-        <section className="mock-section">
-  <div className="mock-container mock-centered">
-    <p className="mock-eyebrow">Contact Information</p>
+          <p className="mock-eyebrow">Contact Information</p>
 
-<p>
-  📧 info@phs-usa.com
-</p>
+          <p>📧 info@phs-usa.com</p>
 
-<p className="mock-eyebrow mock-top-space">Confidentiality</p>
+          <p className="mock-eyebrow mock-top-space">Confidentiality</p>
 
-<h2>Professional care and discretion.</h2>
+          <h2>Professional care and discretion.</h2>
 
-<p>
-  Your operational, financial, and organizational information is treated
-  with professional care and discretion. Information submitted through this
-  form is used solely to understand your situation and determine whether
-  PHS may be able to help.
-</p>
-  </div>
-</section>
-
+          <p>
+            Your operational, financial, and organizational information is
+            treated with professional care and discretion. Information submitted
+            through this form is used solely to understand your situation and
+            determine whether PHS may be able to help.
+          </p>
         </div>
       </section>
     </main>
