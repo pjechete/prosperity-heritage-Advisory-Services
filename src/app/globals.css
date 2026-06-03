@@ -537,6 +537,26 @@ h3 {
   min-height: 130px;
   resize: vertical;
 }
+/* =========================
+   CONTACT PAGE
+========================= */
+
+.contact-email {
+  color: var(--accent-dark);
+  font-weight: 800;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact-email:hover {
+  color: var(--ink);
+  text-decoration: underline;
+}
+
+.contact-info {
+  margin-bottom: 2rem;
+  font-size: 1.05rem;
+}
 
 /* =========================
    FOOTER
