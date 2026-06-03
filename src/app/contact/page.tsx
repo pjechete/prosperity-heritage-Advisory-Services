@@ -162,16 +162,28 @@ export default function ContactPage() {
       <section className="mock-section">
         <div className="mock-container mock-centered">
           <p className="mock-eyebrow">Contact Information</p>
-          <p>
-            📧 info@phs-usa.com
-             <p>
-         
-          <p className="mock-eyebrow mock-top-space">Confidentiality</p>
-          <h2>Professional care and discretion.</h2>
+          <section className="mock-section">
+  <div className="mock-container mock-centered">
+    <p className="mock-eyebrow">Contact Information</p>
 
-          <p>
-            Your operational, financial, and organizational information is treated with professional care and discretion. Information submitted through this form is used solely to understand your situation and determine whether PHS may be able to help.
-          </p>
+```
+<p>
+  📧 info@phs-usa.com
+</p>
+
+<p className="mock-eyebrow mock-top-space">Confidentiality</p>
+
+<h2>Professional care and discretion.</h2>
+
+<p>
+  Your operational, financial, and organizational information is treated
+  with professional care and discretion. Information submitted through this
+  form is used solely to understand your situation and determine whether
+  PHS may be able to help.
+</p>
+  </div>
+</section>
+
         </div>
       </section>
     </main>
