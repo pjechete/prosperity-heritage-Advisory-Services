@@ -151,8 +151,7 @@ export default function ContactPage() {
                 </form>
 
                 <p className="mock-note">
-                  Every inquiry is reviewed personally by Prosper Jechete, MBA,
-                  CRCR, Founder & Principal.
+                 Every inquiry is reviewed by the PHS team and handled with professional care and discretion.
                 </p>
               </article>
             </div>
@@ -166,17 +165,12 @@ export default function ContactPage() {
           <p>
             📧 info@phs-usa.com
             <br />
-            📅 Schedule a Conversation
-          </p>
-
+         
           <p className="mock-eyebrow mock-top-space">Confidentiality</p>
           <h2>Professional care and discretion.</h2>
 
           <p>
-            Your operational and financial information is treated with
-            professional care and discretion. We use the information you provide
-            only to understand your situation and determine whether PHS may be
-            able to help.
+            Your operational, financial, and organizational information is treated with professional care and discretion. Information submitted through this form is used solely to understand your situation and determine whether PHS may be able to help.
           </p>
         </div>
       </section>
