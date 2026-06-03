@@ -81,7 +81,10 @@ export default function ContactPage() {
 
               <p>
                 Complete the form below or email us directly at{' '}
-                <strong>info@phs-usa.com</strong>.
+                <a href="mailto:info@phs-usa.com" className="contact-email">
+                  info@phs-usa.com
+                </a>
+                .
               </p>
 
               <article className="mock-card">
@@ -170,7 +173,12 @@ export default function ContactPage() {
         <div className="mock-container mock-centered">
           <p className="mock-eyebrow">Contact Information</p>
 
-          <p>📧 info@phs-usa.com</p>
+          <p className="contact-info">
+            📧{' '}
+            <a href="mailto:info@phs-usa.com" className="contact-email">
+              info@phs-usa.com
+            </a>
+          </p>
 
           <p className="mock-eyebrow mock-top-space">Confidentiality</p>
 
