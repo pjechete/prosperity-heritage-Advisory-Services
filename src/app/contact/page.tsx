@@ -164,7 +164,7 @@ export default function ContactPage() {
           <p className="mock-eyebrow">Contact Information</p>
           <p>
             📧 info@phs-usa.com
-            <br />
+             <p>
          
           <p className="mock-eyebrow mock-top-space">Confidentiality</p>
           <h2>Professional care and discretion.</h2>
