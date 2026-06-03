@@ -161,12 +161,10 @@ export default function ContactPage() {
 
       <section className="mock-section">
         <div className="mock-container mock-centered">
-          <p className="mock-eyebrow">Contact Information</p>
-          <section className="mock-section">
+        <section className="mock-section">
   <div className="mock-container mock-centered">
     <p className="mock-eyebrow">Contact Information</p>
 
-```
 <p>
   📧 info@phs-usa.com
 </p>
