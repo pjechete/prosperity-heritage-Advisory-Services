@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Services | Operational & Financial Support | PHS',
   description:
-    'Practical support for billing, collections, cash flow, workflow coordination, financial reporting, controls, growth, change, and special projects.',
+    'Practical support for billing, collections, cash flow, workflow coordination, financial reporting, controls, growth, change, healthcare technology enablement, and special projects.',
   alternates: {
     canonical: 'https://phs-usa.com/services',
   },
@@ -104,7 +104,7 @@ const industries = [
   {
     title: 'Healthcare & Medical Practices',
     body:
-      'Supporting billing processes, operational workflows, reporting, and financial visibility.',
+      'Supporting billing processes, operational workflows, reporting, technology adoption, and financial visibility.',
   },
   {
     title: 'Construction & Field Services',
@@ -121,6 +121,15 @@ const industries = [
     body:
       'Supporting financial visibility, reporting, process improvement, and operational effectiveness.',
   },
+]
+
+const technologySupport = [
+  'Healthcare technology evaluation',
+  'Workflow and process alignment',
+  'Implementation readiness support',
+  'Operational adoption planning',
+  'Reporting and visibility improvement',
+  'Billing and revenue process alignment',
 ]
 
 export default function ServicesPage() {
@@ -194,6 +203,51 @@ export default function ServicesPage() {
       <section className="mock-section mock-section-soft">
         <div className="mock-container">
           <div className="mock-section-header">
+            <p className="mock-eyebrow">Healthcare Technology Enablement</p>
+            <h2>Technology can support improvement when it fits the operating reality.</h2>
+          </div>
+
+          <div className="mock-grid-2">
+            <article className="mock-card">
+              <h3>Integrated Healthcare Technology Support</h3>
+
+              <p>
+                In some healthcare environments, process improvement alone is not
+                enough. Better outcomes may require stronger technology,
+                workflow automation, reporting visibility, and integrated
+                operating systems.
+              </p>
+
+              <p>
+                Through select strategic technology partnerships, PHS can
+                support organizations evaluating or implementing healthcare
+                technology solutions that improve clinical workflows,
+                operational visibility, billing performance, reporting, and
+                financial outcomes.
+              </p>
+            </article>
+
+            <article className="mock-card">
+              <h3>Where PHS Can Support</h3>
+
+              <ul className="mock-bullet-list">
+                {technologySupport.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+
+              <p>
+                Technology solutions are introduced only when appropriate and as
+                part of a broader operational improvement effort.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section className="mock-section">
+        <div className="mock-container">
+          <div className="mock-section-header">
             <p className="mock-eyebrow">Who We Typically Support</p>
           </div>
 
@@ -217,7 +271,7 @@ export default function ServicesPage() {
             it together.
           </p>
           <Link href="/contact" className="mock-btn">
-            Schedule a Conversation
+            Start the Conversation
           </Link>
         </div>
       </section>
