@@ -6,9 +6,10 @@ import { usePathname } from 'next/navigation'
 
 const navLinks = [
   { href: '/', label: 'Home' },
-  { href: '/services', label: 'Services' },
+  { href: '/solutions', label: 'Solutions' },
+  { href: '/partnerships', label: 'Partnerships' },
+  { href: '/industries', label: 'Industries' },
   { href: '/about', label: 'About' },
-  { href: '/insights', label: 'Insights' },
   { href: '/contact', label: 'Contact' },
 ]
 
@@ -21,11 +22,11 @@ export default function Navbar() {
         <Link
           href="/"
           className="brand"
-          aria-label="Prosperity Heritage Advisory homepage"
+          aria-label="Prosperity Heritage Solutions homepage"
         >
           <Image
             src="/logo.png"
-            alt="Prosperity Heritage Advisory"
+            alt="Prosperity Heritage Solutions"
             width={240}
             height={75}
             priority
@@ -52,7 +53,7 @@ export default function Navbar() {
 
         <div className="header-cta">
           <Link href="/contact" className="btn btn-sm secondary">
-            Start a Conversation
+            Schedule a Diagnostic Conversation
           </Link>
         </div>
       </div>
