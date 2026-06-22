@@ -2,9 +2,10 @@ import Link from 'next/link'
 
 const footerLinks = [
   { href: '/', label: 'Home' },
-  { href: '/services', label: 'Services' },
+  { href: '/solutions', label: 'Solutions' },
+  { href: '/partnerships', label: 'Partnerships' },
+  { href: '/industries', label: 'Industries' },
   { href: '/about', label: 'About' },
-  { href: '/insights', label: 'Insights' },
   { href: '/contact', label: 'Contact' },
 ]
 
@@ -13,11 +14,19 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-inner">
         <div className="footer-brand">
-          <h3>Prosperity Heritage Advisory</h3>
+          <h3>Prosperity Heritage Solutions</h3>
+
+          <p className="footer-tagline">
+            Operational & Financial Execution Partner
+          </p>
+
+          <p className="footer-positioning">
+            The Execution Arm for Advisory Firms
+          </p>
 
           <p>
-            Practical operational and financial support for organizations
-            navigating workflow, reporting, cash flow, growth, and change.
+            Helping organizations recover hidden profit, improve execution,
+            strengthen financial visibility, and scale with confidence.
           </p>
 
           <a href="mailto:info@phs-usa.com" className="footer-email">
@@ -36,7 +45,9 @@ export default function Footer() {
 
       <div className="footer-bottom">
         <div className="container footer-bottom-inner">
-          <span>© {new Date().getFullYear()} Prosperity Heritage Advisory</span>
+          <span>
+            © {new Date().getFullYear()} Prosperity Heritage Solutions
+          </span>
         </div>
       </div>
     </footer>
