@@ -5,7 +5,6 @@ import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 
 const navLinks = [
-  { href: '/', label: 'Home' },
   { href: '/solutions', label: 'Solutions' },
   { href: '/partnerships', label: 'Partnerships' },
   { href: '/industries', label: 'Industries' },
@@ -36,8 +35,7 @@ export default function Navbar() {
 
         <nav className="main-nav" aria-label="Main navigation">
           {navLinks.map((link) => {
-            const isActive =
-              link.href === '/' ? pathname === '/' : pathname?.startsWith(link.href)
+            const isActive = pathname?.startsWith(link.href)
 
             return (
               <Link
