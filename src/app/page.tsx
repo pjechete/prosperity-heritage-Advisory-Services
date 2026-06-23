@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -18,40 +19,47 @@ export const metadata: Metadata = {
   },
 }
 
-const executionCards = [
+const partnershipCards = [
   {
+    icon: '🤝',
     title: 'For Advisory Firms',
     body:
       'Extend your capabilities with an execution partner your clients can trust.',
   },
   {
+    icon: '📈',
+    title: 'For Investors',
+    body:
+      'Drive portfolio value through operational improvement and execution support.',
+  },
+  {
+    icon: '🏢',
     title: 'For Organizations',
     body:
       'Strengthen performance, improve cash flow, and scale with confidence.',
-  },
-  {
-    title: 'For Growth & Change',
-    body:
-      'Add the leadership capacity required to move critical initiatives forward.',
   },
 ]
 
 const whyPHS = [
   {
+    icon: '◎',
     title: 'Operator Mindset',
-    body: 'We have led teams and solved these challenges firsthand.',
+    body: "We have led teams and solved these challenges firsthand.",
   },
   {
+    icon: '◉',
     title: 'Practical Approach',
-    body: 'Real-world solutions that can be implemented and sustained.',
+    body: 'Real-world solutions that drive measurable impact.',
   },
   {
+    icon: '↗',
     title: 'Measurable Outcomes',
-    body: 'Focused on results that improve visibility, execution, and cash flow.',
+    body: 'Focused on results that improve profit and cash flow.',
   },
   {
+    icon: '◇',
     title: 'Trusted Partner',
-    body: 'We help strengthen the relationships our partners already own.',
+    body: 'We succeed when you succeed.',
   },
 ]
 
@@ -59,15 +67,15 @@ export default function HomePage() {
   return (
     <main>
       {/* HERO */}
-      <section className="mock-hero">
-        <div className="mock-container mock-hero-grid">
-          <div>
+      <section className="premium-hero">
+        <div className="mock-container premium-hero-grid">
+          <div className="premium-hero-copy">
             <p className="mock-eyebrow">Operational & Financial Execution Partner</p>
 
             <h1>Recover Hidden Profit. Improve Execution. Scale With Confidence.</h1>
 
             <p>
-              PHS helps organizations and advisory firms identify operational and
+              We help organizations and advisory firms identify operational and
               financial leakage, implement practical improvements, and provide
               execution capacity when internal teams are stretched thin.
             </p>
@@ -83,44 +91,44 @@ export default function HomePage() {
             </div>
           </div>
 
-          <aside className="mock-hero-card">
-            <h3>Where hidden profit is often lost</h3>
-
-            <ul className="mock-checklist">
-              <li>Delayed billing and collections</li>
-              <li>Growing receivables</li>
-              <li>Reporting gaps and backlogs</li>
-              <li>Fragmented workflows</li>
-              <li>Stalled internal initiatives</li>
-            </ul>
-          </aside>
+          <div className="premium-hero-image-wrap">
+            <Image
+              src="/hero-execution.jpg"
+              alt="Operational and financial execution leadership dashboard"
+              width={1200}
+              height={800}
+              priority
+              className="premium-hero-image"
+            />
+          </div>
         </div>
       </section>
 
       {/* STRATEGIC PARTNERSHIPS */}
-      <section className="mock-section partnership-highlight">
-        <div className="mock-container mock-grid-2">
+      <section className="premium-dark-section">
+        <div className="mock-container premium-partnership-grid">
           <div>
             <p className="mock-eyebrow">Strategic Partnerships</p>
 
             <h2>More Than Advice. We Execute With You.</h2>
 
             <p>
-              We partner with advisory firms and organizations that need more than
-              a plan. They need execution capacity, operational discipline, and
-              measurable results.
+              We partner with advisory firms, private equity groups, and
+              organizations that need more than a plan — they need execution
+              capacity, operational rigor, and measurable results.
             </p>
 
             <div className="mock-actions">
-              <Link href="/partnerships" className="mock-btn">
+              <Link href="/partnerships" className="mock-btn mock-btn-outline-light">
                 Learn About Our Partnerships
               </Link>
             </div>
           </div>
 
-          <div className="mock-grid-3">
-            {executionCards.map((item) => (
-              <article className="mock-card" key={item.title}>
+          <div className="premium-card-row">
+            {partnershipCards.map((item) => (
+              <article className="premium-dark-card" key={item.title}>
+                <div className="premium-icon">{item.icon}</div>
                 <h3>{item.title}</h3>
                 <p>{item.body}</p>
               </article>
@@ -130,38 +138,40 @@ export default function HomePage() {
       </section>
 
       {/* WHY PHS */}
-      <section className="mock-section">
-        <div className="mock-container">
-          <div className="mock-grid-2">
-            <div>
-              <p className="mock-eyebrow">Why PHS</p>
-              <h2>Built by Practitioners. Focused on Results.</h2>
-            </div>
+      <section className="premium-why">
+        <div className="mock-container premium-why-grid">
+          <div>
+            <p className="mock-eyebrow">Why PHS</p>
+            <h2>Built by Practitioners. Focused on Results.</h2>
+          </div>
 
-            <div className="mock-grid-2">
-              {whyPHS.map((item) => (
-                <article className="mock-card" key={item.title}>
-                  <h3>{item.title}</h3>
-                  <p>{item.body}</p>
-                </article>
-              ))}
-            </div>
+          <div className="premium-why-items">
+            {whyPHS.map((item) => (
+              <article className="premium-why-item" key={item.title}>
+                <div className="premium-why-icon">{item.icon}</div>
+                <h3>{item.title}</h3>
+                <p>{item.body}</p>
+              </article>
+            ))}
           </div>
         </div>
       </section>
 
       {/* FINAL CTA */}
-      <section className="mock-cta">
-        <div className="mock-container">
-          <h2>Let&apos;s Start With the Challenge.</h2>
+      <section className="premium-cta-band">
+        <div className="mock-container premium-cta-grid">
+          <div>
+            <h2>Let&apos;s Start With the Challenge.</h2>
 
-          <p>
-            Whether the issue involves cash flow, reporting, workflow bottlenecks,
-            project execution, leadership transitions, or operational performance,
-            the first step is understanding where performance is being lost.
-          </p>
+            <p>
+              Whether the issue involves cash flow, reporting, workflow
+              bottlenecks, project execution, leadership transitions, or
+              operational performance, the first step is understanding where
+              performance is being lost.
+            </p>
+          </div>
 
-          <Link href="/contact" className="mock-btn">
+          <Link href="/contact" className="mock-btn premium-cta-button">
             Schedule a Diagnostic Conversation
           </Link>
         </div>
