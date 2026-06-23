@@ -21,19 +21,19 @@ export const metadata: Metadata = {
 
 const partnershipCards = [
   {
-    icon: '🤝',
+    icon: '◉',
     title: 'For Advisory Firms',
     body:
       'Extend your capabilities with an execution partner your clients can trust.',
   },
   {
-    icon: '📈',
+    icon: '↗',
     title: 'For Investors',
     body:
       'Drive portfolio value through operational improvement and execution support.',
   },
   {
-    icon: '🏢',
+    icon: '▣',
     title: 'For Organizations',
     body:
       'Strengthen performance, improve cash flow, and scale with confidence.',
@@ -44,7 +44,7 @@ const whyPHS = [
   {
     icon: '◎',
     title: 'Operator Mindset',
-    body: "We have led teams and solved these challenges firsthand.",
+    body: 'We have led teams and solved these challenges firsthand.',
   },
   {
     icon: '◉',
@@ -95,8 +95,8 @@ export default function HomePage() {
             <Image
               src="/hero-execution.jpg"
               alt="Operational and financial execution leadership dashboard"
-              width={1200}
-              height={800}
+              width={1400}
+              height={950}
               priority
               className="premium-hero-image"
             />
