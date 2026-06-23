@@ -225,7 +225,7 @@ export default function HomePage() {
       </section>
 
       {/* PARTNERSHIP CHANNEL */}
-      <section className="mock-section mock-dark">
+      <section className="mock-section partnership-highlight">
         <div className="mock-container">
           <div className="mock-section-header">
             <p className="mock-eyebrow">Partnership Channel</p>
@@ -242,7 +242,7 @@ export default function HomePage() {
           </div>
 
           <div className="mock-grid-2">
-            <article className="mock-card mock-dark-card">
+            <article className="mock-card">
               <h3>Who We Support</h3>
               <ul className="mock-checklist">
                 {partnerTypes.map((item) => (
@@ -251,7 +251,7 @@ export default function HomePage() {
               </ul>
             </article>
 
-            <article className="mock-card mock-dark-card">
+            <article className="mock-card">
               <h3>How We Help Partners</h3>
               <ul className="mock-checklist">
                 {partnerSupport.map((item) => (
