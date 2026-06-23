@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.phs-usa.com'
+  const baseUrl = 'https://phs-usa.com'
 
   return [
     {
@@ -9,7 +9,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
-      url: `${baseUrl}/services`,
+      url: `${baseUrl}/solutions`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/partnerships`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/industries`,
       lastModified: new Date(),
     },
     {
@@ -17,11 +25,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
-      url: `${baseUrl}/insights`,
+      url: `${baseUrl}/contact`,
       lastModified: new Date(),
     },
     {
-      url: `${baseUrl}/contact`,
+      url: `${baseUrl}/insights`,
       lastModified: new Date(),
     },
     {
