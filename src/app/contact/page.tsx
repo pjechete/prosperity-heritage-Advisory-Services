@@ -1,21 +1,37 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Contact | Prosperity Heritage Advisory',
+  title: 'Contact | Prosperity Heritage Solutions',
   description:
-    'Contact Prosperity Heritage Advisory to start a practical conversation about operational friction, financial pressure, cash flow, reporting, workflows, or growth challenges.',
+    'Contact Prosperity Heritage Solutions to discuss operational pressure, cash flow challenges, reporting gaps, workflow bottlenecks, project execution, or partnership opportunities.',
   alternates: {
     canonical: 'https://phs-usa.com/contact',
   },
   openGraph: {
-    title: 'Contact | Prosperity Heritage Advisory',
+    title: 'Contact | Prosperity Heritage Solutions',
     description:
-      'Start with a practical conversation. Share what is creating operational or financial pressure in your organization.',
+      'Start a practical conversation with PHS about operational and financial execution support.',
     url: 'https://phs-usa.com/contact',
-    siteName: 'Prosperity Heritage Advisory',
+    siteName: 'Prosperity Heritage Solutions',
     type: 'website',
   },
 }
+
+const partnerChannels = [
+  'Fractional CFO Firms',
+  'CPA & Accounting Firms',
+  'Healthcare Advisory Firms',
+  'Fractional COO Practices',
+  'Independent Advisory & Consulting Firms',
+]
+
+const solutionAreas = [
+  'Profit Recovery Assessments',
+  'Revenue & Cash Flow Performance',
+  'Operational Performance Improvement',
+  'Financial Visibility & Accountability',
+  'Interim Leadership & Project Execution',
+]
 
 export default function ContactPage() {
   return (
@@ -23,176 +39,212 @@ export default function ContactPage() {
       <section className="mock-hero mock-hero-simple">
         <div className="mock-container">
           <p className="mock-eyebrow">Contact</p>
-          <h1>Let&apos;s start with a practical conversation.</h1>
+
+          <h1>Let&apos;s Start With the Challenge.</h1>
 
           <p>
-            Many organizations know they are experiencing operational friction or
-            financial pressure, but they are not completely sure where the
-            breakdown originates.
+            Every organization experiences periods of intense operational pressure.
+            Cash flow becomes less predictable. Financial reporting begins to lag.
+            Critical initiatives lose momentum. Workflows become fragmented, and
+            internal teams find themselves working harder while achieving less.
           </p>
 
           <p>
-            You do not need to have all the answers before reaching out. Our work
-            begins with a conversation, not a sales pitch.
+            The first step is understanding exactly where performance is being lost
+            and identifying the practical, immediate improvements that will move
+            the organization forward.
+          </p>
+
+          <p>
+            PHS works alongside businesses and advisory firms to eliminate
+            operational bottlenecks, sharpen financial visibility, strengthen
+            execution capacity, and support meaningful change.
+          </p>
+
+          <p>
+            Whether you are exploring a specific internal challenge, evaluating a
+            looming project, or seeking a dependable execution partner, we welcome
+            the opportunity to learn more about your goals.
           </p>
         </div>
       </section>
 
       <section className="mock-section mock-section-soft">
         <div className="mock-container">
-          <div className="mock-grid-2 mock-contact-grid">
-            <div>
-              <p className="mock-eyebrow">Start the Conversation</p>
-              <h2>Tell us what is creating pressure.</h2>
+          <div className="mock-section-header">
+            <p className="mock-eyebrow">How To Reach Us</p>
+            <h2>General Inquiries</h2>
+            <p>
+              Email:{' '}
+              <a href="mailto:info@phs-usa.com" className="contact-email">
+                info@phs-usa.com
+              </a>
+            </p>
+            <p>Response Time: We review all inquiries within one business day.</p>
+          </div>
 
+          <div className="mock-grid-2">
+            <article className="mock-card">
+              <h3>Partnership Channels</h3>
               <p>
-                Many organizations know something is not working as it should,
-                but they are not always sure where the breakdown starts.
+                We actively welcome collaborative alignment conversations with:
               </p>
+              <ul className="mock-bullet-list">
+                {partnerChannels.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </article>
 
+            <article className="mock-card">
+              <h3>Core Solutions Map</h3>
               <p>
-                Whether the challenge involves workflows, reporting, cash flow,
-                billing, team coordination, growth, or operational execution,
-                the first step is understanding what is happening.
+                Please reference your specific operational or financial pressure
+                point when reaching out:
               </p>
-
-              <article className="mock-card">
-                <h3>What happens next?</h3>
-
-                <ul className="mock-bullet-list">
-                  <li>We review the information you provide.</li>
-                  <li>We determine whether PHS may be able to help.</li>
-                  <li>
-                    We reach out to discuss next steps if there appears to be a
-                    fit.
-                  </li>
-                </ul>
-
-                <p>
-                  The goal is simple: understand what is happening and determine
-                  whether there is a practical path forward.
-                </p>
-              </article>
-            </div>
-
-            <div>
-              <p className="mock-eyebrow">Send a Message</p>
-              <h2>Share a few details.</h2>
-
-              <p>
-                Complete the form below or email us directly at{' '}
-                <a href="mailto:info@phs-usa.com" className="contact-email">
-                  info@phs-usa.com
-                </a>
-                .
-              </p>
-
-              <article className="mock-card">
-                <form
-                  action="https://formspree.io/f/xzdjgopr"
-                  method="POST"
-                  className="mock-form"
-                >
-                  <input
-                    type="hidden"
-                    name="_subject"
-                    value="New PHS Website Inquiry"
-                  />
-
-                  <div className="mock-form-group">
-                    <label htmlFor="name">Name</label>
-                    <input id="name" name="name" type="text" required />
-                  </div>
-
-                  <div className="mock-form-group">
-                    <label htmlFor="role">Role / Title</label>
-                    <input id="role" name="role" type="text" />
-                  </div>
-
-                  <div className="mock-form-group">
-                    <label htmlFor="organization">Organization</label>
-                    <input id="organization" name="organization" type="text" />
-                  </div>
-
-                  <div className="mock-form-group">
-                    <label htmlFor="industry">Industry</label>
-                    <select id="industry" name="industry">
-                      <option>Healthcare & Medical Practices</option>
-                      <option>Construction & Field Services</option>
-                      <option>Logistics & Multi-Location Businesses</option>
-                      <option>Professional Services</option>
-                      <option>Other</option>
-                    </select>
-                  </div>
-
-                  <div className="mock-form-group">
-                    <label htmlFor="email">Email</label>
-                    <input id="email" name="email" type="email" required />
-                  </div>
-
-                  <div className="mock-form-group">
-                    <label htmlFor="pressure">Primary Pressure Point</label>
-                    <select id="pressure" name="pressure">
-                      <option>Unpredictable Cash Flow</option>
-                      <option>Billing or Invoicing Delays</option>
-                      <option>Reporting or Reconciliation Issues</option>
-                      <option>Workflow or Team Coordination Challenges</option>
-                      <option>Growth or Change Support</option>
-                      <option>Not Sure Yet</option>
-                    </select>
-                  </div>
-
-                  <div className="mock-form-group">
-                    <label htmlFor="message">
-                      Briefly Describe What Is Happening
-                    </label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      placeholder="Tell us what feels stuck, what is creating pressure, or what you need help understanding."
-                      required
-                    />
-                  </div>
-
-                  <button className="mock-btn" type="submit">
-                    Send Message
-                  </button>
-                </form>
-
-                <p className="mock-note">
-                  Every inquiry is reviewed by the PHS team and handled with
-                  professional care and discretion.
-                </p>
-              </article>
-            </div>
+              <ul className="mock-bullet-list">
+                {solutionAreas.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </article>
           </div>
         </div>
       </section>
 
       <section className="mock-section">
-        <div className="mock-container mock-centered">
-          <p className="mock-eyebrow">Contact Information</p>
+        <div className="mock-container">
+          <div className="mock-section-header">
+            <p className="mock-eyebrow">Send Us a Message</p>
+            <h2>Tell us what you are trying to solve.</h2>
+            <p>
+              Tell us a little about your organization, the core challenges you are
+              currently facing, or the type of execution support you are exploring.
+            </p>
+            <p>
+              A member of our practitioner team will review your inquiry and reach
+              out promptly.
+            </p>
+          </div>
 
-          <p className="contact-info">
-            📧{' '}
-            <a href="mailto:info@phs-usa.com" className="contact-email">
-              info@phs-usa.com
-            </a>
-          </p>
+          <article className="mock-card mock-wide-card">
+            <form
+              action="https://formspree.io/f/xzdjgopr"
+              method="POST"
+              className="mock-form"
+            >
+              <input
+                type="hidden"
+                name="_subject"
+                value="New PHS Website Inquiry"
+              />
 
-          <p className="mock-eyebrow mock-top-space">Confidentiality</p>
+              <div className="mock-form-group">
+                <label htmlFor="name">Your Name</label>
+                <input id="name" name="name" type="text" required />
+              </div>
 
-          <h2>Professional care and discretion.</h2>
+              <div className="mock-form-group">
+                <label htmlFor="email">Work Email</label>
+                <input id="email" name="email" type="email" required />
+              </div>
 
-          <p>
-            Your operational, financial, and organizational information is
-            treated with professional care and discretion. Information submitted
-            through this form is used solely to understand your situation and
-            determine whether PHS may be able to help.
-          </p>
+              <div className="mock-form-group">
+                <label htmlFor="company">Company Name</label>
+                <input id="company" name="company" type="text" />
+              </div>
+
+              <div className="mock-form-group">
+                <label htmlFor="inquiryType">I am reaching out as a:</label>
+                <select id="inquiryType" name="inquiryType" defaultValue="">
+                  <option value="" disabled>
+                    Select one
+                  </option>
+                  <option value="Direct Organization / Business Leader">
+                    Direct Organization / Business Leader
+                  </option>
+                  <option value="Advisory Firm / Potential Partner">
+                    Advisory Firm / Potential Partner
+                  </option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+
+              <div className="mock-form-group">
+                <label htmlFor="concern">Primary Area of Concern:</label>
+                <select id="concern" name="concern" defaultValue="">
+                  <option value="" disabled>
+                    Select one
+                  </option>
+                  <option value="Cash Flow & Revenue Performance">
+                    Cash Flow & Revenue Performance
+                  </option>
+                  <option value="Accounting, Cleanup, & Reporting Visibility">
+                    Accounting, Cleanup, & Reporting Visibility
+                  </option>
+                  <option value="Operational Bottlenecks & Workflow Friction">
+                    Operational Bottlenecks & Workflow Friction
+                  </option>
+                  <option value="Project Execution & Interim Capacity">
+                    Project Execution & Interim Capacity
+                  </option>
+                  <option value="Exploring a Partnership Opportunity">
+                    Exploring a Partnership Opportunity
+                  </option>
+                </select>
+              </div>
+
+              <div className="mock-form-group">
+                <label htmlFor="message">
+                  Briefly describe the challenge or initiative you want to discuss:
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Share a brief summary of the challenge, project, or opportunity."
+                  required
+                />
+              </div>
+
+              <button className="mock-btn" type="submit">
+                Submit Inquiry
+              </button>
+            </form>
+
+            <p className="mock-note">
+              Every inquiry is reviewed by the PHS team and handled with
+              professional care and discretion.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section className="mock-section mock-section-soft">
+        <div className="mock-container">
+          <div className="mock-section-header">
+            <p className="mock-eyebrow">Our Engagement Approach</p>
+            <h2>No High-Pressure Sales. No Generic Handouts.</h2>
+
+            <p>
+              We do not believe in aggressive sales cycles or recycling boilerplate
+              advice.
+            </p>
+
+            <p>
+              When you connect with PHS, you enter into a straightforward,
+              practical dialogue with experienced operators.
+            </p>
+
+            <p>
+              Our entire focus is on understanding your unique organizational
+              goals, mapping your true operational opportunities, and determining
+              honestly whether PHS is the right fit for your needs.
+            </p>
+
+            <p>Let&apos;s start the conversation.</p>
+          </div>
         </div>
       </section>
     </main>
   )
 }
-
