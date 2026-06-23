@@ -12,9 +12,21 @@ const plusJakarta = Plus_Jakarta_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'Prosperity Heritage Advisory',
+  metadataBase: new URL('https://phs-usa.com'),
+  title: {
+    default: 'Prosperity Heritage Solutions',
+    template: '%s | Prosperity Heritage Solutions',
+  },
   description:
-    'Practical operational and financial support for organizations navigating workflow, reporting, cash flow, growth, and change.',
+    'Prosperity Heritage Solutions is an operational and financial execution partner helping organizations recover hidden profit, improve execution, strengthen visibility, and scale with confidence.',
+  openGraph: {
+    title: 'Prosperity Heritage Solutions',
+    description:
+      'Operational and financial execution support for organizations and advisory firms navigating cash flow pressure, reporting gaps, workflow bottlenecks, and stalled initiatives.',
+    url: 'https://phs-usa.com',
+    siteName: 'Prosperity Heritage Solutions',
+    type: 'website',
+  },
 }
 
 export default function RootLayout({
