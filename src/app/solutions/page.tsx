@@ -131,12 +131,21 @@ const coreSolutions = [
   },
 ]
 
+const solutionSignals = [
+  'Revenue is growing, but cash remains under pressure.',
+  'Reporting arrives too late to guide decisions.',
+  'Teams are working hard, but work is not moving efficiently.',
+  'Critical projects are approved but continue to stall.',
+]
+
 export default function SolutionsPage() {
   return (
     <main>
-      <section className="mock-hero mock-hero-simple">
-        <div className="mock-container">
+      {/* HERO */}
+      <section className="premium-hero">
+        <div className="mock-container premium-inner-hero">
           <p className="mock-eyebrow">Solutions</p>
+
           <h1>Practical Execution for Complex Operational and Financial Challenges.</h1>
 
           <p>
@@ -163,7 +172,31 @@ export default function SolutionsPage() {
         </div>
       </section>
 
-      <section className="mock-section">
+      {/* DARK SIGNAL BAND */}
+      <section className="premium-dark-section">
+        <div className="mock-container premium-partnership-grid">
+          <div>
+            <p className="mock-eyebrow">Where We Create Value</p>
+            <h2>We help identify where performance is being lost.</h2>
+            <p>
+              Operational and financial leakage usually appears as symptoms before
+              the real cause becomes visible.
+            </p>
+          </div>
+
+          <div className="premium-card-row">
+            {solutionSignals.map((item) => (
+              <article className="premium-dark-card" key={item}>
+                <div className="premium-icon">↗</div>
+                <h3>{item}</h3>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CORE SOLUTIONS */}
+      <section className="premium-why">
         <div className="mock-container">
           <div className="mock-section-header">
             <p className="mock-eyebrow">Core Solutions</p>
@@ -204,22 +237,26 @@ export default function SolutionsPage() {
         </div>
       </section>
 
-      <section className="mock-cta">
-        <div className="mock-container">
-          <h2>Let&apos;s Start With the Challenge.</h2>
+      {/* FINAL CTA */}
+      <section className="premium-cta-band">
+        <div className="mock-container premium-cta-grid">
+          <div>
+            <h2>Let&apos;s Start With the Challenge.</h2>
 
-          <p>
-            Whether the issue involves cash flow, reporting, workflow bottlenecks,
-            project execution, leadership transitions, or operational performance,
-            the first step is understanding where performance is being lost.
-          </p>
+            <p>
+              Whether the issue involves cash flow, reporting, workflow
+              bottlenecks, project execution, leadership transitions, or
+              operational performance, the first step is understanding where
+              performance is being lost.
+            </p>
 
-          <p>
-            Let&apos;s have a practical conversation about your goals and the
-            challenges standing in the way of achieving them.
-          </p>
+            <p>
+              Let&apos;s have a practical conversation about your goals and the
+              challenges standing in the way of achieving them.
+            </p>
+          </div>
 
-          <Link href="/contact" className="mock-btn">
+          <Link href="/contact" className="mock-btn premium-cta-button">
             Schedule a Diagnostic Conversation
           </Link>
         </div>
